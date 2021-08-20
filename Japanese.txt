@@ -1,0 +1,653 @@
+[Ungroupped]
+# REAM ME:
+# The format used here is derived from INI.
+# We have added something special called variants.
+# 
+# Example:
+# 
+# [Planets]
+# Earth{0}= 地球
+# Earth{1}= 地球
+# 
+# [Achievements]
+# Landed_Test0 = %planet{0}%
+# Landed_Test1 = %planet{1}%
+# 
+# Variants are used for many things, such as making phrases work, caps, etc
+# 
+# We recommend starting at the bottom of the file with achievements/planets, there variants are very clearly used.
+# 
+# 
+# 
+# Available font types: normal/compatibility
+# In case of missing characters use compatibility font.
+    Font=ノーマル
+
+[General]
+# Used for language select buttons
+    Language_Name_In_Local_Language=日本語
+
+    Cancel=キャンセル
+    Close=閉じる
+
+    Open_Settings_Button=設定
+
+# Switching scenes buttons
+    Build_Rocket=ロケットを作る
+    Resume_Game=ゲームを再開する
+    Return_To_Main_Menu=メインメニュー
+    Exit_To_Main_Menu=メインメニューに戻る
+
+[Main Menu]
+# Image at: https://drive.google.com/file/d/1mEFf3W964ldXBekpbTc-Jj1XcSnBQz4k/view?usp=sharing
+    Play=プレイ
+
+# Tutorial
+    Video_Tutorials_OpenButton=動画チュートリアル
+    Video_Orbit=軌道チュートリアル
+    Video_Moon=月チュートリアル
+    Video_Dock=ドッキングチュートリアル
+
+# Community
+    Community_OpenButton=コミュニティ
+    Community_Youtube=YouTube
+    Community_Discord=Discord
+    Community_Reddit=Reddit
+
+# Roadmap
+    Roadmap_OpenButton=今後のアップデート
+
+    Roadmap_Text=バージョン1.51
+    Roadmap_Text=<color=grey>ステージング</color>
+    Roadmap_Text=
+    Roadmap_Text=バージョン1.52
+    Roadmap_Text=<color=grey>チュートリアル</color>
+    Roadmap_Text=
+    Roadmap_Text=バージョン1.53
+    Roadmap_Text=<color=grey>再突入</color>
+    Roadmap_Text=
+    Roadmap_Text=バージョン1.54
+    Roadmap_Text=<color=grey>視覚効果、パーティクル、サウンド</color>
+    Roadmap_Text=
+    Roadmap_Text=バージョン1.55
+    Roadmap_Text=<color=grey>固体ロケットブースター</color>
+    Roadmap_Text=
+    Roadmap_Text=バージョン1.6
+    Roadmap_Text=<color=grey>宇宙飛行士</color>
+    Roadmap_Text=
+    Roadmap_Text=バージョン1.7
+    Roadmap_Text=<color=grey>キャリア</color>
+    Roadmap_Text=
+    Roadmap_Text=バージョン1.8
+    Roadmap_Text=<color=grey>外惑星</color>
+    Roadmap_Text=
+    Roadmap_Text=電気系統：
+    Roadmap_Text=<color=grey>将来的に、電気系統は全面的に作り変えます。例えば、イオンエンジン燃焼中に時間を飛ばせるようにしたり、電気の用途を増やしたりする予定です。</color>
+    Roadmap_Text=
+    Roadmap_Text=
+    Roadmap_Text=これらの予定は変更になる可能性があります
+
+# Credits
+    Credits_OpenButton=クレジット
+
+    Credits_Text=Štefo Mai Morojna
+    Credits_Text=<Size=55> デザイナー - プログラマー - アーティスト </size>
+    Credits_Text=
+    Credits_Text=Jordi van der Molen
+    Credits_Text=<Size=55> プログラマー </size>
+    Credits_Text=
+    Credits_Text=Chris Christo
+    Credits_Text=<Size=55> プログラマー </size>
+    Credits_Text=
+    Credits_Text=Davi Vasc
+    Credits_Text=<Size=55> コンポーザー </size>
+    Credits_Text=
+    Credits_Text=Ashton Mills
+    Credits_Text=<size=55> コンポーザー </size>
+
+# Update menu
+    Update_Available=新しいアップデートがあります！
+    Update_Available=
+    Update_Available=現在のバージョン：%old%
+    Update_Available=最新のバージョン：%new%
+
+    Update_Confirm=アップデート
+
+# Rate menu
+    Rate_Title=ゲームの評価やレビューを行っていただけませんか？
+    Rate_Title=
+    Rate_Title=私たちはゲームのクオリティについて真剣に考えており、皆様のフィードバックを参考にゲームを改善します
+    Rate_Title=
+    Rate_Title=レビューがどれだけたくさんあっても、読ませていただきます！
+
+    Rate_Confirm=評価する
+
+# Close menu
+    Close_Game=ゲームを終了しますか？
+
+# Startup Messages
+    Early_Supporter_Message=初期のサポーターであるあなたは、以下を無料でご利用いただけます。
+    Early_Supporter_Message=
+    Early_Supporter_Message= - 部品の拡張
+    Early_Supporter_Message= - スキンの拡張
+    Early_Supporter_Message= - 惑星の拡張
+    Early_Supporter_Message=
+    Early_Supporter_Message=サポートしていただき、ありがとうございます！
+
+[Worlds Menu]
+# Worlds are save slots; image at: https://drive.google.com/file/d/1vUYrXaem4ki1dcXRFUJLKWZEcE0PFno-/view?usp=共有
+    Create_New_World_Button=ワールドを作成する
+
+# Create menu
+    Create_World_Title=ワールド名
+    Default_World_Name=マイワールド
+
+# Delete menu
+    World_Delete=ワールドを削除しますか？
+
+# Select system menu
+    Select_Solar_System=ワールドの太陽系を選択
+
+    Select_Solar_System__NotFound=太陽系が見つかりませんでした：
+    Select_Solar_System__NotFound=%system%
+    Select_Solar_System__NotFound=
+    Select_Solar_System__NotFound=新しい太陽系を選択
+
+    Default_Solar_System=太陽系（デフォルト）
+    Custom_Solar_System=%name%（カスタム）
+
+# World play times
+    Last_Played=前回のプレイ：%value%前
+    Just_Played=前回のプレイ：少し前
+    Time_Played=プレイ時間：%value%
+
+[Saving]
+# Blueprint stuff; Blueprints are rocket designs; images at: https://drive.google.com/drive/folders/15m4nXgzr8fvql78TheE3Qy1WPrTaIqdJ?usp=共有
+    Blueprints_Menu_Title=設計図
+    Unnamed_Blueprint=名前がない設計図
+    Save_Blueprint=設計図をセーブする
+    Load_Blueprint=設計図をロードする
+    Cannot_Save_Empty_Build=空白の設計図をセーブすることはできません
+
+# Quicksave stuff; Quicksaves let players save at any time and return to it.
+# It does not necessarily have to be called quicksave, player just needs to understand its use.
+# Image at: https://drive.google.com/drive/folders/128aXHWoUhJXZbbKVBDXXSMoCvRwFpvct?usp=共有
+    Quicksaves_Menu_Title=クイックセーブ
+    Unnamed_Quicksave=名前がないクイックセーブ
+    Create_Quicksave=クイックセーブを作成する
+    Load_Quicksave=クイックセーブをロードする
+
+# Save and load menus; context seen in images from blueprint/quicksave stuff
+    Save=セーブ
+    Load=ロード
+    Delete=削除
+    Rename=名前を変える
+
+# In progress
+    Saving_In_Progress=セーブ中…
+    Loading_In_Progress=ロード中…
+
+# filetype (injected)
+    Blueprint{0}=設計図
+    Blueprint{1}=設計図
+    Blueprint{2}=設計図
+
+    Quicksave{0}=クイックセーブ
+    Quicksave{1}=クイックセーブ
+    Quicksave{2}=クイックセーブ
+
+# Ask overwrite menu; image at: https://drive.google.com/file/d/1EOI9UIWAG-lNgrdk1IMmrpmf6rRBuA7Q/view?usp=共有
+    File_Already_Exists=この名前の%filetype{1}%は既に存在しています
+    Overwrite_File=%filetype{1}%を上書きする
+    New_File=新しい%filetype{1}%
+
+# Load failure; image at: https://drive.google.com/file/d/1c7qHCdbS1ShSq4rKIHMpHKCTuh0pXeHv/view?usp=共有
+    Load_Failed=%filetype{1}%を%filepath%からロードすることができませんでした
+
+# Legacy Messages
+    Conversion_Message=1.5へようこそ。
+    Conversion_Message=
+    Conversion_Message=1.4のセーブは1.5のセーブに自動で変換されました
+
+    Conversion_Success=1.4の%filetype{1}%を検出し、%version%の形式に変換しました
+
+    Conversion_Failed=1.4の%filetype{1}%を検出し、%version%の形式に変換しました
+    Conversion_Failed=
+    Conversion_Failed=変換に失敗しました：
+    Conversion_Failed=%reason%
+
+[Purchasing]
+# Images at: https://drive.google.com/drive/folders/1kIhFuPRp8YXkZ8SVC5Jq9UJkNZqdasQC?usp=共有
+    Parts_Expansion=部品の拡張
+    Skins_Expansion=スキンの拡張
+    Planets_Expansion=惑星の拡張
+    Expansion_Bundle=拡張バンドル
+    Upgrade_To_Bundle=バンドルにアップグレード
+
+    More_Parts=さらなる部品…
+    More_Skins=さらなるスキン…
+
+    Why_Buy=このゲームを改善できるのは、皆様のサポートのおかげです！
+
+    Buy_Product=%product% %price%を購入する
+
+    Purchase_Thanks_Msg=%product%を購入しました
+    Purchase_Thanks_Msg=
+    Purchase_Thanks_Msg=ご購入いただき、ありがとうございます
+    Purchase_Thanks_Msg=さあ、星々を探検しましょう！
+
+    Owned=%product%（所有）
+
+    Restore_Open=復元する
+
+    Restore_Text=Androidでの購入はプレイ開始時に自動で復元されます
+    Restore_Text=
+    Restore_Text=- 購入時に使用したGoogle Playアカウントにログインしていることを確認してください（Google Playの購入履歴に購入内容が表示されていることを確認してください）
+    Restore_Text=
+    Restore_Text=- 購入ボタンを確認してください。価格が表示されていない場合、ゲームがストアに接続できなかったことを意味します。インターネット接続を確認して、ゲームを再起動してください
+    Restore_Text=
+    Restore_Text=それでも上手く行かない場合は、games.morojna@gmail.comにお問い合わせください
+    Restore_Text=
+    Restore_Text=しばらく待つと、時間経過により購入が復元される場合もあります
+
+    Purchase_FAQ_Open=FAQ
+
+    Purchase_FAQ_Text=<color=grey>購入した物はアップデート後も使用できますか？</color>
+    Purchase_FAQ_Text=もちろん、使用できます
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>購入した物が失われる可能性はありますか？</color>
+    Purchase_FAQ_Text=あなたの購入内容はストアのアカウントに永久保存されるため、再インストールしたり、スマホを買い替えたりしても失われることはありません
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>返金は可能ですか？</color>
+    Purchase_FAQ_Text=もちろん、可能です。常識的な期間内に申請される限り、いかなる質問も行うことなく返金いたします
+
+# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=共有
+    PartsExpansion_Tanks=多種多様な燃料タンク！
+    PartsExpansion_Engines=重厚なリフトエンジン！
+    PartsExpansion_Parts=あらゆる形状・サイズの部品！
+
+    PartsExpansion_Build=ゆったりとした製造スペース
+    PartsExpansion_Build=あなたの独創性を現実に！
+
+# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=共有
+    SkinsExpansion_Tanks=様々なスキンで部品をペイント！
+    SkinsExpansion_Interstages=中間機体からノーズコーンまでの
+    SkinsExpansion_Nosecones=すべてをカラーリング
+    SkinsExpansion_Fairings=そしてフェアリングも
+
+# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=共有
+    PlanetsExpansion_Jupiter=木星とその4つの衛星を探検しよう！
+    PlanetsExpansion_Callisto=クレーターに覆われたカリストの地表！
+    PlanetsExpansion_Europa=氷の層が広がるエウロパ！
+
+    PlanetsExpansion_Conclusion=遥か彼方の星々は
+    PlanetsExpansion_Conclusion=あなたが探検に来るのを待っている！
+
+# Expansion Bundle; images at: https://drive.google.com/file/d/1aWdcqNciwf7i3ju1Hx7mHnKyGBS2_tYU/view?usp=共有
+    ExpansionBundle_Sandbox=ボーナス
+    ExpansionBundle_Sandbox=サンドボックスモード
+
+    ExpansionBundle_Infinite_Fuel=燃料無限
+    ExpansionBundle_No_Atmospheric_Drag=大気抵抗なし
+    ExpansionBundle_Unbreakable_Parts=部品の破損なし
+    ExpansionBundle_No_Gravity=重力なし
+
+[Settings]
+# Image at: https://drive.google.com/file/d/1kF_zlTUw7QQnCIfcVNRHGDsn_rH-ySkF/view?usp=共有
+    Music_Name=音楽：
+    Sound_Name=効果音：
+    Screen_Rotation_Name=画像の回転：
+    FPS_Name=FPS：
+    Language_Name=言語：
+
+    Infinite_Fuel_Name=燃料無限：
+    No_Atmospheric_Drag_Name=大気抵抗なし：
+    Unbreakable_Parts_Name=部品の破損なし：
+    No_Gravity_Name=重力なし：
+
+# This version of is displayed on screen to let players know what cheats they are using
+# Image as: https://drive.google.com/file/d/1_uDOsT_yAgui19jNqAwx_CMGvLoS5LYh/view?usp=共有
+    Cheat_On{0}=オン
+    Cheat_Off{0}=オフ
+
+    Infinite_Fuel=燃料無限：%value{0}%
+    No_Atmospheric_Drag=大気抵抗なし：%value{0}%
+    Unbreakable_Parts=部品の破損なし：%value{0}%
+    No_Gravity=重力なし：%value{0}%
+
+[Build]
+# Images at: https://drive.google.com/drive/folders/16-6I-SE_4nmVTjNxsUdAUJtUDIBe5WVz?usp=共有
+    Build_New_Rocket=新しいロケットを作る
+    Resume_Build=製造を再開する
+
+    Symmetry_On=左右対称：オン
+    Symmetry_Off=左右対称：オフ
+
+    Launch_Button=発射
+    Move_Rocket_Button=ロケットを動かす
+
+# Clear build area
+    Clear_Warning=クリアしますか？
+    Clear_Confirm=クリア
+
+# Launch warnings
+    Missing_Capsule=ロケットにカプセルがありません
+    Missing_Parachute=ロケットにパラシュートがありません
+
+    Too_Heavy=離陸するにはロケットが重すぎます
+    Too_Heavy=
+    Too_Heavy=
+    Too_Heavy=重量を減らすか、より強力なエンジンを使用してください
+
+    Launch_Anyway_Button=それでも発射する
+
+# Example rockets
+    Example_Rockets_OpenMenu=ロケットの例
+    Basic_Rocket=普通のロケット
+    Stages=ステージ
+    Ideal_Stages=理想的なステージ
+    Lander=ランダー
+
+[Map]
+    Toggle_Map_Button=地図
+
+# Shown in map when you escape a gravity field of a planet
+# image for escape/encounter at: https://drive.google.com/file/d/17jqJF09DWoqkgW9VGXdG7SRCSo0UmW0o/view?usp=共有
+    Escape=脱出
+
+# Shown in map when you encounter/enter a gravity field of a planet
+    Encounter=遭遇
+
+# Shown in map when you approach/encounter another rocket
+    Rendezvous=合流
+
+# Shows the transfer window to another planet
+# image at: https://drive.google.com/file/d/1zd8UEnVb91QmSDllEu1DyCbkCsDKbJk3/view?usp=共有
+    Transfer=転送時間
+
+[Game]
+# Image at: https://drive.google.com/file/d/1d0b-udFyO4ItlYu1vVaVdzgwdAeT1hPw/view?usp=共有
+    Throttle_On=オン
+    Throttle_Off=オフ
+
+# Game supports screen rotation, we split into 2 lines in vertical mode
+    Height_Terrain_Vertical=高さ（地形）：
+    Height_Terrain_Vertical=
+    Height_Terrain_Vertical=%height%
+
+    Height_Vertical=高さ：
+    Height_Vertical=
+    Height_Vertical=%height%
+
+    Velocity_Vertical=速度：
+    Velocity_Vertical=
+    Velocity_Vertical=%speed%
+
+# Angle indicates the best angle/direction the player can rotate their rocket towards
+    Angle_Vertical=角度：
+    Angle_Vertical=
+    Angle_Vertical=%angle% / %targetAngle%
+
+    Height_Terrain_Horizontal=高さ（地形）：%height%
+    Height_Horizontal=高さ：%height%
+    Velocity_Horizontal=速度：%speed%
+
+# Angle indicates the best angle/direction the player can rotate their rocket towards
+    Angle_Horizontal=角度：%angle% / %targetAngle%
+
+[Game menus]
+# Image at: https://drive.google.com/file/d/1XPUZnlFGrs9ZQ0QRjqbvKMEwXg1Pl7cF/view?usp=共有
+    Restart_Mission=ミッションをリスタートする
+
+# Restart menu
+    Restart_Mission_To_Launch=発射に戻る
+
+    Restart_Mission_To_Launch_Warning=発射に戻りますか？
+    Restart_Mission_To_Launch_Warning=
+    Restart_Mission_To_Launch_Warning=前回の発射以降の進行状況が元に戻ります
+
+    Restart_Mission_To_Build=製造に戻る
+
+    Restart_Mission_To_Build_Warning=製造に戻りますか？
+    Restart_Mission_To_Build_Warning=
+    Restart_Mission_To_Build_Warning=前回の発射以降の進行状況が元に戻ります
+
+# End mission menu; image at: https://drive.google.com/file/d/1L5FUM09JCZ6DCXFZfJPOM0CWHIEwvqMs/view?usp=共有
+    End_Mission_Menu_Title=ミッション実績：
+    End_Mission=ミッションを終える
+
+# Clear space junk/debris
+    Clear_Debris_Warning=デブリをクリアしますか？
+    Clear_Debris_Warning=
+    Clear_Debris_Warning=制御不能なすべてのロケットを消去します
+
+    Clear_Debris_Confirm=デブリをクリアする
+
+# Select menu; Image at: https://drive.google.com/file/d/1CBIAZ3o_Z7bpEAb8sVdTdDeF4KB8-Yyi/view?usp=共有
+    Navigate_To=移動先：
+    End_Navigation=移動終了
+    Focus=フォーカスを当てる
+    Unfocus=フォーカスを外す
+    Switch_To=切り替え先：
+
+[Rocket]
+    Default_Rocket_Name=ロケット
+
+# Informs the player that he cannot perform an action due to rocket having no control
+    No_Control_Msg=制御なし
+
+[Timewarp]
+# Timewarp = 時間を早送りして長い待機時間をスキップします
+    Msg_Timewarp_Speed=%speed%倍加速
+    Cannot_Timewarp_Below=%height%以下ではタイムワープできません
+    Cannot_Timewarp_While_Moving_On_Surface=地表移動中はタイムワープできません
+    Cannot_Timewarp_While_Accelerating=加速中はタイムワープできません
+    Cannot_Use_Part_While_Timewarping=タイムワープ中は%part{1}%を使用できません
+    Cannot_Turn_While_Timewarping=タイムワープ中は旋回できません
+
+[Units]
+# Image at: https://drive.google.com/file/d/1ljpGY55W8V1wF9esl5v569B0Z-D6xxMt/view?usp=共有
+    Thrust_To_Weight_Ratio=推力 / 重量：%value%
+    Mass=質量：%value%トン
+    Thrust=推力：%value%トン
+    Burn_Time=燃焼時間：%value%秒
+
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=共有
+    Efficiency=効率：%value% Isp
+    Mass_Unit=t
+    Meter_Unit=m
+    Km_Unit=km
+    Meter_Per_Second_Unit=m/s
+
+[Timestamps]
+    Second_Short=%value%秒
+    Minute_Short=%value%分
+    Hour_Short=%value%時間
+    Day_Short=%value%日
+
+[Resource Types]
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=共有
+    Solid_Fuel{0}=固体燃料
+    Solid_Fuel{1}=固体燃料
+    Liquid_Fuel{0}=液体燃料
+    Liquid_Fuel{1}=液体燃料
+
+[Resource Uses]
+    Resource_Bars_Title=%resource_name{0}%:
+    Info_Resource_Amount=%resource{0}%： %amount%
+    Msg_No_Resource_Source=%resource{1}%ソースなし
+    Msg_No_Resource_Left=%resource{1}%不足
+
+[Part Categories]
+# Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=共有
+    Basic_Parts=通常
+    Six_Wide_Parts=6ワイド
+    Eight_Wide_Parts=8ワイド
+    Ten_Wide_Parts=10ワイド
+    Twelve_Wide_Parts=12ワイド
+    Engine_Parts=エンジン
+    Aerodynamics_Parts=空気力学
+    Fairings_Parts=フェアリング
+    Structural_Parts=構造
+    Other_Parts=その他
+
+[Part Names]
+    Capsule_Name{0}=カプセル
+    Capsule_Name{1}=カプセル
+    Probe_Name{0}=プローブ
+    Probe_Name{1}=プローブ
+    Parachute_Name{0}=パラシュート
+    Parachute_Name{1}=パラシュート
+    Kolibri_Engine_Name{0}=コリブリエンジン
+    Kolibri_Engine_Name{1}=コリブリエンジン
+    Hawk_Engine_Name{0}=ホークエンジン
+    Hawk_Engine_Name{1}=ホークエンジン
+    Valiant_Engine_Name{0}=バリアントエンジン
+    Valiant_Engine_Name{1}=バリアントエンジン
+    Titan_Engine_Name{0}=タイタンエンジン
+    Titan_Engine_Name{1}=タイタンエンジン
+    Frontier_Engine_Name{0}=フロンティアエンジン
+    Frontier_Engine_Name{1}=フロンティアエンジン
+    Ion_Engine_Name{0}=イオンエンジン
+    Ion_Engine_Name{1}=イオンエンジン
+    RCS_Thruster_Name{0}=RCSスラスター
+    RCS_Thruster_Name{1}=RCSスラスター
+    Fuel_Tank_Name{0}=燃料タンク
+    Fuel_Tank_Name{1}=燃料タンク
+    Separator_Name{0}=セパレーター
+    Separator_Name{1}=セパレーター
+    Side_Separator_Name{0}=サイドセパレーター
+    Side_Separator_Name{1}=サイドセパレーター
+    Structural_Part_Name{0}=構造部品
+    Structural_Part_Name{1}=構造部品
+    Landing_Leg_Name{0}=降着装置
+    Landing_Leg_Name{1}=降着装置
+    Aerodynamic_Nose_Cone_Name{0}=空力ノーズコーン
+    Aerodynamic_Nose_Cone_Name{1}=空力ノーズコーン
+    Aerodynamic_Fuselage_Name{0}=空力胴体
+    Aerodynamic_Fuselage_Name{1}=空力胴体
+    Fairing_Name{0}=フェアリング
+    Fairing_Name{1}=フェアリング
+    Rover_Wheel_Name{0}=ローバーホイール
+    Rover_Wheel_Name{1}=ローバーホイール
+    Docking_Port_Name{0}=ドッキングポート
+    Docking_Port_Name{1}=ドッキングポート
+    Solar_Panel_Name{0}=ソーラーパネル
+    Solar_Panel_Name{1}=ソーラーパネル
+    Battery_Name{0}=バッテリー
+    Battery_Name{1}=バッテリー
+    RTG_Name{0}=RTG
+    RTG_Name{1}=RTG
+
+[Part Descriptions]
+    Capsule_Description=宇宙飛行士を1人乗せられる小型のカプセル
+    Probe_Description=片道ミッション用の無人プローブ
+    Parachute_Description=着陸用のパラシュート
+    Fuel_Tank_Description=液体燃料と液体酸素を搭載できる燃料タンク
+    Separator_Description=何もないステージを切り離すための縦型セパレーター
+    Side_Separator_Description=サイドブースターを切り離すための横型セパレーター
+    Landing_Leg_Description=衛星や惑星に降り立つための格納・展開可能な降着装置
+    Structural_Part_Description=軽量かつ頑丈な構造部品
+    Hawk_Engine_Description=主にロケットの第1ステージで用いられる高推力の低効率エンジン
+    Titan_Engine_Description=主にロケットの第1ステージで用いられる高推力の低効率エンジン
+    Valiant_Engine_Description=高効率、低推力。高推力が優先されない宇宙空間で用いられる
+    Frontier_Engine_Description=高効率、低推力。高推力が優先されない宇宙空間で用いられる
+    Kolibri_Engine_Description=ランダー用の小型エンジン
+    Ion_Engine_Description=非常に高効率な低推力エンジン
+    RCS_Thruster_Description=ドッキング用の指向性小型スラスター
+    Aerodynamic_Nose_Cone_Description=サイドブースターの空気力学を改善するための空力ノーズコーン
+    Aerodynamic_Fuselage_Description=エンジンを覆うための空力胴体
+    Fairing_Description=ペイロードを包み込むための空力フェアリング
+    Battery_Description=蓄電用のバッテリー
+    Solar_Panel_Description=展開時に電力を生成するソーラーパネル
+    RTG_Description=放射性同位体熱電気転換器（RTG）
+    Rover_Wheel_Description=惑星の表面を移動するためのローバーホイール
+    Docking_Port_Description=2つの乗物を連結するためのドッキングポート
+
+[Modules]
+    Activate_Separator=切り離す
+    Activate_Fairing=フェアリングを展開する
+
+    Torque_Module_Torque=トルク：%value%kN
+    Separation_Force=離脱力：%value%kN
+
+    State_On{0}=オン
+    State_Off{0}=オフ
+
+    Engine_Module_State=エンジン%state{0}%
+    Engine_On_Label=エンジンオン
+
+    Msg_RCS_Module_State=RCS %state{0}%
+
+    Wheel_Module_State=ローバーホイール %state{0}%
+    Wheel_On_Label=ホイールオン
+
+    Panel_Expanded=拡張中
+    Landing_Leg_Expanded=展開中
+
+    Info_Parachute_Max_Height=最大展開高：%height%
+    Button_Activate_Parachute=パラシュートを展開する
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=真空中ではパラシュートを展開できません
+    Msg_Cannot_Deploy_Parachute_Above=%height%以上ではパラシュートを展開できません
+    Msg_Cannot_Fully_Deploy_Above=%height%以上ではパラシュートを完全に展開できません
+    Msg_Cannot_Deploy_Parachute_While_Faster=%velocity%以上で移動中はパラシュートを展開できません
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=移動していないときはパラシュートを展開できません
+    Msg_Parachute_Half_Deployed=パラシュート半展開中
+    Msg_Parachute_Fully_Deployed=パラシュート全展開中
+    Msg_Parachute_Cut=パラシュート切断
+
+[Planets]
+    Sun{0}=太陽
+    Sun{1}=太陽
+    Sun{2}=太陽
+    Mercury{0}=水星
+    Venus{0}=金星
+    Earth{0}=地球
+    Earth{1}=地球
+    Earth{2}=地球
+    Earth{3}=地球
+    Moon{0}=月
+    Moon{1}=月
+    Moon{2}=月
+    Mars{0}=火星
+    Phobos{0}=フォボス
+    Deimos{0}=ダイモス
+    Jupiter{0}=木星
+    Jupiter{1}=木星
+    Jupiter{2}=木星
+    Jupiter{3}=木星
+    Europa{0}=エウロパ
+    Ganymede{0}=ガニメデ
+    Io{0}=イオ
+    Callisto{0}=カリスト
+
+[Achievements]
+    Reached_Low_Orbit=%planet{0}%の低軌道に達しました
+    Reached_High_Orbit=%planet{0}%の高軌道に達しました
+    Descend_Low_Orbit=%planet{0}%の低軌道に降下しました
+    Capture_Low_Orbit=%planet{0}%の低軌道に捕らわれました
+    Capture_High_Orbit=%planet{0}%の高軌道に捕らわれました
+
+    Entered_Lower_Atmosphere=%planet{3}%の下層大気に入りました
+    Entered_Upper_Atmosphere=%planet{3}%の上層大気に入りました
+    Left_Lower_Atmosphere=%planet{3}%の上層大気に達しました
+    Left_Upper_Atmosphere=%planet{3}%の大気圏から離脱しました
+
+    Landed=%planet{1}%の地表に着陸しました
+    Crashed_Into_Terrain=%planet{1}%の地表に衝突しました
+
+    Entered_SOI=%planet{1}%の勢力範囲に入りました
+    Escaped_SOI=%planet{1}%の勢力範囲から離脱しました
+
+    Docked_Suborbital=%planet{1}%のサブオービタル経路に乗りました
+    Docked_Orbit_Low=%planet{0}%の低軌道に乗りました
+    Docked_Orbit_Transfer=%planet{1}%の遷移軌道に乗りました
+    Docked_Orbit_High=%planet{0}%の高軌道に乗りました
+    Docked_Escape=%planet{1}%の離脱経路に乗りました
+    Docked_Surface=%planet{1}%の地表に乗りました
+
+    Recover_Home=%planet{1}%に無事帰還しました
+    Recover_Landed=%planet{1}%の地表でミッションを終了しました
+    Recover_Space=%planet{1}%周辺の宇宙空間でミッションを終了しました

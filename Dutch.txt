@@ -1,0 +1,634 @@
+[Ungroupped]
+# Font types: normal/compatibility
+# In case of missing characters use compatibility.
+    Font=normaal
+
+[General]
+    Cancel=Annuleren
+    Close=Sluiten
+
+    Open_Settings_Button=Instellingen
+
+# Switching scenes buttons
+    Build_Rocket=Raket bouwen
+    Resume_Game=Spel hervatten
+    Return_To_Main_Menu=Hoofdmenu
+    Exit_To_Main_Menu=Terug naar hoofdmenu
+
+[Main Menu]
+# Image at: https://drive.google.com/file/d/1mEFf3W964ldXBekpbTc-Jj1XcSnBQz4k/view?usp=sharing
+    Play=Spelen
+
+# Tutorial
+    Video_Tutorials_OpenButton=Videotutorials
+    Video_Orbit=Baantutorial
+    Video_Moon=Maantutorial
+    Video_Dock=Dockingtutorial
+
+# Community
+    Community_OpenButton=Community
+    Community_Youtube=YouTube
+    Community_Discord=Discord
+    Community_Reddit=Reddit
+
+# Roadmap
+    Roadmap_OpenButton=Toekomstige updates
+
+    Roadmap_Text=Versie 1.51
+    Roadmap_Text=<color=grey>Trappen</color>
+    Roadmap_Text=
+    Roadmap_Text=Versie 1.52
+    Roadmap_Text=<color=grey>Tutorials</color>
+    Roadmap_Text=
+    Roadmap_Text=Versie 1.53
+    Roadmap_Text=<color=grey>Terugkeer</color>
+    Roadmap_Text=
+    Roadmap_Text=Versie 1.54
+    Roadmap_Text=<color=grey>Visuele effecten, partikels en geluiden</color>
+    Roadmap_Text=
+    Roadmap_Text=Versie 1.55
+    Roadmap_Text=<color=grey>Vaste raketboosters</color>
+    Roadmap_Text=
+    Roadmap_Text=Versie 1.6
+    Roadmap_Text=<color=grey>Astronauten</color>
+    Roadmap_Text=
+    Roadmap_Text=Versie 1.7
+    Roadmap_Text=<color=grey>Carrière</color>
+    Roadmap_Text=
+    Roadmap_Text=Versie 1.8
+    Roadmap_Text=<color=grey>Buitenplaneten</color>
+    Roadmap_Text=
+    Roadmap_Text=Elektrisch systeem:
+    Roadmap_Text=<color=grey>Het hele elektrische systeem wordt in de toekomst herzien, waarschijnlijk met functies als tijdvervorming wanneer ionenmotoren lopen en meer gebruiksmogelijkheden voor elektriciteit</color>
+    Roadmap_Text=
+    Roadmap_Text=
+    Roadmap_Text=Houd er rekening mee dat plannen kunnen veranderen
+
+# Credits
+    Credits_OpenButton=Credits
+
+    Credits_Text=Štefo Mai Morojna
+    Credits_Text=<Size=55> Ontwerper - Programmeur - Artiest </size>
+    Credits_Text=
+    Credits_Text=Jordi van der Molen
+    Credits_Text=<Size=55> Programmeur </size>
+    Credits_Text=
+    Credits_Text=Chris Christo
+    Credits_Text=<Size=55> Programmeur </size>
+    Credits_Text=
+    Credits_Text=Davi Vasc
+    Credits_Text=<Size=55> Componist </size>
+    Credits_Text=
+    Credits_Text=Ashton Mills
+    Credits_Text=<size=55> Componist </size>
+
+# Update menu
+    Update_Available=Er is een nieuwe update beschikbaar!
+    Update_Available=
+    Update_Available=Huidige versie: %old%
+    Update_Available=Nieuwste versie: %new%
+
+    Update_Confirm=Updaten
+
+# Rate menu
+    Rate_Title=Wil je het spel beoordelen of een recensie geven?
+    Rate_Title=
+    Rate_Title=We vinden de kwaliteit van ons spel erg belangrijk, je feedback helpt ons het te verbeteren
+    Rate_Title=
+    Rate_Title=Zelfs na duizenden recensies lezen we er nog steeds vele!
+
+    Rate_Confirm=Beoordelen
+
+# Close menu
+    Close_Game=Spel sluiten?
+
+# Startup Messages
+    Early_Supporter_Message=Als vroege supporter heb je gratis toegang tot:
+    Early_Supporter_Message=
+    Early_Supporter_Message= - Onderdelenuitbreiding
+    Early_Supporter_Message= - Skinsuitbreiding
+    Early_Supporter_Message= - Planetenuitbreiding
+    Early_Supporter_Message=
+    Early_Supporter_Message=Bedankt voor je steun!
+
+[Worlds Menu]
+# Worlds are save slots; image at: https://drive.google.com/file/d/1vUYrXaem4ki1dcXRFUJLKWZEcE0PFno-/view?usp=sharing
+    Create_New_World_Button=Wereld creëren
+
+# Create menu
+    Create_World_Title=Naam wereld
+    Default_World_Name=Mijn wereld
+
+# Delete menu
+    World_Delete=Wereld verwijderen?
+
+# Select system menu
+    Select_Solar_System=Selecteer het zonnestelsel van de wereld
+
+    Select_Solar_System__NotFound=Zonnestelsel kon niet worden gevonden:
+    Select_Solar_System__NotFound=%system%
+    Select_Solar_System__NotFound=
+    Select_Solar_System__NotFound=Selecteer een nieuw zonnestelsel
+
+    Default_Solar_System=Zonnestelsel (standaard)
+    Custom_Solar_System=%name% (aangepast)
+
+# World play times
+    Last_Played=Laatst gespeeld: %value% geleden
+    Just_Played=Laatst gespeeld: Een moment geleden
+    Time_Played=Speeltijd: %value%
+
+[Saving]
+# Blueprint stuff; Blueprints are rocket designs; images at: https://drive.google.com/drive/folders/15m4nXgzr8fvql78TheE3Qy1WPrTaIqdJ?usp=sharing
+    Blueprints_Menu_Title=Blauwdrukken
+    Unnamed_Blueprint=Blauwdruk zonder naam
+    Save_Blueprint=Blauwdruk opslaan
+    Load_Blueprint=Blauwdruk laden
+    Cannot_Save_Empty_Build=Lege blauwdruk kan niet worden opgeslagen
+
+# Quicksave stuff; Quicksaves let players save at any time and return to it.
+# It does not necessarily have to be called quicksave, player just needs to understand its use.
+# Image at: https://drive.google.com/drive/folders/128aXHWoUhJXZbbKVBDXXSMoCvRwFpvct?usp=sharing
+    Quicksaves_Menu_Title=Quicksaves
+    Unnamed_Quicksave=Quicksave zonder naam
+    Create_Quicksave=Quicksave maken
+    Load_Quicksave=Quicksave laden
+
+# Save and load menus; context seen in images from blueprint/quicksave stuff
+    Save=Opslaan
+    Load=Laden
+    Delete=Verwijderen
+    Rename=Hernoemen
+
+# In progress
+    Saving_In_Progress=Opslaan...
+    Loading_In_Progress=Laden...
+    
+# filetype (injected)
+    Blueprint{0}=Blauwdruk
+    Blueprint{1}=blauwdruk
+    Blueprint{2}=blauwdrukken
+
+    Quicksave{0}=Quicksave
+    Quicksave{1}=quicksave
+    Quicksave{2}=quicksaves
+
+# Ask overwrite menu; image at: https://drive.google.com/file/d/1EOI9UIWAG-lNgrdk1IMmrpmf6rRBuA7Q/view?usp=sharing
+    File_Already_Exists=Er bestaat al een %filetype{1}% met deze naam
+    Overwrite_File=%filetype{1}% overschrijven
+    New_File=Nieuwe %filetype{1}%
+
+# Load failure; image at: https://drive.google.com/file/d/1c7qHCdbS1ShSq4rKIHMpHKCTuh0pXeHv/view?usp=sharing
+    Load_Failed=Kon %filetype{1}% niet laden uit %filepath%
+    
+# Legacy Messages
+    Conversion_Message=Welkom bij 1.5.
+    Conversion_Message=
+    Conversion_Message=Al je opgeslagen spellen van 1.4 zijn automatisch omgezet naar 1.5
+
+    Conversion_Success=1.4 %filetype{1}% gedetecteerd en omgezet naar %version%-indeling
+
+    Conversion_Failed=1.4 %filetype{1}% gedetecteerd en omgezet naar %version%-indeling
+    Conversion_Failed=
+    Conversion_Failed=Omzetten mislukt:
+    Conversion_Failed=%reason%
+
+[Purchasing]
+# Images at: https://drive.google.com/drive/folders/1kIhFuPRp8YXkZ8SVC5Jq9UJkNZqdasQC?usp=sharing
+    Parts_Expansion=Onderdelenuitbreiding
+    Skins_Expansion=Skinsuitbreiding
+    Planets_Expansion=Planetenuitbreiding
+    Expansion_Bundle=Uitbreidingsbundel
+    Upgrade_To_Bundle=Upgraden naar bundel
+
+    More_Parts=Meer onderdelen...
+    More_Skins=Meer skins...
+
+    Why_Buy=Je steun helpt ons het spel te verbeteren!
+
+    Buy_Product=%product% %price% kopen
+
+    Purchase_Thanks_Msg=Gekocht: %product%
+    Purchase_Thanks_Msg=
+    Purchase_Thanks_Msg=Bedankt voor je aankoop
+    Purchase_Thanks_Msg=Ga nu de sterren verkennen!
+
+    Owned=%product% (in bezit)
+
+    Restore_Open=Herstellen
+
+    Restore_Text=Aankopen op Android worden automatisch hersteld bij het starten
+    Restore_Text=
+    Restore_Text=- Controleer of je bent ingelogd op het Google Play-account waarmee je de aankoop hebt gedaan (controleer of de aankoop wordt weergegeven in de Google Play-aankoopgeschiedenis)
+    Restore_Text=
+    Restore_Text=- Controleer de koopknop. Als de prijs niet wordt weergegeven, betekent dit dat het spel er niet in is geslaagd verbinding te maken met de winkel. Controleer je internetverbinding en start het spel opnieuw
+    Restore_Text=
+    Restore_Text=Als het bovenstaande niet werkt, neem dan contact met me op via: games.morojna@gmail.com
+    Restore_Text=
+    Restore_Text=Je kunt het ook later nog eens proberen, soms wordt de aankoop na een paar uur vanzelf hersteld
+
+    Purchase_FAQ_Open=Veelgestelde vragen
+
+    Purchase_FAQ_Text=<color=grey>Blijven aankopen behouden tussen updates?</color>
+    Purchase_FAQ_Text=Ja, natuurlijk
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>Kun je aankopen verliezen?</color>
+    Purchase_FAQ_Text=Je aankopen blijven permanent opgeslagen op je account en gaan niet verloren als je het spel opnieuw installeert of van telefoon wisselt
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>Bieden jullie terugbetaling aan?</color>
+    Purchase_FAQ_Text=Ja, absoluut, zolang het binnen redelijke tijd wordt verzocht, geven we je geld terug, zonder vragen
+
+# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=sharing
+    PartsExpansion_Tanks=Grote verscheidenheid aan brandstoftanks!
+    PartsExpansion_Engines=Zware liftmotoren!
+    PartsExpansion_Parts=Onderdelen in alle vormen en maten!
+
+    PartsExpansion_Build=Grote bouwruimte om
+    PartsExpansion_Build=je creaties tot leven te brengen!
+
+# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=sharing
+    SkinsExpansion_Tanks=Beschilder je onderdelen met een grote variatie in skins!
+    SkinsExpansion_Interstages=Kleur alles van tussentrappen
+    SkinsExpansion_Nosecones=tot neuskegels
+    SkinsExpansion_Fairings=En zelfs stroomlijndelen
+
+# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=sharing
+    PlanetsExpansion_Jupiter=Verken Jupiter en zijn vier manen!
+    PlanetsExpansion_Callisto=Van het zwaar bekraterde oppervlak van Callisto!
+    PlanetsExpansion_Europa=Tot de uitgestrekte ijsvlakten van Europa!
+
+    PlanetsExpansion_Conclusion=Verre werelden wachten op je
+    PlanetsExpansion_Conclusion=om te worden verkend!
+
+# Expansion Bundle; images at: https://drive.google.com/file/d/1aWdcqNciwf7i3ju1Hx7mHnKyGBS2_tYU/view?usp=sharing
+    ExpansionBundle_Sandbox=Bonus
+    ExpansionBundle_Sandbox=Sandboxmodus
+
+    ExpansionBundle_Infinite_Fuel=Oneindig brandstof
+    ExpansionBundle_No_Atmospheric_Drag=Geen luchtweerstand
+    ExpansionBundle_Unbreakable_Parts=Onbreekbare onderdelen
+    ExpansionBundle_No_Gravity=Geen zwaartekracht
+
+[Settings]
+# Image at: https://drive.google.com/file/d/1kF_zlTUw7QQnCIfcVNRHGDsn_rH-ySkF/view?usp=sharing
+    Music_Name=Muziek:
+    Sound_Name=Geluid:
+    Screen_Rotation_Name=Schermrotatie:
+    FPS_Name=Fps:
+    Language_Name=Taal:
+
+    Infinite_Fuel_Name=Oneindig brandstof:
+    No_Atmospheric_Drag_Name=Geen luchtweerstand:
+    Unbreakable_Parts_Name=Onbreekbare onderdelen:
+    No_Gravity_Name=Geen zwaartekracht:
+
+# This version of settings text is displayed on screen to let players know what they are using
+# Image as: https://drive.google.com/file/d/1_uDOsT_yAgui19jNqAwx_CMGvLoS5LYh/view?usp=sharing
+    Cheat_On=Aan
+    Cheat_Off=Uit
+
+    Infinite_Fuel=Oneindig brandstof: %value%
+    No_Atmospheric_Drag=Geen luchtweerstand: %value%
+    Unbreakable_Parts=Onbreekbare onderdelen: %value%
+    No_Gravity=Geen zwaartekracht: %value%
+
+[Build]
+# Images at: https://drive.google.com/drive/folders/16-6I-SE_4nmVTjNxsUdAUJtUDIBe5WVz?usp=sharing
+    Build_New_Rocket=Nieuwe raket bouwen
+    Resume_Build=Bouw hervatten
+
+    Symmetry_On=Symmetrie: Aan
+    Symmetry_Off=Symmetrie: Uit
+
+    Launch_Button=Lanceren
+    Move_Rocket_Button=Raket verplaatsen
+
+# Clear build area
+    Clear_Warning=Wissen?
+    Clear_Confirm=Wissen
+
+# Launch warnings
+    Missing_Capsule=Je raket heeft geen capsule
+    Missing_Parachute=Je raket heeft geen parachute
+
+    Too_Heavy=Je raket is te zwaar om op te stijgen
+    Too_Heavy=
+    Too_Heavy=
+    Too_Heavy=Verlaag het gewicht of gebruik een krachtigere motor
+
+    Launch_Anyway_Button=Toch lanceren
+
+# Example rockets
+    Example_Rockets_OpenMenu=Voorbeeldraketten
+    Basic_Rocket=Basisraket
+    Stages=Trappen
+    Ideal_Stages=Ideale trappen
+    Lander=Lander
+
+[Map]
+    Toggle_Map_Button=Kaart
+
+# Shown in map when you escape a gravity field of a planet
+# image for escape/encounter at: https://drive.google.com/file/d/17jqJF09DWoqkgW9VGXdG7SRCSo0UmW0o/view?usp=sharing
+    Escape=Ontsnapping
+
+# Shown in map when you encounter/enter a gravity field of a planet
+    Encounter=Nadering
+
+# Shown in map when you approach/encounter another rocket
+    Rendezvous=Nadering
+
+# Shows the transfer window to another planet
+# image at: https://drive.google.com/file/d/1zd8UEnVb91QmSDllEu1DyCbkCsDKbJk3/view?usp=sharing
+    Transfer=Overstap
+
+[Game]
+# Image at: https://drive.google.com/file/d/1d0b-udFyO4ItlYu1vVaVdzgwdAeT1hPw/view?usp=sharing
+    Throttle_On=Aan
+    Throttle_Off=Uit
+
+# Game supports screen rotation, we split into 2 lines in vertical mode
+    Height_Terrain_Vertical=Hoogte (terrein):
+    Height_Terrain_Vertical=
+    Height_Terrain_Vertical=%height%
+
+    Height_Vertical=Hoogte:
+    Height_Vertical=
+    Height_Vertical=%height%
+
+    Velocity_Vertical=Snelheid:
+    Velocity_Vertical=
+    Velocity_Vertical=%speed%
+
+# Angle indicates the best angle/direction the player can rotate their rocket towards
+    Angle_Vertical=Hoek:
+    Angle_Vertical=
+    Angle_Vertical=%angle% / %targetAngle%
+
+    Height_Terrain_Horizontal=Hoogte (terrein): %height%
+    Height_Horizontal=Hoogte: %height%
+    Velocity_Horizontal=Snelheid: %speed%
+
+# Angle indicates the best angle/direction the player can rotate their rocket towards
+    Angle_Horizontal=Hoek: %angle% / %targetAngle%
+
+[Game menus]
+# Image at: https://drive.google.com/file/d/1XPUZnlFGrs9ZQ0QRjqbvKMEwXg1Pl7cF/view?usp=sharing
+    Restart_Mission=Missie herstarten
+    Restart_Mission_To_Launch=Terug naar lancering
+
+    Restart_Mission_To_Launch_Warning=Terugkeren naar lancering?
+    Restart_Mission_To_Launch_Warning=
+    Restart_Mission_To_Launch_Warning=Dit maakt de voortgang sinds de laatste lancering ongedaan
+
+    Restart_Mission_To_Build=Terug naar bouwen
+
+    Restart_Mission_To_Build_Warning=Terugkeren naar bouwen?
+    Restart_Mission_To_Build_Warning=
+    Restart_Mission_To_Build_Warning=Dit maakt de voortgang sinds de laatste lancering ongedaan
+
+# End mission menu; image at: https://drive.google.com/file/d/1L5FUM09JCZ6DCXFZfJPOM0CWHIEwvqMs/view?usp=sharing
+    End_Mission_Menu_Title=Missieprestaties:
+    End_Mission=Missie beëindigen
+
+# Clear space junk/debris
+    Clear_Debris_Warning=Puin verwijderen?
+    Clear_Debris_Warning=
+    Clear_Debris_Warning=Hierdoor worden alle oncontroleerbare raketten verwijderd
+
+    Clear_Debris_Confirm=Puin verwijderen
+
+# Select menu; Image at: https://drive.google.com/file/d/1CBIAZ3o_Z7bpEAb8sVdTdDeF4KB8-Yyi/view?usp=sharing
+    Navigate_To=Heen navigeren
+    End_Navigation=Navigatie beëindigen
+    Focus=Focussen
+    Unfocus=Stoppen met focussen
+    Switch_To=Besturen
+
+[Rocket]
+    Default_Rocket_Name=Raket
+    
+    # Informs the player that he cannot perform an action due to rocket having no control
+        No_Control_Msg=Geen controle
+
+[Timewarp]
+# Timewarp = fast forward time to skip long periods of waiting
+    Msg_Timewarp_Speed=Tijdversnelling %speed%x
+    Cannot_Timewarp_Below=Kan niet tijdversnellen onder %height%
+    Cannot_Timewarp_While_Moving_On_Surface=Kan niet tijdversnellen bij voortbewegen op oppervlak
+    Cannot_Timewarp_While_Accelerating=Kan niet tijdversnellen tijdens accelereren
+    Cannot_Use_Part_While_Timewarping=Kan %part{1}% niet gebruiken tijdens tijdversnellen
+    Cannot_Turn_While_Timewarping=Kan niet draaien tijdens tijdversnellen
+
+[Units]
+# Image at: https://drive.google.com/file/d/1ljpGY55W8V1wF9esl5v569B0Z-D6xxMt/view?usp=sharing
+    Thrust_To_Weight_Ratio=Stuwkracht / gewicht: %value%
+    Mass=Massa: %value%t
+    Thrust=Stuwkracht: %value%t
+    Burn_Time=Brandtijd: %value%s
+
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=sharing
+    Efficiency=Efficiëntie: %value%isp
+    Mass_Unit=t
+    Meter_Unit=m
+    Km_Unit=km
+    Meter_Per_Second_Unit=m/s
+
+[Timestamps]
+    Second_Short=%value%s
+    Minute_Short=%value%m
+    Hour_Short=%value%u
+    Day_Short=%value%d
+
+[Resource Types]
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=sharing
+    Solid_Fuel{0}=Vaste
+    Solid_Fuel{0}=brandstof
+    Solid_Fuel{1}=vaste
+    Solid_Fuel{1}=brandstof
+
+    Liquid_Fuel{0}=Vloeibare
+    Liquid_Fuel{0}=brandstof
+
+    Liquid_Fuel{1}=vloeibare
+    Liquid_Fuel{1}=brandstof
+
+[Resource Uses]
+    Resource_Bars_Title=%resource_name{0}%:
+    Info_Resource_Amount=%resource{0}%: %amount%
+    Msg_No_Resource_Source=Geen bron voor %resource{1}%
+    Msg_No_Resource_Left=Geen %resource{1}% meer
+
+[Part Categories]
+# Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=sharing
+    Basic_Parts=Basis
+    Six_Wide_Parts=6 breed
+    Eight_Wide_Parts=8 breed
+    Ten_Wide_Parts=10 breed
+    Twelve_Wide_Parts=12 breed
+    Engine_Parts=Motoren
+    Aerodynamics_Parts=Aerodynamica
+    Fairings_Parts=Stroomlijndelen
+    Structural_Parts=Constructie
+    Other_Parts=Overig
+
+[Part Names]
+    Capsule_Name{0}=Capsule
+    Capsule_Name{1}=capsule
+    Probe_Name{0}=Sonde
+    Probe_Name{1}=sonde
+    Parachute_Name{0}=Parachute
+    Parachute_Name{1}=parachute
+    Kolibri_Engine_Name{0}=Kolibrimotor
+    Kolibri_Engine_Name{1}=kolibrimotor
+    Hawk_Engine_Name{0}=Hawkmotor
+    Hawk_Engine_Name{1}=hawkmotor
+    Valiant_Engine_Name{0}=Valiantmotor
+    Valiant_Engine_Name{1}=valiantmotor
+    Titan_Engine_Name{0}=Titanmotor
+    Titan_Engine_Name{1}=titanmotor
+    Frontier_Engine_Name{0}=Frontiermotor
+    Frontier_Engine_Name{1}=frontiermotor
+    Ion_Engine_Name{0}=Ionenmotor
+    Ion_Engine_Name{1}=ionenmotor
+    RCS_Thruster_Name{0}=RCS-stuwmotor
+    RCS_Thruster_Name{1}=rcs-stuwmotor
+    Fuel_Tank_Name{0}=Brandstoftank
+    Fuel_Tank_Name{1}=brandstoftank
+    Separator_Name{0}=Scheider
+    Separator_Name{1}=scheider
+    Side_Separator_Name{0}=Zijscheider
+    Side_Separator_Name{1}=zijscheider
+    Structural_Part_Name{0}=Structureel onderdeel
+    Structural_Part_Name{1}=structureel onderdeel
+    Landing_Leg_Name{0}=Landingspoot
+    Landing_Leg_Name{1}=landingspoot
+    Aerodynamic_Nose_Cone_Name{0}=Aerodynamische neuskegel
+    Aerodynamic_Nose_Cone_Name{1}=aerodynamische neuskegel
+    Aerodynamic_Fuselage_Name{0}=Aerodynamische romp
+    Aerodynamic_Fuselage_Name{1}=aerodynamische romp
+    Fairing_Name{0}=Stroomlijndeel
+    Fairing_Name{1}=stroomlijndeel
+    Rover_Wheel_Name{0}=Roverwiel
+    Rover_Wheel_Name{1}=roverwiel
+    Docking_Port_Name{0}=Dockingstation
+    Docking_Port_Name{1}=dockingstation
+    Solar_Panel_Name{0}=Zonnepaneel
+    Solar_Panel_Name{1}=zonnepaneel
+    Battery_Name{0}=Batterij
+    Battery_Name{1}=batterij
+    RTG_Name{0}=RTG
+    RTG_Name{1}=rtg
+
+[Part Descriptions]
+    Capsule_Description=Een kleine capsule voor één astronaut
+    Probe_Description=Een onbemande sonde, gebruikt voor enkele reis-missies
+    Parachute_Description=Een parachute voor het landen
+    Fuel_Tank_Description=Een brandstoftank met vloeibare{nl}brandstof en vloeibare{nl}zuurstof
+    Separator_Description=Verticale scheider, wordt gebruikt om lege trappen af te koppelen
+    Side_Separator_Description=Horizontale scheider, wordt gebruikt om zijboosters af te koppelen
+    Landing_Leg_Description=Een uit- en inschuifbare poot die wordt gebruikt voor het landen op het oppervlak van manen en planeten
+    Structural_Part_Description=Een licht en sterk structureel onderdeel
+    Hawk_Engine_Description=Een motor met hoge stuwkracht en lage efficiëntie, normaliter gebruikt in de eerste trap van een raket
+    Titan_Engine_Description=Een motor met hoge stuwkracht en lage efficiëntie, normaliter gebruikt in de eerste trap van een raket
+    Valiant_Engine_Description=Hoge efficiëntie, lage stuwkracht. Wordt gebruikt in de ruimte wanneer hoge stuwkracht geen prioriteit heeft
+    Frontier_Engine_Description=Hoge efficiëntie, lage stuwkracht. Wordt gebruikt in de ruimte wanneer hoge stuwkracht geen prioriteit heeft
+    Kolibri_Engine_Description=Een kleine motor voor landers
+    Ion_Engine_Description=Een motor met lage stuwkracht en een ongelooflijk hoge efficiëntie
+    RCS_Thruster_Description=Een set kleine directionele stuwmotoren, gebruikt om te docken
+    Aerodynamic_Nose_Cone_Description=Een aerodynamische neuskegel om de aerodynamica van zijboosters te verbeteren
+    Aerodynamic_Fuselage_Description=Een aerodynamische romp om motoren te bedekken
+    Fairing_Description=Een aerodynamisch stroomlijndeel om ladingen in te kapselen
+    Battery_Description=Een batterij om stroom in op te slaan
+    Solar_Panel_Description=Een zonnepaneel dat stroom opwekt wanneer het is uitgeschoven
+    RTG_Description=Thermo-elektrische radio-isotopengenerator of RTG
+    Rover_Wheel_Description=Roverwiel om te rijden op het oppervlak van planeten
+    Docking_Port_Description=Een dockingstation dat kan worden gebruikt om twee voertuigen aan elkaar te koppelen
+
+[Modules]
+    Activate_Separator=Afkoppelen
+    Activate_Fairing=Stroomlijndeel activeren
+    
+    Torque_Module_Torque=Koppel: %value%kN
+    Separation_Force=Scheidingskracht: %value%kN
+    
+    State_On{0}=Aan
+    State_Off{0}=Uit
+    
+    Engine_Module_State=Motor %state{0}%
+    Engine_On_Label=Motor aan
+    
+    Msg_RCS_Module_State=RCS %state{0}%
+    
+    Wheel_Module_State=Roverwiel %state{0}%
+    Wheel_On_Label=Wiel aan
+    
+    Panel_Expanded=Uitgeschoven
+    Landing_Leg_Expanded=Geactiveerd
+    
+    Info_Parachute_Max_Height=Max. activeringshoogte: %height%
+    Button_Activate_Parachute=Parachute activeren
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=Kan parachute niet activeren in een vacuüm
+    Msg_Cannot_Deploy_Parachute_Above=Kan parachute niet activeren boven %height%
+    Msg_Cannot_Fully_Deploy_Above=Kan parachute niet volledig activeren boven %height%
+    Msg_Cannot_Deploy_Parachute_While_Faster=Kan parachute niet activeren bij snelheid hoger dan %velocity%
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=Kan parachute niet activeren bij geen beweging
+    Msg_Parachute_Half_Deployed=Parachute half geactiveerd
+    Msg_Parachute_Fully_Deployed=Parachute volledig geactiveerd
+    Msg_Parachute_Cut=Parachute afgekoppeld
+
+[Planets]
+    Sun{0}=Zon
+    Sun{1}=de zon
+    Sun{2}=De zon
+    Mercury=Mercurius
+    Venus=Venus
+    Earth{0}=Aarde
+    Earth{1}=de aarde
+    Earth{2}=De aarde
+    Earth{3}=Aarde
+    Moon{0}=Maan
+    Moon{1}=de maan
+    Moon{2}=De maan
+    Mars=Mars
+    Phobos=Phobos
+    Deimos=Deimos
+    Jupiter{0}=Jupiter
+    Jupiter{1}=Jupiter
+    Jupiter{2}=Jupiter
+    Jupiter{3}=Jupiters
+    Europa=Europa
+    Ganymede=Ganymedes
+    Io=Io
+    Callisto=Callisto
+
+[Achievements]
+    Reached_Low_Orbit=Lage baan om %planet{0}% bereikt
+    Reached_High_Orbit=Hoge baan om %planet{0}% bereikt
+    Descend_Low_Orbit=Afgedaald naar lage baan om %planet{0}%
+    Capture_Low_Orbit=Gevangen in lage baan om %planet{0}%
+    Capture_High_Orbit=Gevangen in hoge baan om %planet{0}%
+
+    Entered_Lower_Atmosphere=Lagere atmosfeer van %planet{3}% betreden
+    Entered_Upper_Atmosphere=Hogere atmosfeer van %planet{3}% betreden
+    Left_Lower_Atmosphere=Hogere atmosfeer van %planet{3}% bereikt
+    Left_Upper_Atmosphere=Ontsnapt uit atmosfeer van %planet{3}%
+
+    Landed=Geland op het oppervlak van %planet{1}%
+    Crashed_Into_Terrain=Gecrasht op het oppervlak van %planet{1}%
+
+    Entered_SOI=Invloedssfeer van %planet{1}% betreden
+    Escaped_SOI=Ontsnapt aan de invloedssfeer van %planet{1}%
+    
+    Docked_Suborbital=Gedockt in een suborbitale baan van %planet{1}%
+    Docked_Orbit_Low=Gedockt in een lage baan om %planet{0}%
+    Docked_Orbit_Transfer=Gedockt in een overstapbaan van %planet{1}%
+    Docked_Orbit_High=Gedockt in een hoge baan om %planet{0}%
+    Docked_Escape=Gedockt op een ontsnappingstraject van %planet{1}%
+    Docked_Surface=Gedockt op het oppervlak van %planet{1}%
+
+    Recover_Home=Veilig teruggekeerd naar %planet{1}%
+    Recover_Landed=Missie beëindigd op het oppervlak van %planet{1}%
+    Recover_Space=Missie beëindigd in de ruimte rond %planet{1}%

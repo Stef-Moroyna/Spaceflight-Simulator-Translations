@@ -1,0 +1,653 @@
+[Ungroupped]
+# REAM ME:
+# The format used here is derived from INI.
+# We have added something special called variants.
+# 
+# Example:
+# 
+# [Planets]
+# Earth{0}= पृथ्वी
+# Earth{1}= पृथ्वी के
+# 
+# [Achievements]
+# Landed_Test0 = %planet{0}% पर लैंड हुआ  ‏पृथ्वी पर लैंड हुआ)
+# Landed_Test1 = %planet{1}% पर लैंड हुआ  पृथ्वी पर लैंड हुआ)
+# 
+# Variants are used for many things, such as making phrases work, caps, etc
+# 
+# We recommend starting at the bottom of the file with achievements/planets, there variants are very clearly used.
+# 
+# 
+# 
+# Available font types: normal/compatibility
+# In case of missing characters use compatibility font.
+    Font=सामान्य
+
+[General]
+# Used for language select buttons
+    Language_Name_In_Local_Language=अंग्रेज़ी
+
+    Cancel=कैंसिल करें
+    Close=बंद करें
+
+    Open_Settings_Button=सेटिंग्स
+
+# Switching scenes buttons
+    Build_Rocket=रॉकेट बनाएं
+    Resume_Game=फिर से गेम शुरू करें
+    Return_To_Main_Menu=मुख्य मेनू
+    Exit_To_Main_Menu=मुख्य मेनू से बाहर निकलें
+
+[Main Menu]
+# Image at: https://drive.google.com/file/d/1mEFf3W964ldXBekpbTc-Jj1XcSnBQz4k/view?usp=sharing
+    Play=खेलें
+
+# Tutorial
+    Video_Tutorials_OpenButton=वीडियो ट्यूटोरियल
+    Video_Orbit=ऑर्बिट ट्यूटोरियल
+    Video_Moon=मून ट्यूटोरियल
+    Video_Dock=डॉकिंग ट्यूटोरियल
+
+# Community
+    Community_OpenButton=समुदाय
+    Community_Youtube=Youtube
+    Community_Discord=Discord
+    Community_Reddit=Reddit
+
+# Roadmap
+    Roadmap_OpenButton=आने वाले अपडेट्स
+
+    Roadmap_Text=संस्करण 1.51
+    Roadmap_Text=<color=grey>स्टेजिंग</color>
+    Roadmap_Text=
+    Roadmap_Text=संस्करण 1.52
+    Roadmap_Text=<color=grey>ट्यूटोरियल</color>
+    Roadmap_Text=
+    Roadmap_Text=संस्करण 1.53
+    Roadmap_Text=<color=grey>फिर से आएं</color>
+    Roadmap_Text=
+    Roadmap_Text=संस्करण 1.54
+    Roadmap_Text=<color=grey>विज़ुअल इफ़ेक्ट, पार्टिकल्स और साउंड्स</color>
+    Roadmap_Text=
+    Roadmap_Text=संस्करण 1.55
+    Roadmap_Text=<color=grey>ठोस रॉकेट बूस्टर</color>
+    Roadmap_Text=
+    Roadmap_Text=संस्करण 1.6
+    Roadmap_Text=<color=grey>एस्ट्रोनॉट्स</color>
+    Roadmap_Text=
+    Roadmap_Text=संस्करण 1.7
+    Roadmap_Text=<color=grey>कैरियर</color>
+    Roadmap_Text=
+    Roadmap_Text=संस्करण 1.8
+    Roadmap_Text=<color=grey>बाहरी ग्रह</color>
+    Roadmap_Text=
+    Roadmap_Text=इलेक्ट्रिक सिस्टम:
+    Roadmap_Text=<color=grey>भविष्य में पूरे इलेक्ट्रिक सिस्टम को पूरी तरह से बदल दिया जाएगा, ज़्यादातर आयन इंजन बर्न्स के दौरान टाइमवार्प और बिजली के लिए अधिक उपयोग जैसी सुविधाओं की संभावना के साथ</color>
+    Roadmap_Text=
+    Roadmap_Text=
+    Roadmap_Text=कृपया ध्यान रखें कि योजनाएँ बदल सकती हैं
+
+# Credits
+    Credits_OpenButton=आभार
+
+    Credits_Text=स्टेफ़ो माई मोरोजना
+    Credits_Text=<Size=55> डिज़ाइनर - प्रोग्रामर - आर्टिस्ट </size>
+    Credits_Text=
+    Credits_Text=जोर्डी वैन डेर मोलेन
+    Credits_Text=<Size=55> प्रोग्रामर </size>
+    Credits_Text=
+    Credits_Text=क्रिस क्रिस्टो
+    Credits_Text=<Size=55> प्रोग्रामर </size>
+    Credits_Text=
+    Credits_Text=डेवी वास्क
+    Credits_Text=<Size=55> रचयिता </size>
+    Credits_Text=
+    Credits_Text=एश्टन मिल्स
+    Credits_Text=<size=55> रचयिता </size>
+
+# Update menu
+    Update_Available=नया अपडेट उपलब्ध है!
+    Update_Available=
+    Update_Available=वर्तमान संस्करण: %old%
+    Update_Available=नवीनतम संस्करण: %new%
+
+    Update_Confirm=अपडेट
+
+# Rate menu
+    Rate_Title=क्या आप गेम को रेट या रिव्यु करना चाहेंगे?
+    Rate_Title=
+    Rate_Title=हम अपने गेम की क्वॉलिटी के बारे में ख़ास ध्यान रखते हैं, आपका फ़ीडबैक हमें इसे बेहतर बनाने में मदद करता है
+    Rate_Title=
+    Rate_Title=चाहे रिव्यु हज़ारों क्यों न हो, हम ज़्यादा से ज़्यादा मात्रा में उन्हें पढ़ते हैं!
+
+    Rate_Confirm=रेट
+
+# Close menu
+    Close_Game=गेम बंद करें?
+
+# Startup Messages
+    Early_Supporter_Message=एक शुरुआती समर्थक के रूप में, आपके पास इन चीज़ों का मुफ़्त एक्सेस है:
+    Early_Supporter_Message=
+    Early_Supporter_Message= - पार्ट्स बढ़ाना
+    Early_Supporter_Message= - स्किन्स बढ़ाना
+    Early_Supporter_Message= - ग्रहों को बढ़ाना
+    Early_Supporter_Message=
+    Early_Supporter_Message=आपके सहयोग के लिए धन्यवाद!
+
+[Worlds Menu]
+# Worlds are save slots; image at: https://drive.google.com/file/d/1vUYrXaem4ki1dcXRFUJLKWZEcE0PFno-/view?usp=शेयर हो रहा है
+    Create_New_World_Button=वर्ल्ड बनाएं
+
+# Create menu
+    Create_World_Title=वर्ल्ड का नाम
+    Default_World_Name=मेरा वर्ल्ड
+
+# Delete menu
+    World_Delete=वर्ल्ड डिलीट करें
+
+# Select system menu
+    Select_Solar_System=वर्ल्ड का सोलर सिस्टम चुनें
+
+    Select_Solar_System__NotFound=सोलर सिस्टम मिल नहीं रहा है:
+    Select_Solar_System__NotFound=%system%
+    Select_Solar_System__NotFound=
+    Select_Solar_System__NotFound=नया सोलर सिस्टम सिस्टम चुनें
+
+    Default_Solar_System=सोलर सिस्टम (डिफ़ॉल्ट)
+    Custom_Solar_System=%name% (कस्टम)
+
+# World play times
+    Last_Played=आख़िरी बार खेला: %value% पहले
+    Just_Played=आख़िरी बार खेला: एक सेकंड पहले
+    Time_Played=खेलने का समय: %value%
+
+[Saving]
+# Blueprint stuff; Blueprints are rocket designs; images at: https://drive.google.com/drive/folders/15m4nXgzr8fvql78TheE3Qy1WPrTaIqdJ?usp=शेयर हो रहा है
+    Blueprints_Menu_Title=ब्लूप्रिंट
+    Unnamed_Blueprint=बेनाम ब्लूप्रिंट
+    Save_Blueprint=ब्लूप्रिंट सेव करें
+    Load_Blueprint=ब्लूप्रिंट लोड करें
+    Cannot_Save_Empty_Build=खाली ब्लूप्रिंट सेव नहीं किया जा सकता
+
+# Quicksave stuff; Quicksaves let players save at any time and return to it.
+# It does not necessarily have to be called quicksave, player just needs to understand its use.
+# Image at: https://drive.google.com/drive/folders/128aXHWoUhJXZbbKVBDXXSMoCvRwFpvct?usp=शेयर हो रहा है
+    Quicksaves_Menu_Title=क्विकसेव्स
+    Unnamed_Quicksave=बेनाम क्विकसेव
+    Create_Quicksave=क्विकसेव बनाएं
+    Load_Quicksave=क्विकसेव लोड करें
+
+# Save and load menus; context seen in images from blueprint/quicksave stuff
+    Save=सेव करें
+    Load=लोड करें
+    Delete=डिलीट करें
+    Rename=नया नाम रखें
+
+# In progress
+    Saving_In_Progress=सेव किया जा रहा है...
+    Loading_In_Progress=लोड किया जा रहा है...
+
+# filetype (injected)
+    Blueprint{0}=ब्लूप्रिंट
+    Blueprint{1}=ब्लूप्रिंट
+    Blueprint{2}=ब्लूप्रिंट
+
+    Quicksave{0}=क्विकसेव
+    Quicksave{1}=क्विकसेव
+    Quicksave{2}=क्विकसेव्स
+
+# Ask overwrite menu; image at: https://drive.google.com/file/d/1EOI9UIWAG-lNgrdk1IMmrpmf6rRBuA7Q/view?usp=शेयर हो रहा है
+    File_Already_Exists=इस नाम वाला %filetype{1}% पहले से मौजूद है
+    Overwrite_File=%filetype{1}% के ऊपर लिखें
+    New_File=नया %filetype{1}%
+
+# Load failure; image at: https://drive.google.com/file/d/1c7qHCdbS1ShSq4rKIHMpHKCTuh0pXeHv/view?usp=शेयर हो रहा है
+    Load_Failed=%filepath% से %filetype{1}% लोड नहीं किया जा सकता है
+
+# Legacy Messages
+    Conversion_Message=1.5 में आपका स्वागत है।
+    Conversion_Message=
+    Conversion_Message=आपके सभी 1.4 सेव अपने आप ही 1.5 सेव में बदल गए हैं
+
+    Conversion_Success=एक 1.4 %filetype{1}% देखा गया है और इसे %version% फॉर्मैट में बदल दिया गया है 
+
+    Conversion_Failed=एक 1.4 %filetype{1}% देखा गया है और इसे %version% फॉर्मैट में बदल दिया गया है 
+    Conversion_Failed=
+    Conversion_Failed=बदलाव असफ़ल रहा:
+    Conversion_Failed=%reason%
+
+[Purchasing]
+# Images at: https://drive.google.com/drive/folders/1kIhFuPRp8YXkZ8SVC5Jq9UJkNZqdasQC?usp=शेयर हो रहा है
+    Parts_Expansion=पार्ट्स बढ़ाएं
+    Skins_Expansion=स्किन्स बढ़ाएं
+    Planets_Expansion=ग्रहों को बढ़ाएं
+    Expansion_Bundle=विस्तार बंडल
+    Upgrade_To_Bundle=बंडल में अपग्रेड करें
+
+    More_Parts=और पार्ट्स...
+    More_Skins=और स्किन्स...
+
+    Why_Buy=आपका सहयोग हमें गेम को बेहतर बनाने में मदद करता है!
+
+    Buy_Product=%product% %price% खरीदें
+
+    Purchase_Thanks_Msg=खरीदे गए: %product%
+    Purchase_Thanks_Msg=
+    Purchase_Thanks_Msg=आपकी ख़रीद के लिए धन्यवाद
+    Purchase_Thanks_Msg=अब जाइये और सितारों की खोज करिये!
+
+    Owned=%product% (खरीदा गया)
+
+    Restore_Open=पहले जैसा करना
+
+    Restore_Text=एंड्रॉइड पर खरीद को स्टार्टअप पर अपने आप ही पहले जैसा कर दिया जाता है
+    Restore_Text=
+    Restore_Text=- देखें कि आपने उसी Google Play अकाउंट में लॉग इन किया है जहां से आपने इसे खरीदा है (देखें कि आपकी खरीद Google Play खरीद इतिहास में दिखाई दे रही है)
+    Restore_Text=
+    Restore_Text=- ख़रीदें बटन को देखें, अगर कीमत नहीं दिख रही है, तो इसका मतलब है कि गेम स्टोर से कनेक्ट नहीं कर सका अपने इंटरनेट कनेक्शन की जांच करें और गेम को रीस्टार्ट करें
+    Restore_Text=
+    Restore_Text=अगर ऊपर में से कोई भी काम नहीं कर रहा है, तो मुझसे संपर्क करें: games.morojna@gmail.com
+    Restore_Text=
+    Restore_Text=आप इंतज़ार भी कर सकते हैं, खरीद कभी-कभी कुछ घंटों के बाद खुद को पुनर्स्थापित करती है
+
+    Purchase_FAQ_Open=FAQ
+
+    Purchase_FAQ_Text=<color=grey>क्या अपडेट के बीच खरीदारी बनाई रखी गई है?</color>
+    Purchase_FAQ_Text=हां, बिल्कुल
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>क्या खरीद खोना संभव है?</color>
+    Purchase_FAQ_Text=आपकी खरीद स्थायी रूप से आपके स्टोर खाते पर स्टोर की जाती है, और आपके फ़ोन के रीइंस्टॉल करने या बदलने पर ये खोती नहीं हैं
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>क्या आप रिफंड की देते हैं?</color>
+    Purchase_FAQ_Text=हां, बिल्कुल, जब तक यह एक उचित समय सीमा में अनुरोध किया जाता है, हम बिना किसी सवाल के रिफंड करेंगे
+
+# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=शेयर हो रहा है
+    PartsExpansion_Tanks=फ्यूल टैंक्स की बड़ी वैराइटी
+    PartsExpansion_Engines=भारी लिफ्ट इंजन!
+    PartsExpansion_Parts=सभी रूप और आकार के पार्ट्स
+
+    PartsExpansion_Build=लाने के लिए बड़ी बिल्ड स्पेस
+    PartsExpansion_Build=आपकी रचनाओं में जान!
+
+# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=शेयर हो रहा है
+    SkinsExpansion_Tanks=कई तरह की स्किन्स में अपने पार्ट्स को पेंट करें!
+    SkinsExpansion_Interstages=इंटरस्टेज से लेकर सब कुछ कलर करें
+    SkinsExpansion_Nosecones=नोसकॉन तक
+    SkinsExpansion_Fairings=और फेरिंग्स भी
+
+# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=शेयर हो रहा है
+    PlanetsExpansion_Jupiter=ज्यूपिटर और उसके चार चंद्रमाओं की ख़ोज करें!
+    PlanetsExpansion_Callisto=कैलिस्टो की भारी गड्ढे वाली सतह से!
+    PlanetsExpansion_Europa=यूरोपा के विशाल बर्फ की सतह तक!
+
+    PlanetsExpansion_Conclusion=अलग दुनिया आपका इंतज़ार कर रही है
+    PlanetsExpansion_Conclusion=उनकी ख़ोज करने के लिए
+
+# Expansion Bundle; images at: https://drive.google.com/file/d/1aWdcqNciwf7i3ju1Hx7mHnKyGBS2_tYU/view?usp=शेयर हो रहा है
+    ExpansionBundle_Sandbox=बोनस
+    ExpansionBundle_Sandbox=सैंडबॉक्स मोड
+
+    ExpansionBundle_Infinite_Fuel=अनगिनत फ्यूल
+    ExpansionBundle_No_Atmospheric_Drag=कोई एटमोस्फियरिक ड्रैग नहीं
+    ExpansionBundle_Unbreakable_Parts=नहीं टूट सकने वाले पार्ट्स
+    ExpansionBundle_No_Gravity=कोई ग्रैविटी नहीं
+
+[Settings]
+# Image at: https://drive.google.com/file/d/1kF_zlTUw7QQnCIfcVNRHGDsn_rH-ySkF/view?usp=शेयर हो रहा है
+    Music_Name=म्यूज़िक:
+    Sound_Name=साउंड:
+    Screen_Rotation_Name=स्क्रीन को घुमाना:
+    FPS_Name=Fps:
+    Language_Name=भाषा:
+
+    Infinite_Fuel_Name=अनगिनत फ्यूल:
+    No_Atmospheric_Drag_Name=कोई एटमोस्फियरिक ड्रैग नहीं:
+    Unbreakable_Parts_Name=अटूट पार्ट्स:
+    No_Gravity_Name=कोई ग्रैविटी नहीं:
+
+# This version of is displayed on screen to let players know what cheats they are using
+# Image as: https://drive.google.com/file/d/1_uDOsT_yAgui19jNqAwx_CMGvLoS5LYh/view?usp=शेयर हो रहा है
+    Cheat_On{0}=ऑन
+    Cheat_Off{0}=ऑफ़
+
+    Infinite_Fuel=अनगिनत फ्यूल: %value{0}%
+    No_Atmospheric_Drag=कोई एटमोस्फियरिक ड्रैग नहीं: %value{0}%
+    Unbreakable_Parts=अटूट पार्ट्स: %value{0}%
+    No_Gravity=कोई ग्रैविटी नहीं: %value{0}%
+
+[Build]
+# Images at: https://drive.google.com/drive/folders/16-6I-SE_4nmVTjNxsUdAUJtUDIBe5WVz?usp=शेयर हो रहा है
+    Build_New_Rocket=नया रॉकेट बनाएं
+    Resume_Build=फिर से बनाना शुरू करें
+
+    Symmetry_On=सिमिट्री: ऑन
+    Symmetry_Off=सिमिट्री: ऑफ़
+
+    Launch_Button=लॉन्च
+    Move_Rocket_Button=रॉकेट ले जाएं
+
+# Clear build area
+    Clear_Warning=समझ गए?
+    Clear_Confirm=समझ गए
+
+# Launch warnings
+    Missing_Capsule=आपके रॉकेट में कैप्सूल नहीं है
+    Missing_Parachute=आपके रॉकेट में पैराशूट नहीं है
+
+    Too_Heavy=आपका रॉकेट उठाने के लिए काफी भारी है
+    Too_Heavy=
+    Too_Heavy=
+    Too_Heavy=वज़न कम करें या अधिक शक्तिशाली इंजन का उपयोग करें
+
+    Launch_Anyway_Button=फिर भी लॉन्च करें
+
+# Example rockets
+    Example_Rockets_OpenMenu=उदाहरण रॉकेट
+    Basic_Rocket=बेसिक रॉकेट
+    Stages=स्टेज
+    Ideal_Stages=आइडियल स्टेज
+    Lander=लैंडर
+
+[Map]
+    Toggle_Map_Button=मैप
+
+# Shown in map when you escape a gravity field of a planet
+# image for escape/encounter at: https://drive.google.com/file/d/17jqJF09DWoqkgW9VGXdG7SRCSo0UmW0o/view?usp=शेयर हो रहा है
+    Escape=निकलें
+
+# Shown in map when you encounter/enter a gravity field of a planet
+    Encounter=सामना
+
+# Shown in map when you approach/encounter another rocket
+    Rendezvous=अड्डा
+
+# Shows the transfer window to another planet
+# image at: https://drive.google.com/file/d/1zd8UEnVb91QmSDllEu1DyCbkCsDKbJk3/view?usp=शेयर हो रहा है
+    Transfer=ट्रांसफर विंडो
+
+[Game]
+# Image at: https://drive.google.com/file/d/1d0b-udFyO4ItlYu1vVaVdzgwdAeT1hPw/view?usp=शेयर हो रहा है
+    Throttle_On=ऑन
+    Throttle_Off=ऑफ़
+
+# Game supports screen rotation, we split into 2 lines in vertical mode
+    Height_Terrain_Vertical=ऊंचाई (इलाके):
+    Height_Terrain_Vertical=
+    Height_Terrain_Vertical=%height%
+
+    Height_Vertical=ऊंचाई:
+    Height_Vertical=
+    Height_Vertical=%height%
+
+    Velocity_Vertical=तेज़ी:
+    Velocity_Vertical=
+    Velocity_Vertical=%speed%
+
+# Angle indicates the best angle/direction the player can rotate their rocket towards
+    Angle_Vertical=एंगल:
+    Angle_Vertical=
+    Angle_Vertical=%angle% / %targetAngle%
+
+    Height_Terrain_Horizontal=ऊंचाई (इलाके): %height%
+    Height_Horizontal=ऊंचाई: %height%
+    Velocity_Horizontal=तेज़ी: %speed%
+
+# Angle indicates the best angle/direction the player can rotate their rocket towards
+    Angle_Horizontal=एंगल: %angle% / %targetAngle%
+
+[Game menus]
+# Image at: https://drive.google.com/file/d/1XPUZnlFGrs9ZQ0QRjqbvKMEwXg1Pl7cF/view?usp=शेयर हो रहा है
+    Restart_Mission=मिशन फिर से शुरू करें
+
+# Restart menu
+    Restart_Mission_To_Launch=वापस लॉन्च करें
+
+    Restart_Mission_To_Launch_Warning=वापस लॉन्च करें?
+    Restart_Mission_To_Launch_Warning=
+    Restart_Mission_To_Launch_Warning=यह पिछले लॉन्च के बाद की प्रोग्रेस को वापस ले आएगा
+
+    Restart_Mission_To_Build=वापस बनाएं
+
+    Restart_Mission_To_Build_Warning=वापस बनाएं?
+    Restart_Mission_To_Build_Warning=
+    Restart_Mission_To_Build_Warning=यह पिछले लॉन्च के बाद की प्रोग्रेस को वापस ले आएगा
+
+# End mission menu; image at: https://drive.google.com/file/d/1L5FUM09JCZ6DCXFZfJPOM0CWHIEwvqMs/view?usp=शेयर हो रहा है
+    End_Mission_Menu_Title=मिशन की सफ़लता:
+    End_Mission=मिशन ख़त्म करें
+
+# Clear space junk/debris
+    Clear_Debris_Warning=मलबे को साफ़ करें?
+    Clear_Debris_Warning=
+    Clear_Debris_Warning=यह सभी बेकाबू रॉकेट को हटा देगा
+
+    Clear_Debris_Confirm=मलबे को साफ़ करें
+
+# Select menu; Image at: https://drive.google.com/file/d/1CBIAZ3o_Z7bpEAb8sVdTdDeF4KB8-Yyi/view?usp=शेयर हो रहा है
+    Navigate_To=पर नेविगेट करें
+    End_Navigation=नेविगेशन ख़त्म करें
+    Focus=फ़ोकस
+    Unfocus=अनफ़ोकस
+    Switch_To=पर स्विच करें
+
+[Rocket]
+    Default_Rocket_Name=रॉकेट
+
+# Informs the player that he cannot perform an action due to rocket having no control
+    No_Control_Msg=कोई कंट्रोल नहीं
+
+[Timewarp]
+# Timewarp = लंबे समय तक इंतज़ार करने से बचने के लिए समय को फ़ास्ट फ़ॉरवर्ड करें
+    Msg_Timewarp_Speed=समय की तेज़ी %speed%x
+    Cannot_Timewarp_Below=नीचे टाइम वार्प नहीं हो सकता %height%
+    Cannot_Timewarp_While_Moving_On_Surface=सतह पर चलते समय टाइम वार्प नहीं हो सकता
+    Cannot_Timewarp_While_Accelerating=तेज़ी के समय टाइम वार्प नहीं हो सकता
+    Cannot_Use_Part_While_Timewarping=टाइमवार्पिंग के समय %part{1}% इस्तेमाल नहीं किया जा सकता
+    Cannot_Turn_While_Timewarping=टाइमवार्पिंग करते समय मुड़ नहीं सकते
+
+[Units]
+# Image at: https://drive.google.com/file/d/1ljpGY55W8V1wF9esl5v569B0Z-D6xxMt/view?usp=शेयर हो रहा है
+    Thrust_To_Weight_Ratio=ज़ोर / वज़न: %value%
+    Mass=मात्रा: %value%t
+    Thrust=ज़ोर: %value%t
+    Burn_Time=बर्न टाइम: %value%s
+
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=शेयर हो रहा है
+    Efficiency=योग्यता: %value% Isp
+    Mass_Unit=t
+    Meter_Unit=m
+    Km_Unit=km
+    Meter_Per_Second_Unit=m/s
+
+[Timestamps]
+    Second_Short=%value%s
+    Minute_Short=%value%m
+    Hour_Short=%value%h 
+    Day_Short=%value%d
+
+[Resource Types]
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=शेयर हो रहा है
+    Solid_Fuel{0}=सॉलिड फ्यूल
+    Solid_Fuel{1}=सॉलिड फ्यूल
+    Liquid_Fuel{0}=लिक्विड फ्यूल
+    Liquid_Fuel{1}=लिक्विड फ्यूल
+
+[Resource Uses]
+    Resource_Bars_Title=%resource_name{0}%:
+    Info_Resource_Amount=%resource{0}%: %amount%
+    Msg_No_Resource_Source=कोई %resource{1}% साधन नहीं
+    Msg_No_Resource_Left=%resource{1}% में से
+
+[Part Categories]
+# Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=शेयर हो रहा है
+    Basic_Parts=बेसिक
+    Six_Wide_Parts=6 की चौड़ाई
+    Eight_Wide_Parts=8 की चौड़ाई
+    Ten_Wide_Parts=10 की चौड़ाई
+    Twelve_Wide_Parts=12 की चौड़ाई
+    Engine_Parts=इंजन
+    Aerodynamics_Parts=एरोडाइनैमिक्स
+    Fairings_Parts=फेरिंग
+    Structural_Parts=बनावट
+    Other_Parts=अन्य
+
+[Part Names]
+    Capsule_Name{0}=कैप्सूल
+    Capsule_Name{1}=कैप्सूल
+    Probe_Name{0}=छानबीन
+    Probe_Name{1}=छानबीन
+    Parachute_Name{0}=पैराशूट
+    Parachute_Name{1}=पैराशूट
+    Kolibri_Engine_Name{0}=कोलिब्री इंजन
+    Kolibri_Engine_Name{1}=कोलिब्री इंजन
+    Hawk_Engine_Name{0}=हॉक इंजन
+    Hawk_Engine_Name{1}=हॉक इंजन
+    Valiant_Engine_Name{0}=वैलिएंट इंजन
+    Valiant_Engine_Name{1}=वैलिएंट इंजन
+    Titan_Engine_Name{0}=टाइटन इंजन
+    Titan_Engine_Name{1}=टाइटन इंजन
+    Frontier_Engine_Name{0}=फ्रंटियर इंजन
+    Frontier_Engine_Name{1}=फ्रंटियर इंजन
+    Ion_Engine_Name{0}=आयन इंजन
+    Ion_Engine_Name{1}=आयन इंजन
+    RCS_Thruster_Name{0}=RCS थ्रस्टर
+    RCS_Thruster_Name{1}=rcs थ्रस्टर
+    Fuel_Tank_Name{0}=फ्यूल टैंक
+    Fuel_Tank_Name{1}=फ्यूल टैंक
+    Separator_Name{0}=सेपरेटर
+    Separator_Name{1}=सेपरेटर
+    Side_Separator_Name{0}=साइड सेपरेटर
+    Side_Separator_Name{1}=साइड सेपरेटर
+    Structural_Part_Name{0}=बनावट का भाग
+    Structural_Part_Name{1}=बनावट का भाग
+    Landing_Leg_Name{0}=लैंडिंग लेग
+    Landing_Leg_Name{1}=लैंडिंग लेग
+    Aerodynamic_Nose_Cone_Name{0}=एरोडाइनैमिक नोज़ कोन
+    Aerodynamic_Nose_Cone_Name{1}=एरोडाइनैमिक नोज़ कोन
+    Aerodynamic_Fuselage_Name{0}=एरोडाइनैमिक फ्यूज़लेज
+    Aerodynamic_Fuselage_Name{1}=एरोडाइनैमिक फ्यूज़लेज
+    Fairing_Name{0}=फेरिंग
+    Fairing_Name{1}=फेरिंग
+    Rover_Wheel_Name{0}=रोवर व्हील
+    Rover_Wheel_Name{1}=रोवर व्हील
+    Docking_Port_Name{0}=डॉकिंग पोर्ट
+    Docking_Port_Name{1}=डॉकिंग पोर्ट
+    Solar_Panel_Name{0}=सोलर पैनल
+    Solar_Panel_Name{1}=सोलर पैनल
+    Battery_Name{0}=बैटरी
+    Battery_Name{1}=बैटरी
+    RTG_Name{0}=RTG
+    RTG_Name{1}=rtg
+
+[Part Descriptions]
+    Capsule_Description=एक अस्ट्रॉनॉट को ले जाने वाला छोटा सा कैप्सूल
+    Probe_Description=एक तरफ़ा मिशन के लिए इस्तेमाल किए जाने वाला, एक मानव रहित प्रोब
+    Parachute_Description=लैंडिंग के लिए इस्तेमाल किये जाने वाला पैराशूट
+    Fuel_Tank_Description=लिक्विड फ्यूल और लिक्विड ऑक्सीजन ले जाने वाला फ्यूल टैंक
+    Separator_Description=खाली स्टेजेस को अलग करने के इस्तेमाल के लिए वर्टीकल सेपरेटर
+    Side_Separator_Description=साइड बूस्टर्स को अलग करने के इस्तेमाल के लिए हॉरिज़ॉन्टल सेपरेटर
+    Landing_Leg_Description=मून और ग्रहों की सतह पर लैंडिंग के लिए इस्तेमाल बढ़ाने घटाने वाला लेग
+    Structural_Part_Description=एक हल्का और मज़बूत बनाने का सामान (पार्ट)
+    Hawk_Engine_Description=एक ऊँचा ज़ोर - आमतौर पर एक रॉकेट की पहली स्टेज में इस्तेमाल किए जाने वाला, कम योग्यता वाला इंजन
+    Titan_Engine_Description=एक ज़्यादा ज़ोर - आमतौर पर एक रॉकेट की पहली स्टेज में इस्तेमाल किए जाने वाला, कम योग्यता वाला इंजन
+    Valiant_Engine_Description=बेहतरीन काम, कम ज़ोर. जब ज़ोर को प्राथमिकता नहीं दी जाती तब अंतरिक्ष में इस्तेमाल किया जाता है
+    Frontier_Engine_Description=बेहतरीन काम, कम ज़ोर. जब ज़ोर की उतनी ज़रुरत नहीं पड़ती तब अंतरिक्ष में इस्तेमाल किया जाता है
+    Kolibri_Engine_Description=लैंडर्स के लिए इस्तेमाल किए जाने वाला एक छोटा इंजन
+    Ion_Engine_Description=ज़बरदस्त काम करने वाला एक कम ज़ोर लगाने वाला इंजन
+    RCS_Thruster_Description=डॉकिंग के लिए इस्तेमाल किए जाने वाले छोटे डायरेक्शनल थ्रस्टर्स का एक सेट
+    Aerodynamic_Nose_Cone_Description=साइड बूस्टर्स के एरोडाइनैमिक्स को बेहतर बनाने के लिए इस्तेमाल किए जाने वाला एरोडाइनैमिक नोज़ कोन
+    Aerodynamic_Fuselage_Description=इंजन को कवर करने के लिए इस्तेमाल किए जाने वाला एक एरोडाइनैमिक फ्यूज़लेज
+    Fairing_Description=पेलोड को एनकैप्सुलेट करने के इस्तेमाल के लिए एक एरोडाइनैमिक फेरिंग
+    Battery_Description=इलेक्ट्रिक पॉवर को स्टोर करने के इस्तेमाल के लिए एक बैटरी
+    Solar_Panel_Description=एक सोलर पैनल जो बढ़ाने पर पॉवर जेनरेट करता है
+    RTG_Description=रेडियोआइसोटोप थर्मोइलेक्ट्रिक जनरेटर या RTG
+    Rover_Wheel_Description=ग्रहों की सतह पर ड्राइव करने के इस्तेमाल के लिए रोवर व्हील
+    Docking_Port_Description=एक डॉकिंग पोर्ट जिसका इस्तेमाल दो वाहनों को एक साथ जोड़ने के लिए किया जा सकता है
+
+[Modules]
+    Activate_Separator=अलग करें
+    Activate_Fairing=फेरिंग लगाएं
+
+    Torque_Module_Torque=टॉर्क: %value%kN
+    Separation_Force=अलग करने की शक्ति: %value%kN
+
+    State_On{0}=ऑन
+    State_Off{0}=ऑफ़
+
+    Engine_Module_State=इंजन %state{0}%
+    Engine_On_Label=इंजन ऑन
+
+    Msg_RCS_Module_State=RCS %state{0}%
+
+    Wheel_Module_State=रोवर व्हील %state{0}%
+    Wheel_On_Label=व्हील ऑन
+
+    Panel_Expanded=फैला हुआ
+    Landing_Leg_Expanded=लगाया गया
+
+    Info_Parachute_Max_Height=लगाने की अधिकतम ऊँचाई: %height%
+    Button_Activate_Parachute=पैराशूट लगाएं
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=खाली जगह पर पैराशूट नहीं लगाया जा सकता है
+    Msg_Cannot_Deploy_Parachute_Above=%height% के ऊपर पैराशूट नहीं लगाया जा सकता है
+    Msg_Cannot_Fully_Deploy_Above=%height% के ऊपर पैराशूट पूरी तरह से नहीं लगाया जा सकता है
+    Msg_Cannot_Deploy_Parachute_While_Faster=%velocity% से तेज़ जाते हुए पैराशूट नहीं लगाया जा सकता है
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=बिना हिले पैराशूट लगाया नहीं किया जा सकता है
+    Msg_Parachute_Half_Deployed=पैराशूट आधा लगाया गया है
+    Msg_Parachute_Fully_Deployed=पैराशूट पूरी तरह से लगाया गया
+    Msg_Parachute_Cut=पैराशूट कट किया गया
+
+[Planets]
+    Sun{0}=सन
+    Sun{1}=सन
+    Sun{2}=सन
+    Mercury{0}=मर्करी
+    Venus{0}=वीनस
+    Earth{0}=पृथ्वी
+    Earth{1}=पृथ्वी
+    Earth{2}=पृथ्वी
+    Earth{3}=पृथ्वी के
+    Moon{0}=मून
+    Moon{1}=मून
+    Moon{2}=मून
+    Mars{0}=मार्स
+    Phobos{0}=फ़ोबोस
+    Deimos{0}=डिमोस
+    Jupiter{0}=ज्यूपिटर
+    Jupiter{1}=ज्यूपिटर
+    Jupiter{2}=ज्यूपिटर
+    Jupiter{3}=ज्यूपिटर
+    Europa{0}=यूरोपा
+    Ganymede{0}=गेनीमेड
+    Io{0}=Io
+    Callisto{0}=कैलिस्टो
+
+[Achievements]
+    Reached_Low_Orbit=%planet{0}% की निचली ऑर्बिट पर पहुँच गया
+    Reached_High_Orbit=%planet{0}% की ऊपरी ऑर्बिट पर पहुँच गया
+    Descend_Low_Orbit=%planet{0}% की निचली ऑर्बिट पर उतर गया
+    Capture_Low_Orbit=%planet{0}% की निचली ऑर्बिट पर कैद हो गया
+    Capture_High_Orbit=%planet{0}% की ऊपरी ऑर्बिट पर कैद हो गया
+
+    Entered_Lower_Atmosphere=%planet{3}% के निचले वायुमंडल में प्रवेश किया
+    Entered_Upper_Atmosphere=%planet{3}% के ऊपरी वायुमंडल में प्रवेश किया
+    Left_Lower_Atmosphere=%planet{3}% के ऊपरी वायुमंडल पर पहुँच गया
+    Left_Upper_Atmosphere=%planet{3}% के वायुमंडल से सुरक्षित निकल गया
+
+    Landed=%planet{1}% की सतह पर लैंड हो गया
+    Crashed_Into_Terrain=%planet{1}% की सतह पर क्रैश हो गया
+
+    Entered_SOI=%planet{1}% के प्रभाव क्षेत्र में प्रवेश किया
+    Escaped_SOI=%planet{1}% के प्रभाव क्षेत्र से सुरक्षित निकल गया
+
+    Docked_Suborbital=%planet{1}% की सबऑर्बिटल ट्रजेक्टरी में डॉक किया गया
+    Docked_Orbit_Low=%planet{0}% की निचली ऑर्बिट पर डॉक किया गया
+    Docked_Orbit_Transfer=%planet{1}% की ट्रांसफर ऑर्बिट पर डॉक किया गया
+    Docked_Orbit_High=%planet{0}% की ऊँची ऑर्बिट पर डॉक किया गया
+    Docked_Escape=%planet{1}% की सुरक्षित बच निकलने वाली ट्रजेक्टरी में डॉक किया गया
+    Docked_Surface=%planet{1}% की सतह पर डॉक किया गया
+
+    Recover_Home=सुरक्षित रूप से %planet{1}% पर लौट आया
+    Recover_Landed=%planet{1}% की सतह पर मिशन ख़त्म हुआ
+    Recover_Space=अंतरिक्ष में %planet{1}% के करीब मिशन ख़त्म हुआ

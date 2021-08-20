@@ -1,0 +1,655 @@
+[Ungroupped]
+# REAM ME:
+# The format used here is derived from INI.
+# We have added something special called variants.
+# 
+# Example:
+# 
+# [Planets]
+# Earth{0}= Ziemia
+# Earth{1}= Ziemi
+# 
+# [Achievements]
+# Landed_Test0 = Wylądowano: %planet{0}%
+# Landed_Test1 = Wylądowano: %planet{1}%
+# 
+# Variants are used for many things, such as making phrases work, caps, etc
+# 
+# We recommend starting at the bottom of the file with achievements/planets, there variants are very clearly used.
+# 
+# 
+# 
+# Available font types: normal/compatibility
+# In case of missing characters use compatibility font.
+    Font=normalna
+
+[General]
+# Used for language select buttons
+    Language_Name_In_Local_Language=Polski
+
+    Cancel=Anuluj
+    Close=Zamknij
+
+    Open_Settings_Button=Ustawienia
+
+# Switching scenes buttons
+    Build_Rocket=Budowanie rakiety
+    Resume_Game=Wznów grę
+    Return_To_Main_Menu=Menu główne
+    Exit_To_Main_Menu=Wyjście do menu głównego
+
+[Main Menu]
+# Image at: https://drive.google.com/file/d/1mEFf3W964ldXBekpbTc-Jj1XcSnBQz4k/view?usp=udostępnianie
+    Play=Graj
+
+# Tutorial
+    Video_Tutorials_OpenButton=Samouczki wideo
+    Video_Orbit=Samouczek – orbitowanie
+    Video_Moon=Samouczek – księżyc
+    Video_Dock=Samouczek – dokowanie
+
+# Community
+    Community_OpenButton=Społeczność
+    Community_Youtube=YouTube
+    Community_Discord=Discord
+    Community_Reddit=Reddit
+
+# Roadmap
+    Roadmap_OpenButton=Przyszłe aktualizacje
+
+    Roadmap_Text=Wersja 1.51
+    Roadmap_Text=<color=grey>Stopniowanie</color>
+    Roadmap_Text=
+    Roadmap_Text=Wersja 1.52
+    Roadmap_Text=<color=grey>Samouczki</color>
+    Roadmap_Text=
+    Roadmap_Text=Wersja 1.53
+    Roadmap_Text=<color=grey>Wejście w atmosferę</color>
+    Roadmap_Text=
+    Roadmap_Text=Wersja 1.54
+    Roadmap_Text=<color=grey>Efekty wizualne, cząsteczki i dźwięki</color>
+    Roadmap_Text=
+    Roadmap_Text=Wersja 1.55
+    Roadmap_Text=<color=grey>Silniki pomocnicze na paliwo stałe</color>
+    Roadmap_Text=
+    Roadmap_Text=Wersja 1.6
+    Roadmap_Text=<color=grey>Astronauci</color>
+    Roadmap_Text=
+    Roadmap_Text=Wersja 1.7
+    Roadmap_Text=<color=grey>Kariera</color>
+    Roadmap_Text=
+    Roadmap_Text=Wersja 1.8
+    Roadmap_Text=<color=grey>Zewnętrzne planety</color>
+    Roadmap_Text=
+    Roadmap_Text=Układ elektryczny:
+    Roadmap_Text=<color=grey>W przyszłości mechanika układu elektrycznego zostanie gruntownie przebudowana i prawdopodobnie uzupełniona o nowe funkcje, takie jak możliwość przyśpieszania upływu czasu w trakcie pracy silników jonowych, a także kolejne zastosowania dla energii elektrycznej.</color>
+    Roadmap_Text=
+    Roadmap_Text=
+    Roadmap_Text=Prosimy pamiętać, że plany mogą ulec zmianie.
+
+# Credits
+    Credits_OpenButton=Autorzy
+
+    Credits_Text=Štefo Mai Morojna
+    Credits_Text=<Size=55> Projektant – Programista – Grafik</size>
+    Credits_Text=
+    Credits_Text=Jordi van der Molen
+    Credits_Text=<Size=55> Programista</size>
+    Credits_Text=
+    Credits_Text=Chris Christo
+    Credits_Text=<Size=55> Programista</size>
+    Credits_Text=
+    Credits_Text=Davi Vasc
+    Credits_Text=<Size=55> Kompozytor</size>
+    Credits_Text=
+    Credits_Text=Ashton Mills
+    Credits_Text=<size=55> Kompozytor</size>
+
+# Update menu
+    Update_Available=Dostępna jest nowa aktualizacja!
+    Update_Available=
+    Update_Available=Bieżąca wersja: %old%
+    Update_Available=Najnowsza wersja: %new%
+
+    Update_Confirm=Aktualizuj
+
+# Rate menu
+    Rate_Title=Czy chcesz ocenić grę lub napisać jej recenzję?
+    Rate_Title=
+    Rate_Title=Bardzo zależy nam na jakości gry, a Twoja opinia pomoże nam ją poprawić.
+    Rate_Title=
+    Rate_Title=Otrzymaliśmy już tysiące recenzji, ale wciąż je czytamy!
+
+    Rate_Confirm=Oceń
+
+# Close menu
+    Close_Game=Zamknąć grę?
+
+# Startup Messages
+    Early_Supporter_Message=Jako osoba wspierająca grę we wczesnej fazie, masz bezpłatny dostęp do następujących elementów:
+    Early_Supporter_Message=
+    Early_Supporter_Message= – Rozszerzenia z podzespołami
+    Early_Supporter_Message= – Rozszerzenia ze skórkami
+    Early_Supporter_Message= – Rozszerzenie z planetami
+    Early_Supporter_Message=
+    Early_Supporter_Message=Dziękujemy za wsparcie!
+
+[Worlds Menu]
+# Worlds are save slots; image at: https://drive.google.com/file/d/1vUYrXaem4ki1dcXRFUJLKWZEcE0PFno-/view?usp=udostępnianie
+    Create_New_World_Button=Utwórz świat
+
+# Create menu
+    Create_World_Title=Nazwa świata
+    Default_World_Name=Mój świat
+
+# Delete menu
+    World_Delete=Usunąć świat?
+
+# Select system menu
+    Select_Solar_System=Wybierz układ słoneczny swojego świata
+
+    Select_Solar_System__NotFound=Nie znaleziono układu słonecznego:
+    Select_Solar_System__NotFound=%system%
+    Select_Solar_System__NotFound=
+    Select_Solar_System__NotFound=Wybierz nowy układ słoneczny
+
+    Default_Solar_System=Układ słoneczny (domyślny)
+    Custom_Solar_System=%name% (niestandardowy)
+
+# World play times
+    Last_Played=Ostatnia gra: %value% temu
+    Just_Played=Ostatnia gra: chwilę temu
+    Time_Played=Długość rozgrywki: %value%
+
+[Saving]
+# Blueprint stuff; Blueprints are rocket designs; images at: https://drive.google.com/drive/folders/15m4nXgzr8fvql78TheE3Qy1WPrTaIqdJ?usp=udostępnianie
+    Blueprints_Menu_Title=Projekty
+    Unnamed_Blueprint=Nienazwany projekt
+    Save_Blueprint=Zapisz projekt
+    Load_Blueprint=Wczytaj projekt
+    Cannot_Save_Empty_Build=Nie można zapisać pustego projektu
+
+# Quicksave stuff; Quicksaves let players save at any time and return to it.
+# It does not necessarily have to be called quicksave, player just needs to understand its use.
+# Image at: https://drive.google.com/drive/folders/128aXHWoUhJXZbbKVBDXXSMoCvRwFpvct?usp=udostępnianie
+    Quicksaves_Menu_Title=Szybkie zapisy
+    Unnamed_Quicksave=Nienazwany szybki zapis
+    Create_Quicksave=Utwórz szybki zapis
+    Load_Quicksave=Wczytaj szybki zapis
+
+# Save and load menus; context seen in images from blueprint/quicksave stuff
+    Save=Zapisz
+    Load=Wczytaj
+    Delete=Usuń
+    Rename=Zmień nazwę
+
+# In progress
+    Saving_In_Progress=Zapisywanie...
+    Loading_In_Progress=Wczytywanie...
+
+# filetype (injected)
+    Blueprint{0}=Projekt
+    Blueprint{1}=projekt
+    Blueprint{2}=projekty
+
+    Quicksave{0}=Szybki zapis
+    Quicksave{1}=szybki zapis
+    Quicksave{2}=szybkie zapisy
+
+# Ask overwrite menu; image at: https://drive.google.com/file/d/1EOI9UIWAG-lNgrdk1IMmrpmf6rRBuA7Q/view?usp=udostępnianie
+    File_Already_Exists=Uwaga: %filetype{1}% o tej nazwie już istnieje
+    Overwrite_File=Nadpisz %filetype{1}%
+    New_File=Nowy %filetype{1}%
+
+# Load failure; image at: https://drive.google.com/file/d/1c7qHCdbS1ShSq4rKIHMpHKCTuh0pXeHv/view?usp=udostępnianie
+    Load_Failed=Uwaga: %filetype{1}% nie można zostać wczytany ze ścieżki %filepath%
+
+# Legacy Messages
+    Conversion_Message=Witamy w wersji 1.5
+    Conversion_Message=
+    Conversion_Message=Wszystkie zapisane gry z wersji 1.4 zostały automatycznie skonwertowane do wersji 1.5
+
+    Conversion_Success=Pobrano %filetype{1}% z wersji 1.4 i skonwertowano do formatu %version%
+
+    Conversion_Failed=Pobrano %filetype{1}% z wersji 1.4 i skonwertowano do formatu %version%
+    Conversion_Failed=
+    Conversion_Failed=Konwersja zakończona niepowodzeniem:
+    Conversion_Failed=%reason%
+
+[Purchasing]
+# Images at: https://drive.google.com/drive/folders/1kIhFuPRp8YXkZ8SVC5Jq9UJkNZqdasQC?usp=udostępnianie
+    Parts_Expansion=Rozszerzenie z podzespołami
+    Skins_Expansion=Rozszerzenie ze skórkami
+    Planets_Expansion=Rozszerzenie z planetami
+    Expansion_Bundle=Pakiet rozszerzeń
+    Upgrade_To_Bundle=Rozbuduj do pakietu
+
+    More_Parts=Więcej podzespołów...
+    More_Skins=Więcej skórek...
+
+    Why_Buy=Twoje wsparcie pomaga nam ulepszać grę!
+
+    Buy_Product=Kup %product%: %price%
+
+    Purchase_Thanks_Msg=Zakupiono: %product%
+    Purchase_Thanks_Msg=
+    Purchase_Thanks_Msg=Dziękujemy za zakup
+    Purchase_Thanks_Msg=Ruszaj odkrywać gwiazdy!
+
+    Owned=%product% (w posiadaniu)
+
+    Restore_Open=Przywróć
+
+    Restore_Text=Zakupy w systemie Android są przywracane automatycznie po uruchomieniu
+    Restore_Text=
+    Restore_Text=– Zaloguj się do konta Google Play, z którego zakupiono daną pozycję (sprawdź, czy pojawia się ona w historii zakupów konta Google Play).
+    Restore_Text=
+    Restore_Text=– Zwróć uwagę na przycisk zakupu; jeśli nie widzisz ceny, oznacza to, że gra nie może nawiązać połączenia ze sklepem. Sprawdź połączenie z Internetem i uruchom grę ponownie.
+    Restore_Text=
+    Restore_Text=Jeśli powyższe kroki nie skutkują, skontaktuj się ze mną, pisząc na adres games.moronja@gmail.com.
+    Restore_Text=
+    Restore_Text=Możesz również zaczekać; czasami informacja o zakupie przywraca się sama po upływie kilku godzin.
+
+    Purchase_FAQ_Open=FAQ
+
+    Purchase_FAQ_Text=<color=grey>Czy zakupione pozycje są przenoszone do nowych aktualizacji?</color>
+    Purchase_FAQ_Text=Oczywiście
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>Czy można utracić zakupione pozycje?</color>
+    Purchase_FAQ_Text=Zakupy są trwale przypisane do Twojego konta w sklepie, dzięki czemu nie utracisz ich w przypadku ponownej instalacji albo zmiany telefonu.
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>Czy obowiązuje zwrot pieniędzy?</color>
+    Purchase_FAQ_Text=Jak najbardziej – jeżeli zażądasz zwrotu w rozsądnych ramach czasowych, zwrócimy pieniądze bez zbędnych pytań.
+
+# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=udostępnianie
+    PartsExpansion_Tanks=Szeroki wybór zbiorników paliwa!
+    PartsExpansion_Engines=Silniki o dużym udźwigu!
+    PartsExpansion_Parts=Podzespoły w różnych kształtach i rozmiarach!
+
+    PartsExpansion_Build=Duża przestrzeń, na której zbudujesz
+    PartsExpansion_Build=i uruchomisz swoje projekty!
+
+# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=udostępnianie
+    SkinsExpansion_Tanks=Ozdabiaj podzespoły różnorodnymi skórkami!
+    SkinsExpansion_Interstages=Pokoloruj wszystko, od etapów pośrednich
+    SkinsExpansion_Nosecones=po czubki rakiet,
+    SkinsExpansion_Fairings=a nawet owiewki ładunku.
+
+# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=udostępnianie
+    PlanetsExpansion_Jupiter=Odkryj Jowisza i jego cztery największe księżyce!
+    PlanetsExpansion_Callisto=Usianą kraterami powierzchnię Kallisto!
+    PlanetsExpansion_Europa=Ogromne lodowe pustynie Europy!
+
+    PlanetsExpansion_Conclusion=Odległe światy czekają
+    PlanetsExpansion_Conclusion=na swoich odkrywców!
+
+# Expansion Bundle; images at: https://drive.google.com/file/d/1aWdcqNciwf7i3ju1Hx7mHnKyGBS2_tYU/view?usp=udostępnianie
+    ExpansionBundle_Sandbox=Bonus
+    ExpansionBundle_Sandbox=Tryb piaskownicy
+
+    ExpansionBundle_Infinite_Fuel=Nieskończona ilość paliwa
+    ExpansionBundle_No_Atmospheric_Drag=Brak oporu atmosferycznego
+    ExpansionBundle_Unbreakable_Parts=Niezniszczalne podzespoły
+    ExpansionBundle_No_Gravity=Brak przyciągania
+
+[Settings]
+# Image at: https://drive.google.com/file/d/1kF_zlTUw7QQnCIfcVNRHGDsn_rH-ySkF/view?usp=udostępnianie
+    Music_Name=Muzyka:
+    Sound_Name=Dźwięk:
+    Screen_Rotation_Name=Obrót wyświetlacza:
+    FPS_Name=Liczba klatek/s:
+    Language_Name=Język
+
+    Infinite_Fuel_Name=Nieskończona ilość paliwa:
+    No_Atmospheric_Drag_Name=Brak oporu atmosferycznego:
+    Unbreakable_Parts_Name=Niezniszczalne podzespoły:
+    No_Gravity_Name=Brak przyciągania:
+
+# This version of is displayed on screen to let players know what cheats they are using
+# Image as: https://drive.google.com/file/d/1_uDOsT_yAgui19jNqAwx_CMGvLoS5LYh/view?usp=udostępnianie
+    Cheat_On{0}=Wł.
+    Cheat_Off{0}=Wył.
+
+    Infinite_Fuel=Nieskończona ilość paliwa: %value{0}%
+    No_Atmospheric_Drag=Brak oporu atmosferycznego: %value{0}%
+    Unbreakable_Parts=Niezniszczalne podzespoły: %value{0}%
+    No_Gravity=Brak przyciągania: %value{0}%
+
+[Build]
+# Images at: https://drive.google.com/drive/folders/16-6I-SE_4nmVTjNxsUdAUJtUDIBe5WVz?usp=udostępnianie
+    Build_New_Rocket=Zbuduj nową rakietę
+    Resume_Build=Wznów budowanie
+
+    Symmetry_On=Symetria: Wł.
+    Symmetry_Off=Symetria: Wył.
+
+    Launch_Button=Start
+    Move_Rocket_Button=Przesuń rakietę
+
+# Clear build area
+    Clear_Warning=Wyczyścić?
+    Clear_Confirm=Wyczyść
+
+# Launch warnings
+    Missing_Capsule=Twoja rakieta nie ma kapsuły
+    Missing_Parachute=Twoja rakieta nie ma spadochronu
+
+    Too_Heavy=Twoja rakieta jest zbyt ciężka, by wystartować
+    Too_Heavy=
+    Too_Heavy=
+    Too_Heavy=Zmniejsz masę lub zastosuj mocniejszy silnik
+
+    Launch_Anyway_Button=Startuj mimo to
+
+# Example rockets
+    Example_Rockets_OpenMenu=Przykładowe rakiety
+    Basic_Rocket=Podstawowa rakieta
+    Stages=Stopnie
+    Ideal_Stages=Idealne stopnie
+    Lander=Lądownik
+
+[Map]
+    Toggle_Map_Button=Mapa
+
+# Shown in map when you escape a gravity field of a planet
+# image for escape/encounter at: https://drive.google.com/file/d/17jqJF09DWoqkgW9VGXdG7SRCSo0UmW0o/view?usp=udostępnianie
+    Escape=Ucieczka
+
+# Shown in map when you encounter/enter a gravity field of a planet
+    Encounter=Spotkanie
+
+# Shown in map when you approach/encounter another rocket
+    Rendezvous=Rendez-vous
+
+# Shows the transfer window to another planet
+# image at: https://drive.google.com/file/d/1zd8UEnVb91QmSDllEu1DyCbkCsDKbJk3/view?usp=udostępnianie
+    Transfer=Okno startowe
+
+[Game]
+# Image at: https://drive.google.com/file/d/1d0b-udFyO4ItlYu1vVaVdzgwdAeT1hPw/view?usp=udostępnianie
+    Throttle_On=Wł.
+    Throttle_Off=Wył.
+
+# Game supports screen rotation, we split into 2 lines in vertical mode
+    Height_Terrain_Vertical=Wysokość (terenu):
+    Height_Terrain_Vertical=
+    Height_Terrain_Vertical=%height%
+
+    Height_Vertical=Wysokość:
+    Height_Vertical=
+    Height_Vertical=%height%
+
+    Velocity_Vertical=Prędkość:
+    Velocity_Vertical=
+    Velocity_Vertical=%speed%
+
+# Angle indicates the best angle/direction the player can rotate their rocket towards
+    Angle_Vertical=Kąt:
+    Angle_Vertical=
+    Angle_Vertical=%angle% / %targetAngle%
+
+    Height_Terrain_Horizontal=Wysokość (terenu): %height%
+    Height_Horizontal=Wysokość: %height%
+    Velocity_Horizontal=Prędkość: %speed%
+
+# Angle indicates the best angle/direction the player can rotate their rocket towards
+    Angle_Horizontal=Kąt: %angle% / %targetAngle%
+
+[Game menus]
+# Image at: https://drive.google.com/file/d/1XPUZnlFGrs9ZQ0QRjqbvKMEwXg1Pl7cF/view?usp=udostępnianie
+    Restart_Mission=Wznów misję
+
+# Restart menu
+    Restart_Mission_To_Launch=Powrót na start
+
+    Restart_Mission_To_Launch_Warning=Powrócić do momentu startu?
+    Restart_Mission_To_Launch_Warning=
+    Restart_Mission_To_Launch_Warning=Postępy w grze zostaną cofnięte do postępów z momentu startu.
+
+    Restart_Mission_To_Build=Powrót do budowania
+
+    Restart_Mission_To_Build_Warning=Powrócić do trybu budowania?
+    Restart_Mission_To_Build_Warning=
+    Restart_Mission_To_Build_Warning=Postępy w grze zostaną cofnięte do postępów z momentu startu.
+
+# End mission menu; image at: https://drive.google.com/file/d/1L5FUM09JCZ6DCXFZfJPOM0CWHIEwvqMs/view?usp=udostępnianie
+    End_Mission_Menu_Title=Osiągnięcia za misję:
+    End_Mission=Zakończ misję
+
+# Clear space junk/debris
+    Clear_Debris_Warning=Posprzątać szczątki?
+    Clear_Debris_Warning=
+    Clear_Debris_Warning=To działanie poskutkuje usunięciem wszystkich rakiet, których nie można kontrolować.
+
+    Clear_Debris_Confirm=Posprzątaj szczątki
+
+# Select menu; Image at: https://drive.google.com/file/d/1CBIAZ3o_Z7bpEAb8sVdTdDeF4KB8-Yyi/view?usp=udostępnianie
+    Navigate_To=Nawiguj do
+    End_Navigation=Zakończ nawigację
+    Focus=Przybliż
+    Unfocus=Oddal
+    Switch_To=Przełącz do
+
+[Rocket]
+    Default_Rocket_Name=Rakieta
+
+# Informs the player that he cannot perform an action due to rocket having no control
+    No_Control_Msg=Brak kontroli
+
+[Timewarp]
+# Timewarp = przyśpiesz upływ czasu, aby skrócić dłuższe okresy oczekiwania
+    Msg_Timewarp_Speed=Przyśpieszenie czasu %speed%x
+    Cannot_Timewarp_Below=Nie można przyśpieszać czasu poniżej %height%
+    Cannot_Timewarp_While_Moving_On_Surface=Nie można przyśpieszać czasu podczas ruchu blisko powierzchni
+    Cannot_Timewarp_While_Accelerating=Nie można przyśpieszać czasu podczas przyśpieszania pojazdem
+    Cannot_Use_Part_While_Timewarping=Podczas przyśpieszania czasu nie można użyć %part{1}%
+    Cannot_Turn_While_Timewarping=Podczas przyśpieszania czasu nie można obracać pojazdem
+
+[Units]
+# Image at: https://drive.google.com/file/d/1ljpGY55W8V1wF9esl5v569B0Z-D6xxMt/view?usp=udostępnianie
+    Thrust_To_Weight_Ratio=Ciąg / Waga: %value%
+    Mass=Masa: %value%t
+    Thrust=Siła ciągu: %value%t
+    Burn_Time=Czas pracy silnika: %value%s
+
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=udostępnianie
+    Efficiency=Sprawność: %value% Isp
+    Mass_Unit=t
+    Meter_Unit=m
+    Km_Unit=km
+    Meter_Per_Second_Unit=m/s
+
+[Timestamps]
+    Second_Short=%value%s
+    Minute_Short=%value%m
+    Hour_Short=%value%h
+    Day_Short=%value%d
+
+[Resource Types]
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=udostępnianie
+    Solid_Fuel{0}=Paliwo stałe
+    Solid_Fuel{1}=paliwo stałe
+    Liquid_Fuel{0}=Paliwo płynne
+    Liquid_Fuel{1}=paliwo płynne
+
+[Resource Uses]
+    Resource_Bars_Title=%resource_name{0}%:
+    Info_Resource_Amount=%resource{0}%: %amount%
+    Msg_No_Resource_Source=Brak źródła: %resource{1}%
+    Msg_No_Resource_Left=Brak zasobu: %resource{1}%
+
+[Part Categories]
+# Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=udostępnianie
+    Basic_Parts=Podstawy
+    Six_Wide_Parts=Szerokość: 6
+    Eight_Wide_Parts=Szerokość: 8
+    Ten_Wide_Parts=Szerokość: 10
+    Twelve_Wide_Parts=Szerokość: 12
+    Engine_Parts=Silniki
+    Aerodynamics_Parts=Aerodynamika
+    Fairings_Parts=Owiewki
+    Structural_Parts=Struktura
+    Other_Parts=Inne
+
+[Part Names]
+    Capsule_Name{0}=Kapsuła
+    Capsule_Name{1}=kapsuła
+    Probe_Name{0}=Sonda
+    Probe_Name{1}=sonda
+    Parachute_Name{0}=Spadochron
+    Parachute_Name{1}=spadochron
+    Kolibri_Engine_Name{0}=Silnik Koliber
+    Kolibri_Engine_Name{1}=silnik Koliber
+    Hawk_Engine_Name{0}=Silnik Jastrząb
+    Hawk_Engine_Name{1}=silnik Jastrząb
+    Valiant_Engine_Name{0}=Silnik Waleczny
+    Valiant_Engine_Name{1}=silnik Waleczny
+    Titan_Engine_Name{0}=Silnik Tytan
+    Titan_Engine_Name{1}=silnik Tytan
+    Frontier_Engine_Name{0}=Silnik Pogranicze
+    Frontier_Engine_Name{1}=silnik Pogranicze
+    Ion_Engine_Name{0}=Silnik jonowy
+    Ion_Engine_Name{1}=silnik jonowy
+    RCS_Thruster_Name{0}=Silnik manewrowy (RCS)
+    RCS_Thruster_Name{1}=silnik manewrowy (RCS)
+    Fuel_Tank_Name{0}=Zbiornik paliwa
+    Fuel_Tank_Name{1}=zbiornik paliwa
+    Separator_Name{0}=Separator
+    Separator_Name{1}=separator
+    Side_Separator_Name{0}=Separator boczny
+    Side_Separator_Name{1}=separator boczny
+    Structural_Part_Name{0}=Element strukturalny
+    Structural_Part_Name{1}=element strukturalny
+    Landing_Leg_Name{0}=Noga do lądowania
+    Landing_Leg_Name{1}=noga do lądowania
+    Aerodynamic_Nose_Cone_Name{0}=Aerodynamiczny stożek kadłuba
+    Aerodynamic_Nose_Cone_Name{1}=aerodynamiczny stożek kadłuba
+    Aerodynamic_Fuselage_Name{0}=Aerodynamiczny kadłub
+    Aerodynamic_Fuselage_Name{1}=aerodynamiczny kadłub
+    Fairing_Name{0}=Owiewka
+    Fairing_Name{1}=owiewka
+    Rover_Wheel_Name{0}=Koło łazika
+    Rover_Wheel_Name{1}=koło łazika
+    Docking_Port_Name{0}=Port dokowania
+    Docking_Port_Name{1}=port dokowania
+    Solar_Panel_Name{0}=Panel słoneczny
+    Solar_Panel_Name{1}=panel słoneczny
+    Battery_Name{0}=Akumulator
+    Battery_Name{1}=akumulator
+    RTG_Name{0}=RTG
+    RTG_Name{1}=rtg
+
+[Part Descriptions]
+    Capsule_Description=Mała jednoosobowa kapsuła.
+    Probe_Description=Bezzałogowa sonda używana do misji w jedną stronę.
+    Parachute_Description=Spadochron używany do lądowania.
+    Fuel_Tank_Description=Zbiornik paliwa zawierający ciekłe paliwo i ciekły tlen.
+    Separator_Description=Separator pionowy służący do odłączania pustych stopni.
+    Side_Separator_Description=Separator poziomy służący do odłączania bocznych silników pomocniczych.
+    Landing_Leg_Description=Wysuwana i chowana podpora służąca do lądowania na powierzchni księżyców i planet.
+    Structural_Part_Description=Lekki, lecz wytrzymały element strukturalny pojazdu.
+    Hawk_Engine_Description=Silnik o dużej sile ciągu i niższej sprawności, zwykle używany w pierwszym stopniu rakiety.
+    Titan_Engine_Description=Silnik o dużej sile ciągu i niższej sprawności, zwykle używany w pierwszym stopniu rakiety.
+    Valiant_Engine_Description=Wysoka sprawność, mała siła ciągu. Używany w przestrzeni kosmicznej, gdzie duży ciąg nie jest najważniejszy.
+    Frontier_Engine_Description=Wysoka sprawność, mała siła ciągu. Używany w przestrzeni kosmicznej, gdzie duży ciąg nie jest najważniejszy.
+    Kolibri_Engine_Description=Niewielki silnik używany w lądownikach.
+    Ion_Engine_Description=Silnik o małym ciągu i niewiarygodnie wysokiej sprawności.
+    RCS_Thruster_Description=Zestaw małych silników kierunkowych używanych do dokowania.
+    Aerodynamic_Nose_Cone_Description=Aerodynamiczny stożek nosowy. Poprawia aerodynamikę bocznych silników pomocniczych.
+    Aerodynamic_Fuselage_Description=Aerodynamiczny kadłub służący do osłaniania silników.
+    Fairing_Description=Aerodynamiczna owiewka służąca do zabezpieczenia użytecznego ładunku.
+    Battery_Description=Akumulator do magazynowania energii elektrycznej.
+    Solar_Panel_Description=Panel słoneczny, który po rozłożeniu wytwarza energię.
+    RTG_Description=Radioizotopowy generator termoelektryczny.
+    Rover_Wheel_Description=Koło do łazika służące do jazdy po powierzchniach planet.
+    Docking_Port_Description=Port dokowania, który może służyć do połączenia dwóch pojazdów.
+
+[Modules]
+    Activate_Separator=Odłącz
+    Activate_Fairing=Otwórz owiewkę
+
+    Torque_Module_Torque=Moment obrotowy: %value%kN
+    Separation_Force=Siła separacji: %value%kN
+
+    State_On{0}=Wł.
+    State_Off{0}=Wył.
+
+    Engine_Module_State=Silnik %state{0}%
+    Engine_On_Label=Silnik włączony
+
+    Msg_RCS_Module_State=RCS %state{0}%
+
+    Wheel_Module_State=Koło łazika %state{0}%
+    Wheel_On_Label=Koło włączone
+
+    Panel_Expanded=Rozłożony
+    Landing_Leg_Expanded=Rozłożony
+
+    Info_Parachute_Max_Height=Maksymalna wysokość rozłożenia: %height%
+    Button_Activate_Parachute=Rozłóż spadochron
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=Nie można rozłożyć spadochronu w próżni
+    Msg_Cannot_Deploy_Parachute_Above=Nie można rozłożyć spadochronu powyżej %height%
+    Msg_Cannot_Fully_Deploy_Above=Nie można w pełni rozłożyć spadochronu powyżej %height%
+    Msg_Cannot_Deploy_Parachute_While_Faster=Nie można rozłożyć spadochronu, gdy prędkość jest większa niż %velocity%
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=Nie można rozłożyć spadochronu, gdy pojazd jest w stanie spoczynku
+    Msg_Parachute_Half_Deployed=Spadochron rozłożony częściowo
+    Msg_Parachute_Fully_Deployed=Spadochron rozłożony całkowicie
+    Msg_Parachute_Cut=Spadochron urwany
+
+[Planets]
+    Sun{1}=Słońce
+    Sun{0}=Słońca
+    Mercury{1}=Merkury
+	Mercury{0}=Merkurego
+    Venus{0}=Wenus
+    Earth{0}=Ziemi
+    Earth{1}=Ziemia
+	Earth{2}=ziemską
+    Moon{1}=Księżyc
+    Moon{0}=Księżyca
+    Mars{1}=Mars
+	Mars{0}=Marsa
+    Phobos{1}=Fobos
+	Phobos{0}=Fobosa
+    Deimos{1}=Deimos
+	Deimos{0}=Deimosa
+    Jupiter{1}=Jowisz
+    Jupiter{0}=Jowisza
+    Europa{1}=Europa
+	Europa{0}=Europy
+    Ganymede{1}=Ganimedes
+	Ganymede{0}=Ganimedesa
+    Io{0}=Io
+    Callisto{0}=Kallisto
+
+[Achievements]
+    Reached_Low_Orbit=Osiągnięto niską orbitę %planet{2}%
+    Reached_High_Orbit=Osiągnięto niską orbitę %planet{2}%
+    Descend_Low_Orbit=Zejście pojazdem na niską orbitę %planet{2}%
+    Capture_Low_Orbit=Wstrzelono pojazd na niską orbitę %planet{2}%
+    Capture_High_Orbit=Wstrzelono pojazd na wysoką orbitę %planet{2}%
+
+    Entered_Lower_Atmosphere=Wejście w dolną atmosferę %planet{2}%
+    Entered_Upper_Atmosphere=Wejście w górną atmosferę %planet{2}%
+    Left_Lower_Atmosphere=Osiągnięto górną atmosferę %planet{2}%
+    Left_Upper_Atmosphere=Opuszczono atmosferę %planet{2}%
+
+    Landed=Wylądowano na powierzchni %planet{0}%
+    Crashed_Into_Terrain=Rozbito pojazd na powierzchni %planet{0}%
+
+    Entered_SOI=Osiągnięto sferę przyciągania %planet{0}%
+    Escaped_SOI=Opuszczono sferę przyciągania %planet{0}%
+
+    Docked_Suborbital=Zadokowano na trajektorii suborbitalnej %planet{0}%
+    Docked_Orbit_Low=Zadokowano na niskiej orbicie %planet{0}%
+    Docked_Orbit_Transfer=Zadokowano na orbicie transferowej %planet{0}%
+    Docked_Orbit_High=Zadokowano na wysokiej orbicie %planet{0}%
+    Docked_Escape=Zadokowano na orbicie ucieczki %planet{0}%
+    Docked_Surface=Zadokowano na powierzchni %planet{0}%
+
+    Recover_Home=Bezpiecznie powrócono na powierzchnię %planet{0}%
+    Recover_Landed=Zakończono misję na powierzchni %planet{0}%
+    Recover_Space=Zakończono misję w kosmosie nieopodal %planet{0}%
+

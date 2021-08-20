@@ -1,0 +1,653 @@
+[Ungroupped]
+# REAM ME:
+# The format used here is derived from INI.
+# We have added something special called variants.
+# 
+# Example:
+# 
+# [Planets]
+# Earth{0}= 地球
+# Earth{1}= 地球
+# 
+# [Achievements]
+# Landed_Test0 = 已登陆%planet{0}%
+# Landed_Test1 = 已登陆%planet{1}%
+# 
+# Variants are used for many things, such as making phrases work, caps, etc
+# 
+# We recommend starting at the bottom of the file with achievements/planets, there variants are very clearly used.
+# 
+# 
+# 
+# Available font types: normal/compatibility
+# In case of missing characters use compatibility font.
+    Font=normal
+
+[General]
+# Used for language select buttons
+    Language_Name_In_Local_Language=简体中文
+
+    Cancel=取消
+    Close=关闭
+
+    Open_Settings_Button=设置
+
+# Switching scenes buttons
+    Build_Rocket=建造火箭
+    Resume_Game=回到游戏
+    Return_To_Main_Menu=主菜单
+    Exit_To_Main_Menu=返回主菜单
+
+[Main Menu]
+# Image at: https://drive.google.com/file/d/1mEFf3W964ldXBekpbTc-Jj1XcSnBQz4k/view?usp=sharing
+    Play=开始游戏
+
+# Tutorial
+    Video_Tutorials_OpenButton=视频教程
+    Video_Orbit=轨道教程
+    Video_Moon=卫星教程
+    Video_Dock=对接教程
+
+# Community
+    Community_OpenButton=社区
+    Community_Youtube=Youtube
+    Community_Discord=Discord
+    Community_Reddit=Reddit
+
+# Roadmap
+    Roadmap_OpenButton=今后的更新
+
+    Roadmap_Text=1.51 版本
+    Roadmap_Text=<color=grey>分级</color>
+    Roadmap_Text=
+    Roadmap_Text=1.52 版本
+    Roadmap_Text=<color=grey>教程</color>
+    Roadmap_Text=
+    Roadmap_Text=1.53 版本
+    Roadmap_Text=<color=grey>再进入</color>
+    Roadmap_Text=
+    Roadmap_Text=1.54 版本
+    Roadmap_Text=<color=grey>视觉效果、粒子与声音</color>
+    Roadmap_Text=
+    Roadmap_Text=1.55 版本
+    Roadmap_Text=<color=grey>固态火箭推进器</color>
+    Roadmap_Text=
+    Roadmap_Text=1.6 版本
+    Roadmap_Text=<color=grey>宇航员</color>
+    Roadmap_Text=
+    Roadmap_Text=1.7 版本
+    Roadmap_Text=<color=grey>生涯</color>
+    Roadmap_Text=
+    Roadmap_Text=1.8 版本
+    Roadmap_Text=<color=grey>外行星</color>
+    Roadmap_Text=
+    Roadmap_Text=电力系统：
+    Roadmap_Text=<color=grey>整个电力系统将在今后完成彻底检修，最有可能推出的功能包括离子发动机燃烧时的时间跳跃以及其他更多电力使用</color>
+    Roadmap_Text=
+    Roadmap_Text=
+    Roadmap_Text=请记住，计划有可能会出现变更
+
+# Credits
+    Credits_OpenButton=制作组
+
+    Credits_Text=Štefo Mai Morojna
+    Credits_Text=<Size=55> 设计 - 程序 - 美术 </size>
+    Credits_Text=
+    Credits_Text=Jordi van der Molen
+    Credits_Text=<Size=55> 程序 </size>
+    Credits_Text=
+    Credits_Text=Chris Christo
+    Credits_Text=<Size=55> 程序 </size>
+    Credits_Text=
+    Credits_Text=Davi Vasc
+    Credits_Text=<Size=55> 作曲 </size>
+    Credits_Text=
+    Credits_Text=Ashton Mills
+    Credits_Text=<size=55> 作曲 </size>
+
+# Update menu
+    Update_Available=可下载新的补丁了！
+    Update_Available=
+    Update_Available=当前版本：%old%
+    Update_Available=最新版本：%new%
+
+    Update_Confirm=更新
+
+# Rate menu
+    Rate_Title=你愿意为本游戏评分或者写评论吗？
+    Rate_Title=
+    Rate_Title=我们非常注重我们的游戏质量，您的反馈将有助于我们不断改进
+    Rate_Title=
+    Rate_Title=即便是收到了成千上万条评论，我们也会耐心查看！
+
+    Rate_Confirm=评价
+
+# Close menu
+    Close_Game=确定关闭游戏吗？
+
+# Startup Messages
+    Early_Supporter_Message=作为早期支持者，您可以免费获得：
+    Early_Supporter_Message=
+    Early_Supporter_Message= - 部件扩展包
+    Early_Supporter_Message= - 皮肤扩展包
+    Early_Supporter_Message= - 星球扩展包
+    Early_Supporter_Message=
+    Early_Supporter_Message=感谢您的支持！
+
+[Worlds Menu]
+# Worlds are save slots; image at: https://drive.google.com/file/d/1vUYrXaem4ki1dcXRFUJLKWZEcE0PFno-/view?usp=分享
+    Create_New_World_Button=创建世界
+
+# Create menu
+    Create_World_Title=世界名
+    Default_World_Name=我的世界
+
+# Delete menu
+    World_Delete=删除世界
+
+# Select system menu
+    Select_Solar_System=选择世界的太阳系
+
+    Select_Solar_System__NotFound=无法找到的太阳系：
+    Select_Solar_System__NotFound=%system%
+    Select_Solar_System__NotFound=
+    Select_Solar_System__NotFound=选择一个新的太阳系
+
+    Default_Solar_System=太阳系（默认）
+    Custom_Solar_System=%name%（自定义）
+
+# World play times
+    Last_Played=最近游玩：%value% 前
+    Just_Played=最近游玩：刚刚
+    Time_Played=游戏时间：%value%
+
+[Saving]
+# Blueprint stuff; Blueprints are rocket designs; images at: https://drive.google.com/drive/folders/15m4nXgzr8fvql78TheE3Qy1WPrTaIqdJ?usp=分享
+    Blueprints_Menu_Title=蓝图
+    Unnamed_Blueprint=未命名的蓝图
+    Save_Blueprint=保存蓝图
+    Load_Blueprint=加载蓝图
+    Cannot_Save_Empty_Build=无法保存空蓝图
+
+# Quicksave stuff; Quicksaves let players save at any time and return to it.
+# It does not necessarily have to be called quicksave, player just needs to understand its use.
+# Image at: https://drive.google.com/drive/folders/128aXHWoUhJXZbbKVBDXXSMoCvRwFpvct?usp=分享
+    Quicksaves_Menu_Title=快速存档
+    Unnamed_Quicksave=未命名的快速存档
+    Create_Quicksave=创建快速存档
+    Load_Quicksave=加载快速存档
+
+# Save and load menus; context seen in images from blueprint/quicksave stuff
+    Save=保存
+    Load=加载
+    Delete=删除
+    Rename=重命名
+
+# In progress
+    Saving_In_Progress=保存中…
+    Loading_In_Progress=加载中…
+
+# filetype (injected)
+    Blueprint{0}=蓝图
+    Blueprint{1}=蓝图
+    Blueprint{2}=蓝图
+
+    Quicksave{0}=快速存档
+    Quicksave{1}=快速存档
+    Quicksave{2}=快速存档
+
+# Ask overwrite menu; image at: https://drive.google.com/file/d/1EOI9UIWAG-lNgrdk1IMmrpmf6rRBuA7Q/view?usp=分享
+    File_Already_Exists=已拥有相同名称的%filetype{1}%
+    Overwrite_File=覆盖%filetype{1}%
+    New_File=新的%filetype{1}%
+
+# Load failure; image at: https://drive.google.com/file/d/1c7qHCdbS1ShSq4rKIHMpHKCTuh0pXeHv/view?usp=分享
+    Load_Failed=无法从%filepath%加载%filetype{1}%
+
+# Legacy Messages
+    Conversion_Message=欢迎来到 1.5 版本。
+    Conversion_Message=
+    Conversion_Message=所有 1.4 版本的存档已自动转换为 1.5 版本的存档
+
+    Conversion_Success=发现了 1.4 版本的%filetype{1}%，并转换为了%version%格式
+
+    Conversion_Failed=发现了 1.4 版本的%filetype{1}%，并转换为了%version%格式
+    Conversion_Failed=
+    Conversion_Failed=转换失败：
+    Conversion_Failed=%reason%
+
+[Purchasing]
+# Images at: https://drive.google.com/drive/folders/1kIhFuPRp8YXkZ8SVC5Jq9UJkNZqdasQC?usp=分享
+    Parts_Expansion=部件扩展包
+    Skins_Expansion=皮肤扩展包
+    Planets_Expansion=星球扩展包
+    Expansion_Bundle=扩展组合包
+    Upgrade_To_Bundle=升级至组合包
+
+    More_Parts=更多部件…
+    More_Skins=更多皮肤…
+
+    Why_Buy=您的支持将有助于我们不断改进游戏！
+
+    Buy_Product=购买%product% %price%
+
+    Purchase_Thanks_Msg=已购买：%product%
+    Purchase_Thanks_Msg=
+    Purchase_Thanks_Msg=感谢购买
+    Purchase_Thanks_Msg=现在就去探索群星吧！
+
+    Owned=%product%（已拥有）
+
+    Restore_Open=恢复
+
+    Restore_Text=安卓设备上的交易会在启动时自动恢复
+    Restore_Text=
+    Restore_Text=- 检查您是否登录了已购买物品的 Google Play 账号（检查 Google Play 购买历史中是否能查到该购买记录）
+    Restore_Text=
+    Restore_Text=- 检查购买按钮，如果没有显示价格，则说明游戏没有连接至商店。请检查网络连接并重启游戏
+    Restore_Text=
+    Restore_Text=如果以上方法都没有用，请通过邮件联系我：games.morojna@gmail.com
+    Restore_Text=
+    Restore_Text=您也可以尝试等待一会，购买的物品有时候隔几小时就会自己恢复
+
+    Purchase_FAQ_Open=常见问题
+
+    Purchase_FAQ_Text=<color=grey>购买的物品是否会在更新期间留存？</color>
+    Purchase_FAQ_Text=是的，当然
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>购买的物品有可能会丢失吗？</color>
+    Purchase_FAQ_Text=您购买的物品将会永久储存在您的商店账号中，并且即便是重装游戏或更换手机也不会丢失
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>你们会提供退款吗？</color>
+    Purchase_FAQ_Text=是的，当然。只要您在合理的时间内提出申请，我们将会无条件退款
+
+# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=分享
+    PartsExpansion_Tanks=各种各样的燃料箱！
+    PartsExpansion_Engines=重型起重引擎！
+    PartsExpansion_Parts=各种形状及尺寸的部件！
+
+    PartsExpansion_Build=超大的建造空间
+    PartsExpansion_Build=让您的创意变为现实！
+
+# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=分享
+    SkinsExpansion_Tanks=给您的部件绘上各种各样的皮肤！
+    SkinsExpansion_Interstages=从衔接级间
+    SkinsExpansion_Nosecones=到鼻罩
+    SkinsExpansion_Fairings=甚至是整流罩都涂上颜色
+
+# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=分享
+    PlanetsExpansion_Jupiter=探索木星及其四颗卫星！
+    PlanetsExpansion_Callisto=从木卫四满是陨石坑的地表！
+    PlanetsExpansion_Europa=到木卫二广阔的冰原！
+
+    PlanetsExpansion_Conclusion=遥远的天外世界正等着你
+    PlanetsExpansion_Conclusion=去探索！
+
+# Expansion Bundle; images at: https://drive.google.com/file/d/1aWdcqNciwf7i3ju1Hx7mHnKyGBS2_tYU/view?usp=分享
+    ExpansionBundle_Sandbox=奖励
+    ExpansionBundle_Sandbox=沙盒模式
+
+    ExpansionBundle_Infinite_Fuel=无限燃料
+    ExpansionBundle_No_Atmospheric_Drag=无大气阻力
+    ExpansionBundle_Unbreakable_Parts=部件不会破损
+    ExpansionBundle_No_Gravity=无重力
+
+[Settings]
+# Image at: https://drive.google.com/file/d/1kF_zlTUw7QQnCIfcVNRHGDsn_rH-ySkF/view?usp=分享
+    Music_Name=音乐：
+    Sound_Name=声音：
+    Screen_Rotation_Name=屏幕旋转：
+    FPS_Name=帧率：
+    Language_Name=语言：
+
+    Infinite_Fuel_Name=无限燃料：
+    No_Atmospheric_Drag_Name=无大气阻力：
+    Unbreakable_Parts_Name=部件不会破损：
+    No_Gravity_Name=无重力：
+
+# This version of is displayed on screen to let players know what cheats they are using
+# Image as: https://drive.google.com/file/d/1_uDOsT_yAgui19jNqAwx_CMGvLoS5LYh/view?usp=分享
+    Cheat_On{0}=开
+    Cheat_Off{0}=关
+
+    Infinite_Fuel=无限燃料：%value{0}%
+    No_Atmospheric_Drag=无大气阻力：%value{0}%
+    Unbreakable_Parts=部件不会破损：%value{0}%
+    No_Gravity=无重力：%value{0}%
+
+[Build]
+# Images at: https://drive.google.com/drive/folders/16-6I-SE_4nmVTjNxsUdAUJtUDIBe5WVz?usp=分享
+    Build_New_Rocket=建造新的火箭
+    Resume_Build=继续建造
+
+    Symmetry_On=对称：开
+    Symmetry_Off=对称：关
+
+    Launch_Button=发射
+    Move_Rocket_Button=移动火箭
+
+# Clear build area
+    Clear_Warning=清空吗？
+    Clear_Confirm=清空
+
+# Launch warnings
+    Missing_Capsule=你的火箭没有太空舱
+    Missing_Parachute=你的火箭没有降落伞
+
+    Too_Heavy=你的火箭太重了，无法发射
+    Too_Heavy=
+    Too_Heavy=
+    Too_Heavy=请减轻重量或使用动力更强劲的引擎
+
+    Launch_Anyway_Button=仍然发射
+
+# Example rockets
+    Example_Rockets_OpenMenu=示例火箭
+    Basic_Rocket=基础火箭
+    Stages=分级
+    Ideal_Stages=理想分级
+    Lander=着陆器
+
+[Map]
+    Toggle_Map_Button=地图
+
+# Shown in map when you escape a gravity field of a planet
+# image for escape/encounter at: https://drive.google.com/file/d/17jqJF09DWoqkgW9VGXdG7SRCSo0UmW0o/view?usp=分享
+    Escape=逃离
+
+# Shown in map when you encounter/enter a gravity field of a planet
+    Encounter=遭遇
+
+# Shown in map when you approach/encounter another rocket
+    Rendezvous=会合点
+
+# Shows the transfer window to another planet
+# image at: https://drive.google.com/file/d/1zd8UEnVb91QmSDllEu1DyCbkCsDKbJk3/view?usp=分享
+    Transfer=转移窗口
+
+[Game]
+# Image at: https://drive.google.com/file/d/1d0b-udFyO4ItlYu1vVaVdzgwdAeT1hPw/view?usp=分享
+    Throttle_On=开
+    Throttle_Off=关
+
+# Game supports screen rotation, we split into 2 lines in vertical mode
+    Height_Terrain_Vertical=高度（地形）：
+    Height_Terrain_Vertical=
+    Height_Terrain_Vertical=%height%
+
+    Height_Vertical=高度：
+    Height_Vertical=
+    Height_Vertical=%height%
+
+    Velocity_Vertical=速度：
+    Velocity_Vertical=
+    Velocity_Vertical=%speed%
+
+# Angle indicates the best angle/direction the player can rotate their rocket towards
+    Angle_Vertical=角度：
+    Angle_Vertical=
+    Angle_Vertical=%angle% / %targetAngle%
+
+    Height_Terrain_Horizontal=高度（地形）：%height%
+    Height_Horizontal=高度：%height%
+    Velocity_Horizontal=速度：%speed%
+
+# Angle indicates the best angle/direction the player can rotate their rocket towards
+    Angle_Horizontal=角度：%angle% / %targetAngle%
+
+[Game menus]
+# Image at: https://drive.google.com/file/d/1XPUZnlFGrs9ZQ0QRjqbvKMEwXg1Pl7cF/view?usp=分享
+    Restart_Mission=重新开始任务
+
+# Restart menu
+    Restart_Mission_To_Launch=恢复至发射阶段
+
+    Restart_Mission_To_Launch_Warning=确定恢复至发射阶段吗？
+    Restart_Mission_To_Launch_Warning=
+    Restart_Mission_To_Launch_Warning=这将会使进度恢复自上次发射以来的状态
+
+    Restart_Mission_To_Build=恢复至建造阶段
+
+    Restart_Mission_To_Build_Warning=确定恢复至建造阶段吗？
+    Restart_Mission_To_Build_Warning=
+    Restart_Mission_To_Build_Warning=这将会使进度恢复自上次发射以来的状态
+
+# End mission menu; image at: https://drive.google.com/file/d/1L5FUM09JCZ6DCXFZfJPOM0CWHIEwvqMs/view?usp=分享
+    End_Mission_Menu_Title=任务成就：
+    End_Mission=结束任务
+
+# Clear space junk/debris
+    Clear_Debris_Warning=确定清除残骸吗？
+    Clear_Debris_Warning=
+    Clear_Debris_Warning=这将会移除所有无法控制的火箭
+
+    Clear_Debris_Confirm=清除残骸
+
+# Select menu; Image at: https://drive.google.com/file/d/1CBIAZ3o_Z7bpEAb8sVdTdDeF4KB8-Yyi/view?usp=分享
+    Navigate_To=导航至
+    End_Navigation=结束导航
+    Focus=聚焦
+    Unfocus=取消聚焦
+    Switch_To=切换至
+
+[Rocket]
+    Default_Rocket_Name=火箭
+
+# Informs the player that he cannot perform an action due to rocket having no control
+    No_Control_Msg=无控制
+
+[Timewarp]
+# Timewarp = 快进时间可跳过长时间的等待
+    Msg_Timewarp_Speed=时间加速 %speed%x
+    Cannot_Timewarp_Below=%height% 高度以下无法进行时间跳跃
+    Cannot_Timewarp_While_Moving_On_Surface=在地表移动时无法进行时间跳跃
+    Cannot_Timewarp_While_Accelerating=加速时无法进行时间跳跃
+    Cannot_Use_Part_While_Timewarping=时间跳跃期间无法使用%part{1}%
+    Cannot_Turn_While_Timewarping=时间跳跃期间无法转向
+
+[Units]
+# Image at: https://drive.google.com/file/d/1ljpGY55W8V1wF9esl5v569B0Z-D6xxMt/view?usp=分享
+    Thrust_To_Weight_Ratio=推力 / 重量：%value%
+    Mass=质量：%value% 吨
+    Thrust=推力：%value% 吨
+    Burn_Time=燃烧时间：%value% 秒
+
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=分享
+    Efficiency=效率：%value% 比冲
+    Mass_Unit=吨
+    Meter_Unit=米
+    Km_Unit=千米
+    Meter_Per_Second_Unit=米/秒
+
+[Timestamps]
+    Second_Short=%value% 秒
+    Minute_Short=%value% 分
+    Hour_Short=%value% 时
+    Day_Short=%value% 天
+
+[Resource Types]
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=分享
+    Solid_Fuel{0}=固态燃料
+    Solid_Fuel{1}=固态燃料
+    Liquid_Fuel{0}=液态燃料
+    Liquid_Fuel{1}=液态燃料
+
+[Resource Uses]
+    Resource_Bars_Title=%resource_name{0}%：
+    Info_Resource_Amount=%resource{0}%：%amount%
+    Msg_No_Resource_Source=无%resource{1}%来源
+    Msg_No_Resource_Left=%resource{1}%不足
+
+[Part Categories]
+# Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=分享
+    Basic_Parts=基础
+    Six_Wide_Parts=宽 6
+    Eight_Wide_Parts=宽 8
+    Ten_Wide_Parts=宽 10
+    Twelve_Wide_Parts=宽 12
+    Engine_Parts=引擎
+    Aerodynamics_Parts=空气动力
+    Fairings_Parts=整流罩
+    Structural_Parts=结构
+    Other_Parts=其他
+
+[Part Names]
+    Capsule_Name{0}=太空舱
+    Capsule_Name{1}=太空舱
+    Probe_Name{0}=探机
+    Probe_Name{1}=探机
+    Parachute_Name{0}=降落伞
+    Parachute_Name{1}=降落伞
+    Kolibri_Engine_Name{0}=蜂鸟引擎
+    Kolibri_Engine_Name{1}=蜂鸟引擎
+    Hawk_Engine_Name{0}=猎鹰引擎
+    Hawk_Engine_Name{1}=猎鹰引擎
+    Valiant_Engine_Name{0}=英勇引擎
+    Valiant_Engine_Name{1}=英勇引擎
+    Titan_Engine_Name{0}=泰坦引擎
+    Titan_Engine_Name{1}=泰坦引擎
+    Frontier_Engine_Name{0}=开拓者引擎
+    Frontier_Engine_Name{1}=开拓者引擎
+    Ion_Engine_Name{0}=离子引擎
+    Ion_Engine_Name{1}=离子引擎
+    RCS_Thruster_Name{0}=RCS 推进器
+    RCS_Thruster_Name{1}=RCS 推进器
+    Fuel_Tank_Name{0}=燃料箱
+    Fuel_Tank_Name{1}=燃料箱
+    Separator_Name{0}=分离器
+    Separator_Name{1}=分离器
+    Side_Separator_Name{0}=侧边分离器
+    Side_Separator_Name{1}=侧边分离器
+    Structural_Part_Name{0}=结构部件
+    Structural_Part_Name{1}=结构部件
+    Landing_Leg_Name{0}=着陆支架
+    Landing_Leg_Name{1}=着陆支架
+    Aerodynamic_Nose_Cone_Name{0}=空气动力前锥体
+    Aerodynamic_Nose_Cone_Name{1}=空气动力前锥体
+    Aerodynamic_Fuselage_Name{0}=空气动力机身
+    Aerodynamic_Fuselage_Name{1}=空气动力机身
+    Fairing_Name{0}=整流罩
+    Fairing_Name{1}=整流罩
+    Rover_Wheel_Name{0}=探测车
+    Rover_Wheel_Name{1}=探测车
+    Docking_Port_Name{0}=对接口
+    Docking_Port_Name{1}=对接口
+    Solar_Panel_Name{0}=太阳能电池板
+    Solar_Panel_Name{1}=太阳能电池板
+    Battery_Name{0}=电池
+    Battery_Name{1}=电池
+    RTG_Name{0}=RTG
+    RTG_Name{1}=RTG
+
+[Part Descriptions]
+    Capsule_Description=能够搭载一名宇航员的小型太空舱
+    Probe_Description=适用于单程任务的无人驾驶探机
+    Parachute_Description=用于着陆的降落伞
+    Fuel_Tank_Description=装有液态燃料和液态氧的燃料箱
+    Separator_Description=用于分离空分级的立式分离器
+    Side_Separator_Description=用于分离侧置助推器的卧式分离器
+    Landing_Leg_Description=用于在卫星或行星表面着陆的可伸缩支架
+    Structural_Part_Description=轻盈而坚固的结构部件
+    Hawk_Engine_Description=高推力、低效率的引擎，通常用于火箭的第一分级
+    Titan_Engine_Description=高推力、低效率的引擎，通常用于火箭的第一分级
+    Valiant_Engine_Description=高效率、低推力。适用于高推力并非优先考虑因素的太空环境中。
+    Frontier_Engine_Description=高效率、低推力。适用于高推力并非优先考虑因素的太空环境中。
+    Kolibri_Engine_Description=适用于着陆器的小型引擎
+    Ion_Engine_Description=有着超高效率的低推力引擎
+    RCS_Thruster_Description=一套用于对接的小型定向推进器
+    Aerodynamic_Nose_Cone_Description=空气动力前锥体，主要用于改善侧置助推器的空气动力
+    Aerodynamic_Fuselage_Description=用于覆盖引擎的空气动力机身
+    Fairing_Description=用于封装有效载荷的空气动力整流罩
+    Battery_Description=用于储存电力的电池
+    Solar_Panel_Description=延伸后可用来发电的太阳能电池板
+    RTG_Description=放射性同位素热电机或 RTG
+    Rover_Wheel_Description=用来在行星表面行驶的探测车
+    Docking_Port_Description=用来连接两辆载具的对接口
+
+[Modules]
+    Activate_Separator=分离
+    Activate_Fairing=展开整流罩
+
+    Torque_Module_Torque=扭矩：%value% kN
+    Separation_Force=分离力：%value% kN
+
+    State_On{0}=开
+    State_Off{0}=关
+
+    Engine_Module_State=引擎 %state{0}%
+    Engine_On_Label=引擎已启用
+
+    Msg_RCS_Module_State=RCS %state{0}%
+
+    Wheel_Module_State=探测车 %state{0}%
+    Wheel_On_Label=车轮已启用
+
+    Panel_Expanded=已扩展
+    Landing_Leg_Expanded=已展开
+
+    Info_Parachute_Max_Height=最大展开高度：%height%
+    Button_Activate_Parachute=展开降落伞
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=无法在真空中展开降落伞
+    Msg_Cannot_Deploy_Parachute_Above=无法在 %height% 以上的高度展开降落伞
+    Msg_Cannot_Fully_Deploy_Above=无法在 %height% 以上的高度完全展开降落伞
+    Msg_Cannot_Deploy_Parachute_While_Faster=无法在速度高于 %velocity% 时展开降落伞
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=无法在停止移动时展开降落伞
+    Msg_Parachute_Half_Deployed=降落伞已半展开
+    Msg_Parachute_Fully_Deployed=降落伞已完全展开
+    Msg_Parachute_Cut=降落伞已切断
+
+[Planets]
+    Sun{0}=太阳
+    Sun{1}=太阳
+    Sun{2}=太阳
+    Mercury{0}=水星
+    Venus{0}=金星
+    Earth{0}=地球
+    Earth{1}=地球
+    Earth{2}=地球
+    Earth{3}=地球
+    Moon{0}=月球
+    Moon{1}=月球
+    Moon{2}=月球
+    Mars{0}=火星
+    Phobos{0}=火卫一
+    Deimos{0}=火卫二
+    Jupiter{0}=木星
+    Jupiter{1}=木星
+    Jupiter{2}=木星
+    Jupiter{3}=木星
+    Europa{0}=木卫二
+    Ganymede{0}=木卫三
+    Io{0}=木卫一
+    Callisto{0}=木卫四
+
+[Achievements]
+    Reached_Low_Orbit=已到达近%planet{0}%轨道
+    Reached_High_Orbit=已到达远%planet{0}%轨道
+    Descend_Low_Orbit=已下降到近%planet{0}%轨道
+    Capture_Low_Orbit=已被捕捉至近%planet{0}%轨道
+    Capture_High_Orbit=已被捕捉至远%planet{0}%轨道
+
+    Entered_Lower_Atmosphere=已进入%planet{3}%下层大气
+    Entered_Upper_Atmosphere=已进入%planet{3}%上层大气
+    Left_Lower_Atmosphere=已到达%planet{3}%上层大气
+    Left_Upper_Atmosphere=已脱离%planet{3}%大气
+
+    Landed=已在%planet{1}%地表登陆
+    Crashed_Into_Terrain=已坠落至%planet{1}%地表
+
+    Entered_SOI=已进入%planet{1}%的影响范围
+    Escaped_SOI=已脱离%planet{1}%的影响范围
+
+    Docked_Suborbital=已在%planet{1}%的亚轨道对接
+    Docked_Orbit_Low=已在近%planet{0}%轨道对接
+    Docked_Orbit_Transfer=已在%planet{1}%的转移轨道对接
+    Docked_Orbit_High=已在远%planet{0}%轨道对接
+    Docked_Escape=已在%planet{1}%的脱离轨道对接
+    Docked_Surface=已在%planet{1}%地表对接
+
+    Recover_Home=已安全返回至%planet{1}%
+    Recover_Landed=已结束在%planet{1}%地表的任务
+    Recover_Space=已结束绕%planet{1}%的太空任务
