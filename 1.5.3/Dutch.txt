@@ -17,7 +17,7 @@
 
 [Main Menu]
 # Image at: https://drive.google.com/file/d/1mEFf3W964ldXBekpbTc-Jj1XcSnBQz4k/view?usp=sharing
-    Play=Spelen_Test
+    Play=Spelen
 
 # Tutorial
     Video_Tutorials_OpenButton=Videotutorials
