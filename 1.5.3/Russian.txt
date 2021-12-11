@@ -1,4 +1,4 @@
-/// Made by Michael Frolov: v1.5.2.0 Test 15.2
+/// Made by Michael Frolov: v1.5.3 Release
 
 [Ungroupped]
 Font=normal
@@ -30,10 +30,10 @@ Community_Reddit=Reddit
 Roadmap_OpenButton=Будущие обновления
 
 Roadmap_Text=Версия 1.51
-Roadmap_Text=<color=grey>Ступени</color>
+Roadmap_Text=<color=grey>Обучение</color>
 Roadmap_Text=
 Roadmap_Text=Версия 1.52
-Roadmap_Text=<color=grey>Обучение</color>
+Roadmap_Text=<color=grey>Ступени</color>
 Roadmap_Text=
 Roadmap_Text=Версия 1.53
 Roadmap_Text=<color=grey>Вход в атмосферу</color>
@@ -88,25 +88,18 @@ Update_Available=Установленная версия: %old%
 Update_Available=Актуальная версия: %new%
 
 Update_Confirm=Обновить
+Update_Overview_Video_Available=Узнайте, что нового в этом обновлении
+Update_Overview_Video_Confirm=Открыть
 
 Rate_Title=Желаете ли вы оставить отзыв об игре?
 Rate_Title=
 Rate_Title=Мы уделяем много времени качеству игры, ваши отзывы помогают нам развивать её 
 Rate_Title=
-Rate_Title=Даже среди тысяч отзывов мы прочитаем значительную их часть
+Rate_Title=Даже среди тысяч отзывов мы прочитаем значительную их часть!
 
 Rate_Confirm=Оценить
 
 Close_Game=Закрыть игру?
-
-Early_Supporter_Message=За раннюю поддержку у вас имеется бесплатный доступ к Пакету дополнений, включающему:
-Early_Supporter_Message=
-Early_Supporter_Message=- Дополнение деталей
-Early_Supporter_Message=- Дополнение текстур
-Early_Supporter_Message=- Дополнение планет
-Early_Supporter_Message=- Режим песочницы
-Early_Supporter_Message=
-Early_Supporter_Message=Спасибо за вашу поддержку!
 
 [Worlds Menu]
 Create_New_World_Button=Создать мир
@@ -132,31 +125,35 @@ Time_Played=Время игры: %value%
 
 [Saving]
 Blueprints_Menu_Title=Чертежи
-Blueprint{0}=Чертёж
-Blueprint{1}=чертёж
-Blueprint{2}=Новый чертёж
-Blueprint{3}=Обнаружен чертёж
 Unnamed_Blueprint=Чертёж
 Save_Blueprint=Сохранить чертёж
 Load_Blueprint=Загрузить чертёж
 Cannot_Save_Empty_Build=Нельзя сохранять пустой чертёж
 
 Quicksaves_Menu_Title=Сохранения
-Quicksave{0}=Сохранение
-Quicksave{1}=сохранение
-Quicksave{2}=Новое сохранение
-Quicksave{3}=Обнаружено сохранение
 Unnamed_Quicksave=Сохранённая игра
 Create_Quicksave=Сохранить игру
 Load_Quicksave=Загрузить игру
 
 Save=Сохранить
 Load=Загрузить
+Import=Импорт
 Delete=Удалить
 Rename=Переименовать
 
 Saving_In_Progress=Сохранение...
 Loading_In_Progress=Загрузка...
+Importing_In_Progress=Импорт...
+
+Blueprint{0}=Чертёж
+Blueprint{1}=чертёж
+Blueprint{2}=Новый чертёж
+Blueprint{3}=Обнаружен чертёж
+
+Quicksave{0}=Сохранение
+Quicksave{1}=сохранение
+Quicksave{2}=Новое сохранение
+Quicksave{3}=Обнаружено сохранение
 
 File_Already_Exists=%filetype{0}% с таким названием уже существует
 Overwrite_File=Заменить %filetype{1}%
@@ -164,15 +161,11 @@ New_File=%filetype{2}%
 
 Load_Failed=Не удалось загрузить %filetype{1}% из %filepath%
 
-Conversion_Message=Добро пожаловать в 1.5!
-Conversion_Message=
-Conversion_Message=Все ваши старые сохранения были автоматически переведены в новый формат
-
 Conversion_Success=%filetype{3}% старой версии, файл переведён в формат версии %version%
 
 Conversion_Failed=%filetype{3}% старой версии, файл переведён в формат версии %version%
 Conversion_Failed=
-Conversion_Failed=Не удалось перевести файл в новый формат:
+Conversion_Failed=Ошибка перевода:
 Conversion_Failed=%reason%
 
 [Purchasing]
@@ -233,16 +226,17 @@ SkinsExpansion_Fairings=... и даже обтекателей!
 
 PlanetsExpansion_Jupiter=Исследуйте систему Юпитера и четырёх его спутников!
 PlanetsExpansion_Callisto=От поверхности Каллисто с её огромными кратерами...
-PlanetsExpansion_Europa=... до огромных ледников Европы!
+PlanetsExpansion_Europa=... до просторных ледяных равнин Европы!
 PlanetsExpansion_Conclusion=Дальние миры ждут, пока вы посетите и исследуете их!
 
 ExpansionBundle_Sandbox=Бонусный
 ExpansionBundle_Sandbox=Режим песочницы
 
 ExpansionBundle_Infinite_Fuel=Бесконечное топливо
-ExpansionBundle_No_Atmospheric_Drag=Без аэродинамики
-ExpansionBundle_Unbreakable_Parts=Нерушимые детали
-ExpansionBundle_No_Gravity=Без гравитации
+ExpansionBundle_No_Atmospheric_Drag=Нет аэродинамики
+ExpansionBundle_Unbreakable_Parts=Нет урона от ударов
+ExpansionBundle_No_Gravity=Нет гравитации
+ExpansionBundle_No_Heat_Damage=Нет теплового урона
 
 [Settings]
 Music_Name=Музыка:
@@ -252,21 +246,22 @@ FPS_Name=FPS:
 Language_Name=Язык:
 
 Infinite_Fuel_Name=Бесконечное топливо:
-No_Atmospheric_Drag_Name=Без аэродинамики:
-Unbreakable_Parts_Name=Нерушимые детали:
-No_Gravity_Name=Без гравитации:
+No_Atmospheric_Drag_Name=Нет аэродинамики:
+No_Collision_Damage_Name=Нет урона от ударов:
+No_Gravity_Name=Нет гравитации:
+No_Heat_Damage_Name=Нет теплового урона:
+Part_Clipping_Name=Наложение деталей:
 
-Cheat_On{0}=вкл.
-Cheat_Off{0}=выкл.
-
-Infinite_Fuel=Бесконечное топливо: %value{0}%
-No_Atmospheric_Drag=Без аэродинамики: %value{0}%
-Unbreakable_Parts=Нерушимые детали: %value{0}%
-No_Gravity=Без гравитации: %value{0}%
+Using_Infinite_Fuel=Бесконечное топливо
+Using_No_Atmospheric_Drag=Нет аэродинамики
+Using_No_Collision_Damage=Нет урона от ударов
+Using_No_Gravity=Нет гравитации
+Using_No_Heat_Damage=Нет теплового урона
+Using_Part_Clipping=Наложение деталей
 
 [Build]
 Build_New_Rocket=Создать новую ракету
-Resume_Build=Продолжить постройку
+Expand_Last_Rocket=Открыть последнюю
 
 Symmetry_On=Симметрия: включена
 Symmetry_Off=Симметрия: выключена
@@ -277,12 +272,10 @@ Move_Rocket_Button=Переместить ракету
 Clear_Warning=Очистить поле постройки?
 Clear_Confirm=Очистить
 
-Missing_Capsule=У вашей ракеты отсутствует капсула
-Missing_Parachute=У вашей ракеты отсутствует парашют
-Too_Heavy=Ваша ракета слишком тяжела для взлёта
-Too_Heavy=
-Too_Heavy=Уменьшите вес или установите более мощные двигатели
-
+Missing_Capsule=На ракете отсутствует капсула, что делает её неуправляемой
+Missing_Parachute=На ракете отсутствует парашют
+Missing_Heat_Shield=На ракете отсутствует тепловой щит
+Too_Heavy=Ракета слишком тяжела для взлёта, уменьшите вес или установите более мощные двигатели
 Launch_Anyway_Button=Всё равно запустить
 
 Example_Rockets_OpenMenu=Примеры ракет
@@ -314,17 +307,19 @@ Velocity_Vertical=Скорость:
 Velocity_Vertical=
 Velocity_Vertical=%speed%
 
-Angle_Vertical=Направление:
+Angle_Vertical=Наклон:
 Angle_Vertical=
 Angle_Vertical=%angle% / %targetAngle%
 
 Height_Terrain_Horizontal=Высота (рельеф): %height%
 Height_Horizontal=Высота: %height%
 Velocity_Horizontal=Скорость: %speed%
-Angle_Horizontal=Направление: %angle% / %targetAngle%
+Angle_Horizontal=Наклон: %angle% / %targetAngle%
 
 [Game menus]
 Restart_Mission=Перезапуск миссии
+Recover_Rocket=Вернуть
+Destroy_Rocket=Уничтожить
 
 Restart_Mission_To_Launch=Вернуться к запуску
 
@@ -359,9 +354,14 @@ No_Control_Msg=Нет контроля
 
 [Timewarp]
 Msg_Timewarp_Speed=Ускорение времени: %speed%x
-Cannot_Timewarp_Below=Нельзя ускорять время ниже %height%
-Cannot_Timewarp_While_Moving_On_Surface=Нельзя ускорять время при движении по поверхности
-Cannot_Timewarp_While_Accelerating=Нельзя ускорять время при включенных двигателях
+Msg_Timewarp_Speed_Physics=Ускорение времени: %speed%x
+Msg_Timewarp_Speed_Physics=(физическое)
+Msg_Timewarp_Canceled=Ускорение времени отменено
+
+Cannot_Timewarp_Below_Basic=Нельзя ускорять время ниже %height%
+Cannot_Timewarp_Below=Нельзя ускорять время быстрее %speed%x на высоте ниже %height%
+Cannot_Timewarp_While_Moving_On_Surface=Нельзя ускорять время быстрее %speed%x при движении по поверхности
+Cannot_Timewarp_While_Accelerating=Нельзя ускорять время быстрее %speed%x при включенных двигателях
 Cannot_Use_Part_While_Timewarping=Нельзя использовать %part{1}% при ускоренном времени
 Cannot_Turn_While_Timewarping=Нельзя поворачивать при ускоренном времени
 
@@ -460,6 +460,10 @@ Battery_Name{0}=Батарея
 Battery_Name{1}=батарею
 RTG_Name{0}=РИТЭГ
 RTG_Name{1}=РИТЭГ
+Heat_Shield_Name{0}=Тепловой щит
+Heat_Shield_Name{1}=тепловой щит
+Fuel_Pipe_Name{0}=Топливопровод
+Fuel_Pipe_Name{1}=топливопровод
 
 [Part Descriptions]
 Capsule_Description=Небольшая капсула, вмещает одного космонавта
@@ -485,12 +489,14 @@ Solar_Panel_Description=Раскрывающаяся солнечная пане
 RTG_Description=Радиоизотопный термоэлектрический генератор или же просто РИТЭГ
 Rover_Wheel_Description=Колесо используется для передвижения по поверхности небесных тел
 Docking_Port_Description=Стыковочный механизм используется для соединения двух космических аппаратов
+Heat_Shield_Description=Теплостойкий щит, используется, чтобы пережить вход в атмосферу
+Fuel_Pipe_Description=Топливопровод используется для перекачки топлива между баками
 
 [Modules]
-Activate_Separator=Отделить
-Activate_Fairing=Отделить створки
 Torque_Module_Torque=Сила вращения: %value%кН
 Separation_Force=Сила отделения: %value%кН
+Max_Heat_Tolerance=Теплостойкость: %temperature%
+
 State_On{0}=включен
 State_Off{0}=выключен
 Engine_Module_State=Двигатель %state{1}%
@@ -498,10 +504,12 @@ Engine_On_Label=Двигатель включен
 Msg_RCS_Module_State=РСУ %state{1}%а
 Wheel_Module_State=Колесо %state{1}%о
 Wheel_On_Label=Колесо включено
+
 Panel_Expanded=Раскрыта
 Landing_Leg_Expanded=Раздвинута
+Detach_Edges_Label=Основание отделено
+
 Info_Parachute_Max_Height=Высота раскрытия: %height%
-Button_Activate_Parachute=Раскрыть парашют
 Msg_Cannot_Deploy_Parachute_In_Vacuum=Нельзя раскрывать парашют в вакууме
 Msg_Cannot_Deploy_Parachute_Above=Нельзя раскрывать парашют выше %height%
 Msg_Cannot_Fully_Deploy_Above=Нельзя полностью раскрывать парашют выше %height%
@@ -542,6 +550,9 @@ Io{0}=Ио
 Callisto{0}=Каллисто
 
 [Achievements]
+Reached_Height=Достижение высоты %height%
+Reached_Karman_Line=Преодоление линии Кармана, выход из атмосферы и достижение космоса
+Survived_Reentry=Вход в атмосферу %planet{1}%, максимальная температура: %temperature%
 Reached_Low_Orbit=Выход на низкую орбиту %planet{1}%
 Reached_High_Orbit=Выход на высокую орбиту %planet{1}%
 Descend_Low_Orbit=Сход на низкую орбиту %planet{1}%
