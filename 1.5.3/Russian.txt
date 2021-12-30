@@ -1,5 +1,4 @@
-# v1.5.4.3
-# Made by Michael Frolov
+/// Made by Michael Frolov : v1.5.4.3
 
 [Ungroupped]
 None=None
