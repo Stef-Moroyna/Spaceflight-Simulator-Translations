@@ -1,7 +1,6 @@
-/// Made by Michael Frolov : v1.5.4.3
+/// Made by Michael Frolov: v1.5.3 Release
 
 [Ungroupped]
-None=None
 Font=normal
 
 [General]
@@ -89,7 +88,6 @@ Update_Available=Установленная версия: %old%
 Update_Available=Актуальная версия: %new%
 
 Update_Confirm=Обновить
-
 Update_Overview_Video_Available=Узнайте, что нового в этом обновлении
 Update_Overview_Video_Confirm=Открыть
 
@@ -171,21 +169,16 @@ Conversion_Failed=Ошибка перевода:
 Conversion_Failed=%reason%
 
 [Purchasing]
-Open_Shop_Menu=Дополнения
 Parts_Expansion=Дополнение деталей
 Skins_Expansion=Дополнение текстур
 Planets_Expansion=Дополнение планет
-Cheats_Expansion=Читы
-Infinite_Area_Expansion=Бесконечное поле
-Builder_Bundle=Набор строителя
-Upgrade_To_Builder_Bundle=Улучшить до Набора строителя
-Sandbox_Bundle=Набор песочницы
-Upgrade_To_Sandbox_Bundle=Улучшить до Набора песочницы
-Full_Bundle=Полный набор
-Upgrade_To_Full_Bundle=Улучшить до Полного набора
+Expansion_Bundle=Пакет дополнений
+Upgrade_To_Bundle=Пакет дополнений (-50%)
 
 More_Parts=Больше деталей...
 More_Skins=Больше текстур...
+
+Why_Buy=Ваша поддержка помогает нам развивать игру!
 
 Buy_Product=Купить %product% %price%
 
@@ -198,15 +191,15 @@ Owned=%product% (есть)
 
 Restore_Open=Восстановить
 
-Restore_Text=Дополнения на Android восстанавливаются автоматически при запуске игры:
+Restore_Text=Покупки на Android восстанавливаются автоматически при запуске игры
 Restore_Text=
-Restore_Text=- Убедитесь, что вы вошли в аккаунт Google Play, на котором была совершена покупка (проверьте её наличие в истории покупок)
+Restore_Text=- Убедитесь, что вы вошли в аккаунт Google Play, на котором была совершена покупка (проверьте её наличие в истории покупок Google Play)
 Restore_Text=
-Restore_Text=- Проверьте кнопку покупки, если цена не отображается, то игре не удалось подключиться к Google Play. Проверьте подключение к интернету и перезапустите игру
+Restore_Text=- Проверьте кнопку покупки, если цена не показана, то игре не удалось подключиться к магазину. Проверьте подключение к интернету и перезапустите игру
 Restore_Text=
 Restore_Text=Если это не помогло, напишите мне: games.morojna@gmail.com
 Restore_Text=
-Restore_Text=Вы также можете попробовать подождать, иногда дополнения восстанавливаются только через несколько часов
+Restore_Text=Вы также можете попробовать подождать, иногда покупки восстанавливаются только через несколько часов
 
 Purchase_FAQ_Open=Часто задаваемые вопросы
 
@@ -222,19 +215,22 @@ Purchase_FAQ_Text=<color=grey>Вы сможете вернуть деньги з
 Purchase_FAQ_Text=Да, безусловно, если это потребуется в разумные сроки, мы без вопросов вернём вам деньги
 
 PartsExpansion_Tanks=Множество вариантов топливных баков!
-PartsExpansion_Engines=Новые мощные двигатели!
+PartsExpansion_Engines=Огромные и мощные двигатели!
 PartsExpansion_Parts=Детали всех возможных форм и размеров!
-PartsExpansion_Build=Огромное поле постройки для воплощения ваших идей в жизнь!
+PartsExpansion_Build=Большое пространство постройки для воплощения ваших идей в жизнь!
 
 SkinsExpansion_Tanks=Наносите на детали разнообразные текстуры!
 SkinsExpansion_Interstages=Окрашивайте всё от отделителей...
 SkinsExpansion_Nosecones=... до носовых конусов...
 SkinsExpansion_Fairings=... и даже обтекателей!
 
-PlanetsExpansion_Jupiter=Исследуйте систему Юпитера и четырёх его крупнейших спутников!
-PlanetsExpansion_Callisto=От покрытой множеством кратеров поверхности Каллисто...
+PlanetsExpansion_Jupiter=Исследуйте систему Юпитера и четырёх его спутников!
+PlanetsExpansion_Callisto=От поверхности Каллисто с её огромными кратерами...
 PlanetsExpansion_Europa=... до просторных ледяных равнин Европы!
 PlanetsExpansion_Conclusion=Дальние миры ждут, пока вы посетите и исследуете их!
+
+ExpansionBundle_Sandbox=Бонусный
+ExpansionBundle_Sandbox=Режим песочницы
 
 ExpansionBundle_Infinite_Fuel=Бесконечное топливо
 ExpansionBundle_No_Atmospheric_Drag=Нет аэродинамики
@@ -243,22 +239,18 @@ ExpansionBundle_No_Gravity=Нет гравитации
 ExpansionBundle_No_Heat_Damage=Нет теплового урона
 
 [Settings]
-Music_Name=Музыка
-Sound_Name=Звук
-Screen_Rotation_Name=Поворот экрана
-FPS_Name=FPS
-Language_Name=Язык
+Music_Name=Музыка:
+Sound_Name=Звук:
+Screen_Rotation_Name=Поворот экрана:
+FPS_Name=FPS:
+Language_Name=Язык:
 
-Menu_Scale=Масштаб
-Menu_Opacity=Непрозрачность
-
-Infinite_Fuel_Name=Бесконечное топливо
-No_Atmospheric_Drag_Name=Нет аэродинамики
-No_Collision_Damage_Name=Нет урона от ударов
-No_Gravity_Name=Нет гравитации
-No_Heat_Damage_Name=Нет теплового урона
-Infinite_Build_Area_Name=Бесконечное поле
-Part_Clipping_Name=Наложение деталей
+Infinite_Fuel_Name=Бесконечное топливо:
+No_Atmospheric_Drag_Name=Нет аэродинамики:
+No_Collision_Damage_Name=Нет урона от ударов:
+No_Gravity_Name=Нет гравитации:
+No_Heat_Damage_Name=Нет теплового урона:
+Part_Clipping_Name=Наложение деталей:
 
 Using_Infinite_Fuel=Бесконечное топливо
 Using_No_Atmospheric_Drag=Нет аэродинамики
@@ -560,7 +552,7 @@ Callisto{0}=Каллисто
 [Achievements]
 Reached_Height=Достижение высоты %height%
 Reached_Karman_Line=Преодоление линии Кармана, выход из атмосферы и достижение космоса
-Survived_Reentry=Вход в атмосферу %planet{1}% с максимальной температурой %temperature%
+Survived_Reentry=Вход в атмосферу %planet{1}%, максимальная температура: %temperature%
 Reached_Low_Orbit=Выход на низкую орбиту %planet{1}%
 Reached_High_Orbit=Выход на высокую орбиту %planet{1}%
 Descend_Low_Orbit=Сход на низкую орбиту %planet{1}%
