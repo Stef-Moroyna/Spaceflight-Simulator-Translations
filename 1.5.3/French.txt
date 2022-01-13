@@ -1,14 +1,15 @@
 # ----------------------------------------------------------
 #   LANGUAGE FILE : FRENCH
 #
-# Target version :   SFS 1.5.2.0 TEST 15 (V2)
-# Authors        :   Altaïr, Stevee-Doo
-# Date           :   31/03/2021
+# Target version :   SFS 1.5.4.4
+# Authors            :   Altaïr, Stevee-Doo
+# Date                  :   07/01/2022
 # ----------------------------------------------------------
 
 [Ungroupped]
 # Font types : normal/compatibility
 # Utilisez "compatibility" si certains caractères ne s'affichent pas.
+    None=Aucun
     Font=normal
 
 [General]
@@ -42,10 +43,10 @@
     Roadmap_OpenButton=Versions futures
 
     Roadmap_Text=Version 1.51
-    Roadmap_Text=<color=grey>Séquences de vol</color>
+    Roadmap_Text=<color=grey>Tutoriels</color>
     Roadmap_Text=
     Roadmap_Text=Version 1.52
-    Roadmap_Text=<color=grey>Tutoriels</color>
+    Roadmap_Text=<color=grey>Séquences de vol</color>
     Roadmap_Text=
     Roadmap_Text=Version 1.53
     Roadmap_Text=<color=grey>Rentrée atmosphérique</color>
@@ -102,6 +103,8 @@
     Update_Available=Nouvelle version : %new%
 
     Update_Confirm=Mise à jour
+    Update_Overview_Video_Available=Voir les nouveautés ?
+    Update_Overview_Video_Confirm=Ouvrir
 
 # Rate menu
     Rate_Title=Voudriez-vous noter et évaluer le jeu ?
@@ -114,15 +117,6 @@
 
 # Close menu
     Close_Game=Quitter le jeu ?
-
-# Startup Messages
-    Early_Supporter_Message=Votre ancien achat de la version complète vous donne accès à :
-    Early_Supporter_Message=
-    Early_Supporter_Message= - Extension "Pièces"
-    Early_Supporter_Message= - Extension "Textures"
-    Early_Supporter_Message= - Extension "Planètes"
-    Early_Supporter_Message=
-    Early_Supporter_Message=Merci pour votre soutien !
 
 [Worlds Menu]
 # Worlds are save slots
@@ -168,12 +162,14 @@
 # Save and load menus
     Save=Sauver
     Load=Charger
+    Import=Importer
     Delete=Effacer
     Rename=Renommer
 
 # In progress
     Saving_In_Progress=Sauvegarde...
     Loading_In_Progress=Chargement...
+    Importing_In_Progress=Import...
 
 # filetype (injected)
     Blueprint{0}=Plan
@@ -198,11 +194,6 @@
 # Load failure
     Load_Failed=Impossible de charger %filetype{5}% du fichier %filepath%
 
-# Legacy Messages
-    Conversion_Message=Bienvenue sur la version 1.5.
-    Conversion_Message=
-    Conversion_Message=Toutes vos sauvegardes 1.4 ont été automatiquement converties au format 1.5
-
     Conversion_Success=Un fichier %type{1}% au format 1.4 a été converti au format %version%
 
     Conversion_Failed=Un fichier %type{1}% au format 1.4 a été converti au format %version%
@@ -211,16 +202,21 @@
     Conversion_Failed=%reason%
 
 [Purchasing]
-    Parts_Expansion=Extension "Pièces"
-    Skins_Expansion=Extension "Textures"
-    Planets_Expansion=Extension "Planètes"
-    Expansion_Bundle=Pack Extensions
-    Upgrade_To_Bundle=Mise à niveau
+    Open_Shop_Menu=Extensions
+    Parts_Expansion=Pièces
+    Skins_Expansion=Textures
+    Planets_Expansion=Planètes
+    Cheats_Expansion=Mode triche
+    Infinite_Area_Expansion=Aire de construction illimitée
+    Builder_Bundle=Pack construction
+    Upgrade_To_Builder_Bundle=Pack construction
+    Sandbox_Bundle=Pack bac à sable
+    Upgrade_To_Sandbox_Bundle=Pack bac à sable
+    Full_Bundle=Pack complet
+    Upgrade_To_Full_Bundle=Pack complet
 
     More_Parts=Nouvelles pièces...
     More_Skins=Nouvelles textures...
-
-    Why_Buy=Votre soutien nous aide à améliorer le jeu !
 
     Buy_Product=Acheter %product% %price%
 
@@ -278,14 +274,12 @@
     PlanetsExpansion_Conclusion=Ces mondes distants n'attendent que vous
     PlanetsExpansion_Conclusion=pour être explorés !
 
-# Expansion Bundle
-    ExpansionBundle_Sandbox=Bonus
-    ExpansionBundle_Sandbox=Mode Bac à sable
-
+# Cheats
     ExpansionBundle_Infinite_Fuel=Carburant illimité
-    ExpansionBundle_No_Atmospheric_Drag=Pas de traînée aéro
-    ExpansionBundle_Unbreakable_Parts=Pièces incassables
-    ExpansionBundle_No_Gravity=Pas de gravité
+    ExpansionBundle_No_Atmospheric_Drag=Sans traînée aéro
+    ExpansionBundle_No_Gravity=Sans gravité
+    ExpansionBundle_Unbreakable_Parts=Sans dégâts de choc
+    ExpansionBundle_No_Heat_Damage=Sans dégâts thermiques
 
 [Settings]
     Music_Name=Musique :
@@ -293,24 +287,28 @@
     Screen_Rotation_Name=Rotation écran :
     FPS_Name=Fps :
     Language_Name=Langue :
+    Menu_Scale=Taille de l'interface
+    Menu_Opacity=Opacité de l'interface
 
-    Infinite_Fuel_Name=Carburant illimité :
-    No_Atmospheric_Drag_Name=Pas de traînée aéro :
-    Unbreakable_Parts_Name=Pièces incassables :
-    No_Gravity_Name=Pas de gravité :
+    Infinite_Fuel_Name=Carburant illimité
+    No_Atmospheric_Drag_Name=Sans traînée aéro
+    No_Collision_Damage_Name=Sans dégâts de choc
+    No_Gravity_Name=Sans gravité
+    No_Heat_Damage_Name=Sans dégâts thermiques
+    Infinite_Build_Area_Name=Aire de construction illimitée
+    Part_Clipping_Name=Pièces superposables
 
-# Cette version des textes de réglages est affichée à l'écran pour que les joueurs sachent ce avec quoi ils jouent
-    Cheat_On{0}=activé
-    Cheat_Off{0}=désactivé
-
-    Infinite_Fuel=Carburant illimité : %value{3}%
-    No_Atmospheric_Drag=Pas de traînée aéro : %value{3}%
-    Unbreakable_Parts=Pièces incassables : %value{3}%
-    No_Gravity=Pas de gravité : %value{3}%
+# Cette version des textes de réglages est affichée à l'écran pour que les joueurs connaissent les options de triches activées
+    Using_Infinite_Fuel=Carburant illimité
+    Using_No_Atmospheric_Drag=Sans traînée aérodynamique
+    Using_No_Collision_Damage=Sans dégâts de choc
+    Using_No_Gravity=Sans gravité
+    Using_No_Heat_Damage=Sans dégâts thermiques
+    Using_Part_Clipping=Pièces superposables
 
 [Build]
     Build_New_Rocket=Nouvelle fusée
-    Resume_Build=Reprendre construction
+    Expand_Last_Rocket=Retour construction
 
     Symmetry_On=Mode symétrie activé
     Symmetry_Off=Mode symétrie désactivé
@@ -325,12 +323,8 @@
 # Launch warnings
     Missing_Capsule=Votre fusée n'a pas de capsule
     Missing_Parachute=Votre fusée n'a pas de parachute
-
-    Too_Heavy=Votre fusée est trop lourde pour décoller
-    Too_Heavy=
-    Too_Heavy=
-    Too_Heavy=Allégez-la, ou utilisez des moteurs plus puissants
-
+    Missing_Heat_Shield=Votre fusée n'a pas de bouclier thermique
+    Too_Heavy=Votre fusée est trop lourde pour décoller, allégez-la ou utilisez des moteurs plus puissants
     Launch_Anyway_Button=Lancer quand même
 
 # Example rockets
@@ -386,7 +380,10 @@
 
 [Game menus]
     Restart_Mission=Recommencer
+    Recover_Rocket=Récupérer
+    Destroy_Rocket=Supprimer
 
+# Restart menu
     Restart_Mission_To_Launch=Relancer
 
     Restart_Mission_To_Launch_Warning=Revenir au lancement ?
@@ -420,15 +417,21 @@
 [Rocket]
     Default_Rocket_Name=Fusée
 
-# Informs the player that he cannot perform an action due to rocket having no control
+# Informe le joueur qu'il ne peut pas agir sur la fusée car celle-ci est incontrôlable
     No_Control_Msg=Incontrôlable
 
 # %part%    renvoie à [Part Names]
 # %part{x}% renvoie à [Part Names{x}]
 [Timewarp]
-# Timewarp = fast forward time to skip long periods of waiting
     Msg_Timewarp_Speed=Temps accéléré %speed%x
-    Cannot_Timewarp_Below=Impossible d'accélérer le temps en dessous de %height%
+    
+    Msg_Timewarp_Speed_Physics=Temps accéléré %speed%x
+    Msg_Timewarp_Speed_Physics=(physique active)
+
+    Msg_Timewarp_Canceled=Accélération du temps annulée
+    
+    Cannot_Timewarp_Below_Basic=Impossible d'accélérer le temps au-dessous de %height%
+    Cannot_Timewarp_Below=Impossible d'accélérer le temps au-delà de %speed%x au-dessous de %height%
     Cannot_Timewarp_While_Moving_On_Surface=Impossible d'accélérer le temps en étant en mouvement à la surface
     Cannot_Timewarp_While_Accelerating=Impossible d'accélérer le temps avec les moteurs allumés
     Cannot_Use_Part_While_Timewarping=Impossible d'actionner %part{1}% en mode accéléré
@@ -439,7 +442,6 @@
     Mass=Masse : %value%t
     Thrust=Poussée : %value%t
     Burn_Time=Temps de poussée : %value%s
-
     Efficiency=Efficacité (Isp) : %value%s
     Mass_Unit=t
     Meter_Unit=m
@@ -523,6 +525,10 @@
     Battery_Name{1}=la batterie
     RTG_Name{0}=RTG
     RTG_Name{1}=le RTG
+    Heat_Shield_Name{0}=Bouclier thermique
+    Heat_Shield_Name{1}=bouclier thermique
+    Fuel_Pipe_Name{0}=Conduite de carburant
+    Fuel_Pipe_Name{1}=conduite de carburant
 
 [Part Descriptions]
     Capsule_Description=Transporte un astronaute. Essayez de le ramener sain et sauf !
@@ -548,13 +554,14 @@
     RTG_Description=Générateur Thermoélectrique à Radio-isotope. Génère de l'électricité à partir d'une petite charge radioactive
     Rover_Wheel_Description=Permet de se déplacer à la surface. Essayez de construire un rover avec !
     Docking_Port_Description=Les ports d'amarrage peuvent se connecter entre eux. Pratique pour assembler un vaisseau en orbite, ou même une station spatiale !
+    Heat_Shield_Description=Un bouclier résistant à la chaleur. Conçu pour protéger des hautes températures lors d'une rentrée atmosphérique
+    Fuel_Pipe_Description=Une conduite pour transférer le carburant
 
 [Modules]
-    Activate_Separator=Séparer
-    Activate_Fairing=Larguer coiffe
-
     Torque_Module_Torque=Couple : %value%kN.m
-    Separation_Force=Force de séparation : %value%kN
+    Separation_Force=Force d'éjection : %value%kN
+    
+    Max_Heat_Tolerance=T° Max : %temperature%
 
     State_On{0}=On
     State_Off{0}=Off
@@ -568,7 +575,6 @@
     State_Off{4}=désactivée
 
     Engine_Module_State=Moteur %state{1}%
-
     Engine_On_Label=Moteur allumé
 
     Msg_RCS_Module_State=RCS %state{3}%
@@ -579,8 +585,9 @@
     Panel_Expanded=Déployé
     Landing_Leg_Expanded=Déployée
 
+    Detach_Edges_Label=Bords détachables
+
     Info_Parachute_Max_Height=Hauteur ouv. max : %height%
-    Button_Activate_Parachute=Ouvrir parachute
     Msg_Cannot_Deploy_Parachute_In_Vacuum=Impossible d'ouvrir le parachute dans le vide
     Msg_Cannot_Deploy_Parachute_Above=Impossible d'ouvrir le parachute au-dessus de %height%
     Msg_Cannot_Fully_Deploy_Above=Impossible d'ouvrir complètement le parachute au-dessus de %height%
@@ -596,7 +603,7 @@
 # - %planet{1}% : le nom de la planète avec l'article (si applicable; identique à %planet{0} sinon)
 #   Exemple d'utilisation : "Mission terminée sur %planet{1}%"
 # - %planet{2}% : cette forme est à utiliser après un adverbe tel que "autour"
-#   Exemmple d'utilisation : "Mission terminée dans l'espace autour %planet{2}%"
+#   Exemple d'utilisation : "Mission terminée dans l'espace autour %planet{2}%"
 # - %planet{3}% : Cette forme favorise l'utilisation d'un adjectif au lieu du nom de la planète (s'il existe et s'il est courant)
 #   Si l'adjectif n'existe pas ou est peu usité, cette forme est similaire à %planet{2}%
 #   Ceci est utilisé pour la sphère d'influence ou l'atmosphère ("l'atmosphère terrestre"/"l'atmosphère de Vénus" par ex.)
@@ -674,6 +681,10 @@
 
 # %planet{x}% renvoie à [Planets{x}]
 [Achievements]
+    Reached_Height=Altitude : %height%
+    Reached_Karman_Line=Passage de la ligne de Kármán, vous quittez l'atmosphère et volez désormais dans l'espace
+    Survived_Reentry=Rentrée dans l'atmosphère %planet{3}%, T° max = %temperature%
+    
     Reached_Low_Orbit=En orbite basse %planet{4}%
     Reached_High_Orbit=En orbite haute %planet{4}%
     Descend_Low_Orbit=Descente en orbite basse %planet{4}%
@@ -701,3 +712,4 @@
     Recover_Home=Retour sain et sauf sur %planet{1}%
     Recover_Landed=Mission terminée sur %planet{1}%
     Recover_Space=Mission terminée dans l'espace autour %planet{2}%
+
