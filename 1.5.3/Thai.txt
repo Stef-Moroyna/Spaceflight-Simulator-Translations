@@ -1,0 +1,703 @@
+[Ungroupped]
+# REAM ME:
+# The format used here is derived from INI.
+# We have added something special called variants.
+# 
+# Example:
+# 
+# [Planets]
+# Earth{0}= โลก
+# Earth{1}= โลก
+# 
+# [Achievements]
+# Landed_Test0 = ลงจอดบน%planet{0}%
+# Landed_Test1 = ลงจอดบน%planet{1}%
+# 
+# Variants are used for many things, such as making phrases work, caps, etc
+# 
+# We recommend starting at the bottom of the file with achievements/planets, there variants are very clearly used.
+# 
+# 
+# 
+# Available font types: normal/compatibility
+# In case of missing characters use compatibility font.
+    Font=normal
+
+[General]
+    Language_Name_In_Local_Language=ภาษาไทย
+    Cancel=ยกเลิก
+    Close=ปิด
+
+    Open_Settings_Button=ตั้งค่า
+    Open_Cheats_Button=โกง
+    Help=ช่วยเหลือ
+
+    Build_Rocket=สร้างจรวด
+    Resume_Game=ทำต่อ
+    Return_To_Main_Menu=เมนูหลัก
+    Exit_To_Main_Menu=ออกไปยังเมนูหลัก
+
+[Main Menu]
+    Play=เล่น
+
+# Tutorial
+    Video_Tutorials_OpenButton=วิดีโอช่วยเหลือ
+    Video_Orbit=การทำวงโคจร
+    Video_Moon=การไปยังดวงจันทร์
+    Video_Dock=การ Docking
+
+# Community
+    Community_OpenButton=ชุมชน
+    Community_Youtube=YouTube
+    Community_Discord=Discord
+    Community_Reddit=Reddit
+
+# Credits
+    Credits_OpenButton=เครดิต
+
+    Credits_Text=Štefo Mai Morojna
+    Credits_Text=<Size=55> Designer - Programmer - Artist </size>
+    Credits_Text=
+    Credits_Text=Jordi van der Molen
+    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=
+    Credits_Text=Chris Christo
+    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=
+    Credits_Text=Davi Vasc
+    Credits_Text=<Size=55> Composer </size>
+    Credits_Text=
+    Credits_Text=Ashton Mills
+    Credits_Text=<size=55> Composer </size>
+
+# Update menu
+    Update_Available=อัพเดทใหม่ มาแล้ว!
+    Update_Available=
+    Update_Available=เวอร์ชั่นปัจจุบัน: %old%
+    Update_Available=เวอร์ชั่นล่าสุด: %new%
+
+    Update_Confirm=อัพเดท
+    Update_Overview_Video_Available=อัพเดทใหม่มีอะไรบ้าง?
+    Update_Overview_Video_Confirm=เปิด
+
+# Rate menu
+    Rate_Title=คุณอยากจะให้เราคะแนนหรือไม่?
+    Rate_Title=
+    Rate_Title=เราใส่ใจในคุณภาพของเกมอย่างสุดซึ้ง ความคิดเห็นของคุณช่วยเราปรับปรุงเกม
+    Rate_Title=
+    Rate_Title=ถึงรีวิวมันจะเยอะขนาดไหน เราก็จะอ่านทั้งหมด!!
+
+    Rate_Confirm=รีวิว
+
+# Close menu
+    Exit_Button=ออก
+    Close_Game=จะเปิดเกมนี้หรือไม่
+
+[Worlds Menu]
+    Create_New_World_Button=สร้างโลกใหม่
+    World_Delete=จะลบโลกนี้หรือไม่
+
+# Create menu
+    Create_World_Title=ชื่อโลก
+    Default_World_Name=โลกของฉัน
+    Select_Solar_System=เลือกระบบสุริยะของโลก
+
+    Select_Solar_System__NotFound=ไม่พบระบบสุริยะ:
+    Select_Solar_System__NotFound=%system%
+    Select_Solar_System__NotFound=
+    Select_Solar_System__NotFound=เลือกระบบสุริยะใหม่อีกครั้ง
+    Default_Solar_System=ระบบสุริยะ (ค่าเริ่มต้น)
+    Custom_Solar_System=%name% (กำหนดเอง)
+
+# World info
+    Last_Played=Last played: %value% ที่แล้ว
+    Just_Played=Last played: ไม่นานมานี้
+    Time_Played=Playtime: %value%
+
+[World Create Menu]
+    World_Create_Title=สร้างโลก
+    World_Name_Label=ชื่อโลก:
+    Solar_System_Label=ระบบสุริยะ:
+    Mode_Label=โหมด:
+
+[Saving]
+# Blueprint stuff
+    Blueprints_Menu_Title=พิมพ์เขียว
+    Unnamed_Blueprint=พิมพ์เขียวไร้ชื่อ
+    Save_Blueprint=บันทึกพิมพ์เขียว
+    Load_Blueprint=โหลดพิมพ์เขียว
+    Cannot_Save_Empty_Build=ไม่สามารถบันทึกพิมพ์เขียวที่ว่างได้
+
+# Quicksave stuff
+    Quicksaves_Menu_Title=บันทึก Quicksave
+    Unnamed_Quicksave=Quicksave ที่ไม่มีชื่อ
+    Create_Quicksave=สร้าง Quicksave
+    Load_Quicksave=โหลด Quicksave
+
+# Save and load menus
+    Save=บันทึก
+    Load=โหลด
+    Import=นำเข้า
+    Delete=ลบ
+    Rename=เปลี่ยนชื่อ
+
+# In progress
+    Saving_In_Progress=กำลังบันทึก...
+    Loading_In_Progress=กำลังโหลด...
+    Importing_In_Progress=กำลังนำเข้า...
+
+# filetype (injected)
+    Blueprint{0}=พิมพ์เขียว
+    Blueprint{1}=พิมพ์เขียว
+    Blueprint{2}=พิมพ์เขียว
+    Quicksave{0}=Quicksave
+    Quicksave{1}=quicksave
+    Quicksave{2}=quicksaves
+
+# Ask overwrite menu
+    File_Already_Exists=%filetype{1}% มีอยู่แล้ว
+    Overwrite_File=เขียนทับ %filetype{1}%
+    New_File=ไฟล์ใหม่ %filetype{1}%
+
+# Load failure
+    Load_Failed=ไม่สามารถโหลด %filetype{1}% จาก %filepath%
+
+    Conversion_Success=ตรวจพบ %filetype{1}% ในเวอร์ชั่น 1.4 และแปลงเป็นเวอร์ชั่น %version%
+
+    Conversion_Failed=ตรวจพบ %filetype{1}% ในเวอร์ชั่น 1.4 และแปลงเป็นเวอร์ชั่น %version%
+    Conversion_Failed=
+    Conversion_Failed=การแปลงผิดพลาด:
+    Conversion_Failed=%reason%
+
+[Purchasing]
+    Open_Shop_Menu=ส่วนขยาย
+    Parts_Expansion=ส่วนขยายของชิ้นส่วน
+    Skins_Expansion=ส่วนขยายของพื้นผิว
+    Planets_Expansion=ส่วนขยายของดาวเคราะห์
+    Cheats_Expansion=การโกง
+    Infinite_Area_Expansion=พื้นที่สร้างไม่จำกัด
+    Builder_Bundle=Builder Bundle
+    Upgrade_To_Builder_Bundle=Upgrade To Builder Bundle
+    Sandbox_Bundle=Sandbox Bundle
+    Upgrade_To_Sandbox_Bundle=Upgrade To Sandbox Bundle
+    Full_Bundle=Full Bundle
+    Upgrade_To_Full_Bundle=Upgrade To Full Bundle
+
+    More_Parts=ชิ้นส่วนอื่นๆ...
+    More_Skins=พื้นผิวอื่นๆ...
+
+    Buy_Product=ชื่อ %product% ในราคา %price%
+    Discount_Reason_Upgrade=ลดราคาเพราะคุณมีส่วนขยายอื่นอยู่แล้ว
+
+    Purchase_Thanks_Msg=ซื้อ: %product%
+    Purchase_Thanks_Msg=
+    Purchase_Thanks_Msg=ขอบคุณสำหรับการซื้อของคุณ
+    Purchase_Thanks_Msg=ได้เวลาไปสำรวจดวงดาวแล้ว!
+
+    Owned=%product% (ซื้อแล้ว)
+
+    Restore_Open=คืนค่า
+
+    Restore_Text=การซื้อบน Android จะได้รับการกู้คืนโดยอัตโนมัติเมื่อเริ่มต้นระบบ
+    Restore_Text=
+    Restore_Text=- ตรวจสอบว่าคุณลงชื่อเข้าใช้บัญชี Google Play ที่คุณซื้อด้วย (ตรวจสอบว่าการซื้อปรากฏในประวัติการซื้อ Google Play)
+    Restore_Text=
+    Restore_Text=- ตรวจสอบปุ่มซื้อ หากไม่แสดงราคา แสดงว่าเกมไม่สามารถเชื่อมต่อกับร้านค้าได้ ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณแล้วเริ่มเกมใหม่
+    Restore_Text=
+    Restore_Text=ถ้าไม่ได้ผล, ติดต่อมาได้ที่: games.morojna@gmail.com
+    Restore_Text=
+    Restore_Text=รอสักครู่ การซื้ออาจกลับมาอีกครั้งหลังจากผ่านไปสองสามชั่วโมง
+
+    Purchase_FAQ_Open=FAQ
+
+    Purchase_FAQ_Text=<color=grey>การซื้อจะถูกเก็บไว้ระหว่างการอัปเดตหรือไม่?</color>
+    Purchase_FAQ_Text=ใช่, แน่นอน!
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>เป็นไปได้ไหมที่จะสูญเสียการซื้อ?</color>
+    Purchase_FAQ_Text=ตรวจสอบว่าคุณลงชื่อเข้าใช้บัญชี Google Play ที่คุณซื้อด้วย (ตรวจสอบว่าการซื้อปรากฏในประวัติการซื้อใน Google Play)
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>คุณสามารถคืนเงินได้หรือไม่</color>
+    Purchase_FAQ_Text=ได้แน่นอน!, ตราบใดที่มีการร้องขอในเวลาที่สมควร พวกเราจะคืนเงินให้ทันทีแบบไม่มีข้อแม้
+
+# Parts Expansion
+    PartsExpansion_Tanks=ถังน้ำมันหลากหลายขนาด!
+    PartsExpansion_Engines=เครื่องยนต์ความดันสูง!
+    PartsExpansion_Parts=ชิ้นส่วนของรูปทรงและขนาดทั้งหมด!
+
+    PartsExpansion_Build=Large build space to bring
+    PartsExpansion_Build=your creations to life!
+
+# Skins Expansion
+    SkinsExpansion_Tanks=ระบายสีชิ้นส่วนของคุณในสกินที่หลากหลาย!
+    SkinsExpansion_Interstages=ระบายสีทุกสิ่งทุกอย่าง
+    SkinsExpansion_Nosecones=ตั้งแต่ Nosecones
+    SkinsExpansion_Fairings=ไปจนถึง Fairing
+
+# Planets Expansion
+    PlanetsExpansion_Jupiter=สำรวจดาวพฤหัสบดีและดวงจันทร์ทั้งสี่!
+    PlanetsExpansion_Callisto=จากพื้นผิวที่เป็นหลุมอุกกาบาตอย่างหนักของ Callisto!
+    PlanetsExpansion_Europa=สู่ที่ราบน้ำแข็งอันกว้างใหญ่ของ Europa!
+
+    PlanetsExpansion_Conclusion=โลกที่ห่างไกลกำลังรอคุณอยู่
+    PlanetsExpansion_Conclusion=เพื่อสำรวจพวกเขา!
+
+[Settings Mobile]
+    Music_Name=เพลง
+    Sound_Name=เสียง
+    Screen_Rotation_Name=การหมุนจอ
+    FPS_Name=Fps
+    Language_Name=ภาษา
+    Menu_Scale=ขนาดอินเตอร์เฟซ
+    Menu_Opacity=ความโปร่งของอินเตอร์เฟซ
+
+[Cheats]
+    Infinite_Build_Area_Name=พื้นที่การสร้างไม่จำกัด
+    Part_Clipping_Name=การตัดชิ้นส่วน
+    Infinite_Fuel_Name=เชื้อเพลิงไม่จำกัด
+    No_Atmospheric_Drag_Name=ไม่มีการเสียดสีกับชั้นบรรยากาศ
+    No_Collision_Damage_Name=ไม่มีความเสียหายจากการชน
+    No_Gravity_Name=ไม่มีแรงโน้มถ่วง
+    No_Heat_Damage_Name=ไม่มีความเสียหายจากความร้อน
+    No_Burn_Marks_Name=ไม่มีรอยไหม้
+
+[Active Cheats]
+    Using_Infinite_Build_Area=พื้นที่การสร้างไม่จำกัด
+    Using_Part_Clipping=การตัดชิ้นส่วน
+    Using_Infinite_Fuel=เชื้อเพลิงไม่จำกัดl
+    Using_No_Atmospheric_Drag=ไม่มีการเสียดสีกับชั้นบรรยากาศ
+    Using_No_Collision_Damage=ไม่มีความเสียหายจากการชน
+    Using_No_Gravity=ไม่มีแรงโน้มถ่วง
+    Using_No_Heat_Damage=ไม่มีความเสียหายจากความร้อน
+    Using_No_Burn_Marks=ไม่มีรอยไหม้
+
+[Build]
+    Build_New_Rocket=สร้างจรวดใหม่
+    New=ใหม่
+    Expand_Last_Rocket=สร้างต่อ
+
+    Symmetry_On=การสมมาตร: เปิด
+    Symmetry_Off=การสมมาตร: ปิด
+
+    Interior_View_On=มุมมองภายใน: เปิด
+    Interior_View_Off=มุมมองภายใน: ปิด
+
+    Launch_Button=ปล่อย
+    Move_Rocket_Button=เคลื่อนจรวด
+
+# Clear build area
+    Clear_Warning=เคลียร์พื้นที่สร้าง?
+    Clear_Confirm=เคลียร์
+
+# Launch warnings
+    Warnings_Title=คำเตือน:
+    Missing_Capsule=จรวดของคุณไม่มีแคปซูล ทำให้ควบคุมไม่ได้
+    Missing_Parachute=จรวดของคุณไม่มีร่มชูชีพ
+    Missing_Heat_Shield=จรวดของคุณไม่มีแผ่นกันความร้อน
+    Too_Heavy=จรวดของคุณหนักเกินกว่าจะยกตัว กรุณาลดน้ำหนักหรือใช้เครื่องยนต์ที่ทรงพลังกว่า
+    Launch_Anyway_Button=ปล่อยทันที
+
+# Example rockets
+    Example_Rockets_OpenMenu=ตัวอย่างจรวด
+    Basic_Rocket=จรวดพื้นฐาน
+    Stages=Stages
+    Ideal_Stages=Ideal Stages
+    Lander=แลนเดอร์
+
+[Map]
+    Toggle_Map_Button=แผนที่
+
+# Shown in map when you escape a gravity field of a planet
+    Escape=Escape
+
+# Shown in map when you encounter/enter a gravity field of a planet
+    Encounter=Encounter
+
+# Shown in map when you approach/encounter another rocket
+    Rendezvous=Rendezvous
+
+# Shows the transfer window to another planet
+    Transfer=Transfer Window
+
+[Game]
+    Throttle_On=เปิด
+    Throttle_Off=ปิด
+    Ignition=การจุด
+    RCS=RCS
+
+# Game supports screen rotation, we split into 2 lines in vertical mode
+    Height_Terrain_Vertical=ความสูง (พื้นดิน):
+    Height_Terrain_Vertical=
+    Height_Terrain_Vertical=%height%
+
+    Height_Vertical=สูง:
+    Height_Vertical=
+    Height_Vertical=%height%
+
+    Velocity_Vertical=ความเร็ว:
+    Velocity_Vertical=
+    Velocity_Vertical=%speed%
+
+# Angle indicates the best angle/direction the player can rotate their rocket towards
+    Angle_Vertical=มุม:
+    Angle_Vertical=
+    Angle_Vertical=%angle% / %targetAngle%
+
+    Height_Terrain_Horizontal=ความสูง (พื้นดิน): %height%
+    Height_Horizontal=ความสูง: %height%
+    Velocity_Horizontal=ความเร็ว: %speed%
+
+# Angle indicates the best angle/direction the player can rotate their rocket towards
+    Angle_Horizontal=มุม: %angle% / %targetAngle%
+
+[Game menus]
+    Restart_Mission=เริ่มภารกิจใหม่
+    Recover_Rocket=กู้คืน
+    Destroy_Rocket=ทำลาย
+
+# Restart menu
+    Restart_Mission_To_Launch=ย้อนกลับไปที่การปล่อย
+
+    Restart_Mission_To_Launch_Warning=จะย้อนกลับไปที่การปล่อยใช่หรอไม่?
+    Restart_Mission_To_Launch_Warning=
+    Restart_Mission_To_Launch_Warning=คำเตือน:
+    Restart_Mission_To_Launch_Warning=กระบวนการนี้จะย้อนไปที่การปล่อยครั้งล่าสุด
+
+    Restart_Mission_To_Build=ย้อนไปที่การสร้าง
+
+    Restart_Mission_To_Build_Warning=จะย้อนไปที่การสร้างใช่หรือไม่?
+    Restart_Mission_To_Build_Warning=
+    Restart_Mission_To_Build_Warning=คำเตือน:
+    Restart_Mission_To_Build_Warning=กระบวนการนี้จะย้อนไปที่การปล่อยครั้งล่าสุด
+
+# End mission menu
+    End_Mission_Menu_Title=ความสำเร็จของภารกิจ:
+    End_Mission=จบภารกิจ
+
+# Clear space junk/debris
+    Clear_Debris_Warning=เคลียร์เศษซาก?
+    Clear_Debris_Warning=
+    Clear_Debris_Warning=นี่จะลบชิ้นส่วนที่ไม่สามารถควบคุมได้ทั้งหมด
+
+    Clear_Debris_Confirm=เคลียร์
+
+# Select menu
+    Navigate_To=นำทางไปยัง
+    End_Navigation=จบการนำทาง
+    Focus=โฟกัส
+    Unfocus=เลิกโฟกัส
+    Switch_To=เปลี่ยนไปที่
+
+[Rocket]
+    Default_Rocket_Name=จรวด
+
+# Informs the player that he cannot perform an action due to rocket having no control
+    No_Control_Msg=ไม่มีการควบคุม
+
+[Timewarp]
+    Msg_Timewarp_Speed=การเร่งเวลา %speed%x
+
+    Msg_Timewarp_Speed_Physics=การเร่งเวลา %speed%x
+    Msg_Timewarp_Speed_Physics=(Physics timewarp)
+
+    Msg_Timewarp_Canceled=ยกเลิกการวาร์ปของเวลาแล้ว
+
+    Cannot_Timewarp_Below_Basic=ไม่สามารถทำการวาร์ปได้ในความสูงต่ำกว่า %height%
+    Cannot_Timewarp_Below=ไม่สามารถวาร์ปเร็วกว่า %speed%x ขณะที่ความสูงต่ำกว่า %height%
+    Cannot_Timewarp_While_Moving_On_Surface=ไม่สามารถวาร์ปเร็วกว่า %speed%x ขณะเคลื่อนที่บนพื้นผิว
+    Cannot_Timewarp_While_Accelerating=ไม่สามารถวาร์ปเร็วกว่า %speed%x ขณะเร่งความเร็ว
+    Cannot_Use_Part_While_Timewarping=ไม่สามารถใช้ %part{1}% ในขณะวาร์ป
+    Cannot_Turn_While_Timewarping=ไม่สามารถหมุนได้ขณะที่ทำการวาร์ป
+
+[Units]
+    Thrust_To_Weight_Ratio=แรงขับ / น้ำหนัก: %value%
+    Mass=น้ำหนัก: %value%t
+    Thrust=Thrust: %value%t
+    Burn_Time=เวลาการเผาไหม้: %value%s
+    Efficiency=ประสิทธิภาพ: %value% Isp
+    Mass_Unit=t
+    Meter_Unit=m
+    Km_Unit=km
+    Meter_Per_Second_Unit=m/s
+
+[Timestamps]
+    Second_Short=%value%s
+    Minute_Short=%value%m
+    Hour_Short=%value%h
+    Day_Short=%value%d
+
+[Resource Types]
+    Solid_Fuel{0}=เชื้อเพลิงแข็ง
+    Solid_Fuel{1}=เชื้อเพลิงแข็ง
+    Liquid_Fuel{0}=เชื้อเพลิงเหลว
+    Liquid_Fuel{1}=เชื้อเพลิงเหลว
+
+[Resource Uses]
+    Resource_Bars_Title=%resource_name{0}%:
+    Info_Resource_Amount=%resource{0}%: %amount%
+    Msg_No_Resource_Source=No %resource{1}% source
+    Msg_No_Resource_Left=Out of %resource{1}%
+
+[Part Categories]
+    Basic_Parts=พื้นฐาน
+    Six_Wide_Parts=6 Wide
+    Eight_Wide_Parts=8 Wide
+    Ten_Wide_Parts=10 Wide
+    Twelve_Wide_Parts=12 Wide
+    Engine_Parts=เครื่องยนต์
+    Aerodynamics_Parts=อากาศพลศาสตร์
+    Fairings_Parts=แฟริ่ง
+    Structural_Parts=โครงสร้าง
+    Other_Parts=อื่นๆ
+
+[Part Names]
+    Capsule_Name{0}=แคปซูล
+    Capsule_Name{1}=แคปซูล
+    Probe_Name{0}=Probe
+    Probe_Name{1}=probe
+    Parachute_Name{0}=ร่มชูชีพ
+    Parachute_Name{1}=ร่มชูชีพ
+
+    Kolibri_Engine_Name{0}=Kolibri Engine
+    Kolibri_Engine_Name{1}=kolibri engine
+    Hawk_Engine_Name{0}=Hawk Engine
+    Hawk_Engine_Name{1}=hawk engine
+    Valiant_Engine_Name{0}=Valiant Engine
+    Valiant_Engine_Name{1}=valiant engine
+    Titan_Engine_Name{0}=Titan Engine
+    Titan_Engine_Name{1}=titan engine
+    Frontier_Engine_Name{0}=Frontier Engine
+    Frontier_Engine_Name{1}=frontier engine
+    Peregrine_Engine_Name{0}=Peregrine Engine
+    Peregrine_Engine_Name{1}=peregrine engine
+    Ion_Engine_Name{0}=Ion Engine
+    Ion_Engine_Name{1}=ion engine
+    RCS_Thruster_Name{0}=RCS Thruster
+    RCS_Thruster_Name{1}=rcs thruster
+
+    Solid_Rocket_Booster{0}=Solid Rocket Booster
+    Solid_Rocket_Booster{1}=solid rocket booster
+
+    Fuel_Tank_Name{0}=ถังเชื้อเพลิง
+    Fuel_Tank_Name{1}=ถังเชื้อเพลิง
+    Separator_Name{0}=ตัวคั่น
+    Separator_Name{1}=ตัวคั่น
+    Side_Separator_Name{0}=ตัวคั่นด้านข้าง
+    Side_Separator_Name{1}=ตัวคั่นด้านข้าง
+    Structural_Part_Name{0}=ชิ้นส่วนโครงสร้าง
+    Structural_Part_Name{1}=ชิ้นส่วนโครงสร้าง
+    Landing_Leg_Name{0}=ขาลงจอด
+    Landing_Leg_Name{1}=ขาลงจอด
+    Aerodynamic_Nose_Cone_Name{0}=Aerodynamic Nose Cone
+    Aerodynamic_Nose_Cone_Name{1}=aerodynamic nose cone
+    Aerodynamic_Fuselage_Name{0}=Aerodynamic Fuselage
+    Aerodynamic_Fuselage_Name{1}=aerodynamic fuselage
+    Fairing_Name{0}=แฟริ่ง
+    Fairing_Name{1}=แฟริ่ง
+    Rover_Wheel_Name{0}=Rover Wheel
+    Rover_Wheel_Name{1}=rover wheel
+    Docking_Port_Name{0}=พอร์ตเชื่อมต่อ
+    Docking_Port_Name{1}=พอร์ตเชื่อมต่อ
+    Solar_Panel_Name{0}=แผงเซลล์แสงอาทิตย์
+    Solar_Panel_Name{1}=แผงเซลล์แสงอาทิตย์
+    Battery_Name{0}=แบตเตอรี่
+    Battery_Name{1}=แบตเตอรี่
+    RTG_Name{0}=RTG
+    RTG_Name{1}=rtg
+    Heat_Shield_Name{0}=แผ่นกันความร้อน
+    Heat_Shield_Name{1}=แผ่นกันความร้อน
+    Fuel_Pipe_Name{0}=ท่อเชื้อเพลิง
+    Fuel_Pipe_Name{1}=ท่อเชื้อเพลิง
+
+[Part Descriptions]
+    Capsule_Description=แคปซูลขนาดเล็กเพื่อขนส่งนักบินอวกาศ 1 คน
+    Probe_Description=อุปกรณ์ไร้คนขับใช้สำหรับภารกิจการบินแบบทางเดียว
+    Parachute_Description=ร่มชูชีพใช้เพื่อลงจอด
+    Fuel_Tank_Description=ถังเชื้อเพลิงบรรจุเชื้อเพลิงเหลวและออกซิเจนเหลว
+    Separator_Description=ตัวคั่นแนวตั้งเพื่อถอด Stage ที่ว่างเปล่า
+    Side_Separator_Description=ตัวคั่นแนวนอนใช้เพื่อถอด Booster
+    Landing_Leg_Description=ขาแบบยืดหดได้สำหรับลงจอดบนพื้นผิวดวงจันทร์และดาวเคราะห์
+    Structural_Part_Description=ชิ้นส่วนโครงสร้างที่เบาและแข็งแรง
+    Hawk_Engine_Description=เครื่องยนต์แรงขับสูง-สมรรถนะต่ำ ปกติใช้ในระยะแรกของจรวด
+    Titan_Engine_Description=เครื่องยนต์แรงขับสูง-สมรรถนะต่ำ ปกติใช้ในระยะแรกของจรวด
+    Valiant_Engine_Description=ประสิทธิภาพสูง แรงขับต่ำ ใช้ในอวกาศเมื่อแรงขับสูงไม่สำคัญ
+    Frontier_Engine_Description=ประสิทธิภาพสูง แรงขับต่ำ ใช้ในอวกาศเมื่อแรงขับสูงไม่สำคัญ
+    Kolibri_Engine_Description=เครื่องยนต์จิ๋วที่ใช้สำหรับลงจอด
+    Ion_Engine_Description=เครื่องยนต์แรงขับต่ำที่มีประสิทธิภาพสูงอย่างไม่น่าเชื่อ
+    RCS_Thruster_Description=ชุดขับดันทิศทางขนาดเล็กใช้สำหรับการ Docking
+    Booster_Description=เริ่มได้เพียงครั้งเดียว มีความน่าเชื่อถือสูงแต่ประสิทธิภาพต่ำ
+    Aerodynamic_Nose_Cone_Description=Aerodynamic nose cone ใช้เพื่อปรับปรุงแอโรไดนามิกของ Booster ด้านข้าง
+    Aerodynamic_Fuselage_Description=Aerodynamic fuselage ใช้สำหรับหุ้มเครื่องยนต์
+    Fairing_Description=Aerodynamic fairing ใช้สำหรับปิด Payload
+    Battery_Description=แบตเตอรี่ใช้สำหรับเก็บกระแสไฟฟ้า
+    Solar_Panel_Description=แผงเซลล์แสงอาทิตย์จะผลิดกระแสไฟฟ้าได้เมื่อกางออก
+    RTG_Description=Radioisotope thermoelectric generator หรือ RTG
+    Rover_Wheel_Description=Rover wheel ใช้สำหรับเคลื่อนที่บนพื้นผิวดาวเคราะห์
+    Docking_Port_Description=พอร์ตเชื่อมต่อใช้สำหรับเชื่อมต่อพาหนะทั้งสองไว้ด้วยกัน
+    Heat_Shield_Description=แผ่นต้านทานความร้อนใช้เพื่อป้องกันการเสียดสีของชั้นบรรยากาศ
+    Fuel_Pipe_Description=ท่อใช้สำหรับส่งเชื้อเพลิง
+
+[Modules]
+    Torque_Module_Torque=แรงบิด: %value%kN
+    Separation_Force=แรงดีด: %value%kN
+
+    Max_Heat_Tolerance=ทนความร้อน: %temperature%
+
+    State_On{0}=เปิด
+    State_Off{0}=ปิด
+
+    Engine_Module_State=เครื่องยนต์ %state{0}%
+    Engine_On_Label=เปิดเครื่องยนต์
+
+    Msg_RCS_Module_State=RCS %state{0}%
+
+    Wheel_Module_State=Rover wheel %state{0}%
+    Wheel_On_Label=Wheel on
+
+    Panel_Expanded=ขยาย
+    Landing_Leg_Expanded=กางขาลง
+
+    Detach_Edges_Label=ถอดขอบ
+
+    Info_Parachute_Max_Height=ความสูงที่ใช้สูงสุด: %height%
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=ไม่สามารถกางร่มชูชีพในสูญญากาศได้
+    Msg_Cannot_Deploy_Parachute_Above=ไม่สามารถกางร่มชูชีพเหนือความสูง %height%
+    Msg_Cannot_Fully_Deploy_Above=ไม่สามารถกางร่มชูชีพเหนือความสูง %height%
+    Msg_Cannot_Deploy_Parachute_While_Faster=ไม่สามารถกางร่มชูชีพความเร็วมากกว่า %velocity%
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=ไม่สามารถกางร่มชูชีพขณะที่ไม่มีการเคลื่อนที่
+    Msg_Parachute_Half_Deployed=กางร่มชูชีพครึ่งหนึ่ง
+    Msg_Parachute_Fully_Deployed=กางร่มชูชีพเต็มที่
+    Msg_Parachute_Cut=ตัดร่มชูชีพ
+
+[Planets]
+    Sun{0}=พระอาทิตย์
+    Sun{1}=พระอาทิตย์
+    Sun{2}=พระอาทิตย์
+    Mercury{0}=ดาวพุธ
+    Venus{0}=ดาวศุกร์
+    Earth{0}=โลก
+    Earth{1}=โลก
+    Earth{2}=โลก
+    Earth{3}=ของโลก
+    Moon{0}=ดวงจันทร์
+    Moon{1}=ดวงจันทร์
+    Moon{2}=ดวงจันทร์
+    Mars{0}=ดาวอังคาร
+    Phobos{0}=โฟบอส
+    Deimos{0}=ดีมอส
+    Jupiter{0}=ดาวพฤหัสบดี
+    Jupiter{1}=ดาวพฤหัสบดี
+    Jupiter{2}=ดาวพฤหัสบดี
+    Jupiter{3}=ของดาวพฤหัสบดี
+    Europa{0}=ยูโรปา
+    Ganymede{0}=แกนีมีด
+    Io{0}=Io
+    Callisto{0}=คัลลิสโต
+
+[Landmarks]
+    Sea_of_Tranquility{0}=Sea of Tranquility
+    Sea_of_Tranquility{1}=Sea of Tranquility
+    Sea_of_Tranquility{2}=ใน Sea of Tranquility
+    Sea_of_Serenity{0}=Sea of Serenity
+    Sea_of_Serenity{1}=the Sea of Serenity
+    Sea_of_Serenity{2}=ใน the Sea of Serenity
+    Ocean_of_Storms{0}=Ocean of Storms
+    Ocean_of_Storms{1}=Ocean of Storms
+    Ocean_of_Storms{2}=ใน the Ocean of Storms
+    Copernicus_Crater{0}=ปล่องภูเขาไฟ Copernicus
+    Copernicus_Crater{1}=ปล่องภูเขาไฟ Copernicus
+    Copernicus_Crater{2}=ข้างในปล่องภูเขาไฟ Copernicus
+    Tycho_Crater{0}=ปล่องภูเขาไฟ Tycho
+    Tycho_Crater{1}=ปล่องภูเขาไฟ Tycho
+    Tycho_Crater{2}=ของในปล่องภูเขาไฟ Tycho
+
+    Olympus_Mons{0}=ภูเขาไฟโอลิมปัส
+    Olympus_Mons{1}=ภูเขาไฟโอลิมปัส
+    Olympus_Mons{2}=ที่ภูเขาไฟโอลิมปัส
+    Valles_Marineris{0}=Valles Marineris
+    Valles_Marineris{1}=Valles Marineris
+    Valles_Marineris{2}=ข้างใน Valles Marineris
+    Gale_Crater{0}=ปล่องภูเขาไฟ Gale
+    Gale_Crater{1}=ปล่องภูเขาไฟ Gale
+    Gale_Crater{2}=ข้างในปล่องภูเขาไฟ Gale
+    Hellas_Planitia{0}=ที่ราบ Hellas
+    Hellas_Planitia{1}=ที่ราบ Hellas
+    Hellas_Planitia{2}=ในที่ราบ Hellas
+    Arcadia_Planitia{0}=ที่ราบ Arcadia
+    Arcadia_Planitia{1}=ที่ราบ Arcadia
+    Arcadia_Planitia{2}=ในที่ราบ Arcadia
+    Utopia_Planitia{0}=ที่ราบ Utopia
+    Utopia_Planitia{1}=ที่ราบ Utopia
+    Utopia_Planitia{2}=ในที่ราบ Utopia
+
+    Atalanta_Planitia{0}=ที่ราบ Atalanta
+    Atalanta_Planitia{1}=ที่ราบ Atalanta
+    Atalanta_Planitia{2}=ในที่ราบ Atalanta
+    Lavinia_Planitia{0}=ที่ราบ Lavinia
+    Lavinia_Planitia{1}=ที่ราบ Lavinia
+    Lavinia_Planitia{2}=ในที่ราบ Lavinia
+
+    Caloris_Planitia{0}=ที่ราบ Caloris
+    Caloris_Planitia{1}=ที่ราบ Caloris
+    Caloris_Planitia{2}=ในที่ราบ Caloris
+    Borealis_Planitia{0}=ที่ราบ Borealis
+    Borealis_Planitia{1}=ที่ราบ Borealis
+    Borealis_Planitia{2}=ในที่ราบ Borealis
+    Maxwell_Montes{0}=Maxwell Montes
+    Maxwell_Montes{1}=Maxwell Montes
+    Maxwell_Montes{2}=at Maxwell Montes
+
+[Achievements]
+    Reached_Height=ถึงความสูง %height%
+    Reached_Karman_Line=ผ่านเส้นคาร์เเมน กำลังออกจากชั้นบรรยากาศและเข้าถึงอวกาศ
+    Survived_Reentry=กำลังเข้าชั้นบรรยากาศของ %planet{3}%, ความร้อนสูงสุด %temperature%
+
+    Reached_Low_Orbit=Reached low %planet{0}% orbit
+    Reached_High_Orbit=Reached high %planet{0}% orbit
+    Descend_Low_Orbit=Descended to low %planet{0}% orbit
+    Capture_Low_Orbit=Captured into low %planet{0}% orbit
+    Capture_High_Orbit=Captured into high %planet{0}% orbit
+
+    Entered_Lower_Atmosphere=เข้าสู่ lower atmosphere ของ %planet{3}% 
+    Entered_Upper_Atmosphere=upper atmosphere ของ %planet{3}% 
+    Left_Lower_Atmosphere=ถึง upper atmosphere ของ %planet{3}% แล้ว
+    Left_Upper_Atmosphere=ออกจากชั้นบรรยากาศของ %planet{3}% แล้ว
+
+    Landed=ลงจอดบนพื้นผิวของ %planet{1}% แล้ว
+    Landed_Near_Landmark=ลงจอดบนพื้นผิวของ %planet{1}% ใกล้กับ %landmark{1}%
+    Landed_At_Landmark=ลงจอดบนพื้นผิวของ %planet{1}% %landmark{2}%
+
+    Crashed_Into_Terrain=ชนเข้ากับพื้นผิวของ %planet{1}%
+
+    Entered_SOI=Entered the sphere of influence of %planet{1}%
+    Escaped_SOI=Escaped the sphere of influence of %planet{1}%
+
+    Docked_Suborbital=Docked in a suborbital trajectory of %planet{0}%
+    Docked_Orbit_Low=Docked in low %planet{0}% orbit
+    Docked_Orbit_Transfer=Docked in a transfer orbit of %planet{1}%
+    Docked_Orbit_High=Docked in high %planet{0}% orbit
+    Docked_Escape=Docked on an escape trajectory of %planet{1}%
+    Docked_Surface=Docked on the surface of %planet{1}%
+
+    Recover_Home=กลับถึง %planet{1}% อย่างปลอดภัย
+    Recover_Landed=จบภารกิจบนพื้นผิวของ %planet{1}%
+    Recover_Space=ภารกิจเสร็จสิ้นแล้วในอวกาศรอบๆ %planet{1}%
+
+[Sharing]
+    Share_Button=แชร์พิมพ์เขียว
+    Upload_Blueprint_PC=อัพโหลดพิมพ์เขียว
+    Download_Blueprint_PC=ดาวน์โหลดพิมพ์เขียว
+    Share_Button_PC=แชร์
+    Download_Confirm=ดาวน์โหลด
+    URL_Field_TextBox=URL ของพิมพ์เขียว
+    Empty_Upload=ไม่สามารถอัพโหลดพิมพ์เขียวที่ว่างเปล่าได้
+    Uploading_Message=กำลังอัพโหลด...
+    Upload_Fail=ผิดพลาด ไม่สามารถอัพโหลดพิมพ์เขียวได้
+    Copied_URL_To_Clipboard=คัดลอก URL ของพิมพ์เขียนในคลิปบอร์ดแล้ว
+    URL_Invalid=URL พิมพ์เขียวไม่ถูกต้อง
+    Sharing_Enter_Prompt=เลือกโลกที่คุณต้องการโหลดพิมพ์เขียวลง
+    Confirm_Download_Button=ดาวน์โหลดพิมพ์เขียว
+    Downloading_Message=กำลังดาวน์โหลด...
+    Download_Fail=ผิดพลาด ไม่สามารถดาวน์โหลดพิมพ์เขียวได้
+    Sharing_Connect_Fail=ไม่สามารถเชื่อมต่อกับเซิฟเวอร์ที่แชร์ได้
