@@ -1,4 +1,4 @@
-# v1.5.7.2
+# v1.5.8
 # by Michael Frolov
 
 [None]
@@ -43,6 +43,15 @@ Credits_Text=
 Credits_Text=Chris Christo
 Credits_Text=<color=grey>Программист</color>
 Credits_Text=
+Credits_Text=Josh
+Credits_Text=<color=grey>Программист</color>
+Credits_Text=
+Credits_Text=Aidan
+Credits_Text=<color=grey>Программист</color>
+Credits_Text=
+Credits_Text=Андрей Онищенко
+Credits_Text=<color=grey>Программист</color>
+Credits_Text=
 Credits_Text=Davi Vasc
 Credits_Text=<color=grey>Композитор</color>
 Credits_Text=
@@ -67,7 +76,7 @@ Rate_Title=Желаете ли вы оставить отзыв об игре?
 Rate_Title=
 Rate_Title=Мы уделяем много времени качеству игры, ваши отзывы помогают нам развивать её 
 Rate_Title=
-Rate_Title=Даже среди тысяч отзывов мы прочитаем значительную их часть!
+Rate_Title=Даже среди тысяч отзывов мы прочтём значительную их часть!
 
 Rate_Confirm=Оставить отзыв
 
@@ -134,6 +143,7 @@ Load=Загрузить
 Import=Импорт
 Delete=Удалить
 Rename=Переименовать
+Delete_File_With_Type=Удалить %filetype{1}% %filename%
 
 Saving_In_Progress=Сохранение...
 Loading_In_Progress=Загрузка...
@@ -165,6 +175,7 @@ Conversion_Failed=%reason%
 [Purchasing]
 Open_Shop_Menu=Дополнения
 Parts_Expansion=Дополнение деталей
+Redstone_Atlas_Pack=Набор Redstone и Atlas
 Skins_Expansion=Дополнение текстур
 Planets_Expansion=Дополнение планет
 Cheats_Expansion=Читы
@@ -175,6 +186,7 @@ Sandbox_Bundle=Набор песочницы
 Upgrade_To_Sandbox_Bundle=Набор песочницы
 Full_Bundle=Полный набор
 Upgrade_To_Full_Bundle=Полный набор
+Mac_Full_Version=Полная версия
 
 More_Parts=Больше деталей...
 More_Skins=Больше текстур...
@@ -241,27 +253,21 @@ FPS_Name=FPS
 Language_Name=Язык
 Menu_Scale=Масштаб
 Menu_Opacity=Непрозрачность
+Shakes_Name=Тряска камеры
+Orbit_Line_Count=Прогноз орбиты
 Cloud_Sync=Облачная синхронизация
+Development_Updates=Новости разработки
 
 [Cheats]
 Infinite_Build_Area_Name=Бесконечное поле
 Part_Clipping_Name=Наложение деталей
 Infinite_Fuel_Name=Бесконечное топливо
+Infinite_Oxygen_Name=Бесконечный кислород
 No_Atmospheric_Drag_Name=Нет аэродинамики
 No_Collision_Damage_Name=Нет урона от ударов
 No_Gravity_Name=Нет гравитации
 No_Heat_Damage_Name=Нет теплового урона
 No_Burn_Marks_Name=Нет следов горения
-
-[Active Cheats]
-Using_Infinite_Build_Area=Бесконечное поле
-Using_Part_Clipping=Наложение деталей
-Using_Infinite_Fuel=Бесконечное топливо
-Using_No_Atmospheric_Drag=Нет аэродинамики
-Using_No_Collision_Damage=Нет урона от ударов
-Using_No_Gravity=Нет гравитации
-Using_No_Heat_Damage=Нет теплового урона
-Using_No_Burn_Marks=Нет следов горения
 
 [Tutorials]
 Tut_Drag_And_Drop=Перетаскивайте детали,
@@ -351,8 +357,13 @@ Height_Horizontal=Высота: %height%
 Velocity_Horizontal=Скорость: %speed%
 Angle_Horizontal=Наклон: %angle% / %targetAngle%
 
-[Game menus]
-Restart_Mission=Перезапуск миссии
+[Failure menu]
+Failure_Cause=ПРИЧИНА АВАРИИ:
+Failure_Crash_Into_Rocket=Столкновение с другим аппаратом
+Failure_Crash_Into_Terrain=Столкновение с поверхностью %planet{1}%
+Failure_Burn_Up=Сгорание при входе в атмосферу
+
+[End mission menu]
 Recover_Rocket=Вернуть
 Destroy_Rocket=Уничтожить
 
@@ -388,11 +399,6 @@ Switch_To=Переключиться
 [Rocket]
 Default_Rocket_Name=Ракета
 No_Control_Msg=Нет контроля
-
-Failure_Cause=ПРИЧИНА АВАРИИ:
-Failure_Crash_Into_Rocket=Столкновение с другим аппаратом
-Failure_Crash_Into_Terrain=Столкновение с поверхностью %planet{1}%
-Failure_Burn_Up=Сгорание при входе в атмосферу
 
 [Timewarp]
 Msg_Timewarp_Speed=Ускорение времени: %speed%x
@@ -462,18 +468,18 @@ Probe_Name{1}=зонд
 Parachute_Name{0}=Парашют
 Parachute_Name{1}=парашют
 
-Kolibri_Engine_Name{0}=Двигатель "Колибри"
-Kolibri_Engine_Name{1}=двигатель "Колибри"
-Hawk_Engine_Name{0}=Двигатель "Ястреб"
-Hawk_Engine_Name{1}=двигатель "Ястреб"
-Valiant_Engine_Name{0}=Двигатель "Храбрый"
-Valiant_Engine_Name{1}=двигатель "Храбрый"
-Titan_Engine_Name{0}=Двигатель "Титан"
-Titan_Engine_Name{1}=двигатель "Титан"
-Frontier_Engine_Name{0}=Двигатель "Рубеж"
-Frontier_Engine_Name{1}=двигатель "Рубеж"
-Peregrine_Engine_Name{0}=Двигатель "Сапсан"
-Peregrine_Engine_Name{1}=двигатель "Сапсан"
+Kolibri_Engine_Name{0}=Двигатель Колибри
+Kolibri_Engine_Name{1}=двигатель Колибри
+Hawk_Engine_Name{0}=Двигатель Ястреб
+Hawk_Engine_Name{1}=двигатель Ястреб
+Valiant_Engine_Name{0}=Двигатель Храбрый
+Valiant_Engine_Name{1}=двигатель Храбрый
+Titan_Engine_Name{0}=Двигатель Титан
+Titan_Engine_Name{1}=двигатель Титан
+Frontier_Engine_Name{0}=Двигатель Рубеж
+Frontier_Engine_Name{1}=двигатель Рубеж
+Peregrine_Engine_Name{0}=Двигатель Сапсан
+Peregrine_Engine_Name{1}=двигатель Сапсан
 Ion_Engine_Name{0}=Ионный двигатель
 Ion_Engine_Name{1}=ионный двигатель
 RCS_Thruster_Name{0}=Двигатели РСУ
@@ -547,6 +553,7 @@ Fuel_Pipe_Description=Топливная труба используется д�
 [Modules]
 Torque_Module_Torque=Сила вращения: %value%кН
 Separation_Force=Сила отделения: %value%кН
+Magnet_Force=Сила магнита: %value%кН
 
 Max_Heat_Tolerance=Теплостойкость: %temperature%
 
@@ -555,6 +562,7 @@ State_Off{0}=выключен
 
 Engine_Module_State=Двигатель %state{1}%
 Engine_On_Label=Двигатель включен
+Gimbal_On_Label=Поворот сопла
 
 Msg_RCS_Module_State=РСУ %state{1}%а
 
@@ -673,36 +681,7 @@ Font=normal
 [Main Menu]
 Roadmap_OpenButton=Будущие обновления
 
-Roadmap_Text=Версия 1.51
-Roadmap_Text=<color=grey>Обучение</color>
-Roadmap_Text=
-Roadmap_Text=Версия 1.52
-Roadmap_Text=<color=grey>Ступени</color>
-Roadmap_Text=
-Roadmap_Text=Версия 1.53
-Roadmap_Text=<color=grey>Вход в атмосферу</color>
-Roadmap_Text=
-Roadmap_Text=Версия 1.54
-Roadmap_Text=<color=grey>Визуальные эффекты, частицы и звуки</color>
-Roadmap_Text=
-Roadmap_Text=Версия 1.55
-Roadmap_Text=<color=grey>Твердотопливные ускорители</color>
-Roadmap_Text=
-Roadmap_Text=Версия 1.6
-Roadmap_Text=<color=grey>Космонавты</color>
-Roadmap_Text=
-Roadmap_Text=Версия 1.7
-Roadmap_Text=<color=grey>Карьера</color>
-Roadmap_Text=
-Roadmap_Text=Версия 1.8
-Roadmap_Text=<color=grey>Внешние планеты</color>
-Roadmap_Text=
-Roadmap_Text=Система электроэнергии:
-Roadmap_Text=<color=grey>Вся система электроэнергии будет полностью переработана в будущем, вероятно, вместе с добавлением новых функций, таких как использование ионных двигателей при ускоренном времени</color>
-Roadmap_Text=
-Roadmap_Text=
-Roadmap_Text=Пожалуйста, помните, что все эти
-Roadmap_Text=планы могут измениться
+Roadmap_Text=Обнови игру :)
 
 [Purchasing]
 Expansion_Bundle=Пакет дополнений
@@ -766,6 +745,56 @@ Using_No_Collision_Damage=Нет урона от ударов
 Using_No_Gravity=Нет гравитации
 Using_No_Heat_Damage=Нет теплового урона
 Using_Part_Clipping=Наложение деталей
+
+[Active Cheats]
+Using_Infinite_Build_Area=Бесконечное поле
+Using_Part_Clipping=Наложение деталей
+Using_Infinite_Fuel=Бесконечное топливо
+Using_No_Atmospheric_Drag=Нет аэродинамики
+Using_No_Collision_Damage=Нет урона от ударов
+Using_No_Gravity=Нет гравитации
+Using_No_Heat_Damage=Нет теплового урона
+Using_No_Burn_Marks=Нет следов горения
+
+[Game menus]
+Restart_Mission=Перезапуск миссии
+Recover_Rocket=Вернуть
+Destroy_Rocket=Уничтожить
+
+Restart_Mission_To_Launch=Вернуться к запуску
+
+Restart_Mission_To_Launch_Warning=Вернуться к запуску?
+Restart_Mission_To_Launch_Warning=
+Restart_Mission_To_Launch_Warning=ВНИМАНИЕ:
+Restart_Mission_To_Launch_Warning=Весь несохранённый прогресс будет утерян
+
+Restart_Mission_To_Build=Вернуться к сборке
+
+Restart_Mission_To_Build_Warning=Вернуться к сборке?
+Restart_Mission_To_Build_Warning=
+Restart_Mission_To_Build_Warning=ВНИМАНИЕ:
+Restart_Mission_To_Build_Warning=Весь несохранённый прогресс будет утерян
+
+End_Mission_Menu_Title=Достижения миссии:
+End_Mission=Завершить миссию
+
+Clear_Debris_Warning=Очистить космический мусор?
+Clear_Debris_Warning=
+Clear_Debris_Warning=Все неконтролируемые аппараты будут удалены
+
+Clear_Debris_Confirm=Очистить мусор
+
+Navigate_To=Выделить как цель
+End_Navigation=Убрать выделение
+Focus=Сфокусироваться
+Unfocus=Расфокусироваться
+Switch_To=Переключиться
+
+[Rocket]
+Failure_Cause=ПРИЧИНА АВАРИИ:
+Failure_Crash_Into_Rocket=Столкновение с другим аппаратом
+Failure_Crash_Into_Terrain=Столкновение с поверхностью %planet{1}%
+Failure_Burn_Up=Сгорание при входе в атмосферу
 
 [Timewarp]
 Msg_Timewarp_Speed_Physics=Ускорение времени: %speed%x
