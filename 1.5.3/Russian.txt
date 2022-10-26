@@ -1,4 +1,4 @@
-# v1.5.8
+# v1.5.8.5
 # by Michael Frolov
 
 [None]
@@ -63,9 +63,9 @@ Credits_Text=<color=grey>Русская локализация</color>
 Credits_Text=Михаил Фролов
 Credits_Text=Иван Фомин
 
-Update_Available=Доступно новое обновление!
+Update_Available=Доступно обновление!
 Update_Available=
-Update_Available=Установленная версия: %old%
+Update_Available=Текущая версия: %old%
 Update_Available=Актуальная версия: %new%
 
 Update_Confirm=Обновить
@@ -74,9 +74,9 @@ Update_Overview_Video_Confirm=Открыть
 
 Rate_Title=Желаете ли вы оставить отзыв об игре?
 Rate_Title=
-Rate_Title=Мы уделяем много времени качеству игры, ваши отзывы помогают нам развивать её 
+Rate_Title=Мы уделяем много времени качеству игры, ваши отзывы помогают нам развивать её
 Rate_Title=
-Rate_Title=Даже среди тысяч отзывов мы прочтём значительную их часть!
+Rate_Title=Даже среди тысяч отзывов мы прочтём значительную часть!
 
 Rate_Confirm=Оставить отзыв
 
@@ -181,9 +181,7 @@ Planets_Expansion=Дополнение планет
 Cheats_Expansion=Читы
 Infinite_Area_Expansion=Бесконечное поле
 Builder_Bundle=Набор строителя
-Upgrade_To_Builder_Bundle=Набор строителя
 Sandbox_Bundle=Набор песочницы
-Upgrade_To_Sandbox_Bundle=Набор песочницы
 Full_Bundle=Полный набор
 Upgrade_To_Full_Bundle=Полный набор
 Mac_Full_Version=Полная версия
@@ -249,7 +247,7 @@ Sharing_Connect_Fail=Не удалось установить соединени
 Music_Name=Музыка
 Sound_Name=Звук
 Screen_Rotation_Name=Поворот экрана
-FPS_Name=FPS
+FPS_Name=Лимит FPS
 Language_Name=Язык
 Menu_Scale=Масштаб
 Menu_Opacity=Непрозрачность
@@ -257,6 +255,7 @@ Shakes_Name=Тряска камеры
 Orbit_Line_Count=Прогноз орбиты
 Cloud_Sync=Облачная синхронизация
 Development_Updates=Новости разработки
+Anti_Aliasing=Сглаживание
 
 [Cheats]
 Infinite_Build_Area_Name=Бесконечное поле
@@ -280,7 +279,7 @@ Tut_Use_Part=Нажимайте на детали,
 Tut_Use_Part=чтобы использовать их
 
 Tut_Ignition=Зажигание!
-Tut_Throttle=Регулируйте дроссель
+Tut_Throttle=Регулируйте тягу
 
 [Hub]
 Funds_Text=Бюджет: %funds%
@@ -686,6 +685,9 @@ Roadmap_Text=Обнови игру :)
 [Purchasing]
 Expansion_Bundle=Пакет дополнений
 Upgrade_To_Bundle=Пакет дополнений (-50%)
+
+Upgrade_To_Builder_Bundle=Набор строителя
+Upgrade_To_Sandbox_Bundle=Набор песочницы
 
 Why_Buy=Ваша поддержка помогает нам развивать игру!
 Discount_Reason_Upgrade=Цена снижена, поскольку у вас уже есть часть контента
