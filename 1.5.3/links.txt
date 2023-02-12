@@ -12,5 +12,5 @@ Bahasa Melayu;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulat
 Bahasa Indonesia;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Indonesian.txt
 한국어;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Korean.txt
 日本語;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Japanese.txt
-Chinese;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Chinese.txt
-ver:16
+简体中文;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Chinese.txt
+ver:17
