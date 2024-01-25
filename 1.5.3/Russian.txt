@@ -424,7 +424,7 @@ Revert_3_Min=Вернуться на 3 мин
 
 End_Challenges_Title=Испытания:
 End_Logs_Title=События полёта:
-Continue_To_Log=Проложить
+Continue_To_Log=Продолжить
 Back_To_Challenges=Назад
 
 Clear_Debris_Warning=Убрать обломки?
