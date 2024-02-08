@@ -1,4 +1,4 @@
-# v1.5.10.2
+# v1.5.9.15
 # by Michael Frolov
 
 [None]
@@ -313,7 +313,7 @@ Symmetry_Off=Симметрия: выключена
 Interior_View_On=Вид интерьера: включен
 Interior_View_Off=Вид интерьера: выключен
 
-Launch_Button=Запустить
+Launch_Button=Запуск
 Move_Rocket_Button=Переместить
 
 Clear_Warning=Очистить поле сборки?
@@ -748,7 +748,7 @@ Capture_High_Orbit=Захват на высокую орбиту %planet{1}%
 
 Entered_Lower_Atmosphere=Вход в плотные слои атмосферы %planet{1}%
 Entered_Upper_Atmosphere=Вход в верхние слои атмосферы %planet{1}%
-Left_Lower_Atmosphere=Достижение верхних слоёв атмосферы %planet{1}%
+Left_Lower_Atmosphere=Выход их плотных слоёв атмосферы %planet{1}%
 Left_Upper_Atmosphere=Выход из атмосферы %planet{1}%
 
 Landed=Посадка на поверхность %planet{1}%
