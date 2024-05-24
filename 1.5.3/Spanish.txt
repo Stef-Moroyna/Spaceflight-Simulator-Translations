@@ -15,10 +15,10 @@
     Close=Cerrar
     Open_Settings_Button=Configuración
     Open_Cheats_Button=Trampas
-    Help=Ayudas
+    Help=Ayuda
 
 # Switching scenes buttons
-    Build_Rocket=Ensamblar cohete
+    Build_Rocket=Construir cohete
     Resume_Game=Volver al juego
     Return_To_Main_Menu=Menú principal
     Exit_To_Main_Menu=Salir al menú principal
@@ -82,12 +82,12 @@
 
 
 [Worlds Menu]
-    Create_New_World_Button=Crear mundo
+    Create_New_World_Button=Crear mundo nuevo
     World_Delete=¿Eliminar mundo?
 
 # Create menu
     Create_World_Title=Nombre del mundo
-    Default_World_Name=Mi mundo
+    Default_World_Name=Mundo nuevo
     Select_Solar_System=Selecciona el sistema solar del mundo
 
     Select_Solar_System__NotFound=No se ha podido encontrar el sistema solar
@@ -100,7 +100,7 @@
 
 # World info
     Last_Played=Última sesión: hace %value%
-    Just_Played=Última sesión: hace un momento
+    Just_Played=Última sesión: hace unos segundos
     Time_Played=Tiempo de juego: %value%
 
 
@@ -129,7 +129,7 @@
     Save=Guardar
     Load=Cargar
     Import=Importar
-    Delete=Elimina
+    Delete=Eliminar
     Rename=Cambiar nombre
 
 # In progress
@@ -159,10 +159,10 @@
 [Purchasing]
     Open_Shop_Menu=Expansiones
     Parts_Expansion=Expansión de componentes
-    Skins_Expansion=Expansión de aspectos
+    Skins_Expansion=Expansión de skins
     Planets_Expansion=Expansión de planetas
-    Cheats_Expansion=Trampas
-    Infinite_Area_Expansion=Área de Construcción Infinit
+    Cheats_Expansion=Trucos
+    Infinite_Area_Expansion=Área de Construcción Infinita
     Builder_Bundle= Paquete de Construcción
     Upgrade_To_Builder_Bundle= Actualizar al Paquete de Construcción
     Sandbox_Bundle= Paquete Sandbox
@@ -176,7 +176,7 @@
     Buy_Product=Comprar %product% %price%
     Discount_Reason_Upgrade=Con Descuento porque ya tienes otra expansion
 
-    Purchase_Thanks_Msg=Has comprado %product%
+    Purchase_Thanks_Msg=Has comprado %product%, muchas gracias por apoyar el desarrollo del juego
     Purchase_Thanks_Msg=
     Purchase_Thanks_Msg=Gracias por tu compra
     Purchase_Thanks_Msg=Ahora, ¡a explorar las estrellas!
@@ -243,7 +243,7 @@
 
 [Cheats]
     Infinite_Build_Area_Name=Área de construcción infinita
-    Part_Clipping_Name=Recorte de piezas
+    Part_Clipping_Name=Superposicion de piezas
     Infinite_Fuel_Name=Combusitble infinito
     No_Atmospheric_Drag_Name=Sin rozamiento atmosférico
     No_Collision_Damage_Name=Sin daño por colisión
@@ -254,17 +254,17 @@
 
 [Active Cheats]
     Using_Infinite_Build_Area=Área de construcción infinita
-    Using_Part_Clipping=Recorte de piezas
+    Using_Part_Clipping=Superposicion de piezas
     Using_Infinite_Fuel=Combusitble infinito
     Using_No_Atmospheric_Drag=Sin rozamiento atmosférico
     Using_No_Collision_Damage=Sin daño por colisión
     Using_No_Gravity=Sin gravedad
     Using_No_Heat_Damage=Sin daño por calor
-    Using_No_Burn_Marks=Sin marcas de quemadura
+    Using_No_Burn_Marks=Sin marcas de quemadu
 
 
 [Build]
-    Build_New_Rocket=Ensamblar cohete nuevo
+    Build_New_Rocket=Construir cohete nuevo
     New=Nuevo
     Expand_Last_Rocket=Continuar construcción
 
@@ -274,7 +274,7 @@
     Interior_View_On=Vista Interior: activado
     Interior_View_Off=Vista Interior: desactivado
 
-    Launch_Button=Lanzar
+    Launch_Button=¡Despegar!
     Move_Rocket_Button=Mover cohete
 
 # Clear build area
@@ -283,13 +283,13 @@
 
 # Launch warnings
     Warnings_Title=
-    Missing_Capsule=El cohete no tiene cabina
+    Missing_Capsule=El cohete no tiene capsula, si lo lanzas, no podrás controlarlo
     Missing_Parachute=El cohete no tiene paracaídas
     Missing_Heat_Shield=El cohete no tiene escudo térmico
     Too_Heavy=El cohete es demasiado pesado para despegar
     Too_Heavy=
     Too_Heavy=Reduce el peso o usa un motor más potente
-    Launch_Anyway_Button=Proceder
+    Launch_Anyway_Button=Despegar igualmente 
 
 # Example rockets
     Example_Rockets_OpenMenu=Cohetes de ejemplo
@@ -306,27 +306,27 @@
     Escape=Escape
 
 # Shown in map when you encounter/enter a gravity field of a planet
-    Encounter=Aproximación
+    Encounter=Encuentro
 
 # Shown in map when you approach/encounter another rocket
-    Rendezvous=Encuentro
+    Rendezvous=Contacto con otro Cohete
 
 # Shows the transfer window to another planet
     Transfer=Transferencia
 
 
 [Game]
-    Throttle_On=activado
-    Throttle_Off=desactivado
+    Throttle_On=On
+    Throttle_Off=Off
     Ignition=Ignición
     RCS=RCS
 
 # Game supports screen rotation, we split into 2 lines in vertical mode
-    Height_Terrain_Vertical=Altura (a nivel del suelo):
+    Height_Terrain_Vertical=Altitud (a nivel del suelo):
     Height_Terrain_Vertical=
     Height_Terrain_Vertical=%height%
 
-    Height_Vertical=Altura:
+    Height_Vertical=Altitud:
     Height_Vertical=
     Height_Vertical=%height%
 
@@ -335,16 +335,16 @@
     Velocity_Vertical=%speed%
 
 # Angle indicates the best angle/direction the player can rotate their rocket towards
-    Angle_Vertical=Ángulo:
+    Angle_Vertical=Inclinacion Optima:
     Angle_Vertical=
     Angle_Vertical=%angle% / %targetAngle%
 
-    Height_Terrain_Horizontal=Altura (a nivel del suelo): %height%
+    Height_Terrain_Horizontal=Altitud (a nivel del suelo): %height%
     Height_Horizontal=Altura: %height%
     Velocity_Horizontal=Velocidad: %speed%
 
 # Angle indicates the best angle/direction the player can rotate their rocket towards
-    Angle_Horizontal=Ángulo: %angle% / %targetAngle%
+    Angle_Horizontal=Inclinacion Optima: %angle% / %targetAngle%
 
 
 [Game menus]
@@ -353,17 +353,17 @@
     Destroy_Rocket=Destruir
 
 # Restart menu
-    Restart_Mission_To_Launch=Volver al lanzamiento
+    Restart_Mission_To_Launch=Volver al despegue
 
-    Restart_Mission_To_Launch_Warning=¿Volver al lanzamiento?
+    Restart_Mission_To_Launch_Warning=¿Volver al despegue?
     Restart_Mission_To_Launch_Warning=
-    Restart_Mission_To_Launch_Warning=Se perderá todo el progreso desde el último lanzamiento
+    Restart_Mission_To_Launch_Warning=Se perderá todo el progreso desde el último despegue
 
-    Restart_Mission_To_Build=Volver al ensamblaje
+    Restart_Mission_To_Build=Volver a la zona de construcción 
 
-    Restart_Mission_To_Build_Warning=¿Volver al ensamblaje?
+    Restart_Mission_To_Build_Warning=¿Volver a la zona de construcción?
     Restart_Mission_To_Build_Warning=
-    Restart_Mission_To_Build_Warning=Se perderá todo el progreso desde el último lanzamiento
+    Restart_Mission_To_Build_Warning=Se perderá todo el progreso desde el último despuege 
 
 # End mission menu
     End_Mission_Menu_Title=Logros de misión:
@@ -372,13 +372,13 @@
 # Clear space junk/debris
     Clear_Debris_Warning=¿Limpiar basura espacial?
     Clear_Debris_Warning=
-    Clear_Debris_Warning=Esto eliminará todos los cohetes incontrolables
+    Clear_Debris_Warning=Esto eliminará todos los cohetes que no tengan capsula o sonda
 
     Clear_Debris_Confirm=Limpiar basura espacial
 
 # Select menu
-    Navigate_To=Navegar a
-    End_Navigation=Finalizar navegación
+    Navigate_To=Viajar a
+    End_Navigation=Finalizar viaje
     Focus=Centrar
     Unfocus=Dejar de centrar
     Switch_To=Cambiar a
@@ -461,8 +461,8 @@
 
 
 [Part Names]
-    Capsule_Name{0}=Cabina
-    Capsule_Name{1}=cabina
+    Capsule_Name{0}=Capsula
+    Capsule_Name{1}=capsula
 
     Probe_Name{0}=Sonda
     Probe_Name{1}=sonda
@@ -494,11 +494,11 @@
     RCS_Thruster_Name{0}=Impulsor SCR
     RCS_Thruster_Name{1}=impulsor SCR
 
-    Solid_Rocket_Booster{0}=Impulsor de cohete sólido
-    Solid_Rocket_Booster{1}=Impulsor de cohete sólido
+    Solid_Rocket_Booster{0}=Motor de combustible sólido
+    Solid_Rocket_Booster{1}=Motor de combustible sólido
 
-    Fuel_Tank_Name{0}=Depósito de combustible
-    Fuel_Tank_Name{1}=depósito de combustible
+    Fuel_Tank_Name{0}=Tanque de combustible
+    Fuel_Tank_Name{1}=tanque de combustible
 
     Separator_Name{0}=Separador
     Separator_Name{1}=separador
@@ -506,11 +506,11 @@
     Side_Separator_Name{0}=Separador lateral
     Side_Separator_Name{1}=separador lateral
 
-    Structural_Part_Name{0}=Componente estructural
-    Structural_Part_Name{1}=componente estructural
+    Structural_Part_Name{0}=Vigas de hierro
+    Structural_Part_Name{1}=vigas de hierro
 
-    Landing_Leg_Name{0}=Tren de aterrizaje
-    Landing_Leg_Name{1}=tren de aterrizaje
+    Landing_Leg_Name{0}=Pata de aterrizaje
+    Landing_Leg_Name{1}=pata de aterrizaje
 
     Aerodynamic_Nose_Cone_Name{0}=Ojiva aerodinámica
     Aerodynamic_Nose_Cone_Name{1}=ojiva aerodinámica
@@ -544,10 +544,10 @@
 
 
 [Part Descriptions]
-    Capsule_Description=Una pequeña cabina con espacio para un astronauta.
+    Capsule_Description=Una pequeña capsula con espacio para un astronauta,(Los astronautas no han sido añadidos al juegó todavía, estarán dentro de poco).
     Probe_Description=Una sonda no tripulada, solo para misiones de ida.
     Parachute_Description=Un paracaídas para el aterrizaje.
-    Fuel_Tank_Description=Un depósito de combustible con propelente líquido y oxígeno líquido.
+    Fuel_Tank_Description=Un tanque de combustible con propelente líquido y oxígeno líquido.
     Separator_Description=Separador vertical para aislar etapas vacías.
     Side_Separator_Description=Separador horizontal para aislar los propulsores laterales.
     Landing_Leg_Description=Una pata extensible y retráctil para aterrizar en superficies lunares y planetarias.
