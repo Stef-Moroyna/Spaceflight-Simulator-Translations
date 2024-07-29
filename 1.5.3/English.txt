@@ -1,0 +1,768 @@
+[None]
+    None=None
+    Font=normal
+
+[General]
+    Cancel=Cancel
+    Close=Close
+
+    On=On
+    Off=Off
+
+    Open_Settings_Button=Settings
+    Open_Cheats_Button=Cheats
+    Help=Help
+
+    Build_Rocket=Build Rocket
+    Resume_Game=Resume Game
+    Return_To_Main_Menu=Main Menu
+    Exit_To_Main_Menu=Exit To Main Menu
+
+[Main Menu]
+    Play=Play
+
+    Video_Tutorials_OpenButton=Video Tutorials
+    Video_Orbit=Orbit Tutorial
+    Video_Moon=Moon Tutorial
+    Video_Dock=Docking Tutorial
+
+    Development_Preview=Development Preview
+    Development_Preview_Explanation=The development preview showcases future updates we are working on
+
+    Community_OpenButton=Community
+    Community_Youtube=Youtube
+    Community_Discord=Discord
+    Community_Reddit=Reddit
+    Community_Forums=Forums
+
+    Credits_OpenButton=Credits
+
+    Credits_Text=<Size=70> Štefo Mai Morojna </size>
+    Credits_Text=<Size=55> Designer - Programmer - Artist </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Jordi van der Molen </size>
+    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Chris Christo </size>
+    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Josh </size>
+    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Aidan Ginise </size>
+    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Andrey Onischenko </size>
+    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Davi Vasc </size>
+    Credits_Text=<Size=55> Composer </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Ashton Mills </size>
+    Credits_Text=<size=55> Composer </size>
+
+    First_Time_Playing_Question=First time playing
+    First_Time_Playing_Question=Spaceflight Simulator?
+
+    First_Time_Playing_Yes=First Time Playing
+    First_Time_Playing_No=Played Before
+
+    Update_Available=A new update is available!
+    Update_Available=
+    Update_Available=Current version: %old%
+    Update_Available=Latest version: %new%
+
+    Update_Confirm=Update
+
+    Rate_Title=Would you like to rate or review the game?
+    Rate_Title=
+    Rate_Title=We deeply care about the quality of our game, your feedback helps us improve it
+    Rate_Title=
+    Rate_Title=Even after thousands of reviews, we still read a large number of them!
+
+    Rate_Confirm=Rate
+
+    Exit_Button=Exit
+    Close_Game=Close game?
+
+[Worlds Menu]
+    Create_New_World_Button=Create New World
+    World_Delete=Delete world?
+
+# Create menu
+    Create_World_Title=World Name
+    Default_World_Name=My World
+    Select_Solar_System=Select world's solar system
+
+    Select_Solar_System__NotFound=Solar system could not be found:
+    Select_Solar_System__NotFound=%system%
+    Select_Solar_System__NotFound=
+    Select_Solar_System__NotFound=Select a new solar system
+
+    Default_Solar_System=Solar System (Default)
+    Custom_Solar_System=%name% (Custom)
+
+# World info
+    World_Mode_Name=Mode: %value%
+    Mode_Sandbox=Sandbox
+    Mode_Challenge=Challenge
+    Mode_Career=Career
+
+    Allow_Cheats_Name=Allow Cheats: %value%
+    Allow_Cheats_Label=Allow Cheats
+
+    Allow_Quicksaves_Name=Allow Quicksaves: %value%
+    Allow_Quicksaves_Label=Allow Quicksaves
+
+    World_Difficulty_Name=Difficulty: %value%
+    Difficulty_Normal=Normal
+    Difficulty_Hard=Hard
+    Difficulty_Realistic=Realistic
+
+    Last_Played=Last played: %value% ago
+    Just_Played=Last played: A moment ago
+    Time_Played=Playtime: %value%
+
+[World Create Menu]
+    World_Create_Title=Create World
+    World_Name_Label=World Name:
+    Solar_System_Label=Solar System:
+    Mode_Label=Mode:
+    Difficulty_Label=Difficulty:
+
+[Saving]
+# Blueprint stuff
+    Blueprints_Menu_Title=Blueprints
+    Unnamed_Blueprint=Unnamed Blueprint
+    Save_Blueprint=Save Blueprint
+    Load_Blueprint=Load Blueprint
+    Cannot_Save_Empty_Build=Cannot save an empty blueprint
+
+# Quicksave stuff
+    Quicksaves_Menu_Title=Quicksaves
+    Unnamed_Quicksave=Unnamed Quicksave
+    Create_Quicksave=Create Quicksave
+    Load_Quicksave=Load Quicksave
+
+# Save and load menus
+    Save=Save
+    Load=Load
+    Import=Import
+    Delete=Delete
+    Rename=Rename
+    Delete_File_With_Type=Delete %filename% %filetype{1}%
+
+# In progress
+    Saving_In_Progress=Saving...
+    Loading_In_Progress=Loading...
+    Importing_In_Progress=Importing...
+
+# filetype (injected)
+    Blueprint{0}=Blueprint
+    Blueprint{1}=blueprint
+    Blueprint{2}=blueprints
+    Quicksave{0}=Quicksave
+    Quicksave{1}=quicksave
+    Quicksave{2}=quicksaves
+
+# Ask overwrite menu
+    File_Already_Exists=A %filetype{1}% with this name already exists
+    Overwrite_File=Overwrite %filetype{1}%
+    New_File=New %filetype{1}%
+
+# Load failure
+    Load_Failed=Could not load %filetype{1}% from %filepath%
+
+[Purchasing]
+    Open_Shop_Menu=Expansions
+    Parts_Expansion=Parts Expansion
+    Redstone_Atlas_Pack=Redstone Atlas Pack
+    Skins_Expansion=Skins Expansion
+    Planets_Expansion=Planets Expansion
+    Cheats_Expansion=Cheats
+    Infinite_Area_Expansion=Infinite Build Area
+    Builder_Bundle=Builder Bundle
+    Sandbox_Bundle=Sandbox Bundle
+    Full_Bundle=Full Bundle
+    Upgrade_To_Full_Bundle=Upgrade To Full Bundle
+    Mac_Full_Version=Full Version
+
+    Not_All_Parts_Are_Owned=Not all parts are owned
+    Not_All_Parts_Are_Owned=Disabled not owned parts
+    Not_All_Parts_Are_Owned=
+    Not_All_Parts_Are_Owned=View parts expansion?
+
+    View_Part_Expansion=View Expansion
+
+    More_Parts=View Parts Expansion
+    More_Skins=View Skins Expansion
+    Cannot_Use_Cheats_In_Career=Cheats can only be used in a sandbox mode world
+    Get_Infinite_Build_Area_Button=Get Infinite Build Area
+    Get_Cheats_Expansion_Button=Get Cheats Expansion
+
+    Buy_Product=Buy %product% %price%
+
+    Timed_Sale_Text=%product_name% -%sale_percent%
+    Timed_Sale_Text=%time_left%
+
+    Time_Upgrade_Text=Upgrade to %product_name% -%sale_percent%
+    Time_Upgrade_Text=%time_left%
+
+    Purchase_Thanks_Msg=Purchased: %product%
+    Purchase_Thanks_Msg=
+    Purchase_Thanks_Msg=Thanks for your support!
+    Purchase_Thanks_Msg=Now go and explore the stars!
+
+    Owned=%product% (Owned)
+
+    Restore_Open=Restore Purchases
+
+# Parts Expansion
+    PartsExpansion_Tanks=Large variety of fuel tanks!
+    PartsExpansion_Engines=Heavy lift engines!
+    PartsExpansion_Parts=Parts of all shapes and sizes!
+
+    PartsExpansion_Build=Large build space to bring
+    PartsExpansion_Build=your creations to life!
+
+# Skins Expansion
+    SkinsExpansion_Tanks=Paint your parts in a diverse variety of skins!
+    SkinsExpansion_Interstages=Color everything from interstages
+    SkinsExpansion_Nosecones=To nosecones
+    SkinsExpansion_Fairings=And even fairings
+
+# Planets Expansion
+    PlanetsExpansion_Jupiter=Explore Jupiter and its four moons!
+    PlanetsExpansion_Callisto=From the heavily cratered surface of Callisto!
+    PlanetsExpansion_Europa=To the vast ice flats of Europa!
+
+    PlanetsExpansion_Conclusion=Distant worlds are waiting for you
+    PlanetsExpansion_Conclusion=to explore them!
+
+[Sharing]
+    Share_Button=Share Blueprint
+    Upload_Blueprint_PC=Upload Blueprint
+    Download_Blueprint_PC=Download Blueprint
+    Share_Button_PC=Share
+    Download_Confirm=Download
+    URL_Field_TextBox=Blueprint URL
+    Empty_Upload=Cannot upload empty blueprint
+    Uploading_Message=Uploading...
+    Upload_Fail=Failed to upload blueprint
+    Copied_URL_To_Clipboard=Copied blueprint URL to clipboard
+    Sharing_Enter_Prompt=Select which world you want blueprint to be loaded into
+    Confirm_Download_Button=Download Blueprint
+    Downloading_Message=Downloading...
+    Download_Fail=Failed to download blueprint
+    URL_Invalid=Invalid Blueprint URL
+    Sharing_Connect_Fail=Could not connect to sharing servers
+
+[Settings Mobile]
+    Music_Name=Music
+    Sound_Name=Sound
+    Screen_Rotation_Name=Screen Rotation
+    FPS_Name=Fps
+    Language_Name=Language
+    Menu_Scale=Interface Scale
+    Menu_Opacity=Interface Opacity
+    Shakes_Name=Camera Shake
+    Orbit_Line_Count=Orbit Line Count
+    Anti_Aliasing=Anti-Aliasing
+
+[Cheats]
+    Infinite_Build_Area_Name=Infinite Build Area
+    Part_Clipping_Name=Part Clipping
+    Infinite_Fuel_Name=Infinite Fuel
+    No_Atmospheric_Drag_Name=No Atmospheric Drag
+    No_Collision_Damage_Name=No Collision Damage
+    No_Gravity_Name=No Gravity
+    No_Heat_Damage_Name=No Heat Damage
+    No_Burn_Marks_Name=No Burn Marks
+
+[Tutorials]
+
+    Tut_Drag_And_Drop=Drag and drop parts
+    Tut_Drag_And_Drop=to build your rocket
+
+    Tut_Part_Info=Click to view
+    Tut_Part_Info=part information
+
+    Tut_Use_Part=Click on parts to use them
+    Tut_Ignition=Ignition!
+    Tut_Throttle=Adjust throttle
+
+[Hub]
+    Funds_Text=Funds: %funds%
+    Go_To_Space_Center=Space Center
+    Exit_To_Space_Center=Exit To Space Center
+    Research_And_Development=Research & Development %complete%/%total%
+    Challenges_Info=Challenges: %complete%/%total%
+    Challenges_Button=Challenges: %complete%/%total%
+    Challenges_Title=Challenges:
+
+    Challenges_Completed=<size=55>Challenge completed:</size>
+    Challenges_Completed=%challenge%
+
+[Build]
+    Build_New_Rocket=Build New Rocket
+    New=New
+    Expand_Last_Rocket=Continue Build
+
+    Symmetry_On=Symmetry: On
+    Symmetry_Off=Symmetry: Off
+
+    Interior_View_On=Interior View: On
+    Interior_View_Off=Interior View: Off
+
+    Launch_Button=Launch
+    Move_Rocket_Button=Move Rocket
+
+# Clear build area
+    Clear_Warning=Clear build area?
+    Clear_Confirm=Clear
+
+# Launch warnings
+    Warnings_Title=WARNING:
+    Missing_Capsule=Your rocket has no capsule or probe, making it uncontrollable
+    Missing_Parachute=Your rocket has no parachute
+    Missing_Heat_Shield=Your rocket has no heat shield
+    Missing_Fuel_Popup=No fuel source
+
+    Too_Heavy=Your rocket is too heavy to launch
+    Too_Heavy=%mass%
+    Too_Heavy=%thrust%
+
+    Launch_Anyway_Button=Launch Anyway
+
+    Launch_Horizontally_Ask=Launch horizontally?
+    Launch_Horizontally_Confirm=Launch Horizontally
+    Launch_Vertically_Confirm=Launch Vertically
+
+# Example rockets
+    Example_Rockets_OpenMenu=Example Rockets
+    Basic_Rocket=Basic Rocket
+    Stages=Two Stage Rocket
+    Ideal_Stages=Three Stage Rocket
+    Lander=Moon Lander
+
+[Map]
+    Toggle_Map_Button=Map
+    Escape=Escape
+    Encounter=Encounter
+    Rendezvous=Rendezvous
+    Transfer=Transfer Window
+
+[Game]
+    Throttle_On=On
+    Throttle_Off=Off
+    Ignition=IGNITION
+    RCS=RCS
+
+# Game supports screen rotation, we split into 2 lines in vertical mode
+    Height_Terrain_Vertical=Height (Terrain):
+    Height_Terrain_Vertical=
+    Height_Terrain_Vertical=%height%
+
+    Height_Vertical=Height:
+    Height_Vertical=
+    Height_Vertical=%height%
+
+    Velocity_Vertical=Velocity:
+    Velocity_Vertical=
+    Velocity_Vertical=%speed%
+
+    Velocity_Relative_Vertical=Velocity (Relative):
+    Velocity_Relative_Vertical=
+    Velocity_Relative_Vertical=%speed%
+
+    Distance_Relative_Vertical=Distance (Relative):
+    Distance_Relative_Vertical=
+    Distance_Relative_Vertical=%distance%
+
+    Angle_Vertical=Angle:
+    Angle_Vertical=
+    Angle_Vertical=%angle% / %targetAngle%
+
+    Height_Terrain_Horizontal=Height (Terrain): %height%
+    Height_Horizontal=Height: %height%
+    Velocity_Horizontal=Velocity: %speed%
+    Velocity_Relative_Horizontal=Velocity (Relative): %speed%
+    Distance_Relative_Horizontal=Distance (Relative): %distance%
+    Angle_Horizontal=Angle: %angle% / %targetAngle%
+
+    Relative_Velocity_Arrow=Relative Velocity
+    Relative_Velocity_Arrow=%velocity%
+
+    Side_Velocity_Arrow=Side Velocity
+    Side_Velocity_Arrow=%velocity%
+
+    Forward_Velocity_Arrow=Distance
+    Forward_Velocity_Arrow=%distance%
+    Forward_Velocity_Arrow=
+    Forward_Velocity_Arrow=Velocity
+    Forward_Velocity_Arrow=%velocity%
+
+[Failure menu]
+    Failure_Cause=FAILURE CAUSE:
+    Failure_Crash_Into_Rocket=Crashed into another rocket
+    Failure_Crash_Into_Terrain=Crashed into the surface of %planet{1}%
+    Failure_Burn_Up=Burned up on reentry
+
+[End mission menu]
+    Recover_Rocket=Recover
+    Destroy_Rocket=Destroy
+    Debris_Recover=Recover Debris
+    Debris_Destroy=Destroy Debris
+    Debris_Recover_Title=Recover debris?
+    Debris_Destroy_Title=Destroy debris?
+    View_Mission_Log=View Flight Log
+
+# Restart menu
+    Restart_Mission_To_Launch_Warning=WARNING:
+    Restart_Mission_To_Launch_Warning=This will undo all progress since last launch
+
+    Restart_Mission_To_Build_Warning=WARNING:
+    Restart_Mission_To_Build_Warning=This will undo all progress since last launch
+
+    Restart_Mission_To_Launch=Revert To Launch
+    Restart_Mission_To_Build=Revert To Build
+    Revert_30_Secs=Revert 30 Sec
+    Revert_3_Min=Revert 3 Min
+
+# End mission menu
+    End_Challenges_Title=Challenges:
+    End_Logs_Title=Mission Log:
+    Continue_To_Log=Continue
+    Back_To_Challenges=Back
+
+# Clear space junk/debris
+    Clear_Debris_Warning=Clear debris?
+    Clear_Debris_Warning=
+    Clear_Debris_Warning=This will remove all uncontrollable rockets
+
+    Clear_Debris_Confirm=Clear Debris
+
+    Navigate_To=Navigate To
+    End_Navigation=End Navigation
+    Focus=Focus
+    Unfocus=Unfocus
+    Track=Track
+    Stop_Tracking=Stop Tracking
+    Switch_To=Switch To
+
+[Rocket]
+    Default_Rocket_Name=Rocket
+    No_Control_Msg=No control
+
+[Timewarp]
+    Msg_Timewarp_Speed=Time acceleration %speed%x
+
+    Cannot_Timewarp_Below_Basic=Cannot timewarp below %height%
+    Cannot_Timewarp_Below=Cannot timewarp faster than %speed%x while below %height%
+    Cannot_Timewarp_While_Moving_On_Surface=Cannot timewarp faster than %speed%x while moving on the surface
+    Cannot_Timewarp_While_Accelerating=Cannot timewarp faster than %speed%x while under acceleration
+    Cannot_Use_Part_While_Timewarping=Cannot use %part{1}% while timewarping
+    Cannot_Turn_While_Timewarping=Cannot turn while timewarping
+
+    Timewarp_To_Button=Timewarp Here
+
+[Units]
+    Thrust_To_Weight_Ratio=Thrust / Weight: %value%
+    Mass=Mass: %value%t
+    Thrust=Thrust: %value%t
+    Burn_Time=Burn Time: %value%s
+    Efficiency=Efficiency: %value% Isp
+    Mass_Unit=t
+    Meter_Unit=m
+    Km_Unit=km
+    Meter_Per_Second_Unit=m/s
+
+[Timestamps]
+    Second_Short=%value%s
+    Minute_Short=%value%m
+    Hour_Short=%value%h
+    Day_Short=%value%d
+
+[Resource Types]
+    Solid_Fuel{0}=Solid fuel
+    Solid_Fuel{1}=solid fuel
+    Liquid_Fuel{0}=Liquid fuel
+    Liquid_Fuel{1}=liquid fuel
+
+[Resource Uses]
+    Resource_Bars_Title=%resource_name{0}%:
+    Info_Resource_Amount=%resource{0}%: %amount%
+    Msg_No_Resource_Source=No %resource{1}% source
+    Msg_No_Resource_Left=Out of %resource{1}%
+
+[Part Categories]
+    Basic_Parts=Basics
+    Six_Wide_Parts=6 Wide
+    Eight_Wide_Parts=8 Wide
+    Ten_Wide_Parts=10 Wide
+    Twelve_Wide_Parts=12 Wide
+    Engine_Parts=Engines
+    Aerodynamics_Parts=Aerodynamics
+    Fairings_Parts=Fairings
+    Structural_Parts=Structural
+    Other_Parts=Other
+
+[Part Names]
+    Capsule_Name{0}=Capsule
+    Capsule_Name{1}=capsule
+    Probe_Name{0}=Probe
+    Probe_Name{1}=probe
+    Parachute_Name{0}=Parachute
+    Parachute_Name{1}=parachute
+
+    Kolibri_Engine_Name{0}=Kolibri Engine
+    Kolibri_Engine_Name{1}=kolibri engine
+    Hawk_Engine_Name{0}=Hawk Engine
+    Hawk_Engine_Name{1}=hawk engine
+    Valiant_Engine_Name{0}=Valiant Engine
+    Valiant_Engine_Name{1}=valiant engine
+    Titan_Engine_Name{0}=Titan Engine
+    Titan_Engine_Name{1}=titan engine
+    Frontier_Engine_Name{0}=Frontier Engine
+    Frontier_Engine_Name{1}=frontier engine
+    Peregrine_Engine_Name{0}=Peregrine Engine
+    Peregrine_Engine_Name{1}=peregrine engine
+    Ion_Engine_Name{0}=Ion Engine
+    Ion_Engine_Name{1}=ion engine
+    RCS_Thruster_Name{0}=RCS Thruster
+    RCS_Thruster_Name{1}=rcs thruster
+
+    Solid_Rocket_Booster{0}=Solid Rocket Booster
+    Solid_Rocket_Booster{1}=solid rocket booster
+
+    Fuel_Tank_Name{0}=Fuel Tank
+    Fuel_Tank_Name{1}=fuel tank
+    Separator_Name{0}=Stage Separator
+    Separator_Name{1}=stage separator
+    Side_Separator_Name{0}=Side Separator
+    Side_Separator_Name{1}=side separator
+    Structural_Part_Name{0}=Structural Part
+    Structural_Part_Name{1}=structural part
+    Landing_Leg_Name{0}=Landing Leg
+    Landing_Leg_Name{1}=landing leg
+    Aerodynamic_Nose_Cone_Name{0}=Aerodynamic Nose Cone
+    Aerodynamic_Nose_Cone_Name{1}=aerodynamic nose cone
+    Aerodynamic_Fuselage_Name{0}=Aerodynamic Fuselage
+    Aerodynamic_Fuselage_Name{1}=aerodynamic fuselage
+    Fairing_Name{0}=Fairing
+    Fairing_Name{1}=fairing
+    Rover_Wheel_Name{0}=Rover Wheel
+    Rover_Wheel_Name{1}=rover wheel
+    Docking_Port_Name{0}=Docking Port
+    Docking_Port_Name{1}=docking port
+    Solar_Panel_Name{0}=Solar Panel
+    Solar_Panel_Name{1}=solar panel
+    Battery_Name{0}=Battery
+    Battery_Name{1}=battery
+    RTG_Name{0}=RTG
+    RTG_Name{1}=rtg
+    Heat_Shield_Name{0}=Heat Shield
+    Heat_Shield_Name{1}=heat shield
+    Fuel_Pipe_Name{0}=Fuel Pipe
+    Fuel_Pipe_Name{1}=fuel pipe
+
+[Part Descriptions]
+    Capsule_Description=A small capsule, carrying one astronaut
+    Probe_Description=An unmanned probe, used for one way missions
+    Parachute_Description=A parachute used for landing
+    Fuel_Tank_Description=A fuel tank carrying liquid fuel and liquid oxygen
+    Separator_Description=Vertical separator, used to detach empty stages
+    Side_Separator_Description=Horizontal separator, used for detaching side boosters
+    Landing_Leg_Description=An extendable and retractable leg used for landing on the surface of moons and planets
+    Structural_Part_Description=A light and strong structural part
+    Hawk_Engine_Description=A high thrust - lower efficiency engine, normally used in the first stage of a rocket
+    Titan_Engine_Description=A high thrust - lower efficiency engine, normally used in the first stage of a rocket
+    Valiant_Engine_Description=High efficiency, low thrust. Used in space when high thrust isn't a priority
+    Frontier_Engine_Description=High efficiency, low thrust. Used in space when high thrust isn't a priority
+    Kolibri_Engine_Description=A tiny engine used for landers
+    Ion_Engine_Description=A low thrust engine with an incredibly high efficiency
+    RCS_Thruster_Description=A set of small directional thrusters, used for docking
+
+    Booster_Description=Has high thrust, low efficiency
+    Booster_Description=Cannot be turned off or throttle once ignite
+
+    Aerodynamic_Nose_Cone_Description=An aerodynamic nose cone, used to improve the aerodynamics of side boosters
+    Aerodynamic_Fuselage_Description=An aerodynamic fuselage, used to cover engines
+    Fairing_Description=An aerodynamic fairing, used to encapsulate payloads
+    Battery_Description=A battery used to store electric power
+    Solar_Panel_Description=A solar panel that generates power when extended
+    RTG_Description=Radioisotope thermoelectric generator or RTG
+    Rover_Wheel_Description=Rover wheel used to drive on the surface of planets
+    Docking_Port_Description=A docking port which can be used to connect two vehicles together
+    Heat_Shield_Description=A heat resistant shield used to survive atmospheric reentry
+    Fuel_Pipe_Description=A pipe used to transfer fuel
+
+[Modules]
+    Torque_Module_Torque=Torque: %value%kN
+    Separation_Force=Separation force: %value%kN
+    Magnet_Force=Magnet force: %value%kN
+
+    Max_Heat_Tolerance=Heat tolerance: %temperature%
+
+    State_On{0}=On
+    State_Off{0}=Off
+
+    Engine_Module_State=Engine %state{0}%
+    Engine_On_Label=Engine on
+    Gimbal_On_Label=Gimbal on
+
+    Msg_RCS_Module_State=RCS %state{0}%
+
+    Wheel_Module_State=Rover wheel %state{0}%
+    Wheel_On_Label=Wheel on
+
+    Panel_Expanded=Expanded
+    Landing_Leg_Expanded=Deployed
+
+    Detach_Edges_Label=Detach edges
+    Adapt_To_Tanks_Label=Adapt to fuel tanks
+
+    Info_Parachute_Max_Height=Max deploy height: %height%
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=Cannot deploy parachute in a vacuum
+    Msg_Cannot_Deploy_Parachute_Above=Cannot deploy parachute above %height%
+    Msg_Cannot_Fully_Deploy_Above=Cannot fully deploy parachute above %height%
+    Msg_Cannot_Deploy_Parachute_While_Faster=Cannot deploy parachute when going faster than %velocity%
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=Cannot deploy parachute while not moving
+    Msg_Parachute_Half_Deployed=Parachute half deployed
+    Msg_Parachute_Fully_Deployed=Parachute fully deployed
+    Msg_Parachute_Cut=Parachute cut
+
+[Planets]
+    Sun{0}=Sun
+    Sun{1}=the Sun
+    Sun{2}=The Sun
+    Mercury{0}=Mercury
+    Venus{0}=Venus
+    Earth{0}=Earth
+    Earth{1}=the Earth
+    Earth{2}=The Earth
+    Earth{3}=Earth's
+    Moon{0}=Moon
+    Moon{1}=the Moon
+    Moon{2}=The Moon
+    Near_Earth_Asteroid{0}=Captured Asteroid
+    Near_Earth_Asteroid{1}=the Captured Asteroid
+    Near_Earth_Asteroid{2}=The Captured Asteroid
+    Mars{0}=Mars
+    Phobos{0}=Phobos
+    Deimos{0}=Deimos
+    Jupiter{0}=Jupiter
+    Jupiter{1}=Jupiter
+    Jupiter{2}=Jupiter
+    Jupiter{3}=Jupiter's
+    Europa{0}=Europa
+    Ganymede{0}=Ganymede
+    Io{0}=Io
+    Callisto{0}=Callisto
+
+[Landmarks]
+    Sea_of_Tranquility=Sea of Tranquility
+    Sea_of_Serenity=Sea of Serenity
+    Ocean_of_Storms=Ocean of Storms
+    Copernicus_Crater=Copernicus Crater
+    Tycho_Crater=Tycho Crater
+
+    Olympus_Mons=Olympus Mons
+    Valles_Marineris=Valles Marineris
+    Gale_Crater=Gale Crater
+    Hellas_Planitia=Hellas Planitia
+    Arcadia_Planitia=Arcadia Planitia
+    Utopia_Planitia=Utopia Planitia
+    Jezero_Crater=Jezero Crater
+
+    Atalanta_Planitia=Atalanta Planitia
+    Lavinia_Planitia=Lavinia Planitia
+
+    Caloris_Planitia=Caloris Planitia
+    Borealis_Planitia=Borealis Planitia
+    Maxwell_Montes=Maxwell Montes
+
+[Challenges]
+    Liftoff_Title=Liftoff
+    Liftoff=Liftoff and land safely
+
+    Reach10km_Title=Reach 10km
+    Reach10km=Reach 10km and land safely
+
+    ReachSpace_Title=Reach Space
+    ReachSpace=Reach %height%, then survive reentry and land safely
+
+    Land100kmDownrange_Title=Land 100km downrange
+    Land100kmDownrange=Land at least 100km away from the launch pad
+
+    ReachLowEarthOrbit_Title=Reach Low Earth Orbit
+    ReachLowEarthOrbit=Reach low Earth orbit, then land safely
+
+    ReachHighEarthOrbit_Title=Reach High Earth Orbit
+    ReachHighEarthOrbit=Reach high Earth orbit, then land safely
+
+    MoonOrbit_Title=Moon Orbit
+    MoonOrbit=Capture into low Moon orbit, then return safely
+
+    MoonTour_Title=Moon Tour
+    MoonTour=Land on 3 separate landmarks, then return safely
+
+    AsteroidImpact_Title=Asteroid Impact
+    AsteroidImpact=Crash into the surface of the Captured Asteroid at 200+ m/s
+
+    MarsGrandTour_Title=Mars Grand Tour
+    MarsGrandTour=Land on Mars, Phobos and Deimos in one flight, then return safely
+
+    VenusLanding_Title=Venus Landing
+    VenusLanding=Descend through the thick atmosphere and land on the surface of Venus
+
+    VenusReturn_Title=Venus Return
+    VenusReturn=Land on the surface of Venus, then ascend trough the thick atmosphere and return safely
+
+    MercuryLanding_Title=Mercury Landing
+    MercuryLanding=Land on the surface of Mercury
+
+    MercuryReturn_Title=Mercury Return
+    MercuryReturn=Land on the surface of Mercury, then return safely
+
+
+    LandAndReturn_Title=%planet{0}% Landing
+    LandAndReturn=Land on the surface of %planet{0}%, then return safely
+
+[Achievements]
+    Reached_Height=Reached %height% altitude
+    Reached_Karman_Line=Passed the Karman line, leaving the atmosphere and reaching space
+    Survived_Reentry=Reentered %planet{3}% atmosphere, max temperature %temperature%
+
+    Reached_Low_Orbit=Reached low %planet{0}% orbit
+    Reached_High_Orbit=Reached high %planet{0}% orbit
+    Descend_Low_Orbit=Descended to low %planet{0}% orbit
+    Capture_Low_Orbit=Captured into low %planet{0}% orbit
+    Capture_High_Orbit=Captured into high %planet{0}% orbit
+
+    Entered_Lower_Atmosphere=Entered %planet{3}% lower atmosphere
+    Entered_Upper_Atmosphere=Entered %planet{3}% upper atmosphere
+    Left_Lower_Atmosphere=Reached %planet{3}% upper atmosphere
+    Left_Upper_Atmosphere=Escaped %planet{3}% atmosphere
+
+    Landed=Landed on the surface of %planet{1}%
+
+    Landed_At_Landmark=Landed on the surface of %planet{1}%
+    Landed_At_Landmark=<size=55>Location: %landmark%</size>
+
+    Landed_At_Landmark__Short=Landed on the surface of %planet{1}%
+    Landed_At_Landmark__Short=- %landmark% -
+
+    Crashed_Into_Terrain=Crashed into the surface of %planet{1}%
+
+    Entered_SOI=Entered the sphere of influence of %planet{1}%
+    Escaped_SOI=Escaped the sphere of influence of %planet{1}%
+
+    Docked_Suborbital=Docked in a suborbital trajectory of %planet{1}%
+    Docked_Orbit_Low=Docked in low %planet{0}% orbit
+    Docked_Orbit_Transfer=Docked in a transfer orbit of %planet{1}%
+    Docked_Orbit_High=Docked in high %planet{0}% orbit
+    Docked_Escape=Docked on an escape trajectory of %planet{1}%
+    Docked_Surface=Docked on the surface of %planet{1}%
+
+    Recover_Home=Safely returned to %planet{1}%
