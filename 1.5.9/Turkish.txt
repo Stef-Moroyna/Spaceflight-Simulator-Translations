@@ -33,7 +33,7 @@
 
 [General]
 # Used for language select buttons
-    Language_Name_In_Local_Language=English
+    Language_Name_In_Local_Language=Türkçe
 
     Cancel=Cancel
     Close=Close

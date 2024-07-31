@@ -33,7 +33,7 @@
 
 [General]
 # Used for language select buttons
-    Language_Name_In_Local_Language=Português (Brasil)
+    Language_Name_In_Local_Language=Brasileiro
 
     Cancel=Cancelar
     Close=Fechar
