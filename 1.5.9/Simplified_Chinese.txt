@@ -1,9 +1,9 @@
 # Target version :   v1.5.9.15
-# Contributors   :   Jordi, Carson Wu
+# Contributors   :   Team Curiosity, Carson Wu
 # last_update    :   01/08/2024
 
 [Ungroupped]
-# REAM ME:
+# READ ME:
 # The format used here is derived from INI.
 # We have added something special called variants.
 # 
@@ -865,7 +865,7 @@
     VenusLanding=穿过厚厚的大气层下降并降落在金星表面
     
     VenusReturn_Title=再入金星大气层
-    VenusReturn=降落在金星表面，然后上升穿过厚厚的大气层并安全地返回
+    VenusReturn=降落在金星表面，然后上升穿过稠密的大气层并安全地返回
     
     MercuryLanding_Title=水星着陆
     MercuryLanding=登陆水星表面

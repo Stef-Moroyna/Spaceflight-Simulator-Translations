@@ -1,32 +1,3 @@
-# Target version :   v1.5.9.15
-# Contributors   :   Team Curiosity, Carson Wu
-# last_update    :   01/08/2024
-
-[Ungroupped]
-# READ ME:
-# The format used here is derived from INI.
-# We have added something special called variants.
-# 
-# Example:
-# 
-# [Planets]
-# Earth{0}= Earth
-# Earth{1}= earth
-# 
-# [Achievements]
-# Landed_Test0 = Landed on %planet{0}%
-# Landed_Test1 = Landed on %planet{1}%
-# 
-# Variants are used for many things, such as making phrases work, caps, etc
-# 
-# We recommend starting at the bottom of the file with achievements/planets, there variants are very clearly used.
-# 
-# 
-# 
-# Available font types: normal/compatibility
-# In case of missing characters use compatibility font.
-    Font=normal
-
 [None]
     None=None
     Font=normal
