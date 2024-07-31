@@ -1,0 +1,16 @@
+Español;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/Spanish.txt
+ Français;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/French.txt
+ Português;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/Brazilian.txt
+ Italiano;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/Italian.txt
+ Deutsch;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/German.txt
+ Nederlands;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/Dutch.txt
+ Polski;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/Polish.txt
+ Русский;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/Russian.txt
+ Türkçe;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/Turkish.txt
+ हिन्दी;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/Hindi.txt
+ Bahasa Melayu;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/Malay.txt
+ Bahasa Indonesia;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/Indonesian.txt
+ 한국어;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/Korean.txt
+ 日本語;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/Japanese.txt
+ Chinese;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master1.5.9/Chinese.txt
+ ver:19
