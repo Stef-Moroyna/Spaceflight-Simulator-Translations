@@ -711,7 +711,7 @@
     Fuel_Pipe_Name{1}=燃料输送管
 
 [Part Descriptions]
-        Capsule_Description=能够搭载一名宇航员的小型太空舱
+    Capsule_Description=能够搭载一名宇航员的小型太空舱
     Probe_Description=适用于单程任务的无人驾驶探測器
     Parachute_Description=用于着陆的降落伞
     Fuel_Tank_Description=装有液态燃料和液态氧的燃料箱

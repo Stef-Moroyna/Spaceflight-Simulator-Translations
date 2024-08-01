@@ -10,12 +10,12 @@
 # Example:
 # 
 # [Planets]
-# Earth{0}= Earth
-# Earth{1}= earth
+# Earth{0}= Pământ
+# Earth{1}= Pământ
 # 
 # [Achievements]
-# Landed_Test0 = Landed on %planet{0}%
-# Landed_Test1 = Landed on %planet{1}%
+# Landed_Test0 = A aterizat pe %planet{0}%
+# Landed_Test1 = A aterizat pe %planet{1}%
 # 
 # Variants are used for many things, such as making phrases work, caps, etc
 # 
@@ -35,585 +35,585 @@
 # Used for language select buttons
     Language_Name_In_Local_Language=Română
 
-    Cancel=Cancel
-    Close=Close
+    Cancel=Anulare
+    Close=Închide
 
-    On=On
-    Off=Off
+    On=Pe
+    Off=Oprit
 
-    Open_Settings_Button=Settings
-    Open_Cheats_Button=Cheats
-    Help=Help
+    Open_Settings_Button=Setări
+    Open_Cheats_Button=Trucuri
+    Help=Ajutor
 
-    Build_Rocket=Build Rocket
-    Resume_Game=Resume Game
-    Return_To_Main_Menu=Main Menu
-    Exit_To_Main_Menu=Exit To Main Menu
+    Build_Rocket=Construiți rachetă
+    Resume_Game=Relua jocul
+    Return_To_Main_Menu=Meniul principal
+    Exit_To_Main_Menu=Ieșire în meniul principal
 
 [Main Menu]
 # Image at: https://drive.google.com/file/d/1mEFf3W964ldXBekpbTc-Jj1XcSnBQz4k/view?usp=sharing
-    Play=Play
+    Play=Joaca
 
 # Tutorial
-    Video_Tutorials_OpenButton=Video Tutorials
-    Video_Orbit=Orbit Tutorial
-    Video_Moon=Moon Tutorial
-    Video_Dock=Docking Tutorial
-
-    Development_Preview=Development Preview
-    Development_Preview_Explanation=The development preview showcases future updates we are working on
+    Video_Tutorials_OpenButton=Tutoriale video
+    Video_Orbit=Tutorial Orbit
+    Video_Moon=Tutorial Luna
+    Video_Dock=Tutorial de andocare
+    
+    Development_Preview=Previzualizarea dezvoltării
+    Development_Preview_Explanation=Previzualizarea dezvoltării prezintă actualizările viitoare la care lucrăm
 
 # Community
-    Community_OpenButton=Community
+    Community_OpenButton=Comunitate
     Community_Youtube=Youtube
     Community_Discord=Discord
     Community_Reddit=Reddit
     Community_Forums=Forums
 
 # Roadmap
-    Roadmap_OpenButton=Future Updates
-
-    Roadmap_Text=Version 1.51
+    Roadmap_OpenButton=Actualizări viitoare
+    
+    Roadmap_Text=Versiunea 1.51
     Roadmap_Text=<color=grey>Staging</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.52
+    Roadmap_Text=Versiunea 1.52
     Roadmap_Text=<color=grey>Tutorial</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.53
-    Roadmap_Text=<color=grey>Reentry</color>
+    Roadmap_Text=Versiunea 1.53
+    Roadmap_Text=<color=grey>Reintrare</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.54
-    Roadmap_Text=<color=grey>Visual effects, particles and sounds</color>
+    Roadmap_Text=Versiunea 1.54
+    Roadmap_Text=<color=grey>Efecte vizuale, particule și sunete</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.55
-    Roadmap_Text=<color=grey>Solid rocket booster</color>
+    Roadmap_Text=Versiunea 1.55
+    Roadmap_Text=<color=grey>Rachetă de amplificare solidă</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.6
-    Roadmap_Text=<color=grey>Astronauts</color>
+    Roadmap_Text=Versiunea 1.6
+    Roadmap_Text=<color=grey>Astronauți</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.7
-    Roadmap_Text=<color=grey>Career mode</color>
+    Roadmap_Text=Versiunea 1.7
+    Roadmap_Text=<color=grey>Modul carieră</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.8
-    Roadmap_Text=<color=grey>Outer planets</color>
+    Roadmap_Text=Versiunea 1.8
+    Roadmap_Text=<color=grey>Planete exterioare</color>
     Roadmap_Text=
-    Roadmap_Text=Electric system:
-    Roadmap_Text=<color=grey>The entire electric system will get a complete overhaul in the future, most likely with features such as time warp during ion engine burns and more uses for electricity</color>
+    Roadmap_Text=Sistem electric:
+    Roadmap_Text=<color=grey>Întregul sistem electric va fi revizuit complet în viitor, cel mai probabil cu caracteristici precum deformarea timpului în timpul arderii motorului ionic și mai multe utilizări pentru electricitate</color>
     Roadmap_Text=
     Roadmap_Text=
-    Roadmap_Text=Please keep in mind that plans might change
+    Roadmap_Text=Rețineți că planurile se pot schimba
 
-    Credits_OpenButton=Credits
+    Credits_OpenButton=credite
 
     Credits_Text=<Size=70> Štefo Mai Morojna </size>
-    Credits_Text=<Size=55> Designer - Programmer - Artist </size>
+    Credits_Text=<Size=55> Designer - Programator - Artist </size>
     Credits_Text=
     Credits_Text=<Size=70> Jordi van der Molen </size>
-    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=<Size=55> Programator </size>
     Credits_Text=
     Credits_Text=<Size=70> Chris Christo </size>
-    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=<Size=55> Programator </size>
     Credits_Text=
     Credits_Text=<Size=70> Josh </size>
-    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=<Size=55> Programator </size>
     Credits_Text=
     Credits_Text=<Size=70> Aidan Ginise </size>
-    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=<Size=55> Programator </size>
     Credits_Text=
     Credits_Text=<Size=70> Andrey Onischenko </size>
-    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=<Size=55> Programator </size>
     Credits_Text=
     Credits_Text=<Size=70> Davi Vasc </size>
-    Credits_Text=<Size=55> Composer </size>
+    Credits_Text=<Size=55> Compozitor </size>
     Credits_Text=
     Credits_Text=<Size=70> Ashton Mills </size>
-    Credits_Text=<size=55> Composer </size>
+    Credits_Text=<size=55> Compozitor </size>
 
-    First_Time_Playing_Question=First time playing
-    First_Time_Playing_Question=Spaceflight Simulator?
-
-    First_Time_Playing_Yes=First Time Playing
-    First_Time_Playing_No=Played Before
+    First_Time_Playing_Question=Prima dată când se joacă
+    First_Time_Playing_Question=Simulator de zbor spațial?
+    
+    First_Time_Playing_Yes=Se joacă pentru prima dată
+    First_Time_Playing_No=Jucat înainte
 
 # Update menu
-    Update_Available=A new update is available!
+    Update_Available=O nouă actualizare este disponibilă!
     Update_Available=
-    Update_Available=Current version: %old%
-    Update_Available=Latest version: %new%
-
-    Update_Confirm=Update
+    Update_Available=Versiunea curentă: %old%
+    Update_Available=Ultima versiune: %new%
+    
+    Update_Confirm=Actualizare
 
 # Rate menu
-    Rate_Title=Would you like to rate or review the game?
+    Rate_Title=Doriți să evaluați sau să revizuiți jocul?
     Rate_Title=
-    Rate_Title=We deeply care about the quality of our game, your feedback helps us improve it
+    Rate_Title=Ne pasă profund de calitatea jocului nostru, feedback-ul tău ne ajută să-l îmbunătățim
     Rate_Title=
-    Rate_Title=Even after thousands of reviews, we still read a large number of them!
-
-    Rate_Confirm=Rate
-
-    Exit_Button=Exit
+    Rate_Title=Chiar și după mii de recenzii, încă citim un număr mare dintre ele!
+    
+    Rate_Confirm=Evaluare
+    
+    Exit_Button=Ieșire
 
 # Close menu
-    Close_Game=Close game?
+    Close_Game=Închiderea jocului?
 
 [Worlds Menu]
 # Worlds are save slots; image at: https://drive.google.com/file/d/1vUYrXaem4ki1dcXRFUJLKWZEcE0PFno-/view?usp=share
-    Create_New_World_Button=Create New World
+    Create_New_World_Button=Creați o lume nouă
 
 # Create menu
-    Create_World_Title=World Name
-    Default_World_Name=My World
+    Create_World_Title=Numele lumii
+    Default_World_Name=Lumea mea
 
 # Delete menu
-    World_Delete=Delete
+    World_Delete=Șterge
 
 # Select system menu
-    Select_Solar_System=Select world's solar system
-    Select_Solar_System__NotFound=Solar system could not be found:
+    Select_Solar_System=Selectează sistemul solar al lumii
+    Select_Solar_System__NotFound=Sistemul solar nu a putut fi găsit:
     Select_Solar_System__NotFound=%system%
     Select_Solar_System__NotFound=
-    Select_Solar_System__NotFound=Select a new solar system
-
-    Default_Solar_System=Solar System (Default)
-    Custom_Solar_System=%name% (Custom)
+    Select_Solar_System__NotFound=Selectează un nou sistem solar
+    
+    Default_Solar_System=Sistem solar (implicit)
+    Custom_Solar_System=%name% (Personalizat)
 
 # World info
-    World_Mode_Name=Mode: %value%
-    Mode_Sandbox=Sandbox
-    Mode_Challenge=Challenge
-    Mode_Career=Career
-
-    Allow_Cheats_Name=Allow Cheats: %value%
-    Allow_Cheats_Label=Allow Cheats
-
-    Allow_Quicksaves_Name=Allow Quicksaves: %value%
-    Allow_Quicksaves_Label=Allow Quicksaves
-
-    World_Difficulty_Name=Difficulty: %value%
-    Difficulty_Normal=Normal
-    Difficulty_Hard=Hard
-    Difficulty_Realistic=Realistic
+    World_Mode_Name=Mod: %value%
+    Mode_Sandbox=Cutie cu nisip
+    Mode_Challenge=Provocare
+    Mode_Career=Cariera
+    
+    Allow_Cheats_Name=Permite cheats: %value%
+    Allow_Cheats_Label=Permite trucuri
+    
+    Allow_Quicksaves_Name=Permite salvari rapide: %value%
+    Allow_Quicksaves_Label=Permite salvari rapide
+    
+    World_Difficulty_Name=Dificultate: %value%
+    Dificultate_Normal=Normal
+    Difficulty_Hard=Dificil
+    Difficulty_Realistic=Realist
 
 # World play times
-    Last_Played=Last played: %value% ago
-    Just_Played=Last played: A moment ago
-    Time_Played=Playtime: %value%
+    Last_Played=Ultima redare: acum %value%.
+    Just_Played=Ultima redare: acum un moment
+    Time_Played=Timp de joacă: %value%
 
 [Saving]
 # Blueprint stuff; Blueprints are rocket designs; images at: https://drive.google.com/drive/folders/15m4nXgzr8fvql78TheE3Qy1WPrTaIqdJ?usp=share
-   Blueprints_Menu_Title=Blueprints
-   Unnamed_Blueprint=Unnamed Blueprint
-   Save_Blueprint=Save Blueprint
-   Load_Blueprint=Load Blueprint
-   Cannot_Save_Empty_Build=Cannot save an empty blueprint
+   Blueprints_Menu_Title=Planuri
+   Unnamed_Blueprint=Plan fără nume
+   Save_Blueprint=Salvează planul
+   Load_Blueprint=Încărcați planul
+   Cannot_Save_Empty_Build=Nu se poate salva un plan gol
 
 # Quicksave stuff; Quicksaves let players save at any time and return to it.
 # It does not necessarily have to be called quicksave, player just needs to understand its use.
 # Image at: https://drive.google.com/drive/folders/128aXHWoUhJXZbbKVBDXXSMoCvRwFpvct?usp=share
-   Quicksaves_Menu_Title=Quicksaves
-   Unnamed_Quicksave=Unnamed Quicksave
-   Create_Quicksave=Create Quicksave
-   Load_Quicksave=Load Quicksave
+   Quicksaves_Menu_Title=Salvări rapide
+   Unnamed_Quicksave=Salvare rapidă fără nume
+   Create_Quicksave=Creează Quicksave
+   Load_Quicksave=Încărcați Quicksave
 
 # Save and load menus; context seen in images from blueprint/quicksave stuff
-    Save=Save
-    Load=Load
+    Save=Salvează
+    Load=Încărcare
     Import=Import
-    Delete=Delete
-    Rename=Rename
-    Delete_File_With_Type=Delete %filename% %filetype{1}%
+    Delete=Șterge
+    Rename=Redenumiți
+    Delete_File_With_Type=Șterge %filename% %filetype{1}%
 
 # In progress
-    Saving_In_Progress=Saving...
-    Loading_In_Progress=Loading...
-    Importing_In_Progress=Importing...
+    Saving_In_Progress=Economisire...
+    Loading_In_Progress=Se încarcă...
+    Importing_In_Progress=Se importă...
 
 # filetype (injected)
-    Blueprint{0}=Blueprint
-    Blueprint{1}=blueprint
-    Blueprint{2}=blueprints
-
-    Quicksave{0}=Quicksave
-    Quicksave{1}=quicksave
-    Quicksave{2}=quicksaves
+    Blueprint{0}=Plan
+    Blueprint{1}=plan
+    Blueprint{2}=planuri
+    
+    Quicksave{0}=Salvare rapidă
+    Quicksave{1}=salvare rapidă
+    Quicksave{2}=salvare rapidă
 
 # Ask overwrite menu; image at: https://drive.google.com/file/d/1EOI9UIWAG-lNgrdk1IMmrpmf6rRBuA7Q/view?usp=share
-    File_Already_Exists=A %filetype{1}% with this name already exists
-    Overwrite_File=Overwrite %filetype{1}%
-    New_File=New %filetype{1}%
+    File_Already_Exists=Un %filetype{1}% cu acest nume există deja
+    Overwrite_File=Suprascrie %filetype{1}%
+    New_File=Nou %filetype{1}%
 
 # Load failure; image at: https://drive.google.com/file/d/1c7qHCdbS1ShSq4rKIHMpHKCTuh0pXeHv/view?usp=share
-     Load_Failed=Could not load %filetype{1}% from %filepath%
+     Load_Failed=Nu s-a putut încărca %filetype{1}% din %filepath%
 
 # Legacy Messages
-    Conversion_Message=Welcome to version 1.5.
+    Conversion_Message=Bine ați venit la versiunea 1.5.
     Conversion_Message=
-    Conversion_Message=All 1.4 saves have been automatically converted to 1.5 saves
-
-    Conversion_Success=Found version 1.4 of %filetype{1}% and converted it to %version% format
-
-    Conversion_Failed=Found version 1.4 of %filetype{1}% and converted it to %version% format
+    Conversion_Message=Toate 1.4 salvări au fost convertite automat în 1.5 salvări
+    
+    Conversion_Success=S-a găsit versiunea 1.4 a %filetype{1}% și a fost convertită în formatul %version%
+    
+    Conversion_Failed=S-a găsit versiunea 1.4 a %filetype{1}% și a fost convertită în formatul %version%
     Conversion_Failed=
-    Conversion_Failed=Conversion failed:
+    Conversion_Failed=Conversia a eșuat:
     Conversion_Failed=%reason%
 
 [Purchasing]
 # Images at: https://drive.google.com/drive/folders/1kIhFuPRp8YXkZ8SVC5Jq9UJkNZqdasQC?usp=share
-    Parts_Expansion=Parts Expansion
-    Redstone_Atlas_Pack=Redstone Atlas Pack
-    Skins_Expansion=Skins Expansion
-    Planets_Expansion=Planets Expansion
-    Expansion_Bundle=Expansion Bundle
-    Upgrade_To_Bundle=Upgrade To Bundle
-    Cheats_Expansion=Cheats
-    Infinite_Area_Expansion=Infinite Build Area
-    Builder_Bundle=Builder Bundle
-    Sandbox_Bundle=Sandbox Bundle
-    Full_Bundle=Full Bundle
-    Upgrade_To_Full_Bundle=Upgrade To Full Bundle
-    Mac_Full_Version=Full Version
-
-    Not_All_Parts_Are_Owned=Not all parts are owned
-    Not_All_Parts_Are_Owned=Disabled not owned parts
-    Not_All_Parts_Are_Owned=
-    Not_All_Parts_Are_Owned=View parts expansion?
-
-    View_Part_Expansion=View Expansion
-
-    More_Parts=View Parts Expansion
-    More_Skins=View Skins Expansion
+    Parts_Expansion=Extindere piese
+    Redstone_Atlas_Pack=Pachetul Redstone Atlas
+    Skins_Expansion=Extindere Skins
+    Planets_Expansion=Extinderea planetelor
+    Expansion_Bundle=Pachet de expansiune
+    Upgrade_To_Bundle=Upgrade la pachet
+    Cheats_Expansion=Trecuri
+    Infinite_Area_Expansion=Zona de construcție infinită
+    Builder_Bundle=Pachet Builder
+    Sandbox_Bundle=Pachet Sandbox
+    Full_Bundle=Pachet complet
+    Upgrade_To_Full_Bundle=Faceți upgrade la pachetul complet
+    Mac_Full_Version=Versiune completă
     
-    Cannot_Use_Cheats_In_Career=Cheats can only be used in a sandbox mode world
-    Get_Infinite_Build_Area_Button=Get Infinite Build Area
-    Get_Cheats_Expansion_Button=Get Cheats Expansion
-
-    Why_Buy=Your support will help us keep improving the game!
-
-    Buy_Product=Buy %product% %price%
+    Not_All_Parts_Are_Owned=Nu toate piesele sunt deținute
+    Not_All_Parts_Are_Owned=Piesele dezactivate care nu sunt deținute
+    Not_All_Parts_Are_Owned=
+    Not_All_Parts_Are_Owned=Vedeți extinderea pieselor?
+    
+    View_Part_Expansion=Vedeți extinderea
+    
+    More_Parts=Vedeți Extinderea Piese
+    More_Skins=Vedeți extinderea skin-urilor
+    
+    Cannot_Use_Cheats_In_Career=Cheats-urile pot fi folosite doar într-o lume în modul sandbox
+    Get_Infinite_Build_Area_Button=Obțineți o zonă de construcție infinită
+    Get_Cheats_Expansion_Button=Obțineți expansiune Cheats
+    
+    Why_Buy=Asistența dvs. ne va ajuta să continuăm să îmbunătățim jocul!
+    
+    Buy_Product=Cumpărați %product% %price%
 
     Timed_Sale_Text=%product_name% -%sale_percent%
     Timed_Sale_Text=%time_left%
 
-    Time_Upgrade_Text=Upgrade to %product_name% -%sale_percent%
+    Time_Upgrade_Text=Faceți upgrade la %product_name% -%sale_percent%
     Time_Upgrade_Text=%time_left%
 
-    Purchase_Thanks_Msg=Purchased: %product%
+    Purchase_Thanks_Msg=Achizitionat: %product%
     Purchase_Thanks_Msg=
-    Purchase_Thanks_Msg=Thanks for your support!
-    Purchase_Thanks_Msg=Now go and explore the stars!
+    Purchase_Thanks_Msg=Vă mulțumim pentru sprijin!
+    Purchase_Thanks_Msg=Acum du-te și explorează stelele!
 
-    Owned=%product% (Owned)
+    Owned=%product% (Deținut)
 
-    Restore_Open=Restore Purchases
-
-    Restore_Text=Transactions on Android devices are automatically restored on startup
+    Restore_Open=Restaurați achizițiile
+    
+    Restore_Text=Tranzacțiile pe dispozitivele Android sunt restaurate automat la pornire
     Restore_Text=
-    Restore_Text=- Check if you are logged into the Google Play account that purchased the item (check if the purchase is visible in the Google Play purchase history)
+    Restore_Text=- Verificați dacă sunteți conectat la contul Google Play care a achiziționat articolul (verificați dacă achiziția este vizibilă în istoricul achizițiilor Google Play)
     Restore_Text=
-    Restore_Text=- Check the purchase button, if the price is not shown, the game is not connected to the store. Please check the network connection and restart the game
+    Restore_Text=- Verificați butonul de cumpărare, dacă prețul nu este afișat, jocul nu este conectat la magazin. Verificați conexiunea la rețea și reporniți jocul
     Restore_Text=
-    Restore_Text=If none of the above methods work, please contact me by email: games.morojna@gmail.com
+    Restore_Text=Dacă niciuna dintre metodele de mai sus nu funcționează, vă rugăm să mă contactați prin e-mail: games.morojna@gmail.com
     Restore_Text=
-    Restore_Text=You can also try to wait for a while, the purchased items sometimes restore themselves after a few hours
+    Restore_Text=De asemenea, puteți încerca să așteptați un timp, articolele achiziționate uneori se restaurează după câteva ore
 
-    Purchase_FAQ_Open=FAQ
-
-    Purchase_FAQ_Text=<color=grey>Will purchased items be retained between updates? </color>
-    Purchase_FAQ_Text=Yes, of course
+    Purchase_FAQ_Open=Întrebări frecvente
+    
+    Purchase_FAQ_Text=<color=grey>Vor fi păstrate articolele achiziționate între actualizări? </color>
+    Purchase_FAQ_Text=Da, desigur
     Purchase_FAQ_Text=
     Purchase_FAQ_Text=
-    Purchase_FAQ_Text=<color=grey>Will purchased items be lost? </color>
-    Purchase_FAQ_Text=Your purchased items will be permanently stored in your store account and will not be lost even if you reinstall the game or change your phone
+    Purchase_FAQ_Text=<color=grey>Vor fi pierdute articolele cumpărate? </color>
+    Purchase_FAQ_Text=Articolele achiziționate vor fi stocate permanent în contul tău de magazin și nu se vor pierde chiar dacă reinstalezi jocul sau schimbi telefonul
     Purchase_FAQ_Text=
     Purchase_FAQ_Text=
-    Purchase_FAQ_Text=<color=grey>Will you provide refunds? </color>
-    Purchase_FAQ_Text=Yes, of course. As long as you make a request within a reasonable time, we will refund without any conditions.
+    Purchase_FAQ_Text=<color=grey>Veți oferi rambursări? </color>
+    Purchase_FAQ_Text=Da, desigur. Atâta timp cât faceți o cerere într-un timp rezonabil, vă vom rambursa fără nicio condiție.
 
 # Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=share
-    PartsExpansion_Tanks=Large variety of fuel tanks!
-    PartsExpansion_Engines=Heavy lift engines!
-    PartsExpansion_Parts=Parts of all shapes and sizes!
+    PartsExpansion_Tanks=O mare varietate de rezervoare de combustibil!
+    PartsExpansion_Engines=Motoare grele!
+    PartsExpansion_Parts=Piese de toate formele și dimensiunile!
 
-    PartsExpansion_Build=Large build space to bring
-    PartsExpansion_Build=your creations to life!
+    PartsExpansion_Build=Spatiu mare de constructie de adus
+    PartsExpansion_Build=creațiile tale la viață!
 
 # Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=share
-    SkinsExpansion_Tanks=Paint your parts in a diverse variety of skins!
-    SkinsExpansion_Interstages=Color everything from interstages
-    SkinsExpansion_Nosecones=To nosecones
-    SkinsExpansion_Fairings=And even fairings
+    SkinsExpansion_Tanks=Vopsează-ți piesele într-o varietate variată de skin-uri!
+    SkinsExpansion_Interstages=Colorează totul de la interstage
+    SkinsExpansion_Nosecones=La conuri de nas
+    SkinsExpansion_Fairings=Și chiar și careneSkinsExpansion_Tanks=Vopsează-ți piesele într-o varietate variată de skin-uri!
 
 # Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=share
-    PlanetsExpansion_Jupiter=Explore Jupiter and its four moons!
-    PlanetsExpansion_Callisto=From the heavily cratered surface of Callisto!
-    PlanetsExpansion_Europa=To the vast ice flats of Europa!
-
-    PlanetsExpansion_Conclusion=Distant worlds are waiting for you
-    PlanetsExpansion_Conclusion=to explore them!
+   PlanetsExpansion_Jupiter=Explorați Jupiter și cele patru luni ale sale!
+   PlanetsExpansion_Callisto=De pe suprafața puternic craterată a lui Callisto!
+   PlanetsExpansion_Europa=Spre vastele zone de gheață ale Europei!
+   
+   PlanetsExpansion_Conclusion=Lumi îndepărtate vă așteaptă
+   PlanetsExpansion_Conclusion=pentru a le explora!
 
 # Expansion Bundle; images at: https://drive.google.com/file/d/1aWdcqNciwf7i3ju1Hx7mHnKyGBS2_tYU/view?usp=share
-    ExpansionBundle_Sandbox=award
-    ExpansionBundle_Sandbox=Sandbox Mode
-
-    ExpansionBundle_Infinite_Fuel=Infinite Fuel
-    ExpansionBundle_No_Atmospheric_Drag=No Atmospheric Drag
-    ExpansionBundle_Unbreakable_Parts=No Collision Damage
-    ExpansionBundle_No_Gravity=No Gravity
+    ExpansionBundle_Sandbox=premiu
+    ExpansionBundle_Sandbox=Modul Sandbox
+    
+    ExpansionBundle_Infinite_Fuel=Combustibil infinit
+    ExpansionBundle_No_Atmospheric_Drag=Fără glisare atmosferică
+    ExpansionBundle_Unbreakable_Parts=Fără daune prin coliziune
+    ExpansionBundle_No_Gravity=Fără gravitație
 
 [Sharing]
-    Share_Button=Share Blueprint
-    Upload_Blueprint_PC=Upload Blueprint
-    Download_Blueprint_PC=Download Blueprint
-    Share_Button_PC=Share
-    Download_Confirm=Download
-    URL_Field_TextBox=Blueprint URL
-    Empty_Upload=Cannot upload empty blueprint
-    Uploading_Message=Uploading...
-    Upload_Fail=Failed to upload blueprint
-    Copied_URL_To_Clipboard=Copied blueprint URL to clipboard
-    Sharing_Enter_Prompt=Select which world you want blueprint to be loaded into
-    Confirm_Download_Button=Download Blueprint
-    Downloading_Message=Downloading...
-    Download_Fail=Failed to download blueprint
-    URL_Invalid=Invalid Blueprint URL
-    Sharing_Connect_Fail=Could not connect to sharing servers
+    Share_Button=Partajează planul
+    Upload_Blueprint_PC=Încărcați Blueprint
+    Download_Blueprint_PC=Descărcați Blueprint
+    Share_Button_PC=Partajează
+    Download_Confirm=Descărcare
+    URL_Field_TextBox=Adresa URL a modelului
+    Empty_Upload=Nu se poate încărca planul gol
+    Uploading_Message=Se încarcă...
+    Upload_Fail=Nu s-a putut încărca planul
+    Copied_URL_To_Clipboard=Adresa URL a planului copiat în clipboard
+    Sharing_Enter_Prompt=Selectați în ce lume doriți să fie încărcat planul
+    Confirm_Download_Button=Descărcați Blueprint
+    Downloading_Message=Se descarcă...
+    Download_Fail=Descărcarea planului nu a reușit
+    URL_Invalid=Adresa URL a planului nevalidă
+    Sharing_Connect_Fail=Nu m-am putut conecta la serverele de partajare
 
 [Settings Mobile]
-    Music_Name=Music
-    Sound_Name=Sound
-    Screen_Rotation_Name=Screen Rotation
-    FPS_Name=frame rate
-    Language_Name=Language
-    Menu_Scale=Interface Scale
-    Menu_Opacity=Interface Opacity
-    Shakes_Name=Camera Shake
-    Orbit_Line_Count=Orbit Line Count
+    Music_Name=Muzică
+    Sound_Name=Sunet
+    Screen_Rotation_Name=Rotirea ecranului
+    FPS_Name=rată de cadre
+    Language_Name=Limba
+    Menu_Scale=Scală de interfață
+    Menu_Opacity=Opacitatea interfeței
+    Shakes_Name=Mișcarea camerei
+    Orbit_Line_Count=Număr de linii de orbită
     Anti_Aliasing=Anti-Aliasing
 
 [Cheats]
-    Infinite_Build_Area_Name=Infinite Build Area
-    Part_Clipping_Name=Part Clipping
-    Infinite_Fuel_Name=Infinite Fuel
-    No_Atmospheric_Drag_Name=No Atmospheric Drag
-    No_Collision_Damage_Name=No Collision Damage
-    No_Gravity_Name=No Gravity
-    No_Heat_Damage_Name=No Heat Damage
-    No_Burn_Marks_Name=No Burn Marks
+    Infinite_Build_Area_Name=Zona de construcție infinită
+    Part_Clipping_Name=Tuiere parte
+    Infinite_Fuel_Name=Combustibil infinit
+    No_Atmospheric_Drag_Name=Fără glisare atmosferică
+    No_Collision_Damage_Name=Fără daune de coliziune
+    No_Gravity_Name=Fără gravitație
+    No_Heat_Damage_Name=Fără daune de căldură
+    No_Burn_Marks_Name=Fără semne de ardere
 
 [Tutorials]
 
-    Tut_Drag_And_Drop=Drag and drop parts
-    Tut_Drag_And_Drop=to build your rocket
-
-    Tut_Part_Info=Click to view
-    Tut_Part_Info=part information
-
-    Tut_Use_Part=Click on parts to use them
-    Tut_Ignition=Ignition!
-    Tut_Throttle=Adjust throttle
+    Tut_Drag_And_Drop=Trage și plasează părți
+    Tut_Drag_And_Drop=pentru a-ți construi racheta
+    
+    Tut_Part_Info=Clic pentru a vizualiza
+    Tut_Part_Info=informații despre piesă
+    
+    Tut_Use_Part=Clic pe piese pentru a le folosi
+    Tut_Ignition=Aprindere!
+    Tut_Throttle=Reglați accelerația
 
 [Hub]
-    Funds_Text=Funds: %funds%
-    Go_To_Space_Center=Space Center
-    Exit_To_Space_Center=Exit To Space Center
-    Research_And_Development=Research & Development %complete%/%total%
-    Challenges_Info=Challenges: %complete%/%total%
-    Challenges_Button=Challenges: %complete%/%total%
-    Challenges_Title=Challenges:
-
-    Challenges_Completed=<size=55>Challenge completed:</size>
+    Funds_Text=Fonduri: %funds%
+    Go_To_Space_Center=Centrul spațial
+    Exit_To_Space_Center=Ieșire în Centrul Spațial
+    Research_And_Development=Cercetare și dezvoltare %complete%/%total%
+    Challenges_Info=Provocări: %complete%/%total%
+    Challenges_Button=Provocări: %complete%/%total%
+    Challenges_Title=Provocări:
+    
+    Challenges_Completed=<size=55>Provocare finalizată:</size>
     Challenges_Completed=%challenge%
 
 [Build]
-    Build_New_Rocket=Build New Rocket
-    New=New
-    Expand_Last_Rocket=Continue Build
-
-    Symmetry_On=Symmetry: On
-    Symmetry_Off=Symmetry: Off
-
-    Interior_View_On=Interior View: On
-    Interior_View_Off=Interior View: Off
-
-    Launch_Button=Launch
-    Move_Rocket_Button=Move Rocket
+    Build_New_Rocket=Construiți o nouă rachetă
+    New=Nou
+    Expand_Last_Rocket=Continuați construirea
+    
+    Symmetry_On=Simetrie: Activată
+    Symmetry_Off=Simetrie: Dezactivat
+    
+    Interior_View_On=Vizualizare interioară: Activată
+    Interior_View_Off=Vedere interioară: Dezactivată
+    
+    Launch_Button=Lansare
+    Move_Rocket_Button=Mută racheta
 
 # Clear build area
-    Clear_Warning=Clear build area?
-    Clear_Confirm=Clear
+    Clear_Warning=Ștergeți zona de construcție?
+    Clear_Confirm=Șterge
 
 # Launch warnings
-    Warnings_Title=WARNING:
-    Missing_Capsule=Your rocket has no capsule or probe, making it uncontrollable
-    Missing_Parachute=Your rocket has no parachute
-    Missing_Heat_Shield=Your rocket has no heat shield
-    Missing_Fuel_Popup=No fuel source
-
-    Too_Heavy=Your rocket is too heavy to launch
+    Warnings_Title=AVERTISMENT:
+    Missing_Capsule=Racheta ta nu are capsulă sau sondă, ceea ce o face incontrolabilă
+    Missing_Parachute=Racheta ta nu are parașuta
+    Missing_Heat_Shield=Racheta ta nu are scut termic
+    Missing_Fuel_Popup=Fără sursă de combustibil
+    
+    Too_Heavy=Racheta ta este prea grea pentru a fi lansată
     Too_Heavy=%mass%
     Too_Heavy=%thrust%
-    Too_Heavy=Please reduce the weight or use a more powerful engine
-
-    Launch_Anyway_Button=Launch Anyway
-
-    Launch_Horizontally_Ask=Launch horizontally?
-    Launch_Horizontally_Confirm=Launch Horizontally
-    Launch_Vertically_Confirm=Launch Vertically
+    Too_Heavy=Vă rugăm să reduceți greutatea sau să utilizați un motor mai puternic
+    
+    Launch_Anyway_Button=Lansează oricum
+    
+    Launch_Horizontal_Ask=Lansați orizontal?
+    Launch_Horizontal_Confirm=Lansează pe orizontală
+    Launch_Vertically_Confirm=Lansează pe verticală
 
 # Example rockets
-    Example_Rockets_OpenMenu=Example Rockets
-    Basic_Rocket=Basic Rocket
-    Stages=Two Stage Rocket
-    Ideal_Stages=Three Stage Rocket
+    Example_Rockets_OpenMenu=Exemplu de rachete
+    Basic_Rocket=Rachetă de bază
+    Etape=Rachetă în două etape
+    Ideal_Stages=Racheta cu trei etape
     Lander=Moon Lander
 
 [Map]
-    Toggle_Map_Button=Map
+    Toggle_Map_Button=Hartă
 
 # Shown in map when you escape a gravity field of a planet
 # image for escape/encounter at: https://drive.google.com/file/d/17jqJF09DWoqkgW9VGXdG7SRCSo0UmW0o/view?usp=share
-    Escape=Escape
+    Escape=Evadare
 
 # Shown in map when you encounter/enter a gravity field of a planet
-    Encounter=Encounter
+    Encounter=Întâlni
 
 # Shown in map when you approach/encounter another rocket
-    Rendezvous=Rendezvous
+    Rendezvous=Întâlnire
 
 # Shows the transfer window to another planet
 # image at: https://drive.google.com/file/d/1zd8UEnVb91QmSDllEu1DyCbkCsDKbJk3/view?usp=share
-    Transfer=Transfer Window
+    Transfer=Fereastra de transfer
 
 [Game]
 # Image at: https://drive.google.com/file/d/1d0b-udFyO4ItlYu1vVaVdzgwdAeT1hPw/view?usp=share
-    Throttle_On=On
-    Throttle_Off=Off
-    Ignition=IGNITION
+    Throttle_On=Pe
+    Throttle_Off=Oprit
+    Ignition=APRINDERE
     RCS=RCS
 
 # Game supports screen rotation, we split into 2 lines in vertical mode
-    Height_Terrain_Vertical=Height (Terrain):
+    Height_Terrain_Vertical=Înălțime (Teren):
     Height_Terrain_Vertical=
     Height_Terrain_Vertical=%height%
 
-    Height_Vertical=Height:
+    Height_Vertical=Înălţime:
     Height_Vertical=
     Height_Vertical=%height%
 
-    Velocity_Vertical=Velocity:
+    Velocity_Vertical=Viteză:
     Velocity_Vertical=
     Velocity_Vertical=%speed%
 
-    Velocity_Relative_Vertical=Velocity (Relative):
+    Velocity_Relative_Vertical=Viteza (relativă):
     Velocity_Relative_Vertical=
     Velocity_Relative_Vertical=%speed%
 
-    Distance_Relative_Vertical=Distance (Relative):
+    Distance_Relative_Vertical=Distanța (relativă):
     Distance_Relative_Vertical=
     Distance_Relative_Vertical=%distance%
 
 # Angle indicates the best angle/direction the player can rotate their rocket towards
-    Angle_Vertical=Angle:
+    Angle_Vertical=Unghi:
     Angle_Vertical=
     Angle_Vertical=%angle% / %targetAngle%
 
     Height_Terrain_Horizontal=Height (Terrain): %height%
-    Height_Horizontal=Height: %height%
-    Velocity_Horizontal=Velocity: %speed%
-    Velocity_Relative_Horizontal=Velocity (Relative): %speed%
-    Distance_Relative_Horizontal=Distance (Relative): %distance%
-    Angle_Horizontal=Angle: %angle% / %targetAngle%
+    Height_Horizontal=Înălţime: %height%
+    Velocity_Horizontal=Viteză: %speed%
+    Velocity_Relative_Horizontal=Viteza (relativă): %speed%
+    Distance_Relative_Horizontal=Distanța (relativă): %distance%
+    Angle_Horizontal=Unghi: %angle% / %targetAngle%
 
-    Relative_Velocity_Arrow=Relative Velocity
+    Relative_Velocity_Arrow=Viteza relativă
     Relative_Velocity_Arrow=%velocity%
 
-    Side_Velocity_Arrow=Side Velocity
+    Side_Velocity_Arrow=Viteza laterală
     Side_Velocity_Arrow=%velocity%
 
-    Forward_Velocity_Arrow=Distance
+    Forward_Velocity_Arrow=Distanţă
     Forward_Velocity_Arrow=%distance%
     Forward_Velocity_Arrow=
-    Forward_Velocity_Arrow=Velocity
+    Forward_Velocity_Arrow=Viteză
     Forward_Velocity_Arrow=%velocity%
 
 [Failure menu]
-    Failure_Cause=FAILURE CAUSE:
-    Failure_Crash_Into_Rocket=Crashed into another rocket
-    Failure_Crash_Into_Terrain=Crashed into the surface of %planet{1}%
-    Failure_Burn_Up=Burned up on reentry
+    Failure_Cause=CAUZA EROARE:
+    Failure_Crash_Into_Rocket=S-a prăbușit într-o altă rachetă
+    Failure_Crash_Into_Terrain=S-a prăbușit pe suprafața %planet{1}%
+    Failure_Burn_Up=Ars la reintrare
 
 [End mission menu]
-    Recover_Rocket=Recover
-    Destroy_Rocket=Destroy
-    Debris_Recover=Recover Debris
-    Debris_Destroy=Destroy Debris
-    Debris_Recover_Title=Recover debris?
-    Debris_Destroy_Title=Destroy debris?
-    View_Mission_Log=View Flight Log
+    Recover_Rocket=Recuperare
+    Destroy_Rocket=Distruge
+    Debris_Recover=Recuperare resturi
+    Debris_Destroy=Distruge resturile
+    Debris_Recover_Title=Recuperați resturile?
+    Debris_Destroy_Title=Distrugeți resturile?
+    View_Mission_Log=Vedeți jurnalul de zbor
 
 # Restart menu
     
-    Restart_Mission_To_Launch_Warning=WARNING:
-    Restart_Mission_To_Launch_Warning=This will undo all progress since last launch
-
-    Restart_Mission_To_Build_Warning=WARNING:
-    Restart_Mission_To_Build_Warning=This will undo all progress since last Build
-
-    Restart_Mission_To_Launch=Revert To Launch
-    Restart_Mission_To_Build=Revert To Build
-    Revert_30_Secs=Revert 30 Sec
-    Revert_3_Min=Revert 3 Min
+    Restart_Mission_To_Launch_Warning=AVERTISMENT:
+    Restart_Mission_To_Launch_Warning=Acest lucru va anula toate progresele de la ultima lansare
+    
+    Restart_Mission_To_Build_Warning=AVERTISMENT:
+    Restart_Mission_To_Build_Warning=Acest lucru va anula toate progresele de la ultima versiune
+    
+    Restart_Mission_To_Launch=Reveniți la lansare
+    Restart_Mission_To_Build=Reveniți la Build
+    Revert_30_Secs=Return 30 sec
+    Revert_3_Min=Return 3 min
 
 # End mission menu
-    End_Challenges_Title=Challenges:
-    End_Logs_Title=Mission Log:
-    Continue_To_Log=Continue
-    Back_To_Challenges=Back
+    End_Challenges_Title=Provocări:
+    End_Logs_Title=Jurnal de misiune:
+    Continue_To_Log=Continuă
+    Back_To_Challenges=Înapoi
 
 # Clear space junk/debris
-    Clear_Debris_Warning=Clear debris?
+    Clear_Debris_Warning=Curăţaţi resturile?
     Clear_Debris_Warning=
-    Clear_Debris_Warning=This will remove all uncontrollable rockets
+    Clear_Debris_Warning=Acest lucru va elimina toate rachetele incontrolabile
 
-    Clear_Debris_Confirm=Clear Debris
+    Clear_Debris_Confirm=Curățați resturile
 
     # Select menu; Image at: https://drive.google.com/file/d/1CBIAZ3o_Z7bpEAb8sVdTdDeF4KB8-Yyi/view?usp=share
-    Navigate_To=Navigate To
-    End_Navigation=End Navigation
-    Focus=Focus
+    Navigate_To=Navigați către
+    End_Navigation=Încheiați navigarea
+    Focus=Concentrare
     Unfocus=Unfocus
     Track=Track
-    Stop_Tracking=Stop Tracking
-    Switch_To=Switch To
+    Stop_Tracking=Opriți urmărirea
+    Switch_To=Comută la
 
 [Rocket]
-    Default_Rocket_Name=Rocket
+    Default_Rocket_Name=Rachetă
 
 # Informs the player that he cannot perform an action due to rocket having no control
-    No_Control_Msg=No control
+    No_Control_Msg=Fara control
 
 [Timewarp]
 # Timewarp = Timewarp can skip long waits
-    Msg_Timewarp_Speed=Time acceleration %speed%x
-    Cannot_Timewarp_Below_Basic=Cannot timewarp below %height%
-    Cannot_Timewarp_Below=Cannot timewarp faster than %speed%x while below %height%
-    Cannot_Timewarp_While_Moving_On_Surface=Cannot timewarp faster than %speed%x while moving on the surface
-    Cannot_Timewarp_While_Accelerating=Cannot timewarp faster than %speed%x while under acceleration
-    Cannot_Use_Part_While_Timewarping=Cannot use %part{1}% while timewarping
-    Cannot_Turn_While_Timewarping=Cannot turn while timewarping
-
-    Timewarp_To_Button=Timewarp Here
+    Msg_Timewarp_Speed=Accelerarea timpului %speed%x
+    Cannot_Timewarp_Below_Basic=Nu se poate deforma timp sub %height%
+    Cannot_Timewarp_Below=Nu se poate deforma timpul mai repede de %speed%x când este sub %height%
+    Cannot_Timewarp_While_Moving_On_Surface=Nu se poate deforma timp mai repede de %speed%x în timp ce vă deplasați pe suprafață
+    Cannot_Timewarp_While_Accelerating=Nu se poate deforma timp mai repede de %speed%x în timp ce se află sub accelerație
+    Cannot_Use_Part_While_Timewarping=Nu se poate folosi %part{1}% în timpul deformării timpului
+    Cannot_Turn_While_Timewarping=Nu se poate întoarce în timp ce deformează timpul
+    
+    Timewarp_To_Button=Timewarp Aici
 
 [Units]
 # Image at: https://drive.google.com/file/d/1ljpGY55W8V1wF9esl5v569B0Z-D6xxMt/view?usp=share
-    Thrust_To_Weight_Ratio=Thrust / Weight: %value%
+    Thrust_To_Weight_Ratio=Impingerea / Greutatea: %value%
     Mass=Mass: %value%t
     Thrust=Thrust: %value%t
-    Burn_Time=Burn Time: %value%s
+    Burn_Time=Timp de ardere: %value%s
 
 # Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=share
-    Efficiency=Efficiency: %value% Isp
+    Efficiency=Eficienţă: %value% Isp
     Mass_Unit=t
     Meter_Unit=m
     Km_Unit=km
@@ -627,291 +627,291 @@
 
 [Resource Types]
 # Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=share
-    Solid_Fuel{0}=Solid fuel
-    Solid_Fuel{1}=solid fuel
-    Liquid_Fuel{0}=Liquid fuel
-    Liquid_Fuel{1}=liquid fuel
+    Solid_Fuel{0}=Combustibil solid
+    Solid_Fuel{1}=combustibil solid
+    Liquid_Fuel{0}=Combustibil lichid
+    Liquid_Fuel{1}=combustibil lichid
 
 [Resource Uses]
     Resource_Bars_Title=%resource_name{0}%:
     Info_Resource_Amount=%resource{0}%: %amount%
-    Msg_No_Resource_Source=No %resource{1}% source
-    Msg_No_Resource_Left=Out of %resource{1}%
+    Msg_No_Resource_Source=Nici o sursă %resource{1}%.
+    Msg_No_Resource_Left=Din %resource{1}%
 
 [Part Categories]
 # Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=share
-    Basic_Parts=Basics
+    Basic_Parts=Noțiuni de bază
     Six_Wide_Parts=6 Wide
     Eight_Wide_Parts=8 Wide
     Ten_Wide_Parts=10 Wide
     Twelve_Wide_Parts=12 Wide
-    Engine_Parts=Engines
-    Aerodynamics_Parts=Aerodynamics
-    Fairings_Parts=Fairings
+    Engine_Parts=Motoare
+    Aerodynamics_Parts=Aerodinamică
+    Fairings_Parts=Carenaje
     Structural_Parts=Structural
-    Other_Parts=Other
+    Other_Parts=Altele
 
 [Part Names]
-    Capsule_Name{0}=Capsule
-    Capsule_Name{1}=capsule
+    Capsule_Name{0}=Capsula
+    Capsule_Name{1}=capsula
     Probe_Name{0}=Probe
-    Probe_Name{1}=probe
-    Parachute_Name{0}=Parachute
-    Parachute_Name{1}=parachute
-
-    Kolibri_Engine_Name{0}=Kolibri Engine
-    Kolibri_Engine_Name{1}=kolibri engine
-    Hawk_Engine_Name{0}=Hawk Engine
-    Hawk_Engine_Name{1}=hawk engine
+    Probe_Name{1}=sondă
+    Parachute_Name{0}=Parașuta
+    Parachute_Name{1}=parașuta
+    
+    Kolibri_Engine_Name{0}=Motorul Kolibri
+    Kolibri_Engine_Name{1}=motor kolibri
+    Hawk_Engine_Name{0}=Motorul Hawk
+    Hawk_Engine_Name{1}=motor de șoim
     Valiant_Engine_Name{0}=Valiant Engine
-    Valiant_Engine_Name{1}=valiant engine
-    Titan_Engine_Name{0}=Titan Engine
-    Titan_Engine_Name{1}=titan engine
-    Frontier_Engine_Name{0}=Frontier Engine
-    Frontier_Engine_Name{1}=frontier engine
-    Peregrine_Engine_Name{0}=Peregrine Engine
-    Peregrine_Engine_Name{1}=peregrine engine
-    Ion_Engine_Name{0}=Ion Engine
-    Ion_Engine_Name{1}=ion engine
+    Valiant_Engine_Name{1}=motor curajos
+    Titan_Engine_Name{0}=Motorul Titan
+    Titan_Engine_Name{1}=motor titan
+    Frontier_Engine_Name{0}=Motorul de frontieră
+    Frontier_Engine_Name{1}=motor de frontieră
+    Peregrine_Engine_Name{0}=Motorul Peregrine
+    Peregrine_Engine_Name{1}=motor peregrin
+    Ion_Engine_Name{0}=Motorul ionic
+    Ion_Engine_Name{1}=motor ionic
     RCS_Thruster_Name{0}=RCS Thruster
     RCS_Thruster_Name{1}=rcs thruster
-
+    
     Solid_Rocket_Booster{0}=Solid Rocket Booster
-    Solid_Rocket_Booster{1}=solid rocket booster
-
-    Fuel_Tank_Name{0}=Fuel Tank
-    Fuel_Tank_Name{1}=fuel tank
+    Solid_Rocket_Booster{1}=rachetă solidă
+    
+    Fuel_Tank_Name{0}=Rezervă de combustibil
+    Fuel_Tank_Name{1}=rezervor de combustibil
     Separator_Name{0}=Stage Separator
-    Separator_Name{1}=stage separator
-    Side_Separator_Name{0}=Side Separator
-    Side_Separator_Name{1}=side separator
-    Structural_Part_Name{0}=Structural Part
-    Structural_Part_Name{1}=structural part
-    Landing_Leg_Name{0}=Landing Leg
-    Landing_Leg_Name{1}=landing leg
-    Aerodynamic_Nose_Cone_Name{0}=Aerodynamic Nose Cone
-    Aerodynamic_Nose_Cone_Name{1}=aerodynamic nose cone
-    Aerodynamic_Fuselage_Name{0}=Aerodynamic Fuselage
-    Aerodynamic_Fuselage_Name{1}=aerodynamic fuselage
-    Fairing_Name{0}=Fairing
-    Fairing_Name{1}=fairing
-    Rover_Wheel_Name{0}=Rover Wheel
-    Rover_Wheel_Name{1}=rover wheel
-    Docking_Port_Name{0}=Docking Port
-    Docking_Port_Name{1}=docking port
-    Solar_Panel_Name{0}=Solar Panel
-    Solar_Panel_Name{1}=solar panel
-    Battery_Name{0}=Battery
-    Battery_Name{1}=battery
+    Separator_Name{1}=separator de etape
+    Side_Separator_Name{0}=Separator lateral
+    Side_Separator_Name{1}=separator lateral
+    Structural_Part_Name{0}=Piesă structurală
+    Structural_Part_Name{1}=partea structurală
+    Landing_Leg_Name{0}=Land de aterizare
+    Landing_Leg_Name{1}=picior de aterizare
+    Aerodynamic_Nose_Cone_Name{0}=Con de nas aerodinamic
+    Aerodynamic_Nose_Cone_Name{1}=con de nas aerodinamic
+    Aerodynamic_Fuselage_Name{0}=Fuselaj aerodinamic
+    Aerodynamic_Fuselage_Name{1}=fuselaj aerodinamic
+    Fairing_Name{0}=Cenaj
+    Fairing_Name{1}=carena
+    Rover_Wheel_Name{0}=Roata Rover
+    Rover_Wheel_Name{1}=roată rover
+    Docking_Port_Name{0}=Port de andocare
+    Docking_Port_Name{1}=port de andocare
+    Solar_Panel_Name{0}=Panou solar
+    Solar_Panel_Name{1}=panou solar
+    Battery_Name{0}=Baterie
+    Battery_Name{1}=baterie
     RTG_Name{0}=RTG
     RTG_Name{1}=rtg
-    Heat_Shield_Name{0}=Heat Shield
-    Heat_Shield_Name{1}=heat shield
-    Fuel_Pipe_Name{0}=Fuel Pipe
-    Fuel_Pipe_Name{1}=fuel pipe
+    Heat_Shield_Name{0}=Scut de căldură
+    Heat_Shield_Name{1}=scut termic
+    Fuel_Pipe_Name{0}=Conducta de combustibil
+    Fuel_Pipe_Name{1}=conducta de combustibil
 
 [Part Descriptions]
-    Capsule_Description=A small capsule, carrying one astronaut
-    Probe_Description=An unmanned probe, used for one way missions
-    Parachute_Description=A parachute used for landing
-    Fuel_Tank_Description=A fuel tank carrying liquid fuel and liquid oxygen
-    Separator_Description=Vertical separator, used to detach empty stages
-    Side_Separator_Description=Horizontal separator, used for detaching side boosters
-    Landing_Leg_Description=An extendable and retractable leg used for landing on the surface of moons and planets
-    Structural_Part_Description=A light and strong structural part
-    Hawk_Engine_Description=A high thrust - lower efficiency engine, normally used in the first stage of a rocket
-    Titan_Engine_Description=A high thrust - lower efficiency engine, normally used in the first stage of a rocket
-    Valiant_Engine_Description=High efficiency, low thrust. Used in space when high thrust isn't a priority
-    Frontier_Engine_Description=High efficiency, low thrust. Used in space when high thrust isn't a priority
-    Kolibri_Engine_Description=A tiny engine used for landers
-    Ion_Engine_Description=A low thrust engine with an incredibly high efficiency
-    RCS_Thruster_Description=A set of small directional thrusters, used for docking
-
-    Booster_Description=Has high thrust, low efficiency
-    Booster_Description=Cannot be turned off or throttle once ignite
-
-    Aerodynamic_Nose_Cone_Description=An aerodynamic nose cone, used to improve the aerodynamics of side boosters
-    Aerodynamic_Fuselage_Description=An aerodynamic fuselage, used to cover engines
-    Fairing_Description=An aerodynamic fairing, used to encapsulate payloads
-    Battery_Description=A battery used to store electric power
-    Solar_Panel_Description=A solar panel that generates power when extended
-    RTG_Description=Radioisotope thermoelectric generator or RTG
-    Rover_Wheel_Description=Rover wheel used to drive on the surface of planets
-    Docking_Port_Description=A docking port which can be used to connect two vehicles together
-    Heat_Shield_Description=A heat resistant shield used to survive atmospheric reentry
-    Fuel_Pipe_Description=A pipe used to transfer fuel
+    Capsule_Description=O capsulă mică, care poartă un astronaut
+    Probe_Description=O sondă fără pilot, folosită pentru misiuni unidirecționale
+    Parachute_Description=O parașuta folosită pentru aterizare
+    Fuel_Tank_Description=Un rezervor de combustibil care transportă combustibil lichid și oxigen lichid
+    Separator_Description=Separator vertical, folosit pentru a detaşa treptele goale
+    Side_Separator_Description=Separator orizontal, folosit pentru detașarea amplificatoarelor laterale
+    Landing_Leg_Description=Un picior extensibil și retractabil folosit pentru aterizarea pe suprafața lunilor și a planetelor
+    Structural_Part_Description=O parte structurală ușoară și puternică
+    Hawk_Engine_Description=Un motor cu forță mare - eficiență scăzută, utilizat în mod normal în prima etapă a unei rachete
+    Titan_Engine_Description=Un motor cu forță mare - eficiență scăzută, utilizat în mod normal în prima etapă a unei rachete
+    Valiant_Engine_Description=Eficiență ridicată, forță redusă. Folosit în spațiu când tracțiunea mare nu este o prioritate
+    Frontier_Engine_Description=Eficiență ridicată, tracțiune scăzută. Folosit în spațiu când tracțiunea mare nu este o prioritate
+    Kolibri_Engine_Description=Un motor mic folosit pentru aterizare
+    Ion_Engine_Description=Un motor de tracțiune redusă cu o eficiență incredibil de ridicată
+    RCS_Thruster_Description=Un set de mici propulsoare direcţionale, folosite pentru andocare
+    
+    Booster_Description=Are tracțiune mare, eficiență scăzută
+    Booster_Description=Nu poate fi oprit sau accelerat după aprindere
+    
+    Aerodynamic_Nose_Cone_Description=Un con de nas aerodinamic, folosit pentru a îmbunătăți aerodinamica amplificatoarelor laterale
+    Aerodynamic_Fuselage_Description=Un fuselaj aerodinamic, folosit pentru a acoperi motoarele
+    Fairing_Description=Un caren aerodinamic, folosit pentru încapsularea sarcinilor utile
+    Battery_Description=O baterie folosită pentru a stoca energie electrică
+    Solar_Panel_Description=Un panou solar care generează energie atunci când este extins
+    RTG_Description=Generator termoelectric cu radioizotopi sau RTG
+    Rover_Wheel_Description=Roata rover folosită pentru a conduce pe suprafața planetelor
+    Docking_Port_Description=Un port de andocare care poate fi folosit pentru a conecta două vehicule împreună
+    Heat_Shield_Description=Un scut rezistent la căldură folosit pentru a supraviețui reintrarii atmosferice
+    Fuel_Pipe_Description=O conductă folosită pentru a transfera combustibil
 
 [Modules]
-    Activate_Separator=Separation
-    Activate_Fairing=Fairing
-
-    Torque_Module_Torque=Torque: %value%kN
-    Separation_Force=Separation force: %value%kN
-    Magnet_Force=Magnet force: %value%kN
-
-    Max_Heat_Tolerance=Heat tolerance: %temperature%
-
-    State_On{0}=On
-    State_Off{0}=Off
-
-    Engine_Module_State=Engine %state{0}%
-    Engine_On_Label=Engine on
-    Gimbal_On_Label=Gimbal on
-
+    Activate_Separator=Separare
+    Activate_Fairing=Carenare
+    
+    Torque_Module_Torque=Cuplu: %value%kN
+    Separation_Force=Forța de separare: %value%kN
+    Magnet_Force=Forța magnetului: %value%kN
+    
+    Max_Heat_Tolerance=Toleranta la caldura: %temperature%
+    
+    State_On{0}=Activat
+    State_Off{0}=Dezactivat
+    
+    Engine_Module_State=Motor %state{0}%
+    Engine_On_Label=Motorul pornit
+    Gimbal_On_Label=Gimbal activat
+    
     Msg_RCS_Module_State=RCS %state{0}%
-
-    Wheel_Module_State=Rover wheel %state{0}%
-    Wheel_On_Label=Wheel on
-
-    Panel_Expanded=Expanded
-    Landing_Leg_Expanded=Deployed
-
-    Detach_Edges_Label=Detach edges
-    Adapt_To_Tanks_Label=Adapt to fuel tanks
-
-    Info_Parachute_Max_Height=Max deploy height: %height%
-    Button_Activate_Parachute=parachute deployed
-    Msg_Cannot_Deploy_Parachute_In_Vacuum=Cannot deploy parachute in a vacuum
-    Msg_Cannot_Deploy_Parachute_Above=Cannot deploy parachute above %height%
-    Msg_Cannot_Fully_Deploy_Above=Cannot fully deploy parachute above %height%
-    Msg_Cannot_Deploy_Parachute_While_Faster=Cannot deploy parachute when going faster than %velocity%
-    Msg_Cannot_Deploy_Parachute_While_Not_Moving=Cannot deploy parachute while not moving
-    Msg_Parachute_Half_Deployed=Parachute half deployed
-    Msg_Parachute_Fully_Deployed=Parachute fully deployed
-    Msg_Parachute_Cut=Parachute cut
+    
+    Wheel_Module_State=Roata rover %state{0}%
+    Wheel_On_Label=Roata activată
+    
+    Panel_Expanded=Extins
+    Landing_Leg_Expanded=Dispus
+    
+    Detach_Edges_Label=Detașează marginile
+    Adapt_To_Tanks_Label=Se adaptează la rezervoarele de combustibil
+    
+    Info_Parachute_Max_Height=Înălțimea maximă de implementare: %height%
+    Button_Activate_Parachute=parașuta desfășurată
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=Nu se poate instala parașuta în vid
+    Msg_Cannot_Deploy_Parachute_Above=Nu se poate instala parașuta peste %height%
+    Msg_Cannot_Fully_Deploy_Above=Nu se poate instala complet parașuta peste %height%
+    Msg_Cannot_Deploy_Parachute_While_Faster=Nu se poate instala parașuta când merge mai repede de %velocity%
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=Nu se poate instala parașuta în timp ce nu se mișcă
+    Msg_Parachute_Half_Deployed=Parașuta pe jumătate desfășurată
+    Msg_Parachute_Fully_Deployed=Parașuta complet implementată
+    Msg_Parachute_Cut=Tăiat cu parașuta
 
 [Planets]
-    Sun{0}=Sun
-    Sun{1}=the Sun
-    Sun{2}=The Sun
-    Mercury{0}=Mercury
+    Sun{0}=Soare
+    Sun{1}=soarele
+    Sun{2}=Soarele
+    Mercury{0}=Mercur
     Venus{0}=Venus
-    Earth{0}=Earth
-    Earth{1}=the Earth
-    Earth{2}=The Earth
-    Earth{3}=Earth's
-    Moon{0}=Moon
-    Moon{1}=the Moon
-    Moon{2}=The Moon
-    Near_Earth_Asteroid{0}=Captured Asteroid
-    Near_Earth_Asteroid{1}=the Captured Asteroid
-    Near_Earth_Asteroid{2}=The Captured Asteroid
-    Mars{0}=Mars
-    Phobos{0}=Phobos
+    Earth{0}=Pământ
+    Earth{1}=pământul
+    Earth{2}=Pământul
+    Earth{3}=ale Pământului
+    Moon{0}=Luna
+    Moon{1}=luna
+    Moon{2}=Luna
+    Near_Earth_Asteroid{0}=Asteroid capturat
+    Near_Earth_Asteroid{1}=asteroidul capturat
+    Near_Earth_Asteroid{2}=Asteroidul capturat
+    Mars{0}=Marte
+    Phobos{0}=Fobos
     Deimos{0}=Deimos
     Jupiter{0}=Jupiter
     Jupiter{1}=Jupiter
     Jupiter{2}=Jupiter
-    Jupiter{3}=Jupiter's
+    Jupiter{3}=a lui Jupiter
     Europa{0}=Europa
-    Ganymede{0}=Ganymede
+    Ganymede{0}=Ganimede
     Io{0}=Io
     Callisto{0}=Callisto
 
 [Landmarks]
-    Sea_of_Tranquility=Sea of Tranquility
-    Sea_of_Serenity=Sea of Serenity
-    Ocean_of_Storms=Ocean of Storms
-    Copernicus_Crater=Copernicus Crater
-    Tycho_Crater=Tycho Crater
-
+    Sea_of_Tranquility=Marea liniștii
+    Sea_of_Serenity=Marea Serenității
+    Ocean_of_Storms=Oceanul furtunilor
+    Copernicus_Crater=Craterul Copernic
+    Tycho_Crater=Craterul Tycho
+    
     Olympus_Mons=Olympus Mons
     Valles_Marineris=Valles Marineris
-    Gale_Crater=Gale Crater
+    Gale_Crater=Craterul Gale
     Hellas_Planitia=Hellas Planitia
     Arcadia_Planitia=Arcadia Planitia
     Utopia_Planitia=Utopia Planitia
-    Jezero_Crater=Jezero Crater
-
+    Jezero_Crater=Craterul Jezero
+    
     Atalanta_Planitia=Atalanta Planitia
     Lavinia_Planitia=Lavinia Planitia
-
+    
     Caloris_Planitia=Caloris Planitia
     Borealis_Planitia=Borealis Planitia
     Maxwell_Montes=Maxwell Montes
 
 [Challenges]
-    Liftoff_Title=Liftoff
-    Liftoff=Liftoff and land safely
-
-    Reach10km_Title=Reach 10km
-    Reach10km=Reach 10km and land safely
-
-    ReachSpace_Title=Reach Space
-    ReachSpace=Reach %height%, then survive reentry and land safely
+    Liftoff_Title=Decolare
+    Liftoff=Decolare și aterizare în siguranță
     
-    Land100kmDownrange_Title=Land 100km downrange
-    Land100kmDownrange=Land at least 100km away from the launch pad
-
-    ReachLowEarthOrbit_Title=Reach Low Earth Orbit
-    ReachLowEarthOrbit=Reach low Earth orbit, then land safely
-
-    ReachHighEarthOrbit_Title=Reach High Earth Orbit
-    ReachHighEarthOrbit=Reach high Earth orbit, then land safely
+    Reach10km_Title=Atinge 10km
+    Reach10km=Atinge 10km și aterizează în siguranță
     
-    MoonOrbit_Title=Moon Orbit
-    MoonOrbit=Capture into low Moon orbit, then return safely
-
-    MoonTour_Title=Moon Tour
-    MoonTour=Land on 3 separate landmarks, then return safely
-
+    ReachSpace_Title=Atinge spațiu
+    ReachSpace=Atinge %height%, apoi supraviețuiește la reintrare și aterizează în siguranță
+    
+    Land100kmDownrange_Title=Teren cu 100 km în jos
+    Land100kmDownrange=Aterizați la cel puțin 100 km distanță de rampa de lansare
+    
+    ReachLowEarthOrbit_Title=Atinge orbita Pământului inferioară
+    ReachLowEarthOrbit=Atinge orbita joasă a Pământului, apoi aterizează în siguranță
+    
+    ReachHighEarthOrbit_Title=Atinge o orbită terestră înaltă
+    ReachHighEarthOrbit=Atinge orbita înaltă a Pământului, apoi aterizează în siguranță
+    
+    MoonOrbit_Title=Orbita Lunii
+    MoonOrbit=Captură pe orbita joasă a Lunii, apoi întoarce-te în siguranță
+    
+    MoonTour_Title=Turul lunii
+    MoonTour=Aterizează pe 3 repere separate, apoi întoarce-te în siguranță
+    
     AsteroidImpact_Title=Asteroid Impact
-    AsteroidImpact=Crash into the surface of the Captured Asteroid at 200+ m/s
-
+    AsteroidImpact=Se prăbușește pe suprafața asteroidului capturat la 200+ m/s
+    
     MarsGrandTour_Title=Mars Grand Tour
-    MarsGrandTour=Land on Mars, Phobos and Deimos in one flight, then return safely
+    MarsGrandTour=Aterizează pe Marte, Phobos și Deimos într-un singur zbor, apoi întoarce-te în siguranță
     
-    VenusLanding_Title=Venus Landing
-    VenusLanding=Descend through the thick atmosphere and land on the surface of Venus
-
+    VenusLanding_Title=Aterizare Venus
+    VenusLanding=Coborâți prin atmosfera groasă și aterizați pe suprafața lui Venus
+    
     VenusReturn_Title=Venus Return
-    VenusReturn=Land on the surface of Venus, then ascend trough the thick atmosphere and return safely
-
-    MercuryLanding_Title=Mercury Landing
-    MercuryLanding=Land on the surface of Mercury
-
-    MercuryReturn_Title=Mercury Return
-    MercuryReturn=Land on the surface of Mercury, then return safely
+    VenusReturn=Aterizează pe suprafața lui Venus, apoi urcă prin atmosfera groasă și se întoarce în siguranță
     
-    LandAndReturn_Title=%planet{0}% Landing
-    LandAndReturn=Land on the surface of %planet{0}%, then return safely
+    MercuryLanding_Title=Mercury Landing
+    MercuryLanding=Aterizează pe suprafața lui Mercur
+    
+    MercuryReturn_Title=Returul Mercur
+    MercuryReturn=Aterizează pe suprafața lui Mercur, apoi întoarce-te în siguranță
+    
+    LandAndReturn_Title=%planet{0}% Aterizare
+    LandAndReturn=Aterizează pe suprafața %planet{0}%, apoi întoarce-te în siguranță
 
 [Achievements]
-    Reached_Height=Reached %height% altitude
-    Reached_Karman_Line=Passed the Karman line, leaving the atmosphere and reaching space
-    Survived_Reentry=Reentered %planet{3}% atmosphere, max temperature %temperature%
-
-    Reached_Low_Orbit=Reached low %planet{0}% orbit
-    Reached_High_Orbit=Reached high %planet{0}% orbit
-    Descend_Low_Orbit=Descended to low %planet{0}% orbit
-    Capture_Low_Orbit=Captured into low %planet{0}% orbit
-    Capture_High_Orbit=Captured into high %planet{0}% orbit
-
-    Entered_Lower_Atmosphere=Entered %planet{3}% lower atmosphere
-    Entered_Upper_Atmosphere=Entered %planet{3}% upper atmosphere
-    Left_Lower_Atmosphere=Reached %planet{3}% upper atmosphere
-    Left_Upper_Atmosphere=Escaped %planet{3}% atmosphere
-
-    Landed=Landed on the surface of %planet{1}%
-
-    Landed_At_Landmark=Landed on the surface of %planet{1}%
-    Landed_At_Landmark=<size=55>Location: %landmark%</size>
-
-    Landed_At_Landmark__Short=Landed on the surface of %planet{1}%
+    Reached_Height=S-a atins %height% altitudine
+    Reached_Karman_Line=A trecut de linia Karman, părăsind atmosfera și ajungând în spațiu
+    Survived_Reentry=Atmosfera %planet{3}% reintrată, temperatura maximă %temperature%
+    
+    Reached_Low_Orbit=S-a atins pe orbita joasă %planet{0}%.
+    Reached_High_Orbit=S-a atins pe orbită înaltă %planet{0}%.
+    Descend_Low_Orbit=A coborât pe orbita joasă %planet{0}%.
+    Capture_Low_Orbit=Capturat pe orbita joasă %planet{0}%.
+    Capture_High_Orbit=Capturat pe orbita înaltă %planet{0}%.
+    
+    Entered_Lower_Atmosphere=A intrat în %planet{3}% atmosferă inferioară
+    Entered_Upper_Atmosphere=A intrat în %planet{3}% atmosfera superioară
+    Left_Lower_Atmosphere=Ati atins atmosfera superioară %planet{3}%.
+    Left_Upper_Atmosphere=Atmosfera %planet{3}% evadata
+    
+    Landed=Aterizat pe suprafața %planet{1}%
+    
+    Landed_At_Landmark=Aterizat pe suprafața %planet{1}%
+    Landed_At_Landmark=<size=55>Locație: %landmark%</size>
+    
+    Landed_At_Landmark__Short=A aterizat pe suprafața %planet{1}%
     Landed_At_Landmark__Short=- %landmark% -
-
-    Crashed_Into_Terrain=Crashed into the surface of %planet{1}%
-
-    Entered_SOI=Entered the sphere of influence of %planet{1}%
-    Escaped_SOI=Escaped the sphere of influence of %planet{1}%
-
-    Docked_Suborbital=Docked in a suborbital trajectory of %planet{1}%
-    Docked_Orbit_Low=Docked in low %planet{0}% orbit
-    Docked_Orbit_Transfer=Docked in a transfer orbit of %planet{1}%
-    Docked_Orbit_High=Docked in high %planet{0}% orbit
-    Docked_Escape=Docked on an escape trajectory of %planet{1}%
-    Docked_Surface=Docked on the surface of %planet{1}%
-
-    Recover_Home=Safely returned to %planet{1}%
-    Recover_Landed=Mission completed on %planet{1}% surface
-    Recover_Space=The space mission around %planet{1}% has ended
+    
+    Crashed_Into_Terrain=S-a prăbușit pe suprafața %planet{1}%
+    
+    Entered_SOI=A intrat în sfera de influență a %planet{1}%
+    Escaped_SOI=A scăpat din sfera de influență a %planet{1}%
+    
+    Docked_Suborbital=Acostat pe o traiectorie suborbitală a %planet{1}%
+    Docked_Orbit_Low=Acostat pe orbita joasă %planet{0}%.
+    Docked_Orbit_Transfer=Acostat pe o orbită de transfer a %planet{1}%
+    Docked_Orbit_High=Acostat pe orbita înaltă %planet{0}%.
+    Docked_Escape=Acostat pe o traiectorie de evacuare a %planet{1}%
+    Docked_Surface=Andocat pe suprafața %planet{1}%
+    
+    Recover_Home=Revenit în siguranță la %planet{1}%
+    Recover_Landed=Misiune finalizată pe suprafaţa %planet{1}%.
+    Recover_Space=Misiunea spaţială din jurul %planet{1}% sa încheiat
