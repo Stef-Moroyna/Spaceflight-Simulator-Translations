@@ -95,275 +95,275 @@
     Roadmap_Text=<color=grey>커리어 모드</color>
     Roadmap_Text=
     Roadmap_Text=버전 1.8
-    Roadmap_Text=<color=grey>Outer planets</color>
+    Roadmap_Text=<color=grey>외행성</color>
     Roadmap_Text=
-    Roadmap_Text=Electric system:
-    Roadmap_Text=<color=grey>The entire electric system will get a complete overhaul in the future, most likely with features such as time warp during ion engine burns and more uses for electricity</color>
+    Roadmap_Text=전기 시스템:
+    Roadmap_Text=<color=grey>앞으로 전체 전기 시스템은 완전히 개편될 예정이며, 이온 엔진 연소 중 시간 왜곡 및 전기의 더 많은 용도와 같은 기능이 추가될 가능성이 높습니다.</color>
     Roadmap_Text=
     Roadmap_Text=
-    Roadmap_Text=Please keep in mind that plans might change
+    Roadmap_Text=계획이 변경될 수 있다는 점을 명심하세요.
 
-    Credits_OpenButton=Credits
+    Credits_OpenButton=크레딧
 
     Credits_Text=<Size=70> Štefo Mai Morojna </size>
-    Credits_Text=<Size=55> Designer - Programmer - Artist </size>
+    Credits_Text=<Size=55> 디자이너 - 프로그래머 - 아티스트 </size>
     Credits_Text=
     Credits_Text=<Size=70> Jordi van der Molen </size>
-    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=<Size=55> 프로그래머 </size>
     Credits_Text=
     Credits_Text=<Size=70> Chris Christo </size>
-    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=<Size=55> 프로그래머 </size>
     Credits_Text=
     Credits_Text=<Size=70> Josh </size>
-    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=<Size=55> 프로그래머 </size>
     Credits_Text=
     Credits_Text=<Size=70> Aidan Ginise </size>
-    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=<Size=55> 프로그래머 </size>
     Credits_Text=
     Credits_Text=<Size=70> Andrey Onischenko </size>
-    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=<Size=55> 프로그래머 </size>
     Credits_Text=
     Credits_Text=<Size=70> Davi Vasc </size>
-    Credits_Text=<Size=55> Composer </size>
+    Credits_Text=<Size=55> 작곡가 </size>
     Credits_Text=
     Credits_Text=<Size=70> Ashton Mills </size>
-    Credits_Text=<size=55> Composer </size>
+    Credits_Text=<size=55> 작곡가 </size>
 
-    First_Time_Playing_Question=First time playing
-    First_Time_Playing_Question=Spaceflight Simulator?
+    First_Time_Playing_Question=처음 플레이
+    First_Time_Playing_Question=우주 비행 시뮬레이터?
 
-    First_Time_Playing_Yes=First Time Playing
-    First_Time_Playing_No=Played Before
+    First_Time_Playing_Yes=처음 플레이
+    First_Time_Playing_No=이전에 플레이됨
 
 # Update menu
-    Update_Available=A new update is available!
+    Update_Available=새로운 업데이트가 출시되었습니다!
     Update_Available=
-    Update_Available=Current version: %old%
-    Update_Available=Latest version: %new%
+    Update_Available=현재 버전: %old%
+    Update_Available=최신 버전: %new%
 
-    Update_Confirm=Update
+    Update_Confirm=업데이트
 
 # Rate menu
-    Rate_Title=Would you like to rate or review the game?
+    Rate_Title=게임을 평가하거나 리뷰하시겠습니까?
     Rate_Title=
-    Rate_Title=We deeply care about the quality of our game, your feedback helps us improve it
+    Rate_Title=저희는 게임의 품질을 매우 중요하게 생각하며, 여러분의 피드백은 저희가 게임을 개선하는 데 도움이 됩니다.
     Rate_Title=
-    Rate_Title=Even after thousands of reviews, we still read a large number of them!
+    Rate_Title=수천 개의 리뷰가 있는데도 불구하고, 우리는 여전히 많은 리뷰를 읽습니다!
 
-    Rate_Confirm=Rate
+    Rate_Confirm=비율
 
-    Exit_Button=Exit
+    Exit_Button=출구
 
 # Close menu
-    Close_Game=Close game?
+    Close_Game=승패가 갈리나요?
 
 [Worlds Menu]
 # Worlds are save slots; image at: https://drive.google.com/file/d/1vUYrXaem4ki1dcXRFUJLKWZEcE0PFno-/view?usp=share
-    Create_New_World_Button=Create New World
+    Create_New_World_Button=새로운 세계를 창조하다
 
 # Create menu
-    Create_World_Title=World Name
-    Default_World_Name=My World
+    Create_World_Title=세계 이름
+    Default_World_Name=내 세상
 
 # Delete menu
-    World_Delete=Delete
+    World_Delete=삭제
 
 # Select system menu
-    Select_Solar_System=Select world's solar system
-    Select_Solar_System__NotFound=Solar system could not be found:
+    Select_Solar_System=세계 태양계를 선택하세요
+    Select_Solar_System__NotFound=태양계를 찾을 수 없습니다:
     Select_Solar_System__NotFound=%system%
     Select_Solar_System__NotFound=
-    Select_Solar_System__NotFound=Select a new solar system
+    Select_Solar_System__NotFound=새로운 태양계를 선택하세요
 
-    Default_Solar_System=Solar System (Default)
-    Custom_Solar_System=%name% (Custom)
+    Default_Solar_System=태양계(기본값)
+    Custom_Solar_System=%name% (사용자 정의)
 
 # World info
-    World_Mode_Name=Mode: %value%
-    Mode_Sandbox=Sandbox
-    Mode_Challenge=Challenge
-    Mode_Career=Career
+    World_Mode_Name=모드: %value%
+    Mode_Sandbox=모래 상자
+    Mode_Challenge=도전
+    Mode_Career=직업
 
-    Allow_Cheats_Name=Allow Cheats: %value%
-    Allow_Cheats_Label=Allow Cheats
+    Allow_Cheats_Name=치트 허용: %value%
+    Allow_Cheats_Label=사기꾼을 허용
 
-    Allow_Quicksaves_Name=Allow Quicksaves: %value%
-    Allow_Quicksaves_Label=Allow Quicksaves
+    Allow_Quicksaves_Name=빠른 저장 허용: %value%
+    Allow_Quicksaves_Label=빠른 저장 허용
 
-    World_Difficulty_Name=Difficulty: %value%
-    Difficulty_Normal=Normal
-    Difficulty_Hard=Hard
-    Difficulty_Realistic=Realistic
+    World_Difficulty_Name=난이도: %value%
+    Difficulty_Normal=정상
+    Difficulty_Hard=딱딱한
+    Difficulty_Realistic=현실적
 
 # World play times
-    Last_Played=Last played: %value% ago
-    Just_Played=Last played: A moment ago
-    Time_Played=Playtime: %value%
+    Last_Played=마지막 플레이: %value% 전
+    Just_Played=마지막 플레이: 잠시 전
+    Time_Played=재생 시간: %value%
 
 [Saving]
 # Blueprint stuff; Blueprints are rocket designs; images at: https://drive.google.com/drive/folders/15m4nXgzr8fvql78TheE3Qy1WPrTaIqdJ?usp=share
-   Blueprints_Menu_Title=Blueprints
-   Unnamed_Blueprint=Unnamed Blueprint
-   Save_Blueprint=Save Blueprint
-   Load_Blueprint=Load Blueprint
-   Cannot_Save_Empty_Build=Cannot save an empty blueprint
+   Blueprints_Menu_Title=청사진
+   Unnamed_Blueprint=이름 없는 청사진
+   Save_Blueprint=청사진 저장
+   Load_Blueprint=블루프린트 로드
+   Cannot_Save_Empty_Build=빈 청사진을 저장할 수 없습니다
 
 # Quicksave stuff; Quicksaves let players save at any time and return to it.
 # It does not necessarily have to be called quicksave, player just needs to understand its use.
 # Image at: https://drive.google.com/drive/folders/128aXHWoUhJXZbbKVBDXXSMoCvRwFpvct?usp=share
-   Quicksaves_Menu_Title=Quicksaves
-   Unnamed_Quicksave=Unnamed Quicksave
-   Create_Quicksave=Create Quicksave
-   Load_Quicksave=Load Quicksave
+   Quicksaves_Menu_Title=빠른 저장
+   Unnamed_Quicksave=이름 없는 퀵세이브
+   Create_Quicksave=빠른 저장 만들기
+   Load_Quicksave=빠른 저장 로드
 
 # Save and load menus; context seen in images from blueprint/quicksave stuff
-    Save=Save
-    Load=Load
-    Import=Import
-    Delete=Delete
-    Rename=Rename
-    Delete_File_With_Type=Delete %filename% %filetype{1}%
+    Save=구하다
+    Load=짐
+    Import=수입
+    Delete=삭제
+    Rename=이름 바꾸기
+    Delete_File_With_Type=%filename% %filetype{1}%을 삭제하세요
 
 # In progress
-    Saving_In_Progress=Saving...
-    Loading_In_Progress=Loading...
-    Importing_In_Progress=Importing...
+    Saving_In_Progress=절약...
+    Loading_In_Progress=로딩중...
+    Importing_In_Progress=가져오는 중...
 
 # filetype (injected)
-    Blueprint{0}=Blueprint
-    Blueprint{1}=blueprint
-    Blueprint{2}=blueprints
+    Blueprint{0}=청사진
+    Blueprint{1}=청사진
+    Blueprint{2}=청사진
 
-    Quicksave{0}=Quicksave
-    Quicksave{1}=quicksave
-    Quicksave{2}=quicksaves
+    Quicksave{0}=빠른 저장
+    Quicksave{1}=빠른 저장
+    Quicksave{2}=빠른 저장
 
 # Ask overwrite menu; image at: https://drive.google.com/file/d/1EOI9UIWAG-lNgrdk1IMmrpmf6rRBuA7Q/view?usp=share
-    File_Already_Exists=A %filetype{1}% with this name already exists
-    Overwrite_File=Overwrite %filetype{1}%
-    New_File=New %filetype{1}%
+    File_Already_Exists=이 이름을 가진 %filetype{1}%이 이미 존재합니다.
+    Overwrite_File=%filetype{1}% 덮어쓰기
+    New_File=새로운 %filetype{1}%
 
 # Load failure; image at: https://drive.google.com/file/d/1c7qHCdbS1ShSq4rKIHMpHKCTuh0pXeHv/view?usp=share
-     Load_Failed=Could not load %filetype{1}% from %filepath%
+     Load_Failed=%filepath%에서 %filetype{1}%을 로드할 수 없습니다.
 
 # Legacy Messages
-    Conversion_Message=Welcome to version 1.5.
+    Conversion_Message=버전 1.5에 오신 것을 환영합니다.
     Conversion_Message=
-    Conversion_Message=All 1.4 saves have been automatically converted to 1.5 saves
+    Conversion_Message=모든 1.4 저장이 자동으로 1.5 저장으로 변환되었습니다.
 
-    Conversion_Success=Found version 1.4 of %filetype{1}% and converted it to %version% format
+    Conversion_Success=%filetype{1}%의 버전 1.4를 찾아서 %version% 형식으로 변환했습니다.
 
-    Conversion_Failed=Found version 1.4 of %filetype{1}% and converted it to %version% format
+    Conversion_Failed=%filetype{1}%의 버전 1.4를 찾아서 %version% 형식으로 변환했습니다.
     Conversion_Failed=
-    Conversion_Failed=Conversion failed:
+    Conversion_Failed=변환에 실패했습니다:
     Conversion_Failed=%reason%
 
 [Purchasing]
 # Images at: https://drive.google.com/drive/folders/1kIhFuPRp8YXkZ8SVC5Jq9UJkNZqdasQC?usp=share
-    Parts_Expansion=Parts Expansion
-    Redstone_Atlas_Pack=Redstone Atlas Pack
-    Skins_Expansion=Skins Expansion
-    Planets_Expansion=Planets Expansion
-    Expansion_Bundle=Expansion Bundle
-    Upgrade_To_Bundle=Upgrade To Bundle
-    Cheats_Expansion=Cheats
-    Infinite_Area_Expansion=Infinite Build Area
-    Builder_Bundle=Builder Bundle
-    Sandbox_Bundle=Sandbox Bundle
-    Full_Bundle=Full Bundle
-    Upgrade_To_Full_Bundle=Upgrade To Full Bundle
-    Mac_Full_Version=Full Version
+    Parts_Expansion=부품 확장
+    Redstone_Atlas_Pack=레드스톤 아틀라스 팩
+    Skins_Expansion=스킨 확장
+    Planets_Expansion=행성 확장
+    Expansion_Bundle=확장팩 번들
+    Upgrade_To_Bundle=번들로 업그레이드
+    Cheats_Expansion=치트
+    Infinite_Area_Expansion=무한한 빌드 영역
+    Builder_Bundle=빌더 번들
+    Sandbox_Bundle=샌드박스 번들
+    Full_Bundle=전체 번들
+    Upgrade_To_Full_Bundle=전체 번들로 업그레이드
+    Mac_Full_Version=풀 버전
 
-    Not_All_Parts_Are_Owned=Not all parts are owned
-    Not_All_Parts_Are_Owned=Disabled not owned parts
+    Not_All_Parts_Are_Owned=모든 부품이 소유된 것은 아닙니다.
+    Not_All_Parts_Are_Owned=장애인이 소유하지 않은 부분
     Not_All_Parts_Are_Owned=
-    Not_All_Parts_Are_Owned=View parts expansion?
+    Not_All_Parts_Are_Owned=부품 확장을 보시겠습니까?
 
-    View_Part_Expansion=View Expansion
+    View_Part_Expansion=보기 확장
 
-    More_Parts=View Parts Expansion
-    More_Skins=View Skins Expansion
+    More_Parts=부품 확장 보기
+    More_Skins=스킨 확장 보기
     
-    Cannot_Use_Cheats_In_Career=Cheats can only be used in a sandbox mode world
-    Get_Infinite_Build_Area_Button=Get Infinite Build Area
-    Get_Cheats_Expansion_Button=Get Cheats Expansion
+    Cannot_Use_Cheats_In_Career=치트는 샌드박스 모드 세계에서만 사용할 수 있습니다.
+    Get_Infinite_Build_Area_Button=무한한 빌드 영역 얻기
+    Get_Cheats_Expansion_Button=치트 확장을 얻으세요
 
-    Why_Buy=Your support will help us keep improving the game!
+    Why_Buy=여러분의 후원은 게임을 지속적으로 개선하는 데 도움이 됩니다!
 
-    Buy_Product=Buy %product% %price%
+    Buy_Product=%product% %price%를 구매하세요
 
     Timed_Sale_Text=%product_name% -%sale_percent%
     Timed_Sale_Text=%time_left%
 
-    Time_Upgrade_Text=Upgrade to %product_name% -%sale_percent%
+    Time_Upgrade_Text=%product_name% -%sale_percent%로 업그레이드하세요
     Time_Upgrade_Text=%time_left%
 
-    Purchase_Thanks_Msg=Purchased: %product%
+    Purchase_Thanks_Msg=구매: %product%
     Purchase_Thanks_Msg=
-    Purchase_Thanks_Msg=Thanks for your support!
-    Purchase_Thanks_Msg=Now go and explore the stars!
+    Purchase_Thanks_Msg=귀하의 지원에 감사드립니다!
+    Purchase_Thanks_Msg=이제 별을 탐험해보세요!
 
-    Owned=%product% (Owned)
+    Owned=%product% (소유)
 
-    Restore_Open=Restore Purchases
+    Restore_Open=구매를 복원
 
-    Restore_Text=Transactions on Android devices are automatically restored on startup
+    Restore_Text=Android 기기의 거래는 시작 시 자동으로 복원됩니다.
     Restore_Text=
-    Restore_Text=- Check if you are logged into the Google Play account that purchased the item (check if the purchase is visible in the Google Play purchase history)
+    Restore_Text=- 해당 상품을 구매한 Google Play 계정에 로그인했는지 확인하세요(구매 내역에 Google Play 구매 내역이 표시되는지 확인하세요)
     Restore_Text=
-    Restore_Text=- Check the purchase button, if the price is not shown, the game is not connected to the store. Please check the network connection and restart the game
+    Restore_Text=- 구매 버튼을 확인하세요. 가격이 표시되지 않으면 게임이 스토어에 연결되지 않은 것입니다. 네트워크 연결을 확인하고 게임을 다시 시작하세요.
     Restore_Text=
-    Restore_Text=If none of the above methods work, please contact me by email: games.morojna@gmail.com
+    Restore_Text=위의 방법 중 어느 것도 효과가 없다면 games.morojna@gmail.com으로 이메일을 보내주세요.
     Restore_Text=
-    Restore_Text=You can also try to wait for a while, the purchased items sometimes restore themselves after a few hours
+    Restore_Text=잠시 기다려 보는 것도 좋습니다. 구매한 아이템은 몇 시간 후에 다시 복구되는 경우가 있습니다.
 
-    Purchase_FAQ_Open=FAQ
+    Purchase_FAQ_Open=자주하는 질문
 
-    Purchase_FAQ_Text=<color=grey>Will purchased items be retained between updates? </color>
-    Purchase_FAQ_Text=Yes, of course
+    Purchase_FAQ_Text=<color=grey>업데이트 사이에도 구매한 아이템이 유지되나요? </color>
+    Purchase_FAQ_Text=물론이죠
     Purchase_FAQ_Text=
     Purchase_FAQ_Text=
-    Purchase_FAQ_Text=<color=grey>Will purchased items be lost? </color>
-    Purchase_FAQ_Text=Your purchased items will be permanently stored in your store account and will not be lost even if you reinstall the game or change your phone
+    Purchase_FAQ_Text=<color=grey>구매한 품목은 사라지나요? </color>
+    Purchase_FAQ_Text=구매하신 아이템은 스토어 계정에 영구적으로 저장되며, 게임을 재설치하거나 휴대폰을 변경하더라도 사라지지 않습니다.
     Purchase_FAQ_Text=
     Purchase_FAQ_Text=
-    Purchase_FAQ_Text=<color=grey>Will you provide refunds? </color>
-    Purchase_FAQ_Text=Yes, of course. As long as you make a request within a reasonable time, we will refund without any conditions.
+    Purchase_FAQ_Text=<color=grey>환불해 주시나요? </color>
+    Purchase_FAQ_Text=네, 물론입니다. 합리적인 시간 내에 요청만 하면 아무런 조건 없이 환불해드리겠습니다.
 
-# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=分享
-    PartsExpansion_Tanks=Large variety of fuel tanks!
-    PartsExpansion_Engines=Heavy lift engines!
-    PartsExpansion_Parts=Parts of all shapes and sizes!
+# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=share
+    PartsExpansion_Tanks=다양한 종류의 연료 탱크!
+    PartsExpansion_Engines=중량물 운반용 엔진!
+    PartsExpansion_Parts=다양한 모양과 크기의 부품!
 
-    PartsExpansion_Build=Large build space to bring
-    PartsExpansion_Build=your creations to life!
+    PartsExpansion_Build=가져올 수 있는 넓은 빌드 공간
+    PartsExpansion_Build=여러분의 창작물에 생명을 불어넣어보세요!
 
-# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=分享
-    SkinsExpansion_Tanks=Paint your parts in a diverse variety of skins!
-    SkinsExpansion_Interstages=Color everything from interstages
-    SkinsExpansion_Nosecones=To nosecones
-    SkinsExpansion_Fairings=And even fairings
+# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=share
+    SkinsExpansion_Tanks=여러분의 부품을 다양한 스킨으로 칠해보세요!
+    SkinsExpansion_Interstages=중간 단계에서 모든 것을 색칠하세요
+    SkinsExpansion_Nosecones=노즈콘으로
+    SkinsExpansion_Fairings=그리고 페어링까지도
 
-# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=分享
-    PlanetsExpansion_Jupiter=Explore Jupiter and its four moons!
-    PlanetsExpansion_Callisto=From the heavily cratered surface of Callisto!
-    PlanetsExpansion_Europa=To the vast ice flats of Europa!
+# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=share
+    PlanetsExpansion_Jupiter=목성과 네 개의 위성을 탐험해보세요!
+    PlanetsExpansion_Callisto=칼리스토의 엄청난 분화구 표면에서!
+    PlanetsExpansion_Europa=유로파의 광활한 얼음 평원으로!
 
-    PlanetsExpansion_Conclusion=Distant worlds are waiting for you
-    PlanetsExpansion_Conclusion=to explore them!
+    PlanetsExpansion_Conclusion=먼 세상이 당신을 기다리고 있습니다
+    PlanetsExpansion_Conclusion=탐험해보세요!
 
 # Expansion Bundle; images at: https://drive.google.com/file/d/1aWdcqNciwf7i3ju1Hx7mHnKyGBS2_tYU/view?usp=share
-    ExpansionBundle_Sandbox=award
-    ExpansionBundle_Sandbox=Sandbox Mode
+    ExpansionBundle_Sandbox=상
+    ExpansionBundle_Sandbox=샌드 박스 모드
 
-    ExpansionBundle_Infinite_Fuel=Infinite Fuel
-    ExpansionBundle_No_Atmospheric_Drag=No Atmospheric Drag
-    ExpansionBundle_Unbreakable_Parts=No Collision Damage
-    ExpansionBundle_No_Gravity=No Gravity
+    ExpansionBundle_Infinite_Fuel=무한 연료
+    ExpansionBundle_No_Atmospheric_Drag=대기 저항 없음
+    ExpansionBundle_Unbreakable_Parts=충돌 손상 없음
+    ExpansionBundle_No_Gravity=무중력
 
 [Sharing]
-    Share_Button=Share Blueprint
-    Upload_Blueprint_PC=Upload Blueprint
+    Share_Button=블루프린트 공유
+    Upload_Blueprint_PC=청사진 업로드
     Download_Blueprint_PC=Download Blueprint
     Share_Button_PC=Share
     Download_Confirm=Download
@@ -903,15 +903,4 @@
     Crashed_Into_Terrain=Crashed into the surface of %planet{1}%
 
     Entered_SOI=Entered the sphere of influence of %planet{1}%
-    Escaped_SOI=Escaped the sphere of influence of %planet{1}%
-
-    Docked_Suborbital=Docked in a suborbital trajectory of %planet{1}%
-    Docked_Orbit_Low=Docked in low %planet{0}% orbit
-    Docked_Orbit_Transfer=Docked in a transfer orbit of %planet{1}%
-    Docked_Orbit_High=Docked in high %planet{0}% orbit
-    Docked_Escape=Docked on an escape trajectory of %planet{1}%
-    Docked_Surface=Docked on the surface of %planet{1}%
-
-    Recover_Home=Safely returned to %planet{1}%
-    Recover_Landed=Mission completed on %planet{1}% surface
-    Recover_Space=The space mission around %planet{1}% has ended
+    Escaped_SOI=E
