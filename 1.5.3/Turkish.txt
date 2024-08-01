@@ -1,17 +1,21 @@
+# Target version :   v1.5.9.15
+# Contributors   :   Team Curiosity, Carson Wu
+# last_update    :   01/08/2024
+
 [Ungroupped]
-# REAM ME:
+# READ ME:
 # The format used here is derived from INI.
 # We have added something special called variants.
 # 
 # Example:
 # 
 # [Planets]
-# Earth{0}= Dünya
-# Earth{1}= dünya'nın
+# Earth{0}= Earth
+# Earth{1}= earth
 # 
 # [Achievements]
-# Landed_Test0 = %planet{0}% üzerine iniş yaptı 
-# Landed_Test1 = %planet{1}% üzerine iniş yaptı 
+# Landed_Test0 = Landed on %planet{0}%
+# Landed_Test1 = Landed on %planet{1}%
 # 
 # Variants are used for many things, such as making phrases work, caps, etc
 # 
@@ -23,631 +27,891 @@
 # In case of missing characters use compatibility font.
     Font=normal
 
+[None]
+    None=None
+    Font=normal
+
 [General]
 # Used for language select buttons
     Language_Name_In_Local_Language=Türkçe
 
-    Cancel=İptal
-    Close=Kapat
+    Cancel=Cancel
+    Close=Close
 
-    Open_Settings_Button=Ayarlar
+    On=On
+    Off=Off
 
-# Switching scenes buttons
-    Build_Rocket=Roket Yap
-    Resume_Game=Oyunu Sürdür
-    Return_To_Main_Menu=Ana Menü
-    Exit_To_Main_Menu=Ana Menüye Çık
+    Open_Settings_Button=Settings
+    Open_Cheats_Button=Cheats
+    Help=Help
+
+    Build_Rocket=Build Rocket
+    Resume_Game=Resume Game
+    Return_To_Main_Menu=Main Menu
+    Exit_To_Main_Menu=Exit To Main Menu
 
 [Main Menu]
 # Image at: https://drive.google.com/file/d/1mEFf3W964ldXBekpbTc-Jj1XcSnBQz4k/view?usp=sharing
-    Play=Oyna
+    Play=Play
 
 # Tutorial
-    Video_Tutorials_OpenButton=Videolu Öğreticiler
-    Video_Orbit=Yörünge Öğreticisi
-    Video_Moon=Ay Öğreticisi
-    Video_Dock=Kenetlenme Öğreticisi
+    Video_Tutorials_OpenButton=Video Tutorials
+    Video_Orbit=Orbit Tutorial
+    Video_Moon=Moon Tutorial
+    Video_Dock=Docking Tutorial
+
+    Development_Preview=Development Preview
+    Development_Preview_Explanation=The development preview showcases future updates we are working on
 
 # Community
-    Community_OpenButton=Topluluk
+    Community_OpenButton=Community
     Community_Youtube=Youtube
     Community_Discord=Discord
     Community_Reddit=Reddit
+    Community_Forums=Forums
 
 # Roadmap
-    Roadmap_OpenButton=Gelecek Güncellemeler
+    Roadmap_OpenButton=Future Updates
 
-    Roadmap_Text=Versiyon 1.51
-    Roadmap_Text=<color=grey>Kademelendirme</color>
+    Roadmap_Text=Version 1.51
+    Roadmap_Text=<color=grey>Staging</color>
     Roadmap_Text=
-    Roadmap_Text=Versiyon 1.52
-    Roadmap_Text=<color=grey>Öğreticiler</color>
+    Roadmap_Text=Version 1.52
+    Roadmap_Text=<color=grey>Tutorial</color>
     Roadmap_Text=
-    Roadmap_Text=Versiyon 1.53
-    Roadmap_Text=<color=grey>Yeniden giriş</color>
+    Roadmap_Text=Version 1.53
+    Roadmap_Text=<color=grey>Reentry</color>
     Roadmap_Text=
-    Roadmap_Text=Versiyon 1.54
-    Roadmap_Text=<color=grey>Görsel efektler, partiküller ve sesler</color>
+    Roadmap_Text=Version 1.54
+    Roadmap_Text=<color=grey>Visual effects, particles and sounds</color>
     Roadmap_Text=
-    Roadmap_Text=Versiyon 1.55
-    Roadmap_Text=<color=grey>Sağlam roket ek motorları</color>
+    Roadmap_Text=Version 1.55
+    Roadmap_Text=<color=grey>Solid rocket booster</color>
     Roadmap_Text=
-    Roadmap_Text=Versiyon 1.6
-    Roadmap_Text=<color=grey>Astronotlar</color>
+    Roadmap_Text=Version 1.6
+    Roadmap_Text=<color=grey>Astronauts</color>
     Roadmap_Text=
-    Roadmap_Text=Versiyon 1.7
-    Roadmap_Text=<color=grey>Kariyer</color>
+    Roadmap_Text=Version 1.7
+    Roadmap_Text=<color=grey>Career mode</color>
     Roadmap_Text=
-    Roadmap_Text=Versiyon 1.8
-    Roadmap_Text=<color=grey>Dış gezegenler</color>
+    Roadmap_Text=Version 1.8
+    Roadmap_Text=<color=grey>Outer planets</color>
     Roadmap_Text=
-    Roadmap_Text=Elektrik sistemi
-    Roadmap_Text=<color=grey>Tüm elektrik sistemi gelecekte tamamen elden geçirilecek, çoğunlukla iyon motoru çalışması sırasında zaman sıçraması ve elektrik için daha fazla kullanım alanı gibi özellikler eklenecek.</color>
+    Roadmap_Text=Electric system:
+    Roadmap_Text=<color=grey>The entire electric system will get a complete overhaul in the future, most likely with features such as time warp during ion engine burns and more uses for electricity</color>
     Roadmap_Text=
     Roadmap_Text=
-    Roadmap_Text=Planların değişebileceğini lütfen unutma
+    Roadmap_Text=Please keep in mind that plans might change
 
-# Credits
-    Credits_OpenButton=Emeği Geçenler
+    Credits_OpenButton=Credits
 
-    Credits_Text=Štefo Mai Morojna
-    Credits_Text=<Size=55> Tasarımcı - Programcı - Sanatçı </size>
+    Credits_Text=<Size=70> Štefo Mai Morojna </size>
+    Credits_Text=<Size=55> Designer - Programmer - Artist </size>
     Credits_Text=
-    Credits_Text=Jordi van der Molen
-    Credits_Text=<Size=55> Programcı </size>
+    Credits_Text=<Size=70> Jordi van der Molen </size>
+    Credits_Text=<Size=55> Programmer </size>
     Credits_Text=
-    Credits_Text=Chris Christo
-    Credits_Text=<Size=55> Programcı </size>
+    Credits_Text=<Size=70> Chris Christo </size>
+    Credits_Text=<Size=55> Programmer </size>
     Credits_Text=
-    Credits_Text=Davi Vasc
-    Credits_Text=<Size=55> Besteci </size>
+    Credits_Text=<Size=70> Josh </size>
+    Credits_Text=<Size=55> Programmer </size>
     Credits_Text=
-    Credits_Text=Ashton Mills
-    Credits_Text=<size=55> Besteci </size>
+    Credits_Text=<Size=70> Aidan Ginise </size>
+    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Andrey Onischenko </size>
+    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Davi Vasc </size>
+    Credits_Text=<Size=55> Composer </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Ashton Mills </size>
+    Credits_Text=<size=55> Composer </size>
+
+    First_Time_Playing_Question=First time playing
+    First_Time_Playing_Question=Spaceflight Simulator?
+
+    First_Time_Playing_Yes=First Time Playing
+    First_Time_Playing_No=Played Before
 
 # Update menu
-    Update_Available=Yeni bir güncelleme mevcut!
+    Update_Available=A new update is available!
     Update_Available=
-    Update_Available=Şu anki versiyon: %old%
-    Update_Available=En yeni versiyon: %new%
+    Update_Available=Current version: %old%
+    Update_Available=Latest version: %new%
 
-    Update_Confirm=Güncelle
+    Update_Confirm=Update
 
 # Rate menu
-    Rate_Title=Oyunu değerlendirmek veya inceleme yazmak ister misin?
+    Rate_Title=Would you like to rate or review the game?
     Rate_Title=
-    Rate_Title=Oyunun kalitesi bizim için çok önemli, geri bildirimin oyunumuzu geliştirmemize yardımcı olabilir.
+    Rate_Title=We deeply care about the quality of our game, your feedback helps us improve it
     Rate_Title=
-    Rate_Title=Binlerce incelemeden sonra bile hâlâ çok sayıda incelemeyi okumaya devam ediyoruz!
+    Rate_Title=Even after thousands of reviews, we still read a large number of them!
 
-    Rate_Confirm=Değerlendir
+    Rate_Confirm=Rate
+
+    Exit_Button=Exit
 
 # Close menu
-    Close_Game=Oyun kapatılsın mı?
-
-# Startup Messages
-    Early_Supporter_Message=İlk destek verenlerden biri olarak şunlara ücretsiz erişimin var:
-    Early_Supporter_Message=
-    Early_Supporter_Message= - Parça Genişletmesi
-    Early_Supporter_Message= - Kaplama Genişletmesi
-    Early_Supporter_Message= - Gezegen Genişletmesi
-    Early_Supporter_Message=
-    Early_Supporter_Message=Desteğin için teşekkürler!
+    Close_Game=Close game?
 
 [Worlds Menu]
-# Worlds are save slots; image at: https://drive.google.com/file/d/1vUYrXaem4ki1dcXRFUJLKWZEcE0PFno-/view?usp=sharing
-    Create_New_World_Button=Dünya Oluştur
+# Worlds are save slots; image at: https://drive.google.com/file/d/1vUYrXaem4ki1dcXRFUJLKWZEcE0PFno-/view?usp=share
+    Create_New_World_Button=Create New World
 
 # Create menu
-    Create_World_Title=Dünya Adı
-    Default_World_Name=Benim Dünyam
+    Create_World_Title=World Name
+    Default_World_Name=My World
 
 # Delete menu
-    World_Delete=Dünya silinsin mi?
+    World_Delete=Delete
 
 # Select system menu
-    Select_Solar_System=Dünyanın güneş sistemini seç
-
-    Select_Solar_System__NotFound=Güneş sistemi bulunamadı:
+    Select_Solar_System=Select world's solar system
+    Select_Solar_System__NotFound=Solar system could not be found:
     Select_Solar_System__NotFound=%system%
     Select_Solar_System__NotFound=
-    Select_Solar_System__NotFound=Yeni bir güneş sistemi seç
+    Select_Solar_System__NotFound=Select a new solar system
 
-    Default_Solar_System=Güneş Sistemi (Varsayılan)
-    Custom_Solar_System=%name% (Özel)
+    Default_Solar_System=Solar System (Default)
+    Custom_Solar_System=%name% (Custom)
+
+# World info
+    World_Mode_Name=Mode: %value%
+    Mode_Sandbox=Sandbox
+    Mode_Challenge=Challenge
+    Mode_Career=Career
+
+    Allow_Cheats_Name=Allow Cheats: %value%
+    Allow_Cheats_Label=Allow Cheats
+
+    Allow_Quicksaves_Name=Allow Quicksaves: %value%
+    Allow_Quicksaves_Label=Allow Quicksaves
+
+    World_Difficulty_Name=Difficulty: %value%
+    Difficulty_Normal=Normal
+    Difficulty_Hard=Hard
+    Difficulty_Realistic=Realistic
 
 # World play times
-    Last_Played=Son oynama: %value% önce
-    Just_Played=Son oynama: Biraz önce
-    Time_Played=Oyun süresi: %value%
+    Last_Played=Last played: %value% ago
+    Just_Played=Last played: A moment ago
+    Time_Played=Playtime: %value%
 
 [Saving]
-# Blueprint stuff; Blueprints are rocket designs; images at: https://drive.google.com/drive/folders/15m4nXgzr8fvql78TheE3Qy1WPrTaIqdJ?usp=sharing
-    Blueprints_Menu_Title=Planlar
-    Unnamed_Blueprint=Adsız Plan
-    Save_Blueprint=Planı Kaydet
-    Load_Blueprint=Plan Yükle
-    Cannot_Save_Empty_Build=Boş bir plan kaydedilemez
+# Blueprint stuff; Blueprints are rocket designs; images at: https://drive.google.com/drive/folders/15m4nXgzr8fvql78TheE3Qy1WPrTaIqdJ?usp=share
+   Blueprints_Menu_Title=Blueprints
+   Unnamed_Blueprint=Unnamed Blueprint
+   Save_Blueprint=Save Blueprint
+   Load_Blueprint=Load Blueprint
+   Cannot_Save_Empty_Build=Cannot save an empty blueprint
 
 # Quicksave stuff; Quicksaves let players save at any time and return to it.
 # It does not necessarily have to be called quicksave, player just needs to understand its use.
-# Image at: https://drive.google.com/drive/folders/128aXHWoUhJXZbbKVBDXXSMoCvRwFpvct?usp=sharing
-    Quicksaves_Menu_Title=Hızlı Kayıtlar
-    Unnamed_Quicksave=Adsız Hızlı Kayıt
-    Create_Quicksave=Hızlı Kayıt Oluştur
-    Load_Quicksave=Hızlı Kayıt Yükle
+# Image at: https://drive.google.com/drive/folders/128aXHWoUhJXZbbKVBDXXSMoCvRwFpvct?usp=share
+   Quicksaves_Menu_Title=Quicksaves
+   Unnamed_Quicksave=Unnamed Quicksave
+   Create_Quicksave=Create Quicksave
+   Load_Quicksave=Load Quicksave
 
 # Save and load menus; context seen in images from blueprint/quicksave stuff
-    Save=Kaydet
-    Load=Yükle
-    Delete=Sil
-    Rename=Yeniden Adlandır
+    Save=Save
+    Load=Load
+    Import=Import
+    Delete=Delete
+    Rename=Rename
+    Delete_File_With_Type=Delete %filename% %filetype{1}%
 
 # In progress
-    Saving_In_Progress=Kaydediliyor...
-    Loading_In_Progress=Yükleniyor...
+    Saving_In_Progress=Saving...
+    Loading_In_Progress=Loading...
+    Importing_In_Progress=Importing...
 
 # filetype (injected)
-    Blueprint{0}=Plan
-    Blueprint{1}=plan
-    Blueprint{2}=plan
+    Blueprint{0}=Blueprint
+    Blueprint{1}=blueprint
+    Blueprint{2}=blueprints
 
-    Quicksave{0}=Hızlı Kayıt
-    Quicksave{1}=hızlı kayıt
-    Quicksave{2}=hızlı kayıt
+    Quicksave{0}=Quicksave
+    Quicksave{1}=quicksave
+    Quicksave{2}=quicksaves
 
-# Ask overwrite menu; image at: https://drive.google.com/file/d/1EOI9UIWAG-lNgrdk1IMmrpmf6rRBuA7Q/view?usp=sharing
-    File_Already_Exists=Bu ada sahip bir %filetype{1}% zaten mevcut
-    Overwrite_File=%filetype{1}% üzerine yaz
-    New_File=Yeni %filetype{1}%
+# Ask overwrite menu; image at: https://drive.google.com/file/d/1EOI9UIWAG-lNgrdk1IMmrpmf6rRBuA7Q/view?usp=share
+    File_Already_Exists=A %filetype{1}% with this name already exists
+    Overwrite_File=Overwrite %filetype{1}%
+    New_File=New %filetype{1}%
 
-# Load failure; image at: https://drive.google.com/file/d/1c7qHCdbS1ShSq4rKIHMpHKCTuh0pXeHv/view?usp=sharing
-    Load_Failed=%filepath% kaynağından %filetype{1}% yüklenemedi
+# Load failure; image at: https://drive.google.com/file/d/1c7qHCdbS1ShSq4rKIHMpHKCTuh0pXeHv/view?usp=share
+     Load_Failed=Could not load %filetype{1}% from %filepath%
 
 # Legacy Messages
-    Conversion_Message=1.5 versiyonuna hoş geldin.
+    Conversion_Message=Welcome to version 1.5.
     Conversion_Message=
-    Conversion_Message=1.4 kayıtlarının tümü otomatik olarak 1.5 kayıtlarına dönüştürüldü
+    Conversion_Message=All 1.4 saves have been automatically converted to 1.5 saves
 
-    Conversion_Success=1.4 versiyonunda bir %filetype{1}% tespit edildi ve %version% formatına dönüştürüldü
+    Conversion_Success=Found version 1.4 of %filetype{1}% and converted it to %version% format
 
-    Conversion_Failed=1.4 versiyonunda bir %filetype{1}% tespit edildi ve %version% formatına dönüştürüldü
+    Conversion_Failed=Found version 1.4 of %filetype{1}% and converted it to %version% format
     Conversion_Failed=
-    Conversion_Failed=Dönüştürme başarısız:
+    Conversion_Failed=Conversion failed:
     Conversion_Failed=%reason%
 
 [Purchasing]
-# Images at: https://drive.google.com/drive/folders/1kIhFuPRp8YXkZ8SVC5Jq9UJkNZqdasQC?usp=sharing
-    Parts_Expansion=Parça Genişletmesi
-    Skins_Expansion=Kaplama Genişletmesi
-    Planets_Expansion=Gezegen Genişletmesi
-    Expansion_Bundle=Genişletme Paketi
-    Upgrade_To_Bundle=Pakete Yükselt
+# Images at: https://drive.google.com/drive/folders/1kIhFuPRp8YXkZ8SVC5Jq9UJkNZqdasQC?usp=share
+    Parts_Expansion=Parts Expansion
+    Redstone_Atlas_Pack=Redstone Atlas Pack
+    Skins_Expansion=Skins Expansion
+    Planets_Expansion=Planets Expansion
+    Expansion_Bundle=Expansion Bundle
+    Upgrade_To_Bundle=Upgrade To Bundle
+    Cheats_Expansion=Cheats
+    Infinite_Area_Expansion=Infinite Build Area
+    Builder_Bundle=Builder Bundle
+    Sandbox_Bundle=Sandbox Bundle
+    Full_Bundle=Full Bundle
+    Upgrade_To_Full_Bundle=Upgrade To Full Bundle
+    Mac_Full_Version=Full Version
 
-    More_Parts=Daha Fazla Parça...
-    More_Skins=Daha Fazla Kaplama...
+    Not_All_Parts_Are_Owned=Not all parts are owned
+    Not_All_Parts_Are_Owned=Disabled not owned parts
+    Not_All_Parts_Are_Owned=
+    Not_All_Parts_Are_Owned=View parts expansion?
 
-    Why_Buy=Desteğin, oyunu geliştirmemize yardımcı oluyor!
+    View_Part_Expansion=View Expansion
 
-    Buy_Product=%product% %price% satın al
+    More_Parts=View Parts Expansion
+    More_Skins=View Skins Expansion
+    
+    Cannot_Use_Cheats_In_Career=Cheats can only be used in a sandbox mode world
+    Get_Infinite_Build_Area_Button=Get Infinite Build Area
+    Get_Cheats_Expansion_Button=Get Cheats Expansion
 
-    Purchase_Thanks_Msg=Satın alındı: %product%
+    Why_Buy=Your support will help us keep improving the game!
+
+    Buy_Product=Buy %product% %price%
+
+    Timed_Sale_Text=%product_name% -%sale_percent%
+    Timed_Sale_Text=%time_left%
+
+    Time_Upgrade_Text=Upgrade to %product_name% -%sale_percent%
+    Time_Upgrade_Text=%time_left%
+
+    Purchase_Thanks_Msg=Purchased: %product%
     Purchase_Thanks_Msg=
-    Purchase_Thanks_Msg=Satın aldığın için teşekkürler
-    Purchase_Thanks_Msg=Şimdi gidip yıldızları keşfet!
+    Purchase_Thanks_Msg=Thanks for your support!
+    Purchase_Thanks_Msg=Now go and explore the stars!
 
-    Owned=%product% (Elinde Var)
+    Owned=%product% (Owned)
 
-    Restore_Open=Geri Yükle
+    Restore_Open=Restore Purchases
 
-    Restore_Text=Android'deki satın alımlar, başlangıçta otomatik olarak geri yüklenir
+    Restore_Text=Transactions on Android devices are automatically restored on startup
     Restore_Text=
-    Restore_Text=- Satın almak için kullandığın Google Play hesabına giriş yapıp yapmadığını kontrol et (Alışverişin Google Play satın alma geçmişinde görünüp görünmediğini kontrol et)
+    Restore_Text=- Check if you are logged into the Google Play account that purchased the item (check if the purchase is visible in the Google Play purchase history)
     Restore_Text=
-    Restore_Text=- Satın alma düğmesini kontrol et. Fiyat gösterilmiyorsa oyun, mağazaya bağlanamamış demektir. İnternet bağlantını kontrol et ve oyunu yeniden başlat
+    Restore_Text=- Check the purchase button, if the price is not shown, the game is not connected to the store. Please check the network connection and restart the game
     Restore_Text=
-    Restore_Text=Yukarıdaki işlemlerin hiçbiri işe yaramazsa games.morojna@gmail.com adresinden benimle iletişime geç.
+    Restore_Text=If none of the above methods work, please contact me by email: games.morojna@gmail.com
     Restore_Text=
-    Restore_Text=Ayrıca istersen beklemeyi de tercih edebilirsin, satın alım bazen birkaç saat sonra kendiliğinden geri yüklenir
+    Restore_Text=You can also try to wait for a while, the purchased items sometimes restore themselves after a few hours
 
-    Purchase_FAQ_Open=SSS
+    Purchase_FAQ_Open=FAQ
 
-    Purchase_FAQ_Text=<color=grey>Satın alınan ürünler, güncellemelerden sonra korunur mu?</color>
-    Purchase_FAQ_Text=Evet, elbette
+    Purchase_FAQ_Text=<color=grey>Will purchased items be retained between updates? </color>
+    Purchase_FAQ_Text=Yes, of course
     Purchase_FAQ_Text=
     Purchase_FAQ_Text=
-    Purchase_FAQ_Text=<color=grey>Satın alınan ürünleri kaybetmek mümkün müdür?</color>
-    Purchase_FAQ_Text=Satın aldığın ürünler, mağaza hesabında kalıcı olarak depolanır ve oyunu yeniden yüklesen veya telefon değiştirsen bile kaybolmaz
+    Purchase_FAQ_Text=<color=grey>Will purchased items be lost? </color>
+    Purchase_FAQ_Text=Your purchased items will be permanently stored in your store account and will not be lost even if you reinstall the game or change your phone
     Purchase_FAQ_Text=
     Purchase_FAQ_Text=
-    Purchase_FAQ_Text=<color=grey>Para iadesi yapıyor musunuz?</color>
-    Purchase_FAQ_Text=Evet, elbette. Makul bir zaman aralığı içerisinde talep edildiği sürece hiçbir şey sormadan para iadesi yaparız
+    Purchase_FAQ_Text=<color=grey>Will you provide refunds? </color>
+    Purchase_FAQ_Text=Yes, of course. As long as you make a request within a reasonable time, we will refund without any conditions.
 
-# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=sharing
-    PartsExpansion_Tanks=Çok çeşitli yakıt tankları!
-    PartsExpansion_Engines=Ağır yük taşıyan motorlar!
-    PartsExpansion_Parts=Tüm şekillerde ve boyutlarda parçalar!
+# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=分享
+    PartsExpansion_Tanks=Large variety of fuel tanks!
+    PartsExpansion_Engines=Heavy lift engines!
+    PartsExpansion_Parts=Parts of all shapes and sizes!
 
-    PartsExpansion_Build=Eserlerine hayat vermek için
-    PartsExpansion_Build=geniş yapım alanı!
+    PartsExpansion_Build=Large build space to bring
+    PartsExpansion_Build=your creations to life!
 
-# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=sharing
-    SkinsExpansion_Tanks=Parçalarını çok çeşitli kaplamalarla boya!
-    SkinsExpansion_Interstages=Bağlantı tertibatlarından
-    SkinsExpansion_Nosecones=Burun konilerine
-    SkinsExpansion_Fairings=Ve düz kaportalara kadar her şeyi renklendir
+# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=分享
+    SkinsExpansion_Tanks=Paint your parts in a diverse variety of skins!
+    SkinsExpansion_Interstages=Color everything from interstages
+    SkinsExpansion_Nosecones=To nosecones
+    SkinsExpansion_Fairings=And even fairings
 
-# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=sharing
-    PlanetsExpansion_Jupiter=Jüpiter'i ve Jüpiter'in dört ayını keşfet!
-    PlanetsExpansion_Callisto=Callisto'nun yoğun kraterli yüzeyinden!
-    PlanetsExpansion_Europa=Europa'nın engin buz ovalarına!
+# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=分享
+    PlanetsExpansion_Jupiter=Explore Jupiter and its four moons!
+    PlanetsExpansion_Callisto=From the heavily cratered surface of Callisto!
+    PlanetsExpansion_Europa=To the vast ice flats of Europa!
 
-    PlanetsExpansion_Conclusion=Uzak dünyalar
-    PlanetsExpansion_Conclusion=keşfedilmeyi bekliyor!
+    PlanetsExpansion_Conclusion=Distant worlds are waiting for you
+    PlanetsExpansion_Conclusion=to explore them!
 
-# Expansion Bundle; images at: https://drive.google.com/file/d/1aWdcqNciwf7i3ju1Hx7mHnKyGBS2_tYU/view?usp=sharing
-    ExpansionBundle_Sandbox=Bonus
-    ExpansionBundle_Sandbox=Korumalı Mod
+# Expansion Bundle; images at: https://drive.google.com/file/d/1aWdcqNciwf7i3ju1Hx7mHnKyGBS2_tYU/view?usp=share
+    ExpansionBundle_Sandbox=award
+    ExpansionBundle_Sandbox=Sandbox Mode
 
-    ExpansionBundle_Infinite_Fuel=Sonsuz Yakıt
-    ExpansionBundle_No_Atmospheric_Drag=Atmosfer Direnci Yok
-    ExpansionBundle_Unbreakable_Parts=Kırılmaz Parçalar
-    ExpansionBundle_No_Gravity=Yer Çekimi Yok
+    ExpansionBundle_Infinite_Fuel=Infinite Fuel
+    ExpansionBundle_No_Atmospheric_Drag=No Atmospheric Drag
+    ExpansionBundle_Unbreakable_Parts=No Collision Damage
+    ExpansionBundle_No_Gravity=No Gravity
 
-[Settings]
-# Image at: https://drive.google.com/file/d/1kF_zlTUw7QQnCIfcVNRHGDsn_rH-ySkF/view?usp=sharing
-    Music_Name=Müzik:
-    Sound_Name=Ses:
-    Screen_Rotation_Name=Ekran Döndürme:
-    FPS_Name=Fps:
-    Language_Name=Dil:
+[Sharing]
+    Share_Button=Share Blueprint
+    Upload_Blueprint_PC=Upload Blueprint
+    Download_Blueprint_PC=Download Blueprint
+    Share_Button_PC=Share
+    Download_Confirm=Download
+    URL_Field_TextBox=Blueprint URL
+    Empty_Upload=Cannot upload empty blueprint
+    Uploading_Message=Uploading...
+    Upload_Fail=Failed to upload blueprint
+    Copied_URL_To_Clipboard=Copied blueprint URL to clipboard
+    Sharing_Enter_Prompt=Select which world you want blueprint to be loaded into
+    Confirm_Download_Button=Download Blueprint
+    Downloading_Message=Downloading...
+    Download_Fail=Failed to download blueprint
+    URL_Invalid=Invalid Blueprint URL
+    Sharing_Connect_Fail=Could not connect to sharing servers
 
-    Infinite_Fuel_Name=Sonsuz Yakıt:
-    No_Atmospheric_Drag_Name=Atmosfer Direnci Yok:
-    Unbreakable_Parts_Name=Kırılmaz Parçalar:
-    No_Gravity_Name=Yer Çekimi Yok:
+[Settings Mobile]
+    Music_Name=Music
+    Sound_Name=Sound
+    Screen_Rotation_Name=Screen Rotation
+    FPS_Name=Frame rate
+    Language_Name=Language
+    Menu_Scale=Interface Scale
+    Menu_Opacity=Interface Opacity
+    Shakes_Name=Camera Shake
+    Orbit_Line_Count=Orbit Line Count
+    Anti_Aliasing=Anti-Aliasing
 
-# This version of is displayed on screen to let players know what cheats they are using
-# Image as: https://drive.google.com/file/d/1_uDOsT_yAgui19jNqAwx_CMGvLoS5LYh/view?usp=sharing
-    Cheat_On{0}=Açık
-    Cheat_Off{0}=Kapalı
+[Cheats]
+    Infinite_Build_Area_Name=Infinite Build Area
+    Part_Clipping_Name=Part Clipping
+    Infinite_Fuel_Name=Infinite Fuel
+    No_Atmospheric_Drag_Name=No Atmospheric Drag
+    No_Collision_Damage_Name=No Collision Damage
+    No_Gravity_Name=No Gravity
+    No_Heat_Damage_Name=No Heat Damage
+    No_Burn_Marks_Name=No Burn Marks
 
-    Infinite_Fuel=Sonsuz Yakıt: %value{0}%
-    No_Atmospheric_Drag=Atmosfer Direnci Yok: %value{0}%
-    Unbreakable_Parts=Kırılmaz Parçalar: %value{0}%
-    No_Gravity=Yer Çekimi Yok: %value{0}%
+[Tutorials]
+
+    Tut_Drag_And_Drop=Drag and drop parts
+    Tut_Drag_And_Drop=to build your rocket
+
+    Tut_Part_Info=Click to view
+    Tut_Part_Info=part information
+
+    Tut_Use_Part=Click on parts to use them
+    Tut_Ignition=Ignition!
+    Tut_Throttle=Adjust throttle
+
+[Hub]
+    Funds_Text=Funds: %funds%
+    Go_To_Space_Center=Space Center
+    Exit_To_Space_Center=Exit To Space Center
+    Research_And_Development=Research & Development %complete%/%total%
+    Challenges_Info=Challenges: %complete%/%total%
+    Challenges_Button=Challenges: %complete%/%total%
+    Challenges_Title=Challenges:
+
+    Challenges_Completed=<size=55>Challenge completed:</size>
+    Challenges_Completed=%challenge%
 
 [Build]
-# Images at: https://drive.google.com/drive/folders/16-6I-SE_4nmVTjNxsUdAUJtUDIBe5WVz?usp=sharing
-    Build_New_Rocket=Yeni Roket Yap
-    Resume_Build=Yapımı Sürdür
+    Build_New_Rocket=Build New Rocket
+    New=New
+    Expand_Last_Rocket=Continue Build
 
-    Symmetry_On=Simetri: Açık
-    Symmetry_Off=Simetri: Kapalı
+    Symmetry_On=Symmetry: On
+    Symmetry_Off=Symmetry: Off
 
-    Launch_Button=Fırlat
-    Move_Rocket_Button=Roketi Taşı
+    Interior_View_On=Interior View: On
+    Interior_View_Off=Interior View: Off
+
+    Launch_Button=Launch
+    Move_Rocket_Button=Move Rocket
 
 # Clear build area
-    Clear_Warning=Temizlensin mi?
-    Clear_Confirm=Temizle
+    Clear_Warning=Clear build area?
+    Clear_Confirm=Clear
 
 # Launch warnings
-    Missing_Capsule=Roketinin kapsülü yok
-    Missing_Parachute=Roketinin paraşütü yok
+    Warnings_Title=WARNING:
+    Missing_Capsule=Your rocket has no capsule or probe, making it uncontrollable
+    Missing_Parachute=Your rocket has no parachute
+    Missing_Heat_Shield=Your rocket has no heat shield
+    Missing_Fuel_Popup=No fuel source
 
-    Too_Heavy=Roketin kalkış yapamayacak kadar ağır
-    Too_Heavy=
-    Too_Heavy=
-    Too_Heavy=Ağırlığı azalt ya da daha güçlü bir motor kullan
+    Too_Heavy=Your rocket is too heavy to launch
+    Too_Heavy=%mass%
+    Too_Heavy=%thrust%
+    Too_Heavy=Please reduce the weight or use a more powerful engine
 
-    Launch_Anyway_Button=Yine de Fırlat
+    Launch_Anyway_Button=Launch Anyway
+
+    Launch_Horizontally_Ask=Launch horizontally?
+    Launch_Horizontally_Confirm=Launch Horizontally
+    Launch_Vertically_Confirm=Launch Vertically
 
 # Example rockets
-    Example_Rockets_OpenMenu=Örnek Roketler
-    Basic_Rocket=Temel Roket
-    Stages=Kademeler
-    Ideal_Stages=İdeal Kademeler
-    Lander=İniş Takımı
+    Example_Rockets_OpenMenu=Example Rockets
+    Basic_Rocket=Basic Rocket
+    Stages=Two Stage Rocket
+    Ideal_Stages=Three Stage Rocket
+    Lander=Moon Lander
 
 [Map]
-    Toggle_Map_Button=Harita
+    Toggle_Map_Button=Map
 
 # Shown in map when you escape a gravity field of a planet
-# image for escape/encounter at: https://drive.google.com/file/d/17jqJF09DWoqkgW9VGXdG7SRCSo0UmW0o/view?usp=sharing
-    Escape=Kaçış
+# image for escape/encounter at: https://drive.google.com/file/d/17jqJF09DWoqkgW9VGXdG7SRCSo0UmW0o/view?usp=share
+    Escape=Escape
 
 # Shown in map when you encounter/enter a gravity field of a planet
-    Encounter=Karşılaşma
+    Encounter=Encounter
 
 # Shown in map when you approach/encounter another rocket
-    Rendezvous=Buluşma
+    Rendezvous=Rendezvous
 
 # Shows the transfer window to another planet
-# image at: https://drive.google.com/file/d/1zd8UEnVb91QmSDllEu1DyCbkCsDKbJk3/view?usp=sharing
-    Transfer=Transfer Penceresi
+# image at: https://drive.google.com/file/d/1zd8UEnVb91QmSDllEu1DyCbkCsDKbJk3/view?usp=share
+    Transfer=Transfer Window
 
 [Game]
-# Image at: https://drive.google.com/file/d/1d0b-udFyO4ItlYu1vVaVdzgwdAeT1hPw/view?usp=sharing
-    Throttle_On=Açık
-    Throttle_Off=Kapalı
+# Image at: https://drive.google.com/file/d/1d0b-udFyO4ItlYu1vVaVdzgwdAeT1hPw/view?usp=share
+    Throttle_On=On
+    Throttle_Off=Off
+    Ignition=IGNITION
+    RCS=RCS
 
 # Game supports screen rotation, we split into 2 lines in vertical mode
-    Height_Terrain_Vertical=Yükseklik (Arazi):
+    Height_Terrain_Vertical=Height (Terrain):
     Height_Terrain_Vertical=
     Height_Terrain_Vertical=%height%
 
-    Height_Vertical=Yükseklik:
+    Height_Vertical=Height:
     Height_Vertical=
     Height_Vertical=%height%
 
-    Velocity_Vertical=Hız:
+    Velocity_Vertical=Velocity:
     Velocity_Vertical=
     Velocity_Vertical=%speed%
 
+    Velocity_Relative_Vertical=Velocity (Relative):
+    Velocity_Relative_Vertical=
+    Velocity_Relative_Vertical=%speed%
+
+    Distance_Relative_Vertical=Distance (Relative):
+    Distance_Relative_Vertical=
+    Distance_Relative_Vertical=%distance%
+
 # Angle indicates the best angle/direction the player can rotate their rocket towards
-    Angle_Vertical=Açı:
+    Angle_Vertical=Angle:
     Angle_Vertical=
     Angle_Vertical=%angle% / %targetAngle%
 
-    Height_Terrain_Horizontal=Yükseklik (Arazi): %height%
-    Height_Horizontal=Yükseklik: %height%
-    Velocity_Horizontal=Hız: %speed%
+    Height_Terrain_Horizontal=Height (Terrain): %height%
+    Height_Horizontal=Height: %height%
+    Velocity_Horizontal=Velocity: %speed%
+    Velocity_Relative_Horizontal=Velocity (Relative): %speed%
+    Distance_Relative_Horizontal=Distance (Relative): %distance%
+    Angle_Horizontal=Angle: %angle% / %targetAngle%
 
-# Angle indicates the best angle/direction the player can rotate their rocket towards
-    Angle_Horizontal=Açı: %angle% / %targetAngle%
+    Relative_Velocity_Arrow=Relative Velocity
+    Relative_Velocity_Arrow=%velocity%
 
-[Game menus]
-# Image at: https://drive.google.com/file/d/1XPUZnlFGrs9ZQ0QRjqbvKMEwXg1Pl7cF/view?usp=sharing
-    Restart_Mission=Görevi Yeniden Başlat
+    Side_Velocity_Arrow=Side Velocity
+    Side_Velocity_Arrow=%velocity%
+
+    Forward_Velocity_Arrow=Distance
+    Forward_Velocity_Arrow=%distance%
+    Forward_Velocity_Arrow=
+    Forward_Velocity_Arrow=Velocity
+    Forward_Velocity_Arrow=%velocity%
+
+[Failure menu]
+    Failure_Cause=FAILURE CAUSE:
+    Failure_Crash_Into_Rocket=Crashed into another rocket
+    Failure_Crash_Into_Terrain=Crashed into the surface of %planet{1}%
+    Failure_Burn_Up=Burned up on reentry
+
+[End mission menu]
+    Recover_Rocket=Recover
+    Destroy_Rocket=Destroy
+    Debris_Recover=Recover Debris
+    Debris_Destroy=Destroy Debris
+    Debris_Recover_Title=Recover debris?
+    Debris_Destroy_Title=Destroy debris?
+    View_Mission_Log=View Flight Log
 
 # Restart menu
-    Restart_Mission_To_Launch=Fırlatmaya Dön
+    
+    Restart_Mission_To_Launch_Warning=WARNING:
+    Restart_Mission_To_Launch_Warning=This will undo all progress since last launch
 
-    Restart_Mission_To_Launch_Warning=Fırlatmaya dönülsün mü?
-    Restart_Mission_To_Launch_Warning=
-    Restart_Mission_To_Launch_Warning=Son fırlatmadan bu yana katedilen ilerleme geri alınacak
+    Restart_Mission_To_Build_Warning=WARNING:
+    Restart_Mission_To_Build_Warning=This will undo all progress since last Build
 
-    Restart_Mission_To_Build=Yapıma Dön
+    Restart_Mission_To_Launch=Revert To Launch
+    Restart_Mission_To_Build=Revert To Build
+    Revert_30_Secs=Revert 30 Sec
+    Revert_3_Min=Revert 3 Min
 
-    Restart_Mission_To_Build_Warning=Yapıma dönülsün mü?
-    Restart_Mission_To_Build_Warning=
-    Restart_Mission_To_Build_Warning=Son fırlatmadan bu yana katedilen ilerleme geri alınacak
-
-# End mission menu; image at: https://drive.google.com/file/d/1L5FUM09JCZ6DCXFZfJPOM0CWHIEwvqMs/view?usp=sharing
-    End_Mission_Menu_Title=Görev Başarıları:
-    End_Mission=Görevi Bitir
+# End mission menu
+    End_Challenges_Title=Challenges:
+    End_Logs_Title=Mission Log:
+    Continue_To_Log=Continue
+    Back_To_Challenges=Back
 
 # Clear space junk/debris
-    Clear_Debris_Warning=Kayalıklar temizlensin mi?
+    Clear_Debris_Warning=Clear debris?
     Clear_Debris_Warning=
-    Clear_Debris_Warning=Kontrol edilemeyen tüm roketler kaldırılacak
+    Clear_Debris_Warning=This will remove all uncontrollable rockets
 
-    Clear_Debris_Confirm=Kayalıkları temizle
+    Clear_Debris_Confirm=Clear Debris
 
-# Select menu; Image at: https://drive.google.com/file/d/1CBIAZ3o_Z7bpEAb8sVdTdDeF4KB8-Yyi/view?usp=sharing
-    Navigate_To=Git
-    End_Navigation=Gezintiyi Bitir
-    Focus=Odaklan
-    Unfocus=Odaklanmayı Kaldır
-    Switch_To=Geçiş Yap
+    # Select menu; Image at: https://drive.google.com/file/d/1CBIAZ3o_Z7bpEAb8sVdTdDeF4KB8-Yyi/view?usp=share
+    Navigate_To=Navigate To
+    End_Navigation=End Navigation
+    Focus=Focus
+    Unfocus=Unfocus
+    Track=Track
+    Stop_Tracking=Stop Tracking
+    Switch_To=Switch To
 
 [Rocket]
-    Default_Rocket_Name=Roket
+    Default_Rocket_Name=Rocket
 
 # Informs the player that he cannot perform an action due to rocket having no control
-    No_Control_Msg=Kontrol yok
+    No_Control_Msg=No control
 
 [Timewarp]
-# Timewarp = uzun bekleme sürelerini atlamak için zamanı ileri sar
-    Msg_Timewarp_Speed=Zaman hızlandırma %speed%x
-    Cannot_Timewarp_Below=%height% aşağısında zaman sıçraması yapılamaz
-    Cannot_Timewarp_While_Moving_On_Surface=Yüzeyde hareket ederken zaman sıçraması yapılamaz
-    Cannot_Timewarp_While_Accelerating=Hızlandırma sırasında zaman sıçraması yapılamaz
-    Cannot_Use_Part_While_Timewarping=Zaman sıçraması sırasında %part{1}% kullanılamaz
-    Cannot_Turn_While_Timewarping=Zaman sıçraması sırasında dönülemez
+# Timewarp = Timewarp can skip long waits
+    Msg_Timewarp_Speed=Time acceleration %speed%x
+    Cannot_Timewarp_Below_Basic=Cannot timewarp below %height%
+    Cannot_Timewarp_Below=Cannot timewarp faster than %speed%x while below %height%
+    Cannot_Timewarp_While_Moving_On_Surface=Cannot timewarp faster than %speed%x while moving on the surface
+    Cannot_Timewarp_While_Accelerating=Cannot timewarp faster than %speed%x while under acceleration
+    Cannot_Use_Part_While_Timewarping=Cannot use %part{1}% while timewarping
+    Cannot_Turn_While_Timewarping=Cannot turn while timewarping
+
+    Timewarp_To_Button=Timewarp Here
 
 [Units]
-# Image at: https://drive.google.com/file/d/1ljpGY55W8V1wF9esl5v569B0Z-D6xxMt/view?usp=sharing
-    Thrust_To_Weight_Ratio=İtiş Gücü / Ağırlık: %value%
-    Mass=Kütle: %value%t
-    Thrust=İtiş Gücü: %value%t
-    Burn_Time=Yakma Zamanı: %value%s
+# Image at: https://drive.google.com/file/d/1ljpGY55W8V1wF9esl5v569B0Z-D6xxMt/view?usp=share
+    Thrust_To_Weight_Ratio=Thrust / Weight: %value%
+    Mass=Mass: %value%t
+    Thrust=Thrust: %value%t
+    Burn_Time=Burn Time: %value%s
 
-# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=sharing
-    Efficiency=Verimlilik: %value% Isp
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=share
+    Efficiency=Efficiency: %value% Isp
     Mass_Unit=t
     Meter_Unit=m
     Km_Unit=km
     Meter_Per_Second_Unit=m/s
 
 [Timestamps]
-    Second_Short=%value%sn
-    Minute_Short=%value%dk
-    Hour_Short=%value%sa
-    Day_Short=%value%g
+    Second_Short=%value%s
+    Minute_Short=%value%m
+    Hour_Short=%value%h
+    Day_Short=%value%d
 
 [Resource Types]
-# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=sharing
-    Solid_Fuel{0}=Katı yakıt
-    Solid_Fuel{1}=katı yakıt
-    Liquid_Fuel{0}=Sıvı yakıt
-    Liquid_Fuel{1}=sıvı yakıt
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=share
+    Solid_Fuel{0}=Solid fuel
+    Solid_Fuel{1}=solid fuel
+    Liquid_Fuel{0}=Liquid fuel
+    Liquid_Fuel{1}=liquid fuel
 
 [Resource Uses]
     Resource_Bars_Title=%resource_name{0}%:
     Info_Resource_Amount=%resource{0}%: %amount%
-    Msg_No_Resource_Source=%resource{1}% kaynağı yok
-    Msg_No_Resource_Left=%resource{1}% Bitti
+    Msg_No_Resource_Source=No %resource{1}% source
+    Msg_No_Resource_Left=Out of %resource{1}%
 
 [Part Categories]
-# Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=sharing
-    Basic_Parts=Temel Parçalar
-    Six_Wide_Parts=6 Genişliğinde
-    Eight_Wide_Parts=8 Genişliğinde
-    Ten_Wide_Parts=10 Genişliğinde
-    Twelve_Wide_Parts=12 Genişliğinde
-    Engine_Parts=Motorlar
-    Aerodynamics_Parts=Aerodinamik
-    Fairings_Parts=Kaportalar
-    Structural_Parts=Yapısal
-    Other_Parts=Diğer
+# Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=share
+    Basic_Parts=Basics
+    Six_Wide_Parts=6 Wide
+    Eight_Wide_Parts=8 Wide
+    Ten_Wide_Parts=10 Wide
+    Twelve_Wide_Parts=12 Wide
+    Engine_Parts=Engines
+    Aerodynamics_Parts=Aerodynamics
+    Fairings_Parts=Fairings
+    Structural_Parts=Structural
+    Other_Parts=Other
 
 [Part Names]
-    Capsule_Name{0}=Kapsül
-    Capsule_Name{1}=kapsül
-    Probe_Name{0}=Sonda
-    Probe_Name{1}=sonda
-    Parachute_Name{0}=Paraşüt
-    Parachute_Name{1}=paraşüt
-    Kolibri_Engine_Name{0}=Kolibri Motoru
-    Kolibri_Engine_Name{1}=kolibri motoru
-    Hawk_Engine_Name{0}=Şahin Motoru
-    Hawk_Engine_Name{1}=şahin motoru
-    Valiant_Engine_Name{0}=Cesaret Motoru
-    Valiant_Engine_Name{1}=cesaret motoru
-    Titan_Engine_Name{0}=Titan Motoru
-    Titan_Engine_Name{1}=titan motoru
-    Frontier_Engine_Name{0}=Sınır Motoru
-    Frontier_Engine_Name{1}=sınır motoru
-    Ion_Engine_Name{0}=İyon Motoru
-    Ion_Engine_Name{1}=iyon motoru
-    RCS_Thruster_Name{0}=RKS İtici
-    RCS_Thruster_Name{1}=rks itici
-    Fuel_Tank_Name{0}=Yakıt Tankı
-    Fuel_Tank_Name{1}=yakıt tankı
-    Separator_Name{0}=Seperatör
-    Separator_Name{1}=seperatör
-    Side_Separator_Name{0}=Yan Seperatör
-    Side_Separator_Name{1}=yan seperatör
-    Structural_Part_Name{0}=Yapısal Parça
-    Structural_Part_Name{1}=yapısal parça
-    Landing_Leg_Name{0}=İniş Ayağı
-    Landing_Leg_Name{1}=iniş ayağı
-    Aerodynamic_Nose_Cone_Name{0}=Aerodinamik Burun Konisi
-    Aerodynamic_Nose_Cone_Name{1}=aerodinamik burun konisi
-    Aerodynamic_Fuselage_Name{0}=Aerodinamik Gövde
-    Aerodynamic_Fuselage_Name{1}=aerodinamik gövde
-    Fairing_Name{0}=Kaporta
-    Fairing_Name{1}=kaporta
-    Rover_Wheel_Name{0}=Arazi Aracı Tekerleği
-    Rover_Wheel_Name{1}=arazi aracı tekerleği
-    Docking_Port_Name{0}=Kenetlenme Portu
-    Docking_Port_Name{1}=kenetlenme portu
-    Solar_Panel_Name{0}=Güneş Paneli
-    Solar_Panel_Name{1}=güneş paneli
-    Battery_Name{0}=Batarya
-    Battery_Name{1}=batarya
-    RTG_Name{0}=RTJ
-    RTG_Name{1}=rtj
+    Capsule_Name{0}=Capsule
+    Capsule_Name{1}=capsule
+    Probe_Name{0}=Probe
+    Probe_Name{1}=probe
+    Parachute_Name{0}=Parachute
+    Parachute_Name{1}=parachute
+
+    Kolibri_Engine_Name{0}=Kolibri Engine
+    Kolibri_Engine_Name{1}=kolibri engine
+    Hawk_Engine_Name{0}=Hawk Engine
+    Hawk_Engine_Name{1}=hawk engine
+    Valiant_Engine_Name{0}=Valiant Engine
+    Valiant_Engine_Name{1}=valiant engine
+    Titan_Engine_Name{0}=Titan Engine
+    Titan_Engine_Name{1}=titan engine
+    Frontier_Engine_Name{0}=Frontier Engine
+    Frontier_Engine_Name{1}=frontier engine
+    Peregrine_Engine_Name{0}=Peregrine Engine
+    Peregrine_Engine_Name{1}=peregrine engine
+    Ion_Engine_Name{0}=Ion Engine
+    Ion_Engine_Name{1}=ion engine
+    RCS_Thruster_Name{0}=RCS Thruster
+    RCS_Thruster_Name{1}=rcs thruster
+
+    Solid_Rocket_Booster{0}=Solid Rocket Booster
+    Solid_Rocket_Booster{1}=solid rocket booster
+
+    Fuel_Tank_Name{0}=Fuel Tank
+    Fuel_Tank_Name{1}=fuel tank
+    Separator_Name{0}=Stage Separator
+    Separator_Name{1}=stage separator
+    Side_Separator_Name{0}=Side Separator
+    Side_Separator_Name{1}=side separator
+    Structural_Part_Name{0}=Structural Part
+    Structural_Part_Name{1}=structural part
+    Landing_Leg_Name{0}=Landing Leg
+    Landing_Leg_Name{1}=landing leg
+    Aerodynamic_Nose_Cone_Name{0}=Aerodynamic Nose Cone
+    Aerodynamic_Nose_Cone_Name{1}=aerodynamic nose cone
+    Aerodynamic_Fuselage_Name{0}=Aerodynamic Fuselage
+    Aerodynamic_Fuselage_Name{1}=aerodynamic fuselage
+    Fairing_Name{0}=Fairing
+    Fairing_Name{1}=fairing
+    Rover_Wheel_Name{0}=Rover Wheel
+    Rover_Wheel_Name{1}=rover wheel
+    Docking_Port_Name{0}=Docking Port
+    Docking_Port_Name{1}=docking port
+    Solar_Panel_Name{0}=Solar Panel
+    Solar_Panel_Name{1}=solar panel
+    Battery_Name{0}=Battery
+    Battery_Name{1}=battery
+    RTG_Name{0}=RTG
+    RTG_Name{1}=rtg
+    Heat_Shield_Name{0}=Heat Shield
+    Heat_Shield_Name{1}=heat shield
+    Fuel_Pipe_Name{0}=Fuel Pipe
+    Fuel_Pipe_Name{1}=fuel pipe
 
 [Part Descriptions]
-    Capsule_Description=Bir astronot taşıyan küçük bir kapsül
-    Probe_Description=Tek yönlü görevler için kullanılan, insansız bir sonda
-    Parachute_Description=İniş için kullanılan bir paraşüt
-    Fuel_Tank_Description=Sıvı yakıt ve sıvı oksijen taşıyan bir yakıt tankı
-    Separator_Description=Boş kademeleri ayırmak için kullanılan dikey seperatör
-    Side_Separator_Description=Yan ek motorları ayırmak için kullanılan yatay seperatör
-    Landing_Leg_Description=Ayların ve gezegenlerin yüzeyine inmek için kullanılan uzatılabilir ve geri çekilebilir bir ayak
-    Structural_Part_Description=Hafif ve güçlü bir yapısal parça
-    Hawk_Engine_Description=Yüksek itiş gücü sağlar. Normalde bir roketin ilk kademesinde kullanılan düşük verimliliğe sahip bir motor
-    Titan_Engine_Description=Yüksek itiş gücü sağlar. Normalde bir roketin ilk kademesinde kullanılan düşük verimliliğe sahip bir motor
-    Valiant_Engine_Description=Yüksek verimlilik, düşük itiş gücü. Uzayda yüksek itiş gücünün öncelikli olmadığı zamanlarda kullanılır
-    Frontier_Engine_Description=Yüksek verimlilik, düşük itiş gücü. Uzayda yüksek itiş gücünün öncelikli olmadığı zamanlarda kullanılır
-    Kolibri_Engine_Description=İniş takımları için kullanılan çok küçük bir motor
-    Ion_Engine_Description=Son derece yüksek verimliliğe, düşük itiş gücüne sahip bir motor
-    RCS_Thruster_Description=Kenetlenme için kullanılan, küçük, yönelimli bir itici seti
-    Aerodynamic_Nose_Cone_Description=Yan ek motorların aerodinamiğini geliştirmek için kullanılan aerodinamik burun konisi
-    Aerodynamic_Fuselage_Description=Motorları kaplamak için kullanılan aerodinamik gövde
-    Fairing_Description=Yükleri yerleştirmek için kullanılan aerodinamik bir kaporta
-    Battery_Description=Elektrik enerjisi depolamak için kullanılan bir batarya
-    Solar_Panel_Description=Yerleştirildiğinde enerji üreten bir güneş paneli
-    RTG_Description=Radyoizotop termoelektrik jeneratör ya da kısaca RTJ
-    Rover_Wheel_Description=Gezegenlerin yüzeyinde sürüş yapmak için kullanılan arazi aracı tekerleği
-    Docking_Port_Description=İki aracı birbirine bağlamak için kullanılan bir kenetlenme portu
+    Capsule_Description=A small capsule, carrying one astronaut
+    Probe_Description=An unmanned probe, used for one way missions
+    Parachute_Description=A parachute used for landing
+    Fuel_Tank_Description=A fuel tank carrying liquid fuel and liquid oxygen
+    Separator_Description=Vertical separator, used to detach empty stages
+    Side_Separator_Description=Horizontal separator, used for detaching side boosters
+    Landing_Leg_Description=An extendable and retractable leg used for landing on the surface of moons and planets
+    Structural_Part_Description=A light and strong structural part
+    Hawk_Engine_Description=A high thrust - lower efficiency engine, normally used in the first stage of a rocket
+    Titan_Engine_Description=A high thrust - lower efficiency engine, normally used in the first stage of a rocket
+    Valiant_Engine_Description=High efficiency, low thrust. Used in space when high thrust isn't a priority
+    Frontier_Engine_Description=High efficiency, low thrust. Used in space when high thrust isn't a priority
+    Kolibri_Engine_Description=A tiny engine used for landers
+    Ion_Engine_Description=A low thrust engine with an incredibly high efficiency
+    RCS_Thruster_Description=A set of small directional thrusters, used for docking
+
+    Booster_Description=Has high thrust, low efficiency
+    Booster_Description=Cannot be turned off or throttle once ignite
+
+    Aerodynamic_Nose_Cone_Description=An aerodynamic nose cone, used to improve the aerodynamics of side boosters
+    Aerodynamic_Fuselage_Description=An aerodynamic fuselage, used to cover engines
+    Fairing_Description=An aerodynamic fairing, used to encapsulate payloads
+    Battery_Description=A battery used to store electric power
+    Solar_Panel_Description=A solar panel that generates power when extended
+    RTG_Description=Radioisotope thermoelectric generator or RTG
+    Rover_Wheel_Description=Rover wheel used to drive on the surface of planets
+    Docking_Port_Description=A docking port which can be used to connect two vehicles together
+    Heat_Shield_Description=A heat resistant shield used to survive atmospheric reentry
+    Fuel_Pipe_Description=A pipe used to transfer fuel
 
 [Modules]
-    Activate_Separator=Ayır
-    Activate_Fairing=Kaportayı Konuşlandır
+    Activate_Separator=Separation
+    Activate_Fairing=Fairing
 
-    Torque_Module_Torque=Tork: %value%kN
-    Separation_Force=Ayrılma kuvveti: %value%kN
+    Torque_Module_Torque=Torque: %value%kN
+    Separation_Force=Separation force: %value%kN
+    Magnet_Force=Magnet force: %value%kN
 
-    State_On{0}=Açık
-    State_Off{0}=Kapalı
+    Max_Heat_Tolerance=Heat tolerance: %temperature%
 
-    Engine_Module_State=Motor %state{0}%
-    Engine_On_Label=Motor açık
+    State_On{0}=On
+    State_Off{0}=Off
 
-    Msg_RCS_Module_State=RKS %state{0}%
+    Engine_Module_State=Engine %state{0}%
+    Engine_On_Label=Engine on
+    Gimbal_On_Label=Gimbal on
 
-    Wheel_Module_State=Arazi aracı tekerleği %state{0}%
-    Wheel_On_Label=Tekerlek açık
+    Msg_RCS_Module_State=RCS %state{0}%
 
-    Panel_Expanded=Genişletilmiş
-    Landing_Leg_Expanded=Konuşlandırılmış
+    Wheel_Module_State=Rover wheel %state{0}%
+    Wheel_On_Label=Wheel on
 
-    Info_Parachute_Max_Height=Maks. konuşlandırma yüksekliği: %height%
-    Button_Activate_Parachute=Paraşüt Konuşlandır
-    Msg_Cannot_Deploy_Parachute_In_Vacuum=Uzay boşluğunda paraşüt konuşlandırılamaz
-    Msg_Cannot_Deploy_Parachute_Above=%height% üzerinde paraşüt konuşlandırılamaz
-    Msg_Cannot_Fully_Deploy_Above=%height% üzerinde paraşüt tamamen konuşlandırılamaz
-    Msg_Cannot_Deploy_Parachute_While_Faster=%velocity% üzerinde hızda giderken paraşüt konuşlandırılamaz
-    Msg_Cannot_Deploy_Parachute_While_Not_Moving=Hareket hâlinde değilken paraşüt konuşlandırılamaz
-    Msg_Parachute_Half_Deployed=Paraşüt yarı konuşlandırıldı
-    Msg_Parachute_Fully_Deployed=Paraşüt tamamen konuşlandırıldı
-    Msg_Parachute_Cut=Paraşüt kesildi
+    Panel_Expanded=Expanded
+    Landing_Leg_Expanded=Deployed
+
+    Detach_Edges_Label=Detach edges
+    Adapt_To_Tanks_Label=Adapt to fuel tanks
+
+    Info_Parachute_Max_Height=Max deploy height: %height%
+    Button_Activate_Parachute=parachute deployed
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=Cannot deploy parachute in a vacuum
+    Msg_Cannot_Deploy_Parachute_Above=Cannot deploy parachute above %height%
+    Msg_Cannot_Fully_Deploy_Above=Cannot fully deploy parachute above %height%
+    Msg_Cannot_Deploy_Parachute_While_Faster=Cannot deploy parachute when going faster than %velocity%
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=Cannot deploy parachute while not moving
+    Msg_Parachute_Half_Deployed=Parachute half deployed
+    Msg_Parachute_Fully_Deployed=Parachute fully deployed
+    Msg_Parachute_Cut=Parachute cut
 
 [Planets]
-    Sun{0}=Güneş
-    Sun{1}=Güneş
-    Sun{2}=Güneş
-    Mercury{0}=Merkür
-    Venus{0}=Venüs
-    Earth{0}=Dünya
-    Earth{1}=Dünya
-    Earth{2}=Dünya
-    Earth{3}=Dünya'nın
-    Moon{0}=Ay
-    Moon{1}=Ay
-    Moon{2}=Ay
+    Sun{0}=Sun
+    Sun{1}=the Sun
+    Sun{2}=The Sun
+    Mercury{0}=Mercury
+    Venus{0}=Venus
+    Earth{0}=Earth
+    Earth{1}=the Earth
+    Earth{2}=The Earth
+    Earth{3}=Earth's
+    Moon{0}=Moon
+    Moon{1}=the Moon
+    Moon{2}=The Moon
+    Near_Earth_Asteroid{0}=Captured Asteroid
+    Near_Earth_Asteroid{1}=the Captured Asteroid
+    Near_Earth_Asteroid{2}=The Captured Asteroid
     Mars{0}=Mars
     Phobos{0}=Phobos
     Deimos{0}=Deimos
-    Jupiter{0}=Jüpiter
-    Jupiter{1}=Jüpiter
-    Jupiter{2}=Jüpiter
-    Jupiter{3}=Jüpiter'in
+    Jupiter{0}=Jupiter
+    Jupiter{1}=Jupiter
+    Jupiter{2}=Jupiter
+    Jupiter{3}=Jupiter's
     Europa{0}=Europa
     Ganymede{0}=Ganymede
-    Io{0}=İo
+    Io{0}=Io
     Callisto{0}=Callisto
 
+[Landmarks]
+    Sea_of_Tranquility=Sea of Tranquility
+    Sea_of_Serenity=Sea of Serenity
+    Ocean_of_Storms=Ocean of Storms
+    Copernicus_Crater=Copernicus Crater
+    Tycho_Crater=Tycho Crater
+
+    Olympus_Mons=Olympus Mons
+    Valles_Marineris=Valles Marineris
+    Gale_Crater=Gale Crater
+    Hellas_Planitia=Hellas Planitia
+    Arcadia_Planitia=Arcadia Planitia
+    Utopia_Planitia=Utopia Planitia
+    Jezero_Crater=Jezero Crater
+
+    Atalanta_Planitia=Atalanta Planitia
+    Lavinia_Planitia=Lavinia Planitia
+
+    Caloris_Planitia=Caloris Planitia
+    Borealis_Planitia=Borealis Planitia
+    Maxwell_Montes=Maxwell Montes
+
+[Challenges]
+    Liftoff_Title=Liftoff
+    Liftoff=Liftoff and land safely
+
+    Reach10km_Title=Reach 10km
+    Reach10km=Reach 10km and land safely
+
+    ReachSpace_Title=Reach Space
+    ReachSpace=Reach %height%, then survive reentry and land safely
+    
+    Land100kmDownrange_Title=Land 100km downrange
+    Land100kmDownrange=Land at least 100km away from the launch pad
+
+    ReachLowEarthOrbit_Title=Reach Low Earth Orbit
+    ReachLowEarthOrbit=Reach low Earth orbit, then land safely
+
+    ReachHighEarthOrbit_Title=Reach High Earth Orbit
+    ReachHighEarthOrbit=Reach high Earth orbit, then land safely
+    
+    MoonOrbit_Title=Moon Orbit
+    MoonOrbit=Capture into low Moon orbit, then return safely
+
+    MoonTour_Title=Moon Tour
+    MoonTour=Land on 3 separate landmarks, then return safely
+
+    AsteroidImpact_Title=Asteroid Impact
+    AsteroidImpact=Crash into the surface of the Captured Asteroid at 200+ m/s
+
+    MarsGrandTour_Title=Mars Grand Tour
+    MarsGrandTour=Land on Mars, Phobos and Deimos in one flight, then return safely
+    
+    VenusLanding_Title=Venus Landing
+    VenusLanding=Descend through the thick atmosphere and land on the surface of Venus
+
+    VenusReturn_Title=Venus Return
+    VenusReturn=Land on the surface of Venus, then ascend trough the thick atmosphere and return safely
+
+    MercuryLanding_Title=Mercury Landing
+    MercuryLanding=Land on the surface of Mercury
+
+    MercuryReturn_Title=Mercury Return
+    MercuryReturn=Land on the surface of Mercury, then return safely
+    
+    LandAndReturn_Title=%planet{0}% Landing
+    LandAndReturn=Land on the surface of %planet{0}%, then return safely
+
 [Achievements]
-    Reached_Low_Orbit=Alçak %planet{0}% yörüngesine ulaşıldı
-    Reached_High_Orbit=Yüksek %planet{0}% yörüngesine ulaşıldı
-    Descend_Low_Orbit=Alçak %planet{0}% yörüngesine inildi
-    Capture_Low_Orbit=Alçak %planet{0}% yörüngesine yakalanıldı
-    Capture_High_Orbit=Yüksek %planet{0}% yörüngesine yakalanıldı
+    Reached_Height=Reached %height% altitude
+    Reached_Karman_Line=Passed the Karman line, leaving the atmosphere and reaching space
+    Survived_Reentry=Reentered %planet{3}% atmosphere, max temperature %temperature%
 
-    Entered_Lower_Atmosphere=%planet{3}% alt atmosferine girildi
-    Entered_Upper_Atmosphere=%planet{3}% üst atmosferine girildi
-    Left_Lower_Atmosphere=%planet{3}% üst atmosferine ulaşıldı
-    Left_Upper_Atmosphere=%planet{3}% atmosferinden kaçıldı
+    Reached_Low_Orbit=Reached low %planet{0}% orbit
+    Reached_High_Orbit=Reached high %planet{0}% orbit
+    Descend_Low_Orbit=Descended to low %planet{0}% orbit
+    Capture_Low_Orbit=Captured into low %planet{0}% orbit
+    Capture_High_Orbit=Captured into high %planet{0}% orbit
 
-    Landed=%planet{1}% yüzeyine iniş yapıldı
-    Crashed_Into_Terrain=%planet{1}% yüzeyine çarpıldı
+    Entered_Lower_Atmosphere=Entered %planet{3}% lower atmosphere
+    Entered_Upper_Atmosphere=Entered %planet{3}% upper atmosphere
+    Left_Lower_Atmosphere=Reached %planet{3}% upper atmosphere
+    Left_Upper_Atmosphere=Escaped %planet{3}% atmosphere
 
-    Entered_SOI=%planet{1}% etki alanına girildi
-    Escaped_SOI=%planet{1}% etki alanından kaçıldı
+    Landed=Landed on the surface of %planet{1}%
 
-    Docked_Suborbital=%planet{1}% alt yörüngesel yoluna kenetlendi
-    Docked_Orbit_Low=Alçak %planet{0}% yörüngesine kenetlendi
-    Docked_Orbit_Transfer=%planet{1}% transfer yörüngesine kenetlendi
-    Docked_Orbit_High=Yüksek %planet{0}% yörüngesine kenetlendi
-    Docked_Escape=%planet{1}% kaçış yoluna kenetlendi
-    Docked_Surface=%planet{1}% yüzeyine kenetlendi
+    Landed_At_Landmark=Landed on the surface of %planet{1}%
+    Landed_At_Landmark=<size=55>Location: %landmark%</size>
 
-    Recover_Home=%planet{1}% üzerine güvenle geri dönüldü
-    Recover_Landed=%planet{1}% yüzeyinde görev bitirildi
-    Recover_Space=%planet{1}% civarındaki uzayda görev bitirildi
+    Landed_At_Landmark__Short=Landed on the surface of %planet{1}%
+    Landed_At_Landmark__Short=- %landmark% -
+
+    Crashed_Into_Terrain=Crashed into the surface of %planet{1}%
+
+    Entered_SOI=Entered the sphere of influence of %planet{1}%
+    Escaped_SOI=Escaped the sphere of influence of %planet{1}%
+
+    Docked_Suborbital=Docked in a suborbital trajectory of %planet{1}%
+    Docked_Orbit_Low=Docked in low %planet{0}% orbit
+    Docked_Orbit_Transfer=Docked in a transfer orbit of %planet{1}%
+    Docked_Orbit_High=Docked in high %planet{0}% orbit
+    Docked_Escape=Docked on an escape trajectory of %planet{1}%
+    Docked_Surface=Docked on the surface of %planet{1}%
+
+    Recover_Home=Safely returned to %planet{1}%
+    Recover_Landed=Mission completed on %planet{1}% surface
+    Recover_Space=The space mission around %planet{1}% has ended

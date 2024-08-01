@@ -33,7 +33,7 @@
 
 [General]
 # Used for language select buttons
-    Language_Name_In_Local_Language=한국인
+    Language_Name_In_Local_Language=Українська
 
     Cancel=Cancel
     Close=Close
