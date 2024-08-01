@@ -330,7 +330,7 @@
     Purchase_FAQ_Text=<color=grey>Will you provide refunds? </color>
     Purchase_FAQ_Text=Yes, of course. As long as you make a request within a reasonable time, we will refund without any conditions.
 
-# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=分享
+# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=share
     PartsExpansion_Tanks=Large variety of fuel tanks!
     PartsExpansion_Engines=Heavy lift engines!
     PartsExpansion_Parts=Parts of all shapes and sizes!
@@ -338,13 +338,13 @@
     PartsExpansion_Build=Large build space to bring
     PartsExpansion_Build=your creations to life!
 
-# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=分享
+# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=share
     SkinsExpansion_Tanks=Paint your parts in a diverse variety of skins!
     SkinsExpansion_Interstages=Color everything from interstages
     SkinsExpansion_Nosecones=To nosecones
     SkinsExpansion_Fairings=And even fairings
 
-# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=分享
+# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=share
     PlanetsExpansion_Jupiter=Explore Jupiter and its four moons!
     PlanetsExpansion_Callisto=From the heavily cratered surface of Callisto!
     PlanetsExpansion_Europa=To the vast ice flats of Europa!
@@ -383,7 +383,7 @@
     Music_Name=Music
     Sound_Name=Sound
     Screen_Rotation_Name=Screen Rotation
-    FPS_Name=Fps
+    FPS_Name=frame rate
     Language_Name=Language
     Menu_Scale=Interface Scale
     Menu_Opacity=Interface Opacity
@@ -872,6 +872,49 @@
 
     MercuryReturn_Title=Mercury Return
     MercuryReturn=Land on the surface of Mercury, then return safely
+    
+    LandAndReturn_Title=%planet{0}% Landing
+    LandAndReturn=Land on the surface of %planet{0}%, then return safely
+
+[Achievements]
+    Reached_Height=Reached %height% altitude
+    Reached_Karman_Line=Passed the Karman line, leaving the atmosphere and reaching space
+    Survived_Reentry=Reentered %planet{3}% atmosphere, max temperature %temperature%
+
+    Reached_Low_Orbit=Reached low %planet{0}% orbit
+    Reached_High_Orbit=Reached high %planet{0}% orbit
+    Descend_Low_Orbit=Descended to low %planet{0}% orbit
+    Capture_Low_Orbit=Captured into low %planet{0}% orbit
+    Capture_High_Orbit=Captured into high %planet{0}% orbit
+
+    Entered_Lower_Atmosphere=Entered %planet{3}% lower atmosphere
+    Entered_Upper_Atmosphere=Entered %planet{3}% upper atmosphere
+    Left_Lower_Atmosphere=Reached %planet{3}% upper atmosphere
+    Left_Upper_Atmosphere=Escaped %planet{3}% atmosphere
+
+    Landed=Landed on the surface of %planet{1}%
+
+    Landed_At_Landmark=Landed on the surface of %planet{1}%
+    Landed_At_Landmark=<size=55>Location: %landmark%</size>
+
+    Landed_At_Landmark__Short=Landed on the surface of %planet{1}%
+    Landed_At_Landmark__Short=- %landmark% -
+
+    Crashed_Into_Terrain=Crashed into the surface of %planet{1}%
+
+    Entered_SOI=Entered the sphere of influence of %planet{1}%
+    Escaped_SOI=Escaped the sphere of influence of %planet{1}%
+
+    Docked_Suborbital=Docked in a suborbital trajectory of %planet{1}%
+    Docked_Orbit_Low=Docked in low %planet{0}% orbit
+    Docked_Orbit_Transfer=Docked in a transfer orbit of %planet{1}%
+    Docked_Orbit_High=Docked in high %planet{0}% orbit
+    Docked_Escape=Docked on an escape trajectory of %planet{1}%
+    Docked_Surface=Docked on the surface of %planet{1}%
+
+    Recover_Home=Safely returned to %planet{1}%
+    Recover_Landed=Mission completed on %planet{1}% surface
+    Recover_Space=The space mission around %planet{1}% has ended
     
     LandAndReturn_Title=%planet{0}% Landing
     LandAndReturn=Land on the surface of %planet{0}%, then return safely

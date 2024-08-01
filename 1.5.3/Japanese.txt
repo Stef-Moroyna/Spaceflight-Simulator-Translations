@@ -330,7 +330,7 @@
     Purchase_FAQ_Text=<color=grey>Will you provide refunds? </color>
     Purchase_FAQ_Text=Yes, of course. As long as you make a request within a reasonable time, we will refund without any conditions.
 
-# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=分享
+# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=share
     PartsExpansion_Tanks=Large variety of fuel tanks!
     PartsExpansion_Engines=Heavy lift engines!
     PartsExpansion_Parts=Parts of all shapes and sizes!
@@ -338,13 +338,13 @@
     PartsExpansion_Build=Large build space to bring
     PartsExpansion_Build=your creations to life!
 
-# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=分享
+# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=share
     SkinsExpansion_Tanks=Paint your parts in a diverse variety of skins!
     SkinsExpansion_Interstages=Color everything from interstages
     SkinsExpansion_Nosecones=To nosecones
     SkinsExpansion_Fairings=And even fairings
 
-# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=分享
+# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=share
     PlanetsExpansion_Jupiter=Explore Jupiter and its four moons!
     PlanetsExpansion_Callisto=From the heavily cratered surface of Callisto!
     PlanetsExpansion_Europa=To the vast ice flats of Europa!
@@ -383,7 +383,7 @@
     Music_Name=Music
     Sound_Name=Sound
     Screen_Rotation_Name=Screen Rotation
-    FPS_Name=Fps
+    FPS_Name=frame rate
     Language_Name=Language
     Menu_Scale=Interface Scale
     Menu_Opacity=Interface Opacity
