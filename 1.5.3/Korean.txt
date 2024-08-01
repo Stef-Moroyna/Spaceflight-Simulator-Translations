@@ -904,13 +904,13 @@ Msg_Parachute_Half_Deployed=낙하산 반 펼침
     Entered_SOI=%planet{1}%의 영향권에 진입했습니다.
     Escaped_SOI=Escaped the sphere of influence of %planet{1}%
 
-    Docked_Suborbital=Docked in a suborbital trajectory of %planet{1}%
+    Docked_Suborbital=%planet{1}%의 아궤도 궤적에 도킹됨
     Docked_Orbit_Low=Docked in low %planet{0}% orbit
-    Docked_Orbit_Transfer=Docked in a transfer orbit of %planet{1}%
-    Docked_Orbit_High=Docked in high %planet{0}% orbit
-    Docked_Escape=Docked on an escape trajectory of %planet{1}%
-    Docked_Surface=Docked on the surface of %planet{1}%
+    Docked_Orbit_Transfer=%planet{1}%의 이동 궤도에 도킹됨
+    Docked_Orbit_High=높은 %planet{0}% 궤도에 도킹됨
+    Docked_Escape=%planet{1}%의 탈출 궤적에 도킹됨
+    Docked_Surface=%planet{1}% 표면에 도킹됨
 
-    Recover_Home=Safely returned to %planet{1}%
-    Recover_Landed=Mission completed on %planet{1}% surface
-    Recover_Space=The space mission around %planet{1}% has ended
+    Recover_Home=%planet{1}%로 안전하게 복귀했습니다.
+    Recover_Landed=%planet{1}% 표면에서 임무가 완료되었습니다.
+    Recover_Space=%planet{1}% 주변의 우주 임무가 종료되었습니다.
