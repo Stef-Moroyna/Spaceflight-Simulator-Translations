@@ -135,7 +135,7 @@
     Early_Supporter_Message=感谢您的支持！
 
 [Worlds Menu]
-# Worlds are save slots; image at: https://drive.google.com/file/d/1vUYrXaem4ki1dcXRFUJLKWZEcE0PFno-/view?usp=分享
+# Worlds are save slots; image at: https://drive.google.com/file/d/1vUYrXaem4ki1dcXRFUJLKWZEcE0PFno-/view?usp=share
     Create_New_World_Button=创建世界
 
 # Create menu
@@ -162,7 +162,7 @@
     Time_Played=游戏时间：%value%
 
 [Saving]
-# Blueprint stuff; Blueprints are rocket designs; images at: https://drive.google.com/drive/folders/15m4nXgzr8fvql78TheE3Qy1WPrTaIqdJ?usp=分享
+# Blueprint stuff; Blueprints are rocket designs; images at: https://drive.google.com/drive/folders/15m4nXgzr8fvql78TheE3Qy1WPrTaIqdJ?usp=share
     Blueprints_Menu_Title=蓝图
     Unnamed_Blueprint=未命名的蓝图
     Save_Blueprint=保存蓝图
@@ -171,7 +171,7 @@
 
 # Quicksave stuff; Quicksaves let players save at any time and return to it.
 # It does not necessarily have to be called quicksave, player just needs to understand its use.
-# Image at: https://drive.google.com/drive/folders/128aXHWoUhJXZbbKVBDXXSMoCvRwFpvct?usp=分享
+# Image at: https://drive.google.com/drive/folders/128aXHWoUhJXZbbKVBDXXSMoCvRwFpvct?usp=share
     Quicksaves_Menu_Title=快速存档
     Unnamed_Quicksave=未命名的快速存档
     Create_Quicksave=创建快速存档
@@ -196,12 +196,12 @@
     Quicksave{1}=快速存档
     Quicksave{2}=快速存档
 
-# Ask overwrite menu; image at: https://drive.google.com/file/d/1EOI9UIWAG-lNgrdk1IMmrpmf6rRBuA7Q/view?usp=分享
+# Ask overwrite menu; image at: https://drive.google.com/file/d/1EOI9UIWAG-lNgrdk1IMmrpmf6rRBuA7Q/view?usp=share
     File_Already_Exists=已拥有相同名称的%filetype{1}%
     Overwrite_File=覆盖%filetype{1}%
     New_File=新的%filetype{1}%
 
-# Load failure; image at: https://drive.google.com/file/d/1c7qHCdbS1ShSq4rKIHMpHKCTuh0pXeHv/view?usp=分享
+# Load failure; image at: https://drive.google.com/file/d/1c7qHCdbS1ShSq4rKIHMpHKCTuh0pXeHv/view?usp=share
     Load_Failed=无法从%filepath%加载%filetype{1}%
 
 # Legacy Messages
@@ -217,7 +217,7 @@
     Conversion_Failed=%reason%
 
 [Purchasing]
-# Images at: https://drive.google.com/drive/folders/1kIhFuPRp8YXkZ8SVC5Jq9UJkNZqdasQC?usp=分享
+# Images at: https://drive.google.com/drive/folders/1kIhFuPRp8YXkZ8SVC5Jq9UJkNZqdasQC?usp=share
     Parts_Expansion=部件扩展包
     Skins_Expansion=皮肤扩展包
     Planets_Expansion=星球扩展包
@@ -263,7 +263,7 @@
     Purchase_FAQ_Text=<color=grey>你们会提供退款吗？</color>
     Purchase_FAQ_Text=是的，当然。只要您在合理的时间内提出申请，我们将会无条件退款
 
-# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=分享
+# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=share
     PartsExpansion_Tanks=各种各样的燃料箱！
     PartsExpansion_Engines=重型起重引擎！
     PartsExpansion_Parts=各种形状及尺寸的部件！
@@ -271,13 +271,13 @@
     PartsExpansion_Build=超大的建造空间
     PartsExpansion_Build=让您的创意变为现实！
 
-# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=分享
+# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=share
     SkinsExpansion_Tanks=给您的部件绘上各种各样的皮肤！
     SkinsExpansion_Interstages=从衔接级间
     SkinsExpansion_Nosecones=到鼻罩
     SkinsExpansion_Fairings=甚至是整流罩都涂上颜色
 
-# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=分享
+# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=share
     PlanetsExpansion_Jupiter=探索木星及其四颗卫星！
     PlanetsExpansion_Callisto=从木卫四满是陨石坑的地表！
     PlanetsExpansion_Europa=到木卫二广阔的冰原！
@@ -285,7 +285,7 @@
     PlanetsExpansion_Conclusion=遥远的天外世界正等着你
     PlanetsExpansion_Conclusion=去探索！
 
-# Expansion Bundle; images at: https://drive.google.com/file/d/1aWdcqNciwf7i3ju1Hx7mHnKyGBS2_tYU/view?usp=分享
+# Expansion Bundle; images at: https://drive.google.com/file/d/1aWdcqNciwf7i3ju1Hx7mHnKyGBS2_tYU/view?usp=share
     ExpansionBundle_Sandbox=奖励
     ExpansionBundle_Sandbox=沙盒模式
 
@@ -295,7 +295,7 @@
     ExpansionBundle_No_Gravity=无重力
 
 [Settings]
-# Image at: https://drive.google.com/file/d/1kF_zlTUw7QQnCIfcVNRHGDsn_rH-ySkF/view?usp=分享
+# Image at: https://drive.google.com/file/d/1kF_zlTUw7QQnCIfcVNRHGDsn_rH-ySkF/view?usp=share
     Music_Name=音乐：
     Sound_Name=声音：
     Screen_Rotation_Name=屏幕旋转：
@@ -308,7 +308,7 @@
     No_Gravity_Name=无重力：
 
 # This version of is displayed on screen to let players know what cheats they are using
-# Image as: https://drive.google.com/file/d/1_uDOsT_yAgui19jNqAwx_CMGvLoS5LYh/view?usp=分享
+# Image as: https://drive.google.com/file/d/1_uDOsT_yAgui19jNqAwx_CMGvLoS5LYh/view?usp=share
     Cheat_On{0}=开
     Cheat_Off{0}=关
 
@@ -318,7 +318,7 @@
     No_Gravity=无重力：%value{0}%
 
 [Build]
-# Images at: https://drive.google.com/drive/folders/16-6I-SE_4nmVTjNxsUdAUJtUDIBe5WVz?usp=分享
+# Images at: https://drive.google.com/drive/folders/16-6I-SE_4nmVTjNxsUdAUJtUDIBe5WVz?usp=share
     Build_New_Rocket=建造新的火箭
     Resume_Build=继续建造
 
@@ -354,7 +354,7 @@
     Toggle_Map_Button=地图
 
 # Shown in map when you escape a gravity field of a planet
-# image for escape/encounter at: https://drive.google.com/file/d/17jqJF09DWoqkgW9VGXdG7SRCSo0UmW0o/view?usp=分享
+# image for escape/encounter at: https://drive.google.com/file/d/17jqJF09DWoqkgW9VGXdG7SRCSo0UmW0o/view?usp=share
     Escape=逃离
 
 # Shown in map when you encounter/enter a gravity field of a planet
@@ -364,11 +364,11 @@
     Rendezvous=会合点
 
 # Shows the transfer window to another planet
-# image at: https://drive.google.com/file/d/1zd8UEnVb91QmSDllEu1DyCbkCsDKbJk3/view?usp=分享
+# image at: https://drive.google.com/file/d/1zd8UEnVb91QmSDllEu1DyCbkCsDKbJk3/view?usp=share
     Transfer=转移窗口
 
 [Game]
-# Image at: https://drive.google.com/file/d/1d0b-udFyO4ItlYu1vVaVdzgwdAeT1hPw/view?usp=分享
+# Image at: https://drive.google.com/file/d/1d0b-udFyO4ItlYu1vVaVdzgwdAeT1hPw/view?usp=share
     Throttle_On=开
     Throttle_Off=关
 
@@ -398,7 +398,7 @@
     Angle_Horizontal=角度：%angle% / %targetAngle%
 
 [Game menus]
-# Image at: https://drive.google.com/file/d/1XPUZnlFGrs9ZQ0QRjqbvKMEwXg1Pl7cF/view?usp=分享
+# Image at: https://drive.google.com/file/d/1XPUZnlFGrs9ZQ0QRjqbvKMEwXg1Pl7cF/view?usp=share
     Restart_Mission=重新开始任务
 
 # Restart menu
@@ -414,7 +414,7 @@
     Restart_Mission_To_Build_Warning=
     Restart_Mission_To_Build_Warning=这将会使进度恢复自上次发射以来的状态
 
-# End mission menu; image at: https://drive.google.com/file/d/1L5FUM09JCZ6DCXFZfJPOM0CWHIEwvqMs/view?usp=分享
+# End mission menu; image at: https://drive.google.com/file/d/1L5FUM09JCZ6DCXFZfJPOM0CWHIEwvqMs/view?usp=share
     End_Mission_Menu_Title=任务成就：
     End_Mission=结束任务
 
@@ -425,7 +425,7 @@
 
     Clear_Debris_Confirm=清除残骸
 
-# Select menu; Image at: https://drive.google.com/file/d/1CBIAZ3o_Z7bpEAb8sVdTdDeF4KB8-Yyi/view?usp=分享
+# Select menu; Image at: https://drive.google.com/file/d/1CBIAZ3o_Z7bpEAb8sVdTdDeF4KB8-Yyi/view?usp=share
     Navigate_To=导航至
     End_Navigation=结束导航
     Focus=聚焦
@@ -448,13 +448,13 @@
     Cannot_Turn_While_Timewarping=时间跳跃期间无法转向
 
 [Units]
-# Image at: https://drive.google.com/file/d/1ljpGY55W8V1wF9esl5v569B0Z-D6xxMt/view?usp=分享
+# Image at: https://drive.google.com/file/d/1ljpGY55W8V1wF9esl5v569B0Z-D6xxMt/view?usp=share
     Thrust_To_Weight_Ratio=推力 / 重量：%value%
     Mass=质量：%value% 吨
     Thrust=推力：%value% 吨
     Burn_Time=燃烧时间：%value% 秒
 
-# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=分享
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=share
     Efficiency=效率：%value% 比冲
     Mass_Unit=吨
     Meter_Unit=米
@@ -468,7 +468,7 @@
     Day_Short=%value% 天
 
 [Resource Types]
-# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=分享
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=share
     Solid_Fuel{0}=固态燃料
     Solid_Fuel{1}=固态燃料
     Liquid_Fuel{0}=液态燃料
@@ -481,7 +481,7 @@
     Msg_No_Resource_Left=%resource{1}%不足
 
 [Part Categories]
-# Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=分享
+# Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=share
     Basic_Parts=基础
     Six_Wide_Parts=宽 6
     Eight_Wide_Parts=宽 8

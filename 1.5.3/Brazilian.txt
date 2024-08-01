@@ -330,7 +330,7 @@
     Purchase_FAQ_Text=<color=grey>Vocês fornecerão reembolsos?</color>
     Purchase_FAQ_Text=Sim, claro. Desde que você faça uma solicitação dentro de um prazo razoável, nós reembolsaremos sem quaisquer condições.
 
-# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=分享
+# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=share
     PartsExpansion_Tanks=Grande variedade de tanques de combustível!
     PartsExpansion_Engines=Motores de carga pesada!
     PartsExpansion_Parts=Peças de todos os formatos e tamanhos!
@@ -338,13 +338,13 @@
     PartsExpansion_Build=Grande espaço de construção para trazer
     PartsExpansion_Build=suas criações para a vida!
 
-# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=分享
+# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=share
     SkinsExpansion_Tanks=Pinte suas peças com uma grande variedade de skins!
     SkinsExpansion_Interstages=Pinte tudo dos entre-estágios
     SkinsExpansion_Nosecones=Para cones de nariz
     SkinsExpansion_Fairings=E até carenagens
 
-# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=分享
+# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=share
     PlanetsExpansion_Jupiter=Explore Júpiter e suas quatro luas!
     PlanetsExpansion_Callisto=Da superfície repleta de crateras de Calisto!
     PlanetsExpansion_Europa=Para as vastas planícies de gelo da Europa!

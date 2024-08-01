@@ -893,6 +893,7 @@ Msg_Parachute_Half_Deployed=낙하산 반 펼침
     Left_Upper_Atmosphere=탈출한 %planet{3}% 대기
 
     Landed=%planet{1}% 표면에 착륙했습니다.
+    
     Landed_At_Landmark=%planet{1}% 표면에 착륙했습니다.
     Landed_At_Landmark=<size=55>위치: %landmark%</size>
 
