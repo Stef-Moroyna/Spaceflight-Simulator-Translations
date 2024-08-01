@@ -10,12 +10,12 @@
 # Example:
 # 
 # [Planets]
-# Earth{0}= Earth
-# Earth{1}= earth
+# Earth{0}= 지구
+# Earth{1}= 지구
 # 
 # [Achievements]
-# Landed_Test0 = Landed on %planet{0}%
-# Landed_Test1 = Landed on %planet{1}%
+# Landed_Test0 = %planet{0}%에 착륙했습니다
+# Landed_Test1 = %planet{1}%에 착륙했습니다
 # 
 # Variants are used for many things, such as making phrases work, caps, etc
 # 
@@ -35,66 +35,66 @@
 # Used for language select buttons
     Language_Name_In_Local_Language=한국인
 
-    Cancel=Cancel
-    Close=Close
+    Cancel=취소
+    Close=닫다
 
-    On=On
-    Off=Off
+    On=에
+    Off=끄다
 
-    Open_Settings_Button=Settings
-    Open_Cheats_Button=Cheats
-    Help=Help
+    Open_Settings_Button=설정
+    Open_Cheats_Button=치트
+    Help=돕다
 
-    Build_Rocket=Build Rocket
-    Resume_Game=Resume Game
-    Return_To_Main_Menu=Main Menu
-    Exit_To_Main_Menu=Exit To Main Menu
+    Build_Rocket=로켓 만들기
+    Resume_Game=게임 재개
+    Return_To_Main_Menu=메인 메뉴
+    Exit_To_Main_Menu=메인 메뉴로 나가기
 
 [Main Menu]
 # Image at: https://drive.google.com/file/d/1mEFf3W964ldXBekpbTc-Jj1XcSnBQz4k/view?usp=sharing
-    Play=Play
+    Play=놀다
 
 # Tutorial
-    Video_Tutorials_OpenButton=Video Tutorials
-    Video_Orbit=Orbit Tutorial
-    Video_Moon=Moon Tutorial
-    Video_Dock=Docking Tutorial
+    Video_Tutorials_OpenButton=비디오 튜토리얼
+    Video_Orbit=궤도 튜토리얼
+    Video_Moon=달 튜토리얼
+    Video_Dock=도킹 튜토리얼
 
-    Development_Preview=Development Preview
-    Development_Preview_Explanation=The development preview showcases future updates we are working on
+    Development_Preview=개발 미리보기
+    Development_Preview_Explanation=개발 미리보기에서는 현재 작업 중인 향후 업데이트를 소개합니다.
 
 # Community
-    Community_OpenButton=Community
+    Community_OpenButton=지역 사회
     Community_Youtube=Youtube
     Community_Discord=Discord
     Community_Reddit=Reddit
     Community_Forums=Forums
 
 # Roadmap
-    Roadmap_OpenButton=Future Updates
+    Roadmap_OpenButton=향후 업데이트
 
-    Roadmap_Text=Version 1.51
-    Roadmap_Text=<color=grey>Staging</color>
+    Roadmap_Text=버전 1.51
+    Roadmap_Text=<color=grey>각색</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.52
-    Roadmap_Text=<color=grey>Tutorial</color>
+    Roadmap_Text=버전 1.52
+    Roadmap_Text=<color=grey>지도 시간</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.53
-    Roadmap_Text=<color=grey>Reentry</color>
+    Roadmap_Text=버전 1.53
+    Roadmap_Text=<color=grey>재진입</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.54
-    Roadmap_Text=<color=grey>Visual effects, particles and sounds</color>
+    Roadmap_Text=버전 1.54
+    Roadmap_Text=<color=grey>시각 효과, 입자 및 사운드</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.55
-    Roadmap_Text=<color=grey>Solid rocket booster</color>
+    Roadmap_Text=버전 1.55
+    Roadmap_Text=<color=grey>고체 로켓 부스터</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.6
-    Roadmap_Text=<color=grey>Astronauts</color>
+    Roadmap_Text=버전 1.6
+    Roadmap_Text=<color=grey>우주인들</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.7
-    Roadmap_Text=<color=grey>Career mode</color>
+    Roadmap_Text=버전 1.7
+    Roadmap_Text=<color=grey>커리어 모드</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.8
+    Roadmap_Text=버전 1.8
     Roadmap_Text=<color=grey>Outer planets</color>
     Roadmap_Text=
     Roadmap_Text=Electric system:
