@@ -652,12 +652,12 @@ Foco# Restart menu
     Other_Parts=Outra
 
 [Part Names]
-    Nome_da_cápsula{0}=Cápsula
-    Nome_da_cápsula{1}=cápsula
-    Nome_da_sonda{0}=Sonda
-    Nome_da_sonda{1}=sonda
-    Nome_do_paraquedas{0}=Paraquedas
-    Nome_do_paraquedas{1}=paraquedas
+    Capsule_Name{0}=Cápsula
+    Capsule_Name{1}=cápsula
+    Probe_Name{0}=Sonda
+    Probe_Name{1}=sonda
+    Parachute_Name{0}=Paraquedas
+    Parachute_Name{1}=paraquedas
 
     Kolibri_Engine_Name{0}=Motor Kolibri
     Kolibri_Engine_Name{1}=motor kolibri
@@ -768,6 +768,7 @@ Foco# Restart menu
     
     Detach_Edges_Label=Desprender bordas
     Adapt_To_Tanks_Label=Adaptar-se a tanques de combustível
+    
     Info_Parachute_Max_Height=Altura máxima de implantação: %height%
     Button_Activate_Parachute=paraquedas implantado
     Msg_Cannot_Deploy_Parachute_In_Vacuum=Não é possível implantar paraquedas no vácuo
