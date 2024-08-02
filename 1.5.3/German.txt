@@ -13,7 +13,7 @@
 # Earth{0}= Erde
 # Earth{1}= Erde
 #
-# [Erfolge]
+# [Achievements]
 # Landed_Test0 = Auf %planet{0}% gelandet
 # Landed_Test1 = Auf %planet{1}% gelandet
 # 

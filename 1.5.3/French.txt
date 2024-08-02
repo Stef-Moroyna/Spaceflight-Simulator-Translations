@@ -13,7 +13,7 @@
 # Earth{0}= Terre
 # Earth{1}= terre
 #
-# [Réalisations]
+# [Achievements]
 # Landed_Test0 = Atterri sur %planet{0}%
 # Landed_Test1 = Atterri sur %planet{1}%
 # 
