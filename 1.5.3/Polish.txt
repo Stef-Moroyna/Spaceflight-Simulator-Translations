@@ -27,6 +27,29 @@
 # In case of missing characters use compatibility font.
     Font=normal
 
+    [None]
+    None=None
+    Font=normal
+
+[General]
+# Used for language select buttons
+    Language_Name_In_Local_Language=Melayu
+
+    Cancel=Cancel
+    Close=Close
+
+    On=On
+    Off=Off
+
+    Open_Settings_Button=Settings
+    Open_Cheats_Button=Cheats
+    Help=Help
+
+    Build_Rocket=Build Rocket
+    Resume_Game=Resume Game
+    Return_To_Main_Menu=Main Menu
+    Exit_To_Main_Menu=Exit To Main Menu
+
 [Main Menu]
 # Image at: https://drive.google.com/file/d/1mEFf3W964ldXBekpbTc-Jj1XcSnBQz4k/view?usp=sharing
     Play=Play
