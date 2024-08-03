@@ -1,3 +1,4 @@
+عربي;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Arabic.txt
 Brasileiro;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Brazilian.txt
 Nederlands;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Dutch.txt
 English;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/English.txt
@@ -20,4 +21,4 @@ Español;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Tr
 Türkçe;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/Turkish.txt
 繁體中文;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Traditional_Chinese.txt
 Українська;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Ukrainians.txt
-ver:25
+ver:26
