@@ -383,7 +383,7 @@
     Music_Name=音樂：
     Sound_Name=聲音：
     Screen_Rotation_Name=螢幕旋轉：
-    FPS_Name=幀率：
+    FPS_Name=Fps
     Language_Name=語言：
     Menu_Scale=介面大小：
     Menu_Opacity=介面透明度：

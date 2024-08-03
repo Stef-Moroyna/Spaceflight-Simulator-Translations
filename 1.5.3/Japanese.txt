@@ -383,7 +383,7 @@
     Music_Name=音楽
     Sound_Name=サウンド
     Screen_Rotation_Name=画面の回転
-    FPS_Name=フレームレート
+    FPS_Name=Fps
     Language_Name=言語
     Menu_Scale=インターフェースのスケール
     Menu_Opacity=インターフェースの不透明度

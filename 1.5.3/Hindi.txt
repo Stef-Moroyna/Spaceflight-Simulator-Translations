@@ -383,7 +383,7 @@
     Music_Name=संगीत
     Sound_Name=ध्वनि
     Screen_Rotation_Name=स्क्रीन रोटेशन
-    FPS_Name=फ्रेम दर
+    FPS_Name=Fps
     Language_Name=भाषा
     Menu_Scale=इंटरफ़ेस स्केल
     Menu_Opacity=इंटरफ़ेस अपारदर्शिता

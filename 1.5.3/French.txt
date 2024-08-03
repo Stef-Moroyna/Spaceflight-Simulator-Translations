@@ -383,7 +383,7 @@
     Music_Name=Musique
     Sound_Name=Son
     Screen_Rotation_Name=Rotation de l'écran
-    FPS_Name=Fréquence d'images
+    FPS_Name=Fps
     Language_Name=Langue
     Menu_Scale=Échelle d'interface
     Menu_Opacity=Opacité de l'interface

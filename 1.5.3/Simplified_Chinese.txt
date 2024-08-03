@@ -332,7 +332,7 @@
 
 # Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=share
     PartsExpansion_Tanks=各种各样的燃料箱！
-    PartsExpansion_Engines=重型起重引擎！
+    PartsExpansion_Engines=重型起重发动机！
     PartsExpansion_Parts=各种形状及尺寸的部件！
 
     PartsExpansion_Build=超大的建造空间
@@ -383,7 +383,7 @@
     Music_Name=音乐：
     Sound_Name=声音：
     Screen_Rotation_Name=屏幕旋转：
-    FPS_Name=帧率：
+    FPS_Name=Fps
     Language_Name=语言：
     Menu_Scale=介面大小：
     Menu_Opacity=介面透明度：
@@ -453,7 +453,7 @@
     Too_Heavy=您的火箭太重了，无法升空
     Too_Heavy=%mass%
     Too_Heavy=%thrust%
-    Too_Heavy=请减轻重量或使用推力更强的引擎
+    Too_Heavy=请减轻重量或使用推力更强的发动机
 
     Launch_Anyway_Button=仍然发射
 
@@ -645,7 +645,7 @@
     Eight_Wide_Parts=宽 8
     Ten_Wide_Parts=宽 10
     Twelve_Wide_Parts=宽 12
-    Engine_Parts=引擎
+    Engine_Parts=发动机
     Aerodynamics_Parts=空气动力
     Fairings_Parts=整流罩
     Structural_Parts=结构
@@ -659,20 +659,20 @@
     Parachute_Name{0}=降落伞
     Parachute_Name{1}=降落伞
 
-    Kolibri_Engine_Name{0}=蜂鸟引擎
-    Kolibri_Engine_Name{1}=蜂鸟引擎
-    Hawk_Engine_Name{0}=猎鹰引擎
-    Hawk_Engine_Name{1}=猎鹰引擎
-    Valiant_Engine_Name{0}=英勇引擎
-    Valiant_Engine_Name{1}=英勇引擎
-    Titan_Engine_Name{0}=泰坦引擎
-    Titan_Engine_Name{1}=泰坦引擎
-    Frontier_Engine_Name{0}=开拓者引擎
-    Frontier_Engine_Name{1}=开拓者引擎
-    Peregrine_Engine_Name{0}=游隼引擎
-    Peregrine_Engine_Name{1}=游隼引擎
-    Ion_Engine_Name{0}=离子引擎
-    Ion_Engine_Name{1}=离子引擎
+    Kolibri_Engine_Name{0}=蜂鸟发动机
+    Kolibri_Engine_Name{1}=蜂鸟发动机
+    Hawk_Engine_Name{0}=猎鹰发动机
+    Hawk_Engine_Name{1}=猎鹰发动机
+    Valiant_Engine_Name{0}=英勇发动机
+    Valiant_Engine_Name{1}=英勇发动机
+    Titan_Engine_Name{0}=泰坦发动机
+    Titan_Engine_Name{1}=泰坦发动机
+    Frontier_Engine_Name{0}=开拓者发动机
+    Frontier_Engine_Name{1}=开拓者发动机
+    Peregrine_Engine_Name{0}=游隼发动机
+    Peregrine_Engine_Name{1}=游隼发动机
+    Ion_Engine_Name{0}=离子发动机
+    Ion_Engine_Name{1}=离子发动机
     RCS_Thruster_Name{0}=RCS 推进器
     RCS_Thruster_Name{1}=RCS 推进器
 
@@ -719,19 +719,19 @@
     Side_Separator_Description=用于分离侧置助推器的卧式分离器
     Landing_Leg_Description=用于在卫星或行星表面着陆的可伸缩支架
     Structural_Part_Description=轻盈而坚固的结构部件
-    Hawk_Engine_Description=高推力、低效率的引擎，通常用于火箭的第一分级
-    Titan_Engine_Description=高推力、低效率的引擎，通常用于火箭的第一分级
+    Hawk_Engine_Description=高推力、低效率的发动机，通常用于火箭的第一分级
+    Titan_Engine_Description=高推力、低效率的发动机，通常用于火箭的第一分级
     Valiant_Engine_Description=高效率、低推力。适用于高推力并非优先考虑因素的太空环境中。
     Frontier_Engine_Description=高效率、低推力。适用于高推力并非优先考虑因素的太空环境中。
-    Kolibri_Engine_Description=适用于着陆器的小型引擎
-    Ion_Engine_Description=有着超高效率的低推力引擎
+    Kolibri_Engine_Description=适用于着陆器的小型发动机
+    Ion_Engine_Description=有着超高效率的低推力发动机
     RCS_Thruster_Description=一套用于对接的小型定向推进器
 
     Booster_Description=高推力，低效率
     Booster_Description=一旦点火就无法关闭或节流
 
     Aerodynamic_Nose_Cone_Description=空气动力前锥体，主要用于改善侧置助推器的空气动力
-    Aerodynamic_Fuselage_Description=用于覆盖引擎的空气动力机身
+    Aerodynamic_Fuselage_Description=用于覆盖发动机的空气动力机身
     Fairing_Description=用于封装有效载荷的空气动力整流罩
     Battery_Description=用于储存电力的电池
     Solar_Panel_Description=扩展后可用来发电的太阳能电池板
@@ -754,8 +754,8 @@
     State_On{0}=开
     State_Off{0}=关
 
-    Engine_Module_State=引擎 %state{0}%
-    Engine_On_Label=引擎已启用
+    Engine_Module_State=发动机 %state{0}%
+    Engine_On_Label=发动机已启用
     Gimbal_On_Label=万向节已启动
 
     Msg_RCS_Module_State=RCS %state{0}%

@@ -383,7 +383,7 @@
     Music_Name=Muzik
     Sound_Name=Bunyi
     Screen_Rotation_Name=Putaran Skrin
-    FPS_Name=kadar bingkai
+    FPS_Name=Fps
     Language_Name=Bahasa
     Menu_Scale=Skala Antara Muka
     Menu_Opacity=Kelegapan Antara Muka

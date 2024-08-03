@@ -383,7 +383,7 @@
     Music_Name=Музика
     Sound_Name=Звук
     Screen_Rotation_Name=Обертання екрана
-    FPS_Name=частота кадрів
+    FPS_Name=Fps
     Language_Name=Мова
     Menu_Scale=Масштаб інтерфейсу
     Menu_Opacity=Непрозорість інтерфейсу

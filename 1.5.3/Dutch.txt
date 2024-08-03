@@ -383,7 +383,7 @@
     Music_Name=Muziek
     Sound_Name=Geluid
     Screen_Rotation_Name=Schermrotatie
-    FPS_Name=framesnelheid
+    FPS_Name=Fps
     Language_Name=Taal
     Menu_Scale=Interfaceschaal
     Menu_Opacity=Interfacedekking

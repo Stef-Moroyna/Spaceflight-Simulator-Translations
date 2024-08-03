@@ -383,7 +383,7 @@
     Music_Name=Muzică
     Sound_Name=Sunet
     Screen_Rotation_Name=Rotirea ecranului
-    FPS_Name=rată de cadre
+    FPS_Name=Fps
     Language_Name=Limba
     Menu_Scale=Scală de interfață
     Menu_Opacity=Opacitatea interfeței

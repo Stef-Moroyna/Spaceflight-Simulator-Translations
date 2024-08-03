@@ -383,7 +383,7 @@
     Music_Name=རོལ་དབྱངས:
     Sound_Name=སྒྲ:
     Screen_Rotation_Name=བརྙན་ཤེལ་འཁོར་བ།:
-    FPS_Name=པར་རིས།:
+    FPS_Name=Fps
     Language_Name=སྐད་རིགས:
     Menu_Scale=མཐུད་ཁའི་ཚད་གཞི།
     Menu_Opacity=ངོས་འདྲ་བའི་དྭངས་གསལ་ཅན།

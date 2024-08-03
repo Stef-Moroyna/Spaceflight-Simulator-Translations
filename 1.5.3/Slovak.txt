@@ -383,7 +383,7 @@
     Music_Name=Hudba
     Sound_Name=Zvuk
     Screen_Rotation_Name=Otočenie obrazovky
-    FPS_Name=snímková frekvencia
+    FPS_Name=Fps
     Language_Name=Jazyk
     Menu_Scale=Mierka rozhrania
     Menu_Opacity=Nepriehľadnosť rozhrania

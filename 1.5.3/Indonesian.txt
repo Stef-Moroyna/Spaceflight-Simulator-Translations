@@ -383,7 +383,7 @@
     Music_Name=Musik
     Sound_Name=Suara
     Screen_Rotation_Name=Rotasi Layar
-    FPS_Name=kecepatan bingkai
+    FPS_Name=Fps
     Language_Name=Bahasa
     Menu_Scale=Skala Antarmuka
     Menu_Opacity=Keburaman Antarmuka

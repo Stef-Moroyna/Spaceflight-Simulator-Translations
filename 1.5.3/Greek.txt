@@ -383,7 +383,7 @@
     Music_Name=Μουσική
     Sound_Name=Ήχος
     Screen_Rotation_Name=Περιστροφή οθόνης
-    FPS_Name = ρυθμός καρέ
+    FPS_Name=Fps
     Language_Name=Γλώσσα
     Menu_Scale=Κλίμακα διεπαφής
     Menu_Opacity=Αδιαφάνεια διεπαφής

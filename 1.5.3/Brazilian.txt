@@ -383,7 +383,7 @@
     Music_Name=Música
     Sound_Name=Som
     Screen_Rotation_Name=Rotação da tela
-    FPS_Name=Taxa de quadros
+    FPS_Name=Fps
     Language_Name=Linguagem
     Menu_Scale=Escala de Interface
     Menu_Opacity=Opacidade da interface
