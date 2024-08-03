@@ -10,12 +10,12 @@
 # Example:
 # 
 # [Planets]
-# Earth{0}= Earth
-# Earth{1}= earth
+# Earth{0}= Bumi
+# Earth{1}= bumi
 # 
 # [Achievements]
-# Landed_Test0 = Landed on %planet{0}%
-# Landed_Test1 = Landed on %planet{1}%
+# Landed_Test0 =Mendarat di %planet{0}%
+# Landed_Test1 = Mendarat di %planet{1}%
 # 
 # Variants are used for many things, such as making phrases work, caps, etc
 # 
@@ -35,199 +35,199 @@
 # Used for language select buttons
     Language_Name_In_Local_Language=Melayu
 
-    Cancel=Cancel
-    Close=Close
+    Cancel=Hidup
+    Close=Tutup
 
     On=On
-    Off=Off
+    Off=Mati
 
-    Open_Settings_Button=Settings
-    Open_Cheats_Button=Cheats
-    Help=Help
-
-    Build_Rocket=Build Rocket
-    Resume_Game=Resume Game
-    Return_To_Main_Menu=Main Menu
-    Exit_To_Main_Menu=Exit To Main Menu
+   Open_Settings_Button=Tetapan
+   Open_Cheats_Button=Tipu
+   Bantuan=Bantuan
+   
+   Build_Rocket=Bina Roket
+   Resume_Game=Sambung semula Permainan
+   Return_To_Main_Menu=Menu Utama
+   Exit_To_Main_Menu=Keluar Ke Menu Utama
 
 [Main Menu]
 # Image at: https://drive.google.com/file/d/1mEFf3W964ldXBekpbTc-Jj1XcSnBQz4k/view?usp=sharing
-    Play=Play
+    Play=Main
 
 # Tutorial
-    Video_Tutorials_OpenButton=Video Tutorials
-    Video_Orbit=Orbit Tutorial
-    Video_Moon=Moon Tutorial
-    Video_Dock=Docking Tutorial
-
-    Development_Preview=Development Preview
-    Development_Preview_Explanation=The development preview showcases future updates we are working on
+    Video_Tutorials_OpenButton=Tutorial Video
+    Video_Orbit=Tutorial Orbit
+    Video_Moon=Tutorial Bulan
+    Video_Dock=Tutorial Berdok
+    
+    Development_Preview=Pratonton Pembangunan
+    Development_Preview_Explanation=Pratonton pembangunan mempamerkan kemas kini masa hadapan yang sedang kami usahakan
 
 # Community
-    Community_OpenButton=Community
+    Community_OpenButton=Komuniti
     Community_Youtube=Youtube
     Community_Discord=Discord
     Community_Reddit=Reddit
     Community_Forums=Forums
 
 # Roadmap
-    Roadmap_OpenButton=Future Updates
-
-    Roadmap_Text=Version 1.51
-    Roadmap_Text=<color=grey>Staging</color>
+    Roadmap_OpenButton=Kemas Kini Masa Depan
+    
+    Roadmap_Text=Versi 1.51
+    Roadmap_Text=<color=grey>Pementasan</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.52
+    Roadmap_Text=Versi 1.52
     Roadmap_Text=<color=grey>Tutorial</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.53
-    Roadmap_Text=<color=grey>Reentry</color>
+    Roadmap_Text=Versi 1.53
+    Roadmap_Text=<color=grey>Masuk Semula</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.54
-    Roadmap_Text=<color=grey>Visual effects, particles and sounds</color>
+    Roadmap_Text=Versi 1.54
+    Roadmap_Text=<color=grey>Kesan visual, zarah dan bunyi</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.55
-    Roadmap_Text=<color=grey>Solid rocket booster</color>
+    Roadmap_Text=Versi 1.55
+    Roadmap_Text=<color=grey>Penggalak roket pepejal</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.6
-    Roadmap_Text=<color=grey>Astronauts</color>
+    Roadmap_Text=Versi 1.6
+    Roadmap_Text=<color=grey>Angkasawan</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.7
-    Roadmap_Text=<color=grey>Career mode</color>
+    Roadmap_Text=Versi 1.7
+    Roadmap_Text=<color=grey>Mod kerjaya</color>
     Roadmap_Text=
-    Roadmap_Text=Version 1.8
-    Roadmap_Text=<color=grey>Outer planets</color>
+    Roadmap_Text=Versi 1.8
+    Roadmap_Text=<color=grey>Planet luar</color>
     Roadmap_Text=
-    Roadmap_Text=Electric system:
-    Roadmap_Text=<color=grey>The entire electric system will get a complete overhaul in the future, most likely with features such as time warp during ion engine burns and more uses for electricity</color>
+    Roadmap_Text=Sistem elektrik:
+    Roadmap_Text=<color=grey>Keseluruhan sistem elektrik akan mendapat baik pulih sepenuhnya pada masa hadapan, kemungkinan besar dengan ciri-ciri seperti time warp semasa pembakaran enjin ion dan lebih banyak kegunaan elektrik</color>
     Roadmap_Text=
     Roadmap_Text=
-    Roadmap_Text=Please keep in mind that plans might change
+    Roadmap_Text=Sila ingat bahawa rancangan mungkin berubah
 
-    Credits_OpenButton=Credits
+    Credits_OpenButton=Kredit
 
     Credits_Text=<Size=70> Štefo Mai Morojna </size>
-    Credits_Text=<Size=55> Designer - Programmer - Artist </size>
+    Credits_Text=<Size=55> Pereka - Pengaturcara - Artis </size>
     Credits_Text=
     Credits_Text=<Size=70> Jordi van der Molen </size>
-    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=<Size=55> Pengaturcara </size>
     Credits_Text=
     Credits_Text=<Size=70> Chris Christo </size>
-    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=<Size=55> Pengaturcara </size>
     Credits_Text=
     Credits_Text=<Size=70> Josh </size>
-    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=<Size=55> Pengaturcara </size>
     Credits_Text=
     Credits_Text=<Size=70> Aidan Ginise </size>
-    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=<Size=55> Pengaturcara </size>
     Credits_Text=
     Credits_Text=<Size=70> Andrey Onischenko </size>
-    Credits_Text=<Size=55> Programmer </size>
+    Credits_Text=<Size=55> Pengaturcara </size>
     Credits_Text=
     Credits_Text=<Size=70> Davi Vasc </size>
-    Credits_Text=<Size=55> Composer </size>
+    Credits_Text=<Size=55> Komposer </size>
     Credits_Text=
     Credits_Text=<Size=70> Ashton Mills </size>
-    Credits_Text=<size=55> Composer </size>
+    Credits_Text=<size=55> Komposer </size>
 
-    First_Time_Playing_Question=First time playing
-    First_Time_Playing_Question=Spaceflight Simulator?
-
-    First_Time_Playing_Yes=First Time Playing
-    First_Time_Playing_No=Played Before
+    First_Time_Playing_Question=Pertama kali bermain
+    First_Time_Playing_Question=Simulator Penerbangan Angkasa?
+    
+    First_Time_Playing_Yes=Pertama Kali Main
+    First_Time_Playing_No=Dimainkan Sebelumnya
 
 # Update menu
-    Update_Available=A new update is available!
-    Update_Available=
-    Update_Available=Current version: %old%
-    Update_Available=Latest version: %new%
-
-    Update_Confirm=Update
+    Update_Available=Kemas kini baharu tersedia!
+    Kemas Kini_Tersedia=
+    Update_Available=Versi semasa: %old%
+    Update_Available=Versi terkini: %new%
+    
+    Update_Confirm=Kemas kini
 
 # Rate menu
-    Rate_Title=Would you like to rate or review the game?
-    Rate_Title=
-    Rate_Title=We deeply care about the quality of our game, your feedback helps us improve it
-    Rate_Title=
-    Rate_Title=Even after thousands of reviews, we still read a large number of them!
-
-    Rate_Confirm=Rate
-
-    Exit_Button=Exit
+    Rate_Title=Adakah anda ingin menilai atau menyemak permainan?
+    Kadar_Tajuk=
+    Rate_Title=Kami sangat mengambil berat tentang kualiti permainan kami, maklum balas anda membantu kami memperbaikinya
+    Kadar_Tajuk=
+    Rate_Title=Walaupun selepas beribu-ribu ulasan, kami masih membaca sejumlah besar ulasan!
+    
+    Rate_Confirm=Kadar
+    
+    Exit_Button=Keluar
 
 # Close menu
-    Close_Game=Close game?
+    Close_Game=Tutup permainan?
 
 [Worlds Menu]
 # Worlds are save slots; image at: https://drive.google.com/file/d/1vUYrXaem4ki1dcXRFUJLKWZEcE0PFno-/view?usp=share
-    Create_New_World_Button=Create New World
+    Create_New_World_Button=Cipta Dunia Baru
 
 # Create menu
-    Create_World_Title=World Name
-    Default_World_Name=My World
+    Create_World_Title=Nama Dunia
+    Default_World_Name=Dunia Saya
 
 # Delete menu
-    World_Delete=Delete
+    World_Delete=Padam
 
 # Select system menu
-    Select_Solar_System=Select world's solar system
-    Select_Solar_System__NotFound=Solar system could not be found:
+    Select_Solar_System=Pilih sistem suria dunia
+    Select_Solar_System__NotFound=Sistem solar tidak dapat ditemui:
     Select_Solar_System__NotFound=%system%
     Select_Solar_System__NotFound=
-    Select_Solar_System__NotFound=Select a new solar system
-
-    Default_Solar_System=Solar System (Default)
+    Select_Solar_System__NotFound=Pilih sistem suria baharu
+    
+    Default_Solar_System=Sistem Suria (Lalai)
     Custom_Solar_System=%name% (Custom)
 
 # World info
-    World_Mode_Name=Mode: %value%
-    Mode_Sandbox=Sandbox
-    Mode_Challenge=Challenge
-    Mode_Career=Career
-
+    World_Mode_Name=Mod: %value%
+    Mode_Sandbox=Kotak Pasir
+    Mode_Challenge=Cabaran
+    Mode_Career=Kerjaya
+    
     Allow_Cheats_Name=Allow Cheats: %value%
     Allow_Cheats_Label=Allow Cheats
-
-    Allow_Quicksaves_Name=Allow Quicksaves: %value%
-    Allow_Quicksaves_Label=Allow Quicksaves
-
-    World_Difficulty_Name=Difficulty: %value%
-    Difficulty_Normal=Normal
-    Difficulty_Hard=Hard
+    
+    Allow_Quicksaves_Name=Benarkan Quicksaves: %value%
+    Allow_Quicksaves_Label=Benarkan Quicksaves
+    
+    World_Difficulty_Name=Kesukaran: %value%
+    Kesukaran_Biasa=Biasa
+    Kesukaran_Keras=Keras
     Difficulty_Realistic=Realistic
 
 # World play times
-    Last_Played=Last played: %value% ago
-    Just_Played=Last played: A moment ago
-    Time_Played=Playtime: %value%
+    Last_Played=Terakhir dimainkan: %value% yang lalu
+    Just_Played=Terakhir dimainkan: Sebentar tadi
+    Time_Played=Masa Main: %value%
 
 [Saving]
 # Blueprint stuff; Blueprints are rocket designs; images at: https://drive.google.com/drive/folders/15m4nXgzr8fvql78TheE3Qy1WPrTaIqdJ?usp=share
    Blueprints_Menu_Title=Blueprints
    Unnamed_Blueprint=Unnamed Blueprint
-   Save_Blueprint=Save Blueprint
-   Load_Blueprint=Load Blueprint
-   Cannot_Save_Empty_Build=Cannot save an empty blueprint
+   Save_Blueprint=Simpan Blueprint
+   Load_Blueprint=Muat Blueprint
+   Cannot_Save_Empty_Build=Tidak boleh menyimpan pelan tindakan kosong
 
 # Quicksave stuff; Quicksaves let players save at any time and return to it.
 # It does not necessarily have to be called quicksave, player just needs to understand its use.
 # Image at: https://drive.google.com/drive/folders/128aXHWoUhJXZbbKVBDXXSMoCvRwFpvct?usp=share
-   Quicksaves_Menu_Title=Quicksaves
+   Quicksaves_Menu_Title=Simpan cepat
    Unnamed_Quicksave=Unnamed Quicksave
-   Create_Quicksave=Create Quicksave
-   Load_Quicksave=Load Quicksave
+   Create_Quicksave=Buat Quicksave
+   Load_Quicksave=Muat Quicksave
 
 # Save and load menus; context seen in images from blueprint/quicksave stuff
-    Save=Save
-    Load=Load
+    Save=Jimat
+    Load=Muatkan
     Import=Import
-    Delete=Delete
-    Rename=Rename
-    Delete_File_With_Type=Delete %filename% %filetype{1}%
+    Delete=Padam
+    Rename=Namakan semula
+    Delete_File_With_Type=Padamkan %filename% %filetype{1}%
 
 # In progress
-    Saving_In_Progress=Saving...
-    Loading_In_Progress=Loading...
-    Importing_In_Progress=Importing...
+    Saving_In_Progress=Menyimpan...
+    Loading_In_Progress=Memuatkan...
+    Importing_In_Progress=Mengimport...
 
 # filetype (injected)
     Blueprint{0}=Blueprint
@@ -239,381 +239,381 @@
     Quicksave{2}=quicksaves
 
 # Ask overwrite menu; image at: https://drive.google.com/file/d/1EOI9UIWAG-lNgrdk1IMmrpmf6rRBuA7Q/view?usp=share
-    File_Already_Exists=A %filetype{1}% with this name already exists
-    Overwrite_File=Overwrite %filetype{1}%
-    New_File=New %filetype{1}%
+    File_Already_Exists=A %filetype{1}% dengan nama ini sudah wujud
+    Overwrite_File=Tulis ganti %filetype{1}%
+    New_File=Baharu %filetype{1}%
 
 # Load failure; image at: https://drive.google.com/file/d/1c7qHCdbS1ShSq4rKIHMpHKCTuh0pXeHv/view?usp=share
-     Load_Failed=Could not load %filetype{1}% from %filepath%
+    Load_Failed=Tidak dapat memuatkan %filetype{1}% daripada %filepath%
 
 # Legacy Messages
-    Conversion_Message=Welcome to version 1.5.
+    Conversion_Message=Selamat datang ke versi 1.5.
     Conversion_Message=
-    Conversion_Message=All 1.4 saves have been automatically converted to 1.5 saves
-
-    Conversion_Success=Found version 1.4 of %filetype{1}% and converted it to %version% format
-
-    Conversion_Failed=Found version 1.4 of %filetype{1}% and converted it to %version% format
-    Conversion_Failed=
-    Conversion_Failed=Conversion failed:
+    Conversion_Message=Semua 1.4 penjimatan telah ditukar secara automatik kepada 1.5 penjimatan
+    
+    Conversion_Success=Menjumpai versi 1.4 daripada %filetype{1}% dan menukarnya kepada %version% format
+    
+    Conversion_Failed=Menjumpai versi 1.4 daripada %filetype{1}% dan menukarnya kepada %version% format
+    Penukaran_Gagal=
+    Conversion_Failed=Penukaran gagal:
     Conversion_Failed=%reason%
 
 [Purchasing]
 # Images at: https://drive.google.com/drive/folders/1kIhFuPRp8YXkZ8SVC5Jq9UJkNZqdasQC?usp=share
     Parts_Expansion=Parts Expansion
-    Redstone_Atlas_Pack=Redstone Atlas Pack
-    Skins_Expansion=Skins Expansion
-    Planets_Expansion=Planets Expansion
-    Expansion_Bundle=Expansion Bundle
+    Redstone_Atlas_Pack=Pek Atlas Redstone
+    Skins_Expansion=Pengembangan Kulit
+    Planets_Expansion=Planet Expansion
+    Expansion_Bundle=Bundle Pengembangan
     Upgrade_To_Bundle=Upgrade To Bundle
     Cheats_Expansion=Cheats
-    Infinite_Area_Expansion=Infinite Build Area
+    Infinite_Area_Expansion=Kawasan Binaan Tidak Terhingga
     Builder_Bundle=Builder Bundle
     Sandbox_Bundle=Sandbox Bundle
-    Full_Bundle=Full Bundle
+    Full_Bundle=Bundle Penuh
     Upgrade_To_Full_Bundle=Upgrade To Full Bundle
-    Mac_Full_Version=Full Version
-
-    Not_All_Parts_Are_Owned=Not all parts are owned
-    Not_All_Parts_Are_Owned=Disabled not owned parts
-    Not_All_Parts_Are_Owned=
-    Not_All_Parts_Are_Owned=View parts expansion?
-
-    View_Part_Expansion=View Expansion
-
-    More_Parts=View Parts Expansion
-    More_Skins=View Skins Expansion
+    Mac_Full_Version=Versi Penuh
     
-    Cannot_Use_Cheats_In_Career=Cheats can only be used in a sandbox mode world
-    Get_Infinite_Build_Area_Button=Get Infinite Build Area
-    Get_Cheats_Expansion_Button=Get Cheats Expansion
-
-    Why_Buy=Your support will help us keep improving the game!
-
-    Buy_Product=Buy %product% %price%
-
+    Not_All_Parts_Are_Owned=Tidak semua bahagian dimiliki
+    Not_All_Parts_Are_Owned=Lumpuhkan bahagian yang tidak dimiliki
+    Bukan_Semua_Bahagian_Ada_Milik=
+    Not_All_Parts_Are_Owned=Lihat pengembangan bahagian?
+    
+    View_Part_Expansion=Lihat Pengembangan
+    
+    More_Parts=Lihat Pengembangan Bahagian
+    More_Skins=Lihat Pengembangan Kulit
+    
+    Cannot_Use_Cheats_In_Career=Tipu hanya boleh digunakan dalam dunia mod kotak pasir
+    Get_Infinite_Build_Area_Button=Dapatkan Kawasan Binaan Infinite
+    Get_Cheats_Expansion_Button=Dapatkan Cheats Expansion
+    
+    Why_Buy=Sokongan anda akan membantu kami terus meningkatkan permainan!
+    
+    Buy_Product=Beli %product% %price%
+    
     Timed_Sale_Text=%product_name% -%sale_percent%
     Timed_Sale_Text=%time_left%
-
-    Time_Upgrade_Text=Upgrade to %product_name% -%sale_percent%
+    
+    Time_Upgrade_Text=Naik taraf kepada %product_name% -%sale_percent%
     Time_Upgrade_Text=%time_left%
-
-    Purchase_Thanks_Msg=Purchased: %product%
+    
+    Purchase_Thanks_Msg=Dibeli: %product%
     Purchase_Thanks_Msg=
-    Purchase_Thanks_Msg=Thanks for your support!
-    Purchase_Thanks_Msg=Now go and explore the stars!
+    Purchase_Thanks_Msg=Terima kasih atas sokongan anda!
+    Purchase_Thanks_Msg=Sekarang pergi dan terokai bintang!
 
-    Owned=%product% (Owned)
+    Owned=%product% (Milik)
 
-    Restore_Open=Restore Purchases
-
-    Restore_Text=Transactions on Android devices are automatically restored on startup
+    Restore_Open=Pulihkan Pembelian
+    
+    Restore_Text=Transaksi pada peranti Android dipulihkan secara automatik pada permulaan
     Restore_Text=
-    Restore_Text=- Check if you are logged into the Google Play account that purchased the item (check if the purchase is visible in the Google Play purchase history)
+    Restore_Text=- Semak sama ada anda telah log masuk ke akaun Google Play yang membeli item tersebut (semak jika pembelian itu kelihatan dalam sejarah pembelian Google Play)
     Restore_Text=
-    Restore_Text=- Check the purchase button, if the price is not shown, the game is not connected to the store. Please check the network connection and restart the game
+    Restore_Text=- Semak butang pembelian, jika harga tidak ditunjukkan, permainan tidak disambungkan ke kedai. Sila semak sambungan rangkaian dan mulakan semula permainan
     Restore_Text=
-    Restore_Text=If none of the above methods work, please contact me by email: games.morojna@gmail.com
+    Restore_Text=Jika tiada kaedah di atas berfungsi, sila hubungi saya melalui e-mel: games.morojna@gmail.com
     Restore_Text=
-    Restore_Text=You can also try to wait for a while, the purchased items sometimes restore themselves after a few hours
+    Restore_Text=Anda juga boleh cuba menunggu seketika, barang yang dibeli kadangkala pulih sendiri selepas beberapa jam
 
     Purchase_FAQ_Open=FAQ
-
-    Purchase_FAQ_Text=<color=grey>Will purchased items be retained between updates? </color>
-    Purchase_FAQ_Text=Yes, of course
+    
+    Purchase_FAQ_Text=<color=grey>Adakah item yang dibeli akan dikekalkan antara kemas kini? </color>
+    Purchase_FAQ_Text=Ya, sudah tentu
     Purchase_FAQ_Text=
     Purchase_FAQ_Text=
-    Purchase_FAQ_Text=<color=grey>Will purchased items be lost? </color>
-    Purchase_FAQ_Text=Your purchased items will be permanently stored in your store account and will not be lost even if you reinstall the game or change your phone
+    Purchase_FAQ_Text=<color=grey>Adakah item yang dibeli akan hilang? </color>
+    Purchase_FAQ_Text=Item yang anda beli akan disimpan secara kekal dalam akaun kedai anda dan tidak akan hilang walaupun anda memasang semula permainan atau menukar telefon anda
     Purchase_FAQ_Text=
     Purchase_FAQ_Text=
-    Purchase_FAQ_Text=<color=grey>Will you provide refunds? </color>
-    Purchase_FAQ_Text=Yes, of course. As long as you make a request within a reasonable time, we will refund without any conditions.
+    Purchase_FAQ_Text=<color=grey>Adakah anda akan memberikan bayaran balik? </color>
+    Purchase_FAQ_Text=Ya, sudah tentu. Selagi anda membuat permintaan dalam masa yang munasabah, kami akan membayar balik tanpa sebarang syarat.
 
 # Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=share
-    PartsExpansion_Tanks=Large variety of fuel tanks!
-    PartsExpansion_Engines=Heavy lift engines!
-    PartsExpansion_Parts=Parts of all shapes and sizes!
-
-    PartsExpansion_Build=Large build space to bring
-    PartsExpansion_Build=your creations to life!
+    PartsExpansion_Tanks=Pelbagai jenis tangki bahan api!
+    PartsExpansion_Engines=Enjin angkat berat!
+    PartsExpansion_Parts=Bahagian dari semua bentuk dan saiz!
+    
+    PartsExpansion_Build=Ruang binaan besar untuk dibawa
+    PartsExpansion_Build=ciptaan anda untuk hidup!
 
 # Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=share
-    SkinsExpansion_Tanks=Paint your parts in a diverse variety of skins!
-    SkinsExpansion_Interstages=Color everything from interstages
-    SkinsExpansion_Nosecones=To nosecones
-    SkinsExpansion_Fairings=And even fairings
+    SkinsExpansion_Tanks=Cat bahagian anda dalam pelbagai jenis kulit!
+    SkinsExpansion_Interstages=Warnakan segala-galanya daripada interstages
+    SkinsExpansion_Nosecones=Kepada batang hidung
+    SkinsExpansion_Fairings=Dan juga fairings
 
 # Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=share
-    PlanetsExpansion_Jupiter=Explore Jupiter and its four moons!
-    PlanetsExpansion_Callisto=From the heavily cratered surface of Callisto!
-    PlanetsExpansion_Europa=To the vast ice flats of Europa!
-
-    PlanetsExpansion_Conclusion=Distant worlds are waiting for you
-    PlanetsExpansion_Conclusion=to explore them!
+    PlanetsExpansion_Jupiter=Teroka Musytari dan empat bulannya!
+    PlanetsExpansion_Callisto=Dari permukaan Callisto yang berkawah besar!
+    PlanetsExpansion_Europa=Ke dataran ais yang luas di Europa!
+    
+    PlanetsExpansion_Conclusion=Dunia yang jauh sedang menunggu anda
+    PlanetsExpansion_Conclusion=untuk meneroka mereka!
 
 # Expansion Bundle; images at: https://drive.google.com/file/d/1aWdcqNciwf7i3ju1Hx7mHnKyGBS2_tYU/view?usp=share
-    ExpansionBundle_Sandbox=award
-    ExpansionBundle_Sandbox=Sandbox Mode
-
-    ExpansionBundle_Infinite_Fuel=Infinite Fuel
-    ExpansionBundle_No_Atmospheric_Drag=No Atmospheric Drag
-    ExpansionBundle_Unbreakable_Parts=No Collision Damage
-    ExpansionBundle_No_Gravity=No Gravity
+    ExpansionBundle_Sandbox=anugerah
+    ExpansionBundle_Sandbox=Mod Kotak Pasir
+    
+    ExpansionBundle_Infinite_Fuel=Bahan Api Tidak Terhingga
+    ExpansionBundle_No_Atmospheric_Drag=Tiada Atmospheric Drag
+    ExpansionBundle_Unbreakable_Parts=Tiada Kerosakan Perlanggaran
+    ExpansionBundle_No_Gravity=Tiada Graviti
 
 [Sharing]
-    Share_Button=Share Blueprint
-    Upload_Blueprint_PC=Upload Blueprint
-    Download_Blueprint_PC=Download Blueprint
-    Share_Button_PC=Share
-    Download_Confirm=Download
-    URL_Field_TextBox=Blueprint URL
-    Empty_Upload=Cannot upload empty blueprint
-    Uploading_Message=Uploading...
-    Upload_Fail=Failed to upload blueprint
-    Copied_URL_To_Clipboard=Copied blueprint URL to clipboard
-    Sharing_Enter_Prompt=Select which world you want blueprint to be loaded into
-    Confirm_Download_Button=Download Blueprint
-    Downloading_Message=Downloading...
-    Download_Fail=Failed to download blueprint
-    URL_Invalid=Invalid Blueprint URL
-    Sharing_Connect_Fail=Could not connect to sharing servers
+    Share_Button=Kongsi Rangka Tindakan
+    Upload_Blueprint_PC=Muat naik Rangka Tindakan
+    Download_Blueprint_PC=Muat turun Rangka Tindakan
+    Share_Button_PC=Kongsi
+    Download_Confirm=Muat turun
+    URL_Field_TextBox=URL Rangka Tindakan
+    Empty_Upload=Tidak boleh memuat naik pelan tindakan kosong
+    Uploading_Message=Memuat naik...
+    Upload_Fail=Gagal memuat naik pelan tindakan
+    Copied_URL_To_Clipboard=Menyalin URL pelan tindakan ke papan keratan
+    Sharing_Enter_Prompt=Pilih dunia yang anda mahu rangka tindakan dimuatkan
+    Confirm_Download_Button=Muat turun Blueprint
+    Downloading_Message=Memuat turun...
+    Download_Fail=Gagal memuat turun pelan tindakan
+    URL_Invalid=URL Rangka Tindakan Tidak Sah
+    Sharing_Connect_Fail=Tidak dapat menyambung ke pelayan perkongsian
 
 [Settings Mobile]
-    Music_Name=Music
-    Sound_Name=Sound
-    Screen_Rotation_Name=Screen Rotation
-    FPS_Name=frame rate
-    Language_Name=Language
-    Menu_Scale=Interface Scale
-    Menu_Opacity=Interface Opacity
-    Shakes_Name=Camera Shake
+    Music_Name=Muzik
+    Sound_Name=Bunyi
+    Screen_Rotation_Name=Putaran Skrin
+    FPS_Name=kadar bingkai
+    Language_Name=Bahasa
+    Menu_Scale=Skala Antara Muka
+    Menu_Opacity=Kelegapan Antara Muka
+    Shakes_Name=Camera Goncang
     Orbit_Line_Count=Orbit Line Count
     Anti_Aliasing=Anti-Aliasing
 
 [Cheats]
-    Infinite_Build_Area_Name=Infinite Build Area
-    Part_Clipping_Name=Part Clipping
+    Infinite_Build_Area_Name=Kawasan Binaan Infinite
+    Part_Clipping_Name=Keratan Bahagian
     Infinite_Fuel_Name=Infinite Fuel
     No_Atmospheric_Drag_Name=No Atmospheric Drag
-    No_Collision_Damage_Name=No Collision Damage
-    No_Gravity_Name=No Gravity
-    No_Heat_Damage_Name=No Heat Damage
-    No_Burn_Marks_Name=No Burn Marks
+    No_Collision_Damage_Name=Tiada Kerosakan Perlanggaran
+    No_Gravity_Name=Tiada Graviti
+    No_Heat_Damage_Name=Tiada Kerosakan Haba
+    No_Burn_Marks_Name=Tiada Tanda Terbakar
 
 [Tutorials]
 
-    Tut_Drag_And_Drop=Drag and drop parts
-    Tut_Drag_And_Drop=to build your rocket
-
-    Tut_Part_Info=Click to view
-    Tut_Part_Info=part information
-
-    Tut_Use_Part=Click on parts to use them
-    Tut_Ignition=Ignition!
-    Tut_Throttle=Adjust throttle
+    Tut_Drag_And_Drop=Seret dan lepaskan bahagian
+    Tut_Drag_And_Drop=untuk membina roket anda
+    
+    Tut_Part_Info=Klik untuk melihat
+    Tut_Part_Info=maklumat bahagian
+    
+    Tut_Use_Part=Klik pada bahagian untuk menggunakannya
+    Tut_Ignition=Pencucuhan!
+    Tut_Throttle=Laraskan pendikit
 
 [Hub]
-    Funds_Text=Funds: %funds%
-    Go_To_Space_Center=Space Center
-    Exit_To_Space_Center=Exit To Space Center
-    Research_And_Development=Research & Development %complete%/%total%
-    Challenges_Info=Challenges: %complete%/%total%
-    Challenges_Button=Challenges: %complete%/%total%
-    Challenges_Title=Challenges:
-
-    Challenges_Completed=<size=55>Challenge completed:</size>
+    Funds_Text=Dana: %funds%
+    Go_To_Space_Center=Pusat Angkasa
+    Exit_To_Space_Center=Keluar ke Pusat Angkasa
+    Research_And_Development=Penyelidikan & Pembangunan %complete%/%total%
+    Challenges_Info=Cabaran: %complete%/%total%
+    Challenges_Button=Cabaran: %complete%/%total%
+    Challenges_Title=Cabaran:
+    
+    Challenges_Completed=<size=55>Cabaran selesai:</size>
     Challenges_Completed=%challenge%
 
 [Build]
-    Build_New_Rocket=Build New Rocket
-    New=New
-    Expand_Last_Rocket=Continue Build
+    Build_New_Rocket=Bina Roket Baharu
+    New=Baru
+    Expand_Last_Rocket=Teruskan Membina
 
-    Symmetry_On=Symmetry: On
-    Symmetry_Off=Symmetry: Off
-
-    Interior_View_On=Interior View: On
-    Interior_View_Off=Interior View: Off
-
+    Symmetry_On=Simetri: Hidup
+    Symmetry_Off=Simetri: Mati
+    
+    Interior_View_On=Paparan Dalaman: Hidup
+    Interior_View_Off=Paparan Dalaman: Mati
+    
     Launch_Button=Launch
-    Move_Rocket_Button=Move Rocket
+    Move_Rocket_Button=Gerakan Roket
 
 # Clear build area
-    Clear_Warning=Clear build area?
-    Clear_Confirm=Clear
+    Clear_Warning=Kosongkan kawasan binaan?
+    Clear_Confirm=Kosongkan
 
 # Launch warnings
-    Warnings_Title=WARNING:
-    Missing_Capsule=Your rocket has no capsule or probe, making it uncontrollable
-    Missing_Parachute=Your rocket has no parachute
-    Missing_Heat_Shield=Your rocket has no heat shield
-    Missing_Fuel_Popup=No fuel source
-
-    Too_Heavy=Your rocket is too heavy to launch
+    Warnings_Title=AMARAN:
+    Missing_Capsule=Roket anda tidak mempunyai kapsul atau probe, menjadikannya tidak terkawal
+    Missing_Parachute=Roket anda tidak mempunyai payung terjun
+    Missing_Heat_Shield=Roket anda tidak mempunyai pelindung haba
+    Missing_Fuel_Popup=Tiada sumber bahan api
+    
+    Too_Heavy=Roket anda terlalu berat untuk dilancarkan
     Too_Heavy=%mass%
     Too_Heavy=%thrust%
-    Too_Heavy=Please reduce the weight or use a more powerful engine
-
+    Too_Heavy=Sila kurangkan berat atau gunakan enjin yang lebih berkuasa
+    
     Launch_Anyway_Button=Launch Anyway
-
-    Launch_Horizontally_Ask=Launch horizontally?
-    Launch_Horizontally_Confirm=Launch Horizontally
-    Launch_Vertically_Confirm=Launch Vertically
+    
+    Launch_Horizontally_Ask=Lancarkan secara mendatar?
+    Launch_Horizontally_Confirm=Lancarkan Secara Mendatar
+    Launch_Vertically_Confirm=Lancarkan Secara Menegak
 
 # Example rockets
-    Example_Rockets_OpenMenu=Example Rockets
+    Example_Rockets_OpenMenu=Contoh Roket
     Basic_Rocket=Basic Rocket
-    Stages=Two Stage Rocket
-    Ideal_Stages=Three Stage Rocket
-    Lander=Moon Lander
+    Peringkat=Roket Dua Peringkat
+    Ideal_Stages=Roket Tiga Peringkat
+    Pendarat=Pendarat Bulan
 
 [Map]
-    Toggle_Map_Button=Map
+    Toggle_Map_Button=Peta
 
 # Shown in map when you escape a gravity field of a planet
 # image for escape/encounter at: https://drive.google.com/file/d/17jqJF09DWoqkgW9VGXdG7SRCSo0UmW0o/view?usp=share
-    Escape=Escape
+    Escape=Melarikan diri
 
 # Shown in map when you encounter/enter a gravity field of a planet
-    Encounter=Encounter
+    Encounter=Perjumpaan
 
 # Shown in map when you approach/encounter another rocket
     Rendezvous=Rendezvous
 
 # Shows the transfer window to another planet
 # image at: https://drive.google.com/file/d/1zd8UEnVb91QmSDllEu1DyCbkCsDKbJk3/view?usp=share
-    Transfer=Transfer Window
+    Transfer=Tetingkap Pemindahan
 
 [Game]
 # Image at: https://drive.google.com/file/d/1d0b-udFyO4ItlYu1vVaVdzgwdAeT1hPw/view?usp=share
-    Throttle_On=On
+    Throttle_On=Hidup
     Throttle_Off=Off
-    Ignition=IGNITION
+    Pencucuhan=Pencucuhan
     RCS=RCS
 
 # Game supports screen rotation, we split into 2 lines in vertical mode
-    Height_Terrain_Vertical=Height (Terrain):
+    Height_Terrain_Vertical=Ketinggian (Rupa muka bumi):
     Height_Terrain_Vertical=
     Height_Terrain_Vertical=%height%
 
-    Height_Vertical=Height:
+    Height_Vertical=Ketinggian:
     Height_Vertical=
     Height_Vertical=%height%
 
-    Velocity_Vertical=Velocity:
+    Velocity_Vertical=Halaju:
     Velocity_Vertical=
     Velocity_Vertical=%speed%
 
-    Velocity_Relative_Vertical=Velocity (Relative):
+    Velocity_Relative_Vertical=Halaju (Relatif):
     Velocity_Relative_Vertical=
     Velocity_Relative_Vertical=%speed%
 
-    Distance_Relative_Vertical=Distance (Relative):
+    Distance_Relative_Vertical=Jarak (Relatif):
     Distance_Relative_Vertical=
     Distance_Relative_Vertical=%distance%
 
 # Angle indicates the best angle/direction the player can rotate their rocket towards
-    Angle_Vertical=Angle:
+    Angle_Vertical=sudut:
     Angle_Vertical=
     Angle_Vertical=%angle% / %targetAngle%
 
-    Height_Terrain_Horizontal=Height (Terrain): %height%
+    Height_Terrain_Horizontal=Ketinggian (Rupa muka bumi): %height%
     Height_Horizontal=Height: %height%
     Velocity_Horizontal=Velocity: %speed%
-    Velocity_Relative_Horizontal=Velocity (Relative): %speed%
-    Distance_Relative_Horizontal=Distance (Relative): %distance%
+    Velocity_Relative_Horizontal=Halaju (Relatif): %speed%
+    Distance_Relative_Horizontal=Jarak (Relatif): %distance%
     Angle_Horizontal=Angle: %angle% / %targetAngle%
 
-    Relative_Velocity_Arrow=Relative Velocity
+    Relative_Velocity_Arrow=Halaju Relatif
     Relative_Velocity_Arrow=%velocity%
 
-    Side_Velocity_Arrow=Side Velocity
+    Side_Velocity_Arrow=Halaju Sisi
     Side_Velocity_Arrow=%velocity%
 
-    Forward_Velocity_Arrow=Distance
+    Forward_Velocity_Arrow=Jarak
     Forward_Velocity_Arrow=%distance%
     Forward_Velocity_Arrow=
-    Forward_Velocity_Arrow=Velocity
+    Forward_Velocity_Arrow=Halaju
     Forward_Velocity_Arrow=%velocity%
 
 [Failure menu]
     Failure_Cause=FAILURE CAUSE:
-    Failure_Crash_Into_Rocket=Crashed into another rocket
-    Failure_Crash_Into_Terrain=Crashed into the surface of %planet{1}%
-    Failure_Burn_Up=Burned up on reentry
+    Failure_Crash_Into_Rocket=Rempuh roket lain
+    Failure_Crash_Into_Terrain=Terhempas ke permukaan %planet{1}%
+    Failure_Burn_Up=Terbakar apabila masuk semula
 
 [End mission menu]
-    Recover_Rocket=Recover
-    Destroy_Rocket=Destroy
-    Debris_Recover=Recover Debris
-    Debris_Destroy=Destroy Debris
-    Debris_Recover_Title=Recover debris?
-    Debris_Destroy_Title=Destroy debris?
-    View_Mission_Log=View Flight Log
+    Recover_Rocket=Pulihkan
+    Destroy_Rocket=Memusnahkan
+    Debris_Recover=Pulihkan Serpihan
+    Debris_Destroy=Memusnahkan Serpihan
+    Debris_Recover_Title=Pulihkan serpihan?
+    Debris_Destroy_Title=Memusnahkan serpihan?
+    View_Mission_Log=Lihat Log Penerbangan
 
 # Restart menu
     
-    Restart_Mission_To_Launch_Warning=WARNING:
-    Restart_Mission_To_Launch_Warning=This will undo all progress since last launch
-
-    Restart_Mission_To_Build_Warning=WARNING:
-    Restart_Mission_To_Build_Warning=This will undo all progress since last Build
-
-    Restart_Mission_To_Launch=Revert To Launch
-    Restart_Mission_To_Build=Revert To Build
-    Revert_30_Secs=Revert 30 Sec
+    Restart_Mission_To_Launch_Warning=AMARAN:
+    Restart_Mission_To_Launch_Warning=Ini akan membatalkan semua kemajuan sejak pelancaran terakhir
+    
+    Restart_Mission_To_Build_Warning=AMARAN:
+    Restart_Mission_To_Build_Warning=Ini akan membatalkan semua kemajuan sejak Binaan lepas
+    
+    Restart_Mission_To_Launch=Berbalik Untuk Pelancaran
+    Restart_Mission_To_Build=Berbalik Ke Binaan
+    Revert_30_Secs=Kembalikan 30 Saat
     Revert_3_Min=Revert 3 Min
 
 # End mission menu
-    End_Challenges_Title=Challenges:
-    End_Logs_Title=Mission Log:
-    Continue_To_Log=Continue
-    Back_To_Challenges=Back
+    End_Challenges_Title=Cabaran:
+    End_Logs_Title=Log Misi:
+    Continue_To_Log=Teruskan
+    Back_To_Challenges=Kembali
 
 # Clear space junk/debris
-    Clear_Debris_Warning=Clear debris?
+    Clear_Debris_Warning=Kosongkan serpihan?
     Clear_Debris_Warning=
-    Clear_Debris_Warning=This will remove all uncontrollable rockets
-
-    Clear_Debris_Confirm=Clear Debris
+    Clear_Debris_Warning=Ini akan mengeluarkan semua roket yang tidak terkawal
+    
+    Clear_Debris_Confirm=Kosongkan Serpihan
 
     # Select menu; Image at: https://drive.google.com/file/d/1CBIAZ3o_Z7bpEAb8sVdTdDeF4KB8-Yyi/view?usp=share
-    Navigate_To=Navigate To
-    End_Navigation=End Navigation
-    Focus=Focus
-    Unfocus=Unfocus
-    Track=Track
-    Stop_Tracking=Stop Tracking
-    Switch_To=Switch To
+    Navigate_To=Navigasi Ke
+    End_Navigation=Tamat Navigasi
+    Focus=Fokus
+    Unfocus=Tidak fokus
+    Track=Jejak
+    Stop_Tracking=Berhenti Menjejak
+    Switch_To=Bertukar kepada
 
 [Rocket]
-    Default_Rocket_Name=Rocket
+    Default_Rocket_Name=Roket
 
 # Informs the player that he cannot perform an action due to rocket having no control
-    No_Control_Msg=No control
+    No_Control_Msg=Tiada kawalan
 
 [Timewarp]
 # Timewarp = Timewarp can skip long waits
-    Msg_Timewarp_Speed=Time acceleration %speed%x
-    Cannot_Timewarp_Below_Basic=Cannot timewarp below %height%
-    Cannot_Timewarp_Below=Cannot timewarp faster than %speed%x while below %height%
-    Cannot_Timewarp_While_Moving_On_Surface=Cannot timewarp faster than %speed%x while moving on the surface
-    Cannot_Timewarp_While_Accelerating=Cannot timewarp faster than %speed%x while under acceleration
-    Cannot_Use_Part_While_Timewarping=Cannot use %part{1}% while timewarping
-    Cannot_Turn_While_Timewarping=Cannot turn while timewarping
-
-    Timewarp_To_Button=Timewarp Here
+    Msg_Timewarp_Speed=Pecutan masa %speed%x
+    Cannot_Timewarp_Below_Basic=Tidak boleh timewarp di bawah %height%
+    Cannot_Timewarp_Below=Tidak boleh timewarp lebih pantas daripada %speed%x manakala di bawah %height%
+    Cannot_Timewarp_While_Moving_On_Surface=Tidak boleh timewarp lebih cepat daripada %speed%x semasa bergerak di permukaan
+    Cannot_Timewarp_While_Accelerating=Tidak boleh timewarp lebih pantas daripada %speed%x semasa di bawah pecutan
+    Cannot_Use_Part_While_Timewarping=Tidak boleh menggunakan %part{1}% semasa timewarping
+    Cannot_Turn_While_Timewarping=Tidak boleh pusing semasa timewarping
+    
+    Timewarp_To_Button=Timewarp Di Sini
 
 [Units]
 # Image at: https://drive.google.com/file/d/1ljpGY55W8V1wF9esl5v569B0Z-D6xxMt/view?usp=share
-    Thrust_To_Weight_Ratio=Thrust / Weight: %value%
+    Thrust_To_Weight_Ratio=Tujahan / Berat: %value%
     Mass=Mass: %value%t
     Thrust=Thrust: %value%t
-    Burn_Time=Burn Time: %value%s
+    Burn_Time=Masa Bakar: %value%s
 
 # Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=share
-    Efficiency=Efficiency: %value% Isp
+    Efficiency=Kecekapan: %value% Isp
     Mass_Unit=t
     Meter_Unit=m
     Km_Unit=km
@@ -627,48 +627,48 @@
 
 [Resource Types]
 # Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=share
-    Solid_Fuel{0}=Solid fuel
-    Solid_Fuel{1}=solid fuel
-    Liquid_Fuel{0}=Liquid fuel
-    Liquid_Fuel{1}=liquid fuel
+    Solid_Fuel{0}=Bahan api pepejal
+    Solid_Fuel{1}=bahan api pepejal
+    Liquid_Fuel{0}=Bahan api cecair
+    Liquid_Fuel{1}=bahan api cecair
 
 [Resource Uses]
     Resource_Bars_Title=%resource_name{0}%:
     Info_Resource_Amount=%resource{0}%: %amount%
-    Msg_No_Resource_Source=No %resource{1}% source
-    Msg_No_Resource_Left=Out of %resource{1}%
+    Msg_No_Resource_Source=Tiada %resource{1}% sumber
+    Msg_No_Resource_Left=Daripada %resource{1}%
 
 [Part Categories]
 # Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=share
     Basic_Parts=Basics
-    Six_Wide_Parts=6 Wide
-    Eight_Wide_Parts=8 Wide
-    Ten_Wide_Parts=10 Wide
-    Twelve_Wide_Parts=12 Wide
-    Engine_Parts=Engines
-    Aerodynamics_Parts=Aerodynamics
+    Six_Wide_Parts=6 Lebar
+    Eight_Wide_Parts=8 Lebar
+    Ten_Wide_Parts=10 Lebar
+    Twelve_Wide_Parts=12 Lebar
+    Engine_Parts=Enjin
+    Aerodynamics_Parts=Aerodinamik
     Fairings_Parts=Fairings
     Structural_Parts=Structural
-    Other_Parts=Other
+    Other_Parts=Lain-lain
 
 [Part Names]
-    Capsule_Name{0}=Capsule
-    Capsule_Name{1}=capsule
+    Capsule_Name{0}=Kapsul
+    Capsule_Nama{1}=kapsul
     Probe_Name{0}=Probe
     Probe_Name{1}=probe
-    Parachute_Name{0}=Parachute
-    Parachute_Name{1}=parachute
-
+    Parachute_Name{0}=Payung Terjun
+    Parachute_Name{1}=payung terjun
+    
     Kolibri_Engine_Name{0}=Kolibri Engine
     Kolibri_Engine_Name{1}=kolibri engine
-    Hawk_Engine_Name{0}=Hawk Engine
+    Hawk_Engine_Name{0}=Enjin Hawk
     Hawk_Engine_Name{1}=hawk engine
     Valiant_Engine_Name{0}=Valiant Engine
-    Valiant_Engine_Name{1}=valiant engine
+    Valiant_Engine_Name{1}=enjin gagah berani
     Titan_Engine_Name{0}=Titan Engine
-    Titan_Engine_Name{1}=titan engine
-    Frontier_Engine_Name{0}=Frontier Engine
-    Frontier_Engine_Name{1}=frontier engine
+    Titan_Engine_Name{1}=enjin titan
+    Frontier_Engine_Name{0}=Enjin Depan
+    Frontier_Engine_Name{1}=enjin frontier
     Peregrine_Engine_Name{0}=Peregrine Engine
     Peregrine_Engine_Name{1}=peregrine engine
     Ion_Engine_Name{0}=Ion Engine
@@ -677,241 +677,241 @@
     RCS_Thruster_Name{1}=rcs thruster
 
     Solid_Rocket_Booster{0}=Solid Rocket Booster
-    Solid_Rocket_Booster{1}=solid rocket booster
+    Solid_Rocket_Booster{1}=penggalak roket pepejal
 
-    Fuel_Tank_Name{0}=Fuel Tank
-    Fuel_Tank_Name{1}=fuel tank
-    Separator_Name{0}=Stage Separator
-    Separator_Name{1}=stage separator
+    Fuel_Tank_Name{0}=Tangki Bahan Api
+    Fuel_Tank_Name{1}=tangki bahan api
+    Separator_Name{0}=Pemisah Peringkat
+    Separator_Name{1}=pemisah peringkat
     Side_Separator_Name{0}=Side Separator
-    Side_Separator_Name{1}=side separator
-    Structural_Part_Name{0}=Structural Part
-    Structural_Part_Name{1}=structural part
-    Landing_Leg_Name{0}=Landing Leg
-    Landing_Leg_Name{1}=landing leg
+    Side_Separator_Name{1}=separator side
+    Structural_Part_Name{0}=Bahagian Struktur
+    Structural_Part_Name{1}=bahagian struktur
+    Landing_Leg_Name{0}=Kaki Mendarat
+    Landing_Leg_Name{1}=kaki pendaratan
     Aerodynamic_Nose_Cone_Name{0}=Aerodynamic Nose Cone
-    Aerodynamic_Nose_Cone_Name{1}=aerodynamic nose cone
+    Aerodynamic_Nose_Cone_Name{1}=aerodinamik hidung kon
     Aerodynamic_Fuselage_Name{0}=Aerodynamic Fuselage
-    Aerodynamic_Fuselage_Name{1}=aerodynamic fuselage
+    Nama_Fiuslaj Aerodinamik{1}=Fiuslaj aerodinamik
     Fairing_Name{0}=Fairing
     Fairing_Name{1}=fairing
-    Rover_Wheel_Name{0}=Rover Wheel
-    Rover_Wheel_Name{1}=rover wheel
+    Rover_Wheel_Name{0}=Roda Rover
+    Rover_Wheel_Name{1}=rover rover
     Docking_Port_Name{0}=Docking Port
     Docking_Port_Name{1}=docking port
-    Solar_Panel_Name{0}=Solar Panel
-    Solar_Panel_Name{1}=solar panel
-    Battery_Name{0}=Battery
-    Battery_Name{1}=battery
+    Solar_Panel_Name{0}=Panel Suria
+    Solar_Panel_Name{1}=panel suria
+    Battery_Name{0}=Bateri
+    Nama_Bateri{1}=bateri
     RTG_Name{0}=RTG
     RTG_Name{1}=rtg
     Heat_Shield_Name{0}=Heat Shield
-    Heat_Shield_Name{1}=heat shield
-    Fuel_Pipe_Name{0}=Fuel Pipe
-    Fuel_Pipe_Name{1}=fuel pipe
+    Heat_Shield_Name{1}=perisai haba
+    Fuel_Pipe_Name{0}=Paip Bahan Api
+    Fuel_Pipe_Name{1}=paip bahan api
 
 [Part Descriptions]
-    Capsule_Description=A small capsule, carrying one astronaut
-    Probe_Description=An unmanned probe, used for one way missions
-    Parachute_Description=A parachute used for landing
-    Fuel_Tank_Description=A fuel tank carrying liquid fuel and liquid oxygen
-    Separator_Description=Vertical separator, used to detach empty stages
-    Side_Separator_Description=Horizontal separator, used for detaching side boosters
-    Landing_Leg_Description=An extendable and retractable leg used for landing on the surface of moons and planets
-    Structural_Part_Description=A light and strong structural part
-    Hawk_Engine_Description=A high thrust - lower efficiency engine, normally used in the first stage of a rocket
-    Titan_Engine_Description=A high thrust - lower efficiency engine, normally used in the first stage of a rocket
-    Valiant_Engine_Description=High efficiency, low thrust. Used in space when high thrust isn't a priority
-    Frontier_Engine_Description=High efficiency, low thrust. Used in space when high thrust isn't a priority
-    Kolibri_Engine_Description=A tiny engine used for landers
-    Ion_Engine_Description=A low thrust engine with an incredibly high efficiency
-    RCS_Thruster_Description=A set of small directional thrusters, used for docking
-
-    Booster_Description=Has high thrust, low efficiency
-    Booster_Description=Cannot be turned off or throttle once ignite
-
-    Aerodynamic_Nose_Cone_Description=An aerodynamic nose cone, used to improve the aerodynamics of side boosters
-    Aerodynamic_Fuselage_Description=An aerodynamic fuselage, used to cover engines
-    Fairing_Description=An aerodynamic fairing, used to encapsulate payloads
-    Battery_Description=A battery used to store electric power
-    Solar_Panel_Description=A solar panel that generates power when extended
-    RTG_Description=Radioisotope thermoelectric generator or RTG
-    Rover_Wheel_Description=Rover wheel used to drive on the surface of planets
-    Docking_Port_Description=A docking port which can be used to connect two vehicles together
-    Heat_Shield_Description=A heat resistant shield used to survive atmospheric reentry
-    Fuel_Pipe_Description=A pipe used to transfer fuel
+    Capsule_Description=Satu kapsul kecil, membawa seorang angkasawan
+    Probe_Description=Probe tanpa pemandu, digunakan untuk misi sehala
+    Parachute_Description=Payung terjun yang digunakan untuk mendarat
+    Fuel_Tank_Description=Tangki bahan api yang membawa bahan api cecair dan oksigen cecair
+    Separator_Description=Pemisah menegak, digunakan untuk menanggalkan peringkat kosong
+    Side_Separator_Description=Pemisah mendatar, digunakan untuk menanggalkan penggalak sisi
+    Landing_Leg_Description=Kaki boleh dipanjangkan dan ditarik balik digunakan untuk mendarat di permukaan bulan dan planet
+    Structural_Part_Description=Bahagian struktur yang ringan dan kuat
+    Hawk_Engine_Description=Tujahan tinggi - enjin kecekapan rendah, biasanya digunakan pada peringkat pertama roket
+    Titan_Engine_Description=Tujahan tinggi - enjin kecekapan rendah, biasanya digunakan pada peringkat pertama roket
+    Valiant_Engine_Description=Kecekapan tinggi, tujahan rendah. Digunakan dalam ruang apabila tujahan tinggi bukan keutamaan
+    Frontier_Engine_Description=Kecekapan tinggi, tujahan rendah. Digunakan dalam ruang apabila tujahan tinggi bukan keutamaan
+    Kolibri_Engine_Description=Enjin kecil yang digunakan untuk pendaratan
+    Ion_Engine_Description=Enjin tujahan rendah dengan kecekapan yang sangat tinggi
+    RCS_Thruster_Description=Satu set pendorong arah kecil, digunakan untuk dok
+    
+    Booster_Description=Mempunyai tujahan tinggi, kecekapan rendah
+    Booster_Description=Tidak boleh dimatikan atau pendikit apabila dinyalakan
+    
+    Aerodynamic_Nose_Cone_Description=Kon hidung aerodinamik, digunakan untuk meningkatkan aerodinamik penggalak sisi
+    Aerodynamic_Fuselage_Description=Fiuslaj aerodinamik, digunakan untuk menutup enjin
+    Fairing_Description=Fair aerodinamik, digunakan untuk merangkum muatan
+    Battery_Description=Bateri yang digunakan untuk menyimpan kuasa elektrik
+    Solar_Panel_Description=Panel suria yang menjana kuasa apabila dilanjutkan
+    RTG_Description=Penjana termoelektrik radioisotop atau RTG
+    Rover_Wheel_Description=Roda Rover digunakan untuk memandu di permukaan planet
+    Docking_Port_Description=Port dok yang boleh digunakan untuk menyambung dua kenderaan bersama
+    Heat_Shield_Description=Perisai tahan haba yang digunakan untuk bertahan dari kemasukan semula atmosfera
+    Fuel_Pipe_Description=Paip yang digunakan untuk memindahkan bahan api
 
 [Modules]
-    Activate_Separator=Separation
+    Activate_Separator=Pemisahan
     Activate_Fairing=Fairing
-
-    Torque_Module_Torque=Torque: %value%kN
-    Separation_Force=Separation force: %value%kN
-    Magnet_Force=Magnet force: %value%kN
-
-    Max_Heat_Tolerance=Heat tolerance: %temperature%
-
+    
+    Torque_Module_Torque=Tork: %value%kN
+    Separation_Force= Daya pemisah: %value%kN
+    Magnet_Force=Daya magnet: %value%kN
+    
+    Max_Heat_Tolerance=Toleransi haba: %temperature%
+    
     State_On{0}=On
     State_Off{0}=Off
-
-    Engine_Module_State=Engine %state{0}%
-    Engine_On_Label=Engine on
-    Gimbal_On_Label=Gimbal on
-
+    
+    Engine_Module_State=Enjin %state{0}%
+    Engine_On_Label=Enjin hidup
+    Gimbal_On_Label=Gimbal dihidupkan
+    
     Msg_RCS_Module_State=RCS %state{0}%
-
-    Wheel_Module_State=Rover wheel %state{0}%
-    Wheel_On_Label=Wheel on
-
-    Panel_Expanded=Expanded
-    Landing_Leg_Expanded=Deployed
-
-    Detach_Edges_Label=Detach edges
-    Adapt_To_Tanks_Label=Adapt to fuel tanks
-
-    Info_Parachute_Max_Height=Max deploy height: %height%
-    Button_Activate_Parachute=parachute deployed
-    Msg_Cannot_Deploy_Parachute_In_Vacuum=Cannot deploy parachute in a vacuum
-    Msg_Cannot_Deploy_Parachute_Above=Cannot deploy parachute above %height%
-    Msg_Cannot_Fully_Deploy_Above=Cannot fully deploy parachute above %height%
-    Msg_Cannot_Deploy_Parachute_While_Faster=Cannot deploy parachute when going faster than %velocity%
-    Msg_Cannot_Deploy_Parachute_While_Not_Moving=Cannot deploy parachute while not moving
-    Msg_Parachute_Half_Deployed=Parachute half deployed
-    Msg_Parachute_Fully_Deployed=Parachute fully deployed
-    Msg_Parachute_Cut=Parachute cut
+    
+    Wheel_Module_State=Rover %state{0}%
+    Wheel_On_Label=Roda dihidupkan
+    
+    Panel_Expanded=Dikembangkan
+    Landing_Leg_Expanded=Dikerahkan
+    
+    Detach_Edges_Label=Tanggalkan tepi
+    Adapt_To_Tanks_Label=Menyesuaikan diri dengan tangki bahan api
+    
+    Info_Parachute_Max_Height=Ketinggian penggunaan maksimum: %height%
+    Button_Activate_Parachute=payung terjun digunakan
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=Tidak boleh menggunakan payung terjun dalam vakum
+    Msg_Cannot_Deploy_Parachute_Above=Tidak boleh menggunakan payung terjun melebihi %height%
+    Msg_Cannot_Fully_Deploy_Above=Tidak boleh menggunakan payung terjun sepenuhnya di atas %height%
+    Msg_Cannot_Deploy_Parachute_While_Faster=Tidak boleh menggunakan payung terjun apabila bergerak lebih laju daripada %velocity%
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=Tidak boleh menggunakan payung terjun semasa tidak bergerak
+    Msg_Parachute_Half_Deployed=Payung terjun separuh digunakan
+    Msg_Parachute_Fully_Deployed=Payung terjun sepenuhnya digunakan
+    Msg_Parachute_Cut=Potongan payung terjun
 
 [Planets]
-    Sun{0}=Sun
-    Sun{1}=the Sun
-    Sun{2}=The Sun
+    Sun{0}=Matahari
+    Sun{1}=Matahari
+    Sun{2}=Matahari
     Mercury{0}=Mercury
     Venus{0}=Venus
-    Earth{0}=Earth
-    Earth{1}=the Earth
-    Earth{2}=The Earth
+    Earth{0}=Bumi
+    Earth{1}=Bumi
+    Earth{2}=Bumi
     Earth{3}=Earth's
-    Moon{0}=Moon
-    Moon{1}=the Moon
-    Moon{2}=The Moon
-    Near_Earth_Asteroid{0}=Captured Asteroid
-    Near_Earth_Asteroid{1}=the Captured Asteroid
-    Near_Earth_Asteroid{2}=The Captured Asteroid
-    Mars{0}=Mars
+    Moon{0}=Bulan
+    Moon{1}=Bulan
+    Moon{2}=Bulan
+    Near_Earth_Asteroid{0}=Asteroid yang Ditangkap
+    Near_Earth_Asteroid{1}=Asteroid yang Ditangkap
+    Near_Earth_Asteroid{2}=Asteroid yang Ditangkap
+    Mars{0}=Markh
     Phobos{0}=Phobos
     Deimos{0}=Deimos
-    Jupiter{0}=Jupiter
-    Jupiter{1}=Jupiter
-    Jupiter{2}=Jupiter
-    Jupiter{3}=Jupiter's
+    Jupiter{0}=Musytari
+    Jupiter{1}=Musytari
+    Jupiter{2}=Musytari
+    Jupiter{3}=Musytari
     Europa{0}=Europa
     Ganymede{0}=Ganymede
     Io{0}=Io
     Callisto{0}=Callisto
 
 [Landmarks]
-    Sea_of_Tranquility=Sea of Tranquility
-    Sea_of_Serenity=Sea of Serenity
-    Ocean_of_Storms=Ocean of Storms
-    Copernicus_Crater=Copernicus Crater
-    Tycho_Crater=Tycho Crater
-
-    Olympus_Mons=Olympus Mons
-    Valles_Marineris=Valles Marineris
-    Gale_Crater=Gale Crater
-    Hellas_Planitia=Hellas Planitia
-    Arcadia_Planitia=Arcadia Planitia
-    Utopia_Planitia=Utopia Planitia
-    Jezero_Crater=Jezero Crater
-
-    Atalanta_Planitia=Atalanta Planitia
-    Lavinia_Planitia=Lavinia Planitia
-
-    Caloris_Planitia=Caloris Planitia
-    Borealis_Planitia=Borealis Planitia
-    Maxwell_Montes=Maxwell Montes
+   Sea_of_Tranquility=Lautan Ketenangan
+   Sea_of_Serenity=Lautan Ketenangan
+   Ocean_of_Storms=Lautan Ribut
+   Copernicus_Crater=Kawah Copernicus
+   Tycho_Crater=Kawah Tycho
+   
+   Olympus_Mons=Olympus Mons
+   Valles_Marineris=Valles Marineris
+   Gale_Crater=Kawah Gale
+   Hellas_Planitia=Hellas Planitia
+   Arcadia_Planitia=Arcadia Planitia
+   Utopia_Planitia=Utopia Planitia
+   Jezero_Crater=Kawah Jezero
+   
+   Atalanta_Planitia=Atalanta Planitia
+   Lavinia_Planitia=Lavinia Planitia
+   
+   Caloris_Planitia=Caloris Planitia
+   Borealis_Planitia=Borealis Planitia
+   Maxwell_Montes=Maxwell Montes
 
 [Challenges]
     Liftoff_Title=Liftoff
-    Liftoff=Liftoff and land safely
-
-    Reach10km_Title=Reach 10km
-    Reach10km=Reach 10km and land safely
-
+    Liftoff=Liftoff dan mendarat dengan selamat
+    
+    Reach10km_Title=Jangkau 10km
+    Capai10km=Cepat 10km dan mendarat dengan selamat
+    
     ReachSpace_Title=Reach Space
-    ReachSpace=Reach %height%, then survive reentry and land safely
+    ReachSpace=Jangkau %height%, kemudian selamat masuk semula dan mendarat dengan selamat
     
-    Land100kmDownrange_Title=Land 100km downrange
-    Land100kmDownrange=Land at least 100km away from the launch pad
-
-    ReachLowEarthOrbit_Title=Reach Low Earth Orbit
-    ReachLowEarthOrbit=Reach low Earth orbit, then land safely
-
-    ReachHighEarthOrbit_Title=Reach High Earth Orbit
-    ReachHighEarthOrbit=Reach high Earth orbit, then land safely
+    Land100kmDownrange_Title=Tanah 100km downrange
+    Land100kmDownrange=Darat sekurang-kurangnya 100km dari pad pelancaran
     
-    MoonOrbit_Title=Moon Orbit
-    MoonOrbit=Capture into low Moon orbit, then return safely
-
-    MoonTour_Title=Moon Tour
-    MoonTour=Land on 3 separate landmarks, then return safely
-
-    AsteroidImpact_Title=Asteroid Impact
-    AsteroidImpact=Crash into the surface of the Captured Asteroid at 200+ m/s
-
+    ReachLowEarthOrbit_Title=Mencapai Orbit Bumi Rendah
+    ReachLowEarthOrbit=Sampai orbit Bumi rendah, kemudian mendarat dengan selamat
+    
+    ReachHighEarthOrbit_Title=Mencapai Orbit Bumi Tinggi
+    ReachHighEarthOrbit=Sampai orbit Bumi yang tinggi, kemudian mendarat dengan selamat
+    
+    MoonOrbit_Title=Orbit Bulan
+    MoonOrbit=Tangkap ke orbit Bulan rendah, kemudian kembali dengan selamat
+    
+    MoonTour_Title=Lawatan Bulan
+    MoonTour=Darat di 3 tanda tempat yang berasingan, kemudian kembali dengan selamat
+    
+    AsteroidImpact_Title=Kesan Asteroid
+    AsteroidImpact=Rempuhan ke permukaan Asteroid yang Ditawan pada 200+ m/s
+    
     MarsGrandTour_Title=Mars Grand Tour
-    MarsGrandTour=Land on Mars, Phobos and Deimos in one flight, then return safely
+    MarsGrandTour=Darat di Marikh, Phobos dan Deimos dalam satu penerbangan, kemudian kembali dengan selamat
     
     VenusLanding_Title=Venus Landing
-    VenusLanding=Descend through the thick atmosphere and land on the surface of Venus
-
-    VenusReturn_Title=Venus Return
-    VenusReturn=Land on the surface of Venus, then ascend trough the thick atmosphere and return safely
-
-    MercuryLanding_Title=Mercury Landing
-    MercuryLanding=Land on the surface of Mercury
-
-    MercuryReturn_Title=Mercury Return
-    MercuryReturn=Land on the surface of Mercury, then return safely
+    VenusLanding=Turun melalui atmosfera tebal dan mendarat di permukaan Zuhrah
     
-    LandAndReturn_Title=%planet{0}% Landing
-    LandAndReturn=Land on the surface of %planet{0}%, then return safely
+    VenusReturn_Title=Venus Return
+    VenusReturn=Mendarat di permukaan Venus, kemudian naik melalui suasana tebal dan kembali dengan selamat
+    
+    MercuryLanding_Title=Pendaratan Mercury
+    MercuryLanding=Daratan di permukaan Mercury
+    
+    MercuryReturn_Title=Pemulangan Mercury
+    MercuryReturn=Mendarat di permukaan Mercury, kemudian kembali dengan selamat
+    
+    LandAndReturn_Title=%planet{0}% Mendarat
+    LandAndReturn=Darat di permukaan %planet{0}%, kemudian kembali dengan selamat
 
 [Achievements]
-    Reached_Height=Reached %height% altitude
-    Reached_Karman_Line=Passed the Karman line, leaving the atmosphere and reaching space
-    Survived_Reentry=Reentered %planet{3}% atmosphere, max temperature %temperature%
-
-    Reached_Low_Orbit=Reached low %planet{0}% orbit
-    Reached_High_Orbit=Reached high %planet{0}% orbit
-    Descend_Low_Orbit=Descended to low %planet{0}% orbit
-    Capture_Low_Orbit=Captured into low %planet{0}% orbit
-    Capture_High_Orbit=Captured into high %planet{0}% orbit
-
-    Entered_Lower_Atmosphere=Entered %planet{3}% lower atmosphere
-    Entered_Upper_Atmosphere=Entered %planet{3}% upper atmosphere
-    Left_Lower_Atmosphere=Reached %planet{3}% upper atmosphere
-    Left_Upper_Atmosphere=Escaped %planet{3}% atmosphere
-
-    Landed=Landed on the surface of %planet{1}%
-
-    Landed_At_Landmark=Landed on the surface of %planet{1}%
-    Landed_At_Landmark=<size=55>Location: %landmark%</size>
-
-    Landed_At_Landmark__Short=Landed on the surface of %planet{1}%
+    Reached_Height=Mencapai %height% altitud
+    Reached_Karman_Line=Melalui garisan Karman, meninggalkan atmosfera dan mencapai ruang angkasa
+    Survived_Reentry=Memasuki semula %planet{3}% atmosfera, suhu maksimum %suhu%
+    
+    Reached_Low_Orbit=Mencapai orbit %planet{0}% rendah
+    Reached_High_Orbit=Mencapai orbit %planet{0}% tinggi
+    Descend_Low_Orbit=Turun ke orbit %planet{0}% rendah
+    Capture_Low_Orbit=Ditangkap ke dalam orbit %planet{0}% rendah
+    Capture_High_Orbit=Ditangkap ke orbit %planet{0}% tinggi
+    
+    Entered_Lower_Atmosphere=Masuk %planet{3}% atmosfera lebih rendah
+    Entered_Upper_Atmosphere=Masuk %planet{3}% atmosfera atas
+    Left_Lower_Atmosphere=Mencapai %planet{3}% atmosfera atas
+    Left_Upper_Atmosphere=Escaped %planet{3}% atmosfera
+    
+    Mendarat=Mendarat di permukaan %planet{1}%
+    
+    Landed_At_Landmark=Mendarat di permukaan %planet{1}%
+    Landed_At_Landmark=<size=55>Lokasi: %landmark%</size>
+    
+    Landed_At_Landmark__Short=Mendarat di permukaan %planet{1}%
     Landed_At_Landmark__Short=- %landmark% -
-
-    Crashed_Into_Terrain=Crashed into the surface of %planet{1}%
-
-    Entered_SOI=Entered the sphere of influence of %planet{1}%
-    Escaped_SOI=Escaped the sphere of influence of %planet{1}%
-
-    Docked_Suborbital=Docked in a suborbital trajectory of %planet{1}%
-    Docked_Orbit_Low=Docked in low %planet{0}% orbit
-    Docked_Orbit_Transfer=Docked in a transfer orbit of %planet{1}%
-    Docked_Orbit_High=Docked in high %planet{0}% orbit
-    Docked_Escape=Docked on an escape trajectory of %planet{1}%
-    Docked_Surface=Docked on the surface of %planet{1}%
-
-    Recover_Home=Safely returned to %planet{1}%
-    Recover_Landed=Mission completed on %planet{1}% surface
-    Recover_Space=The space mission around %planet{1}% has ended
+    
+    Crashed_Into_Terrain=Terhempas ke permukaan %planet{1}%
+    
+    Entered_SOI=Memasuki sfera pengaruh %planet{1}%
+    Escaped_SOI=Meloloskan diri dari sfera pengaruh %planet{1}%
+    
+    Docked_Suborbital=Berlabuh dalam trajektori suborbital %planet{1}%
+    Docked_Orbit_Low=Berlabuh dalam orbit %planet{0}% rendah
+    Docked_Orbit_Transfer=Berlabuh dalam orbit pemindahan %planet{1}%
+    Docked_Orbit_High=Berlabuh dalam orbit %planet{0}% tinggi
+    Docked_Escape=Berlabuh pada trajektori melarikan diri %planet{1}%
+    Docked_Surface=Berlabuh pada permukaan %planet{1}%
+    
+    Recover_Home=Selamat dikembalikan ke %planet{1}%
+    Recover_Landed=Misi selesai pada %planet{1}% permukaan
+    Recover_Space=Misi angkasa lepas mengelilingi %planet{1}% telah tamat
