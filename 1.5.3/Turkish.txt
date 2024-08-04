@@ -641,24 +641,24 @@
 [Part Categories]
 # Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=share
     Basic_Parts=Basics
-    Six_Wide_Parts=6 Wide
-    Eight_Wide_Parts=8 Wide
-    Ten_Wide_Parts=10 Wide
-    Twelve_Wide_Parts=12 Wide
-    Engine_Parts=Engines
-    Aerodynamics_Parts=Aerodynamics
+    Six_Wide_Parts=6 Geniş
+    Eight_Wide_Parts=8 Geniş
+    Ten_Wide_Parts=10 Geniş
+    Twelve_Wide_Parts=12 Geniş
+    Engine_Parts=Motorlar
+    Aerodynamics_Parts=Aerodinamik
     Fairings_Parts=Fairings
-    Structural_Parts=Structural
-    Other_Parts=Other
+    Structural_Parts=Yapısal
+    Other_Parts=Diğer
 
 [Part Names]
-    Capsule_Name{0}=Capsule
-    Capsule_Name{1}=capsule
-    Probe_Name{0}=Probe
-    Probe_Name{1}=probe
-    Parachute_Name{0}=Parachute
-    Parachute_Name{1}=parachute
-
+    Capsule_Name{0}=Kapsül
+    Capsule_Name{1}=kapsül
+    Probe_Name{0}=Prob
+    Probe_Name{1}=prob
+    Parachute_Name{0}=Paraşüt
+    Parachute_Name{1}=paraşüt
+    
     Kolibri_Engine_Name{0}=Kolibri Engine
     Kolibri_Engine_Name{1}=kolibri engine
     Hawk_Engine_Name{0}=Hawk Engine
@@ -669,249 +669,249 @@
     Titan_Engine_Name{1}=titan engine
     Frontier_Engine_Name{0}=Frontier Engine
     Frontier_Engine_Name{1}=frontier engine
-    Peregrine_Engine_Name{0}=Peregrine Engine
-    Peregrine_Engine_Name{1}=peregrine engine
-    Ion_Engine_Name{0}=Ion Engine
-    Ion_Engine_Name{1}=ion engine
-    RCS_Thruster_Name{0}=RCS Thruster
-    RCS_Thruster_Name{1}=rcs thruster
-
-    Solid_Rocket_Booster{0}=Solid Rocket Booster
-    Solid_Rocket_Booster{1}=solid rocket booster
-
-    Fuel_Tank_Name{0}=Fuel Tank
-    Fuel_Tank_Name{1}=fuel tank
-    Separator_Name{0}=Stage Separator
-    Separator_Name{1}=stage separator
-    Side_Separator_Name{0}=Side Separator
-    Side_Separator_Name{1}=side separator
-    Structural_Part_Name{0}=Structural Part
-    Structural_Part_Name{1}=structural part
-    Landing_Leg_Name{0}=Landing Leg
-    Landing_Leg_Name{1}=landing leg
-    Aerodynamic_Nose_Cone_Name{0}=Aerodynamic Nose Cone
-    Aerodynamic_Nose_Cone_Name{1}=aerodynamic nose cone
-    Aerodynamic_Fuselage_Name{0}=Aerodynamic Fuselage
-    Aerodynamic_Fuselage_Name{1}=aerodynamic fuselage
+    Peregrine_Engine_Name{0}=Peregrine Motoru
+    Peregrine_Engine_Name{1}=peregrine motoru
+    Ion_Engine_Name{0}=Ion Motoru
+    Ion_Engine_Name{1}=ion motoru
+    RCS_Thruster_Name{0}=RCS İtici
+    RCS_Thruster_Name{1}=rcs itici
+    
+    Solid_Rocket_Booster{0}=Katı Roket Güçlendirici
+    Solid_Rocket_Booster{1}=katı roket güçlendirici
+    
+    Fuel_Tank_Name{0}=Yakıt Tankı
+    Fuel_Tank_Name{1}=yakıt tankı
+    Separator_Name{0}=Kademe Ayırıcı
+    Separator_Name{1}=kademe ayırıcı
+    Side_Separator_Name{0}=Yan Ayırıcı
+    Side_Separator_Name{1}=yan ayırıcı
+    Structural_Part_Name{0}=Yapısal Parça
+    Structural_Part_Name{1}=yapısal parça
+    Landing_Leg_Name{0}=İniş Ayağı
+    Landing_Leg_Name{1}=iniş ayağı
+    Aerodynamic_Nose_Cone_Name{0}=Aerodinamik Burun Konisi
+    Aerodynamic_Nose_Cone_Name{1}=aerodinamik burun konisi
+    Aerodynamic_Fuselage_Name{0}=Aerodinamik Gövde
+    Aerodynamic_Fuselage_Name{1}=aerodinamik gövde
     Fairing_Name{0}=Fairing
     Fairing_Name{1}=fairing
-    Rover_Wheel_Name{0}=Rover Wheel
-    Rover_Wheel_Name{1}=rover wheel
+    Rover_Wheel_Name{0}=Rover Tekerleği
+    Rover_Wheel_Name{1}=rover tekerleği
     Docking_Port_Name{0}=Docking Port
-    Docking_Port_Name{1}=docking port
-    Solar_Panel_Name{0}=Solar Panel
-    Solar_Panel_Name{1}=solar panel
-    Battery_Name{0}=Battery
-    Battery_Name{1}=battery
+    Docking_Port_Name{1}=docking portu
+    Solar_Panel_Name{0}=Güneş Paneli
+    Solar_Panel_Name{1}=güneş paneli
+    Battery_Name{0}=Pil
+    Battery_Name{1}=pil
     RTG_Name{0}=RTG
     RTG_Name{1}=rtg
-    Heat_Shield_Name{0}=Heat Shield
-    Heat_Shield_Name{1}=heat shield
-    Fuel_Pipe_Name{0}=Fuel Pipe
-    Fuel_Pipe_Name{1}=fuel pipe
+    Heat_Shield_Name{0}=Isı Kalkanı
+    Heat_Shield_Name{1}=ısı kalkanı
+    Fuel_Pipe_Name{0}=Yakıt Borusu
+    Fuel_Pipe_Name{1}=yakıt borusu
 
 [Part Descriptions]
-    Capsule_Description=A small capsule, carrying one astronaut
-    Probe_Description=An unmanned probe, used for one way missions
-    Parachute_Description=A parachute used for landing
-    Fuel_Tank_Description=A fuel tank carrying liquid fuel and liquid oxygen
-    Separator_Description=Vertical separator, used to detach empty stages
-    Side_Separator_Description=Horizontal separator, used for detaching side boosters
-    Landing_Leg_Description=An extendable and retractable leg used for landing on the surface of moons and planets
-    Structural_Part_Description=A light and strong structural part
-    Hawk_Engine_Description=A high thrust - lower efficiency engine, normally used in the first stage of a rocket
-    Titan_Engine_Description=A high thrust - lower efficiency engine, normally used in the first stage of a rocket
-    Valiant_Engine_Description=High efficiency, low thrust. Used in space when high thrust isn't a priority
-    Frontier_Engine_Description=High efficiency, low thrust. Used in space when high thrust isn't a priority
-    Kolibri_Engine_Description=A tiny engine used for landers
-    Ion_Engine_Description=A low thrust engine with an incredibly high efficiency
-    RCS_Thruster_Description=A set of small directional thrusters, used for docking
-
-    Booster_Description=Has high thrust, low efficiency
-    Booster_Description=Cannot be turned off or throttle once ignite
-
-    Aerodynamic_Nose_Cone_Description=An aerodynamic nose cone, used to improve the aerodynamics of side boosters
-    Aerodynamic_Fuselage_Description=An aerodynamic fuselage, used to cover engines
-    Fairing_Description=An aerodynamic fairing, used to encapsulate payloads
-    Battery_Description=A battery used to store electric power
-    Solar_Panel_Description=A solar panel that generates power when extended
-    RTG_Description=Radioisotope thermoelectric generator or RTG
-    Rover_Wheel_Description=Rover wheel used to drive on the surface of planets
-    Docking_Port_Description=A docking port which can be used to connect two vehicles together
-    Heat_Shield_Description=A heat resistant shield used to survive atmospheric reentry
-    Fuel_Pipe_Description=A pipe used to transfer fuel
+    Capsule_Description=Bir astronot taşıyan küçük bir kapsül
+    Probe_Description=Tek yönlü görevlerde kullanılan insansız bir sonda
+    Parachute_Description=İniş için kullanılan bir paraşüt
+    Fuel_Tank_Description=Sıvı yakıt ve sıvı oksijen taşıyan bir yakıt tankı
+    Separator_Description=Boş aşamaları ayırmak için kullanılan dikey ayırıcı
+    Side_Separator_Description=Yan güçlendiricileri ayırmak için kullanılan yatay ayırıcı
+    Landing_Leg_Description=Uyduların ve gezegenlerin yüzeyine iniş için kullanılan uzatılabilir ve geri çekilebilir bir bacak
+    Structural_Part_Description=Hafif ve güçlü bir yapısal parça
+    Hawk_Engine_Description=Yüksek itme - düşük verimli motor, normalde bir roketin ilk aşamasında kullanılır
+    Titan_Engine_Description=Yüksek itme - düşük verimli motor, normalde bir roketin ilk aşamasında kullanılır
+    Valiant_Engine_Description=Yüksek verimlilik, düşük itme. Yüksek itişin öncelik olmadığı uzayda kullanılır
+    Frontier_Engine_Description=Yüksek verimlilik, düşük itiş. Yüksek itişin öncelik olmadığı uzayda kullanılır
+    Kolibri_Engine_Description=İniş araçları için kullanılan minik bir motor
+    Ion_Engine_Description=İnanılmaz derecede yüksek verimliliğe sahip düşük itişli bir motor
+    RCS_Thruster_Description=Yerleşme için kullanılan küçük yönlü iticilerden oluşan bir set
+    
+    Booster_Description=Yüksek itiş gücüne sahip, düşük verimli
+    Booster_Description=Ateşlendikten sonra kapatılamaz veya gaz verilemez
+    
+    Aerodynamic_Nose_Cone_Description=Yan iticilerin aerodinamiğini geliştirmek için kullanılan aerodinamik bir burun konisi
+    Aerodynamic_Fuselage_Description=Motorları örtmek için kullanılan aerodinamik bir gövde
+    Fairing_Description=Yükleri kapsüllemek için kullanılan aerodinamik bir kaporta
+    Battery_Description=Elektrik enerjisini depolamak için kullanılan bir pil
+    Solar_Panel_Description=Uzatıldığında güç üreten bir güneş paneli
+    RTG_Description=Radyoizotop termoelektrik jeneratör veya RTG
+    Rover_Wheel_Description=Gezegenlerin yüzeyinde sürüş için kullanılan Rover tekerleği
+    Docking_Port_Description=İki aracı birbirine bağlamak için kullanılabilen bir yerleştirme portu
+    Heat_Shield_Description=Atmosferik yeniden girişe dayanmak için kullanılan ısıya dayanıklı bir kalkan
+    Fuel_Pipe_Description=Yakıt aktarmak için kullanılan bir boru
 
 [Modules]
-    Activate_Separator=Separation
-    Activate_Fairing=Fairing
-
-    Torque_Module_Torque=Torque: %value%kN
-    Separation_Force=Separation force: %value%kN
-    Magnet_Force=Magnet force: %value%kN
-
-    Max_Heat_Tolerance=Heat tolerance: %temperature%
-
-    State_On{0}=On
-    State_Off{0}=Off
-
-    Engine_Module_State=Engine %state{0}%
-    Engine_On_Label=Engine on
-    Gimbal_On_Label=Gimbal on
-
+    Activate_Separator=Ayırma
+    Activate_Fairing=Kaporta
+    
+    Torque_Module_Torque=Tork: %value%kN
+    Separation_Force=Ayırma kuvveti: %value%kN
+    Magnet_Force=Mıknatıs kuvveti: %value%kN
+    
+    Max_Heat_Tolerance=Isı toleransı: %temperature%
+    
+    State_On{0}=Açık
+    State_Off{0}=Kapalı
+    
+    Engine_Module_State=Motor %state{0}%
+    Engine_On_Label=Motor açık
+    Gimbal_On_Label=Gimbal açık
+    
     Msg_RCS_Module_State=RCS %state{0}%
-
-    Wheel_Module_State=Rover wheel %state{0}%
-    Wheel_On_Label=Wheel on
-
+    
+    Wheel_Module_State=Rover tekerleği %state{0}%
+    Wheel_On_Label=Tekerlek açık
+    
     Panel_Expanded=Expanded
-    Landing_Leg_Expanded=Deployed
-
-    Detach_Edges_Label=Detach edges
-    Adapt_To_Tanks_Label=Adapt to fuel tanks
-
-    Info_Parachute_Max_Height=Max deploy height: %height%
-    Button_Activate_Parachute=parachute deployed
-    Msg_Cannot_Deploy_Parachute_In_Vacuum=Cannot deploy parachute in a vacuum
-    Msg_Cannot_Deploy_Parachute_Above=Cannot deploy parachute above %height%
-    Msg_Cannot_Fully_Deploy_Above=Cannot fully deploy parachute above %height%
-    Msg_Cannot_Deploy_Parachute_While_Faster=Cannot deploy parachute when going faster than %velocity%
-    Msg_Cannot_Deploy_Parachute_While_Not_Moving=Cannot deploy parachute while not moving
-    Msg_Parachute_Half_Deployed=Parachute half deployed
-    Msg_Parachute_Fully_Deployed=Parachute fully deployed
-    Msg_Parachute_Cut=Parachute cut
+    Landing_Leg_Expanded=Açıldı
+    
+    Detach_Edges_Label=Kenarları ayır
+    Adapt_To_Tanks_Label=Yakıt tanklarına uyarla
+    
+    Info_Parachute_Max_Height=Maksimum açılma yüksekliği: %height%
+    Button_Activate_Parachute=paraşüt açıldı
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=Paraşüt vakumda açılamaz
+    Msg_Cannot_Deploy_Parachute_Above=Paraşüt %height%'in üzerine açılamaz
+    Msg_Cannot_Fully_Deploy_Above=Paraşüt %height%'in üzerine tam olarak açılamaz
+    Msg_Cannot_Deploy_Parachute_While_Faster=Paraşüt %velocity%'den daha hızlı giderken açılamaz
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=Hareket etmediğiniz sürece paraşüt açılamaz
+    Msg_Parachute_Half_Deployed=Paraşüt yarı açılmış
+    Msg_Parachute_Fully_Deployed=Paraşüt tam açılmış
+    Msg_Parachute_Cut=Paraşüt kesilmiş
 
 [Planets]
-    Sun{0}=Sun
-    Sun{1}=the Sun
-    Sun{2}=The Sun
-    Mercury{0}=Mercury
-    Venus{0}=Venus
-    Earth{0}=Earth
-    Earth{1}=the Earth
-    Earth{2}=The Earth
-    Earth{3}=Earth's
-    Moon{0}=Moon
-    Moon{1}=the Moon
-    Moon{2}=The Moon
-    Near_Earth_Asteroid{0}=Captured Asteroid
-    Near_Earth_Asteroid{1}=the Captured Asteroid
-    Near_Earth_Asteroid{2}=The Captured Asteroid
+    Sun{0}=Güneş
+    Sun{1}=Güneş
+    Sun{2}=Güneş
+    Mercury{0}=Merkür
+    Venus{0}=Venüs
+    Earth{0}=Dünya
+    Earth{1}=Dünya
+    Earth{2}=Dünya
+    Earth{3}=Dünya'nın
+    Moon{0}=Ay
+    Moon{1}=Ay
+    Moon{2}=Ay
+    Near_Earth_Asteroid{0}=Yakalanan Asteroit
+    Near_Earth_Asteroid{1}=Yakalanan Asteroit
+    Near_Earth_Asteroid{2}=Yakalanan Asteroit
     Mars{0}=Mars
     Phobos{0}=Phobos
     Deimos{0}=Deimos
-    Jupiter{0}=Jupiter
-    Jupiter{1}=Jupiter
-    Jupiter{2}=Jupiter
-    Jupiter{3}=Jupiter's
+    Jupiter{0}=Jüpiter
+    Jupiter{1}=Jüpiter
+    Jupiter{2}=Jüpiter
+    Jupiter{3}=Jüpiter'in
     Europa{0}=Europa
     Ganymede{0}=Ganymede
     Io{0}=Io
     Callisto{0}=Callisto
 
 [Landmarks]
-    Sea_of_Tranquility=Sea of Tranquility
-    Sea_of_Serenity=Sea of Serenity
-    Ocean_of_Storms=Ocean of Storms
-    Copernicus_Crater=Copernicus Crater
-    Tycho_Crater=Tycho Crater
+    Sea_of_Tranquility=Huzur Denizi
+    Sea_of_Serenity=Huzur Denizi
+    Ocean_of_Storms=Fırtınalar Okyanusu
+    Copernicus_Crater=Copernicus Krateri
+    Tycho_Crater=Tycho Krateri
 
     Olympus_Mons=Olympus Mons
     Valles_Marineris=Valles Marineris
-    Gale_Crater=Gale Crater
+    Gale_Crater=Gale Krateri
     Hellas_Planitia=Hellas Planitia
     Arcadia_Planitia=Arcadia Planitia
     Utopia_Planitia=Utopia Planitia
-    Jezero_Crater=Jezero Crater
-
+    Jezero_Crater=Jezero Krateri
+    
     Atalanta_Planitia=Atalanta Planitia
     Lavinia_Planitia=Lavinia Planitia
-
+    
     Caloris_Planitia=Caloris Planitia
     Borealis_Planitia=Borealis Planitia
     Maxwell_Montes=Maxwell Montes
 
 [Challenges]
-    Liftoff_Title=Liftoff
-    Liftoff=Liftoff and land safely
-
-    Reach10km_Title=Reach 10km
-    Reach10km=Reach 10km and land safely
-
-    ReachSpace_Title=Reach Space
-    ReachSpace=Reach %height%, then survive reentry and land safely
+    Liftoff_Title=Kalkış
+    Liftoff=Kalkış ve güvenli iniş
     
-    Land100kmDownrange_Title=Land 100km downrange
-    Land100kmDownrange=Land at least 100km away from the launch pad
-
-    ReachLowEarthOrbit_Title=Reach Low Earth Orbit
-    ReachLowEarthOrbit=Reach low Earth orbit, then land safely
-
-    ReachHighEarthOrbit_Title=Reach High Earth Orbit
-    ReachHighEarthOrbit=Reach high Earth orbit, then land safely
+    Reach10km_Title=10km'ye ulaşın
+    Reach10km=10km'ye ulaşın ve güvenli iniş
     
-    MoonOrbit_Title=Moon Orbit
-    MoonOrbit=Capture into low Moon orbit, then return safely
-
-    MoonTour_Title=Moon Tour
-    MoonTour=Land on 3 separate landmarks, then return safely
-
-    AsteroidImpact_Title=Asteroid Impact
-    AsteroidImpact=Crash into the surface of the Captured Asteroid at 200+ m/s
-
-    MarsGrandTour_Title=Mars Grand Tour
-    MarsGrandTour=Land on Mars, Phobos and Deimos in one flight, then return safely
+    ReachSpace_Title=Uzaya Ulaşın
+    ReachSpace=%height%'e ulaşın, sonra yeniden girişten sağ çıkın ve güvenli iniş
     
-    VenusLanding_Title=Venus Landing
-    VenusLanding=Descend through the thick atmosphere and land on the surface of Venus
-
-    VenusReturn_Title=Venus Return
-    VenusReturn=Land on the surface of Venus, then ascend trough the thick atmosphere and return safely
-
-    MercuryLanding_Title=Mercury Landing
-    MercuryLanding=Land on the surface of Mercury
-
-    MercuryReturn_Title=Mercury Return
-    MercuryReturn=Land on the surface of Mercury, then return safely
+    Land100kmDownrange_Title=100km aşağı iniş
+    Land100kmDownrange=Fırlatma rampasından en az 100km uzağa iniş
     
-    LandAndReturn_Title=%planet{0}% Landing
-    LandAndReturn=Land on the surface of %planet{0}%, then return safely
+    ReachLowEarthOrbit_Title=Alçak Dünya Yörüngesine Ulaşın
+    ReachLowEarthOrbit=Alçak Dünya yörüngesine ulaşın, sonra güvenli iniş
+    
+    ReachHighEarthOrbit_Title=Yüksek Dünya Yörüngesine Ulaşın
+    ReachHighEarthOrbit=Yüksek Dünya yörüngesine ulaşın, sonra güvenli iniş
+    
+    MoonOrbit_Title=Ay Yörüngesi
+    MoonOrbit=Alçak Ay yörüngesine girin, sonra geri dönün güvenli bir şekilde
+    
+    MoonTour_Title=Ay Turu
+    MoonTour=3 ayrı dönüm noktasına inin, sonra güvenli bir şekilde geri dönün
+    
+    AsteroidImpact_Title=Asteroid Çarpması
+    AsteroidImpact=Yakalanan Asteroidin yüzeyine 200+ m/s hızla çarpın
+    
+    MarsGrandTour_Title=Mars Büyük Turu
+    MarsGrandTour=Mars, Phobos ve Deimos'a tek bir uçuşta inin, sonra güvenli bir şekilde geri dönün
+    
+    VenusLanding_Title=Venüs İnişi
+    VenusLanding=Kalın atmosferden aşağı inin ve Venüs'ün yüzeyine inin
+    
+    VenusReturn_Title=Venüs Dönüşü
+    VenusReturn=Venüs'ün yüzeyine inin, sonra kalın atmosferden yukarı çıkın ve güvenli bir şekilde geri dönün
+    
+    MercuryLanding_Title=Merkür İnişi
+    MercuryLanding=Merkür'ün yüzeyine inin
+    
+    MercuryReturn_Title=Merkür Dönüşü
+    MercuryReturn=Merkür'ün yüzeyine inin, sonra güvenli bir şekilde geri dönün
+    
+    LandAndReturn_Title=%planet{0}% İniş
+    LandAndReturn=%planet{0}% yüzeyine inin, sonra güvenli bir şekilde geri dönün
 
 [Achievements]
-    Reached_Height=Reached %height% altitude
-    Reached_Karman_Line=Passed the Karman line, leaving the atmosphere and reaching space
-    Survived_Reentry=Reentered %planet{3}% atmosphere, max temperature %temperature%
-
-    Reached_Low_Orbit=Reached low %planet{0}% orbit
-    Reached_High_Orbit=Reached high %planet{0}% orbit
-    Descend_Low_Orbit=Descended to low %planet{0}% orbit
-    Capture_Low_Orbit=Captured into low %planet{0}% orbit
-    Capture_High_Orbit=Captured into high %planet{0}% orbit
-
-    Entered_Lower_Atmosphere=Entered %planet{3}% lower atmosphere
-    Entered_Upper_Atmosphere=Entered %planet{3}% upper atmosphere
-    Left_Lower_Atmosphere=Reached %planet{3}% upper atmosphere
-    Left_Upper_Atmosphere=Escaped %planet{3}% atmosphere
-
-    Landed=Landed on the surface of %planet{1}%
-
-    Landed_At_Landmark=Landed on the surface of %planet{1}%
-    Landed_At_Landmark=<size=55>Location: %landmark%</size>
-
-    Landed_At_Landmark__Short=Landed on the surface of %planet{1}%
+    Reached_Height=%height% irtifaya ulaşıldı
+    Reached_Karman_Line=Karman çizgisini geçildi, atmosferden çıkıldı ve uzaya ulaşıldı
+    Survived_Reentry=%planet{3}% atmosferine tekrar girildi, maksimum sıcaklık %temperature%
+    
+    Reached_Low_Orbit=%planet{0}% düşük yörüngeye ulaşıldı
+    Reached_High_Orbit=%planet{0}% yüksek yörüngeye ulaşıldı
+    Descend_Low_Orbit=%planet{0}% düşük yörüngeye inildi
+    Capture_Low_Orbit=%planet{0}% düşük yörüngeye yakalandı
+    Capture_High_Orbit=%planet{0}% yüksek yörüngeye yakalandı
+    
+    Entered_Lower_Atmosphere=%planet{3}% düşük atmosfere girdi
+    Entered_Upper_Atmosphere=%planet{3}% üst atmosfere girdi
+    Left_Lower_Atmosphere=%planet{3}% üst atmosfere ulaştı
+    Left_Upper_Atmosphere=%planet{3}% atmosferinden kaçtı
+    
+    Landed=%planet{1}% yüzeyine indi
+    
+    Landed_At_Landmark=%planet{1}% yüzeyine indi
+    Landed_At_Landmark=<size=55>Konum: %landmark%</size>
+    
+    Landed_At_Landmark__Short=%planet{1}% yüzeyine indi
     Landed_At_Landmark__Short=- %landmark% -
-
-    Crashed_Into_Terrain=Crashed into the surface of %planet{1}%
-
-    Entered_SOI=Entered the sphere of influence of %planet{1}%
-    Escaped_SOI=Escaped the sphere of influence of %planet{1}%
-
-    Docked_Suborbital=Docked in a suborbital trajectory of %planet{1}%
-    Docked_Orbit_Low=Docked in low %planet{0}% orbit
-    Docked_Orbit_Transfer=Docked in a transfer orbit of %planet{1}%
-    Docked_Orbit_High=Docked in high %planet{0}% orbit
-    Docked_Escape=Docked on an escape trajectory of %planet{1}%
-    Docked_Surface=Docked on the surface of %planet{1}%
-
-    Recover_Home=Safely returned to %planet{1}%
-    Recover_Landed=Mission completed on %planet{1}% surface
-    Recover_Space=The space mission around %planet{1}% has ended
+    
+    Crashed_Into_Terrain=%planet{1}% yüzeyine çarptı
+    
+    Entered_SOI=%planet{1}% etki alanına girdi
+    Escaped_SOI=%planet{1}% etki alanından kaçtı
+    
+    Docked_Suborbital=%planet{1}% yörüngesinin alt yörüngesine sabitlendi
+    Docked_Orbit_Low=%planet{0}% yörüngesinin altına sabitlendi
+    Docked_Orbit_Transfer=%planet{1}% yörüngesinin transfer yörüngesine sabitlendi
+    Docked_Orbit_High=%planet{0}% yörüngesinin üstüne sabitlendi
+    Docked_Escape=%planet{1}% kaçış yörüngesine sabitlendi
+    Docked_Surface=%planet{1}% yüzeyine sabitlendi
+    
+    Recover_Home=%planet{1}%'e güvenli bir şekilde geri döndü
+    Recover_Landed=%planet{1}% yüzeyinde görev tamamlandı
+    Recover_Space=%planet{1}% etrafındaki uzay görevi sona erdi

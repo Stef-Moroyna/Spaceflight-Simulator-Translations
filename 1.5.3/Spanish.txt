@@ -640,278 +640,278 @@
 
 [Part Categories]
 # Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=share
-    Basic_Parts=Basics
-    Six_Wide_Parts=6 Wide
-    Eight_Wide_Parts=8 Wide
-    Ten_Wide_Parts=10 Wide
-    Twelve_Wide_Parts=12 Wide
-    Engine_Parts=Engines
-    Aerodynamics_Parts=Aerodynamics
-    Fairings_Parts=Fairings
-    Structural_Parts=Structural
-    Other_Parts=Other
+    Basic_Parts=Conceptos básicos
+    Six_Wide_Parts=6 de ancho
+    Eight_Wide_Parts=8 de ancho
+    Ten_Wide_Parts=10 de ancho
+    Twelve_Wide_Parts=12 de ancho
+    Engine_Parts=Motores
+    Aerodynamics_Parts=Aerodinámica
+    Fairings_Parts=Carenados
+    Structural_Parts=Estructural
+    Other_Parts=Otros
 
 [Part Names]
-    Capsule_Name{0}=Capsule
-    Capsule_Name{1}=capsule
-    Probe_Name{0}=Probe
-    Probe_Name{1}=probe
-    Parachute_Name{0}=Parachute
-    Parachute_Name{1}=parachute
+    Capsule_Name{0}=Cápsula
+    Capsule_Name{1}=cápsula
+    Probe_Name{0}=Sonda
+    Probe_Name{1}=sonda
+    Parachute_Name{0}=Paracaídas
+    Parachute_Name{1}=paracaídas
 
-    Kolibri_Engine_Name{0}=Kolibri Engine
-    Kolibri_Engine_Name{1}=kolibri engine
-    Hawk_Engine_Name{0}=Hawk Engine
-    Hawk_Engine_Name{1}=hawk engine
-    Valiant_Engine_Name{0}=Valiant Engine
-    Valiant_Engine_Name{1}=valiant engine
-    Titan_Engine_Name{0}=Titan Engine
-    Titan_Engine_Name{1}=titan engine
-    Frontier_Engine_Name{0}=Frontier Engine
-    Frontier_Engine_Name{1}=frontier engine
-    Peregrine_Engine_Name{0}=Peregrine Engine
-    Peregrine_Engine_Name{1}=peregrine engine
-    Ion_Engine_Name{0}=Ion Engine
-    Ion_Engine_Name{1}=ion engine
-    RCS_Thruster_Name{0}=RCS Thruster
-    RCS_Thruster_Name{1}=rcs thruster
-
-    Solid_Rocket_Booster{0}=Solid Rocket Booster
-    Solid_Rocket_Booster{1}=solid rocket booster
-
-    Fuel_Tank_Name{0}=Fuel Tank
-    Fuel_Tank_Name{1}=fuel tank
-    Separator_Name{0}=Stage Separator
-    Separator_Name{1}=stage separator
-    Side_Separator_Name{0}=Side Separator
-    Side_Separator_Name{1}=side separator
-    Structural_Part_Name{0}=Structural Part
-    Structural_Part_Name{1}=structural part
-    Landing_Leg_Name{0}=Landing Leg
-    Landing_Leg_Name{1}=landing leg
-    Aerodynamic_Nose_Cone_Name{0}=Aerodynamic Nose Cone
-    Aerodynamic_Nose_Cone_Name{1}=aerodynamic nose cone
-    Aerodynamic_Fuselage_Name{0}=Aerodynamic Fuselage
-    Aerodynamic_Fuselage_Name{1}=aerodynamic fuselage
-    Fairing_Name{0}=Fairing
-    Fairing_Name{1}=fairing
-    Rover_Wheel_Name{0}=Rover Wheel
-    Rover_Wheel_Name{1}=rover wheel
-    Docking_Port_Name{0}=Docking Port
-    Docking_Port_Name{1}=docking port
-    Solar_Panel_Name{0}=Solar Panel
-    Solar_Panel_Name{1}=solar panel
-    Battery_Name{0}=Battery
-    Battery_Name{1}=battery
+    Kolibri_Engine_Name{0}=Motor kolibri
+    Kolibri_Engine_Name{1}=motor kolibri
+    Hawk_Engine_Name{0}=Motor hawk
+    Hawk_Engine_Name{1}=motor_hawk
+    Valiant_Engine_Name{0}=Motor valiant
+    Valiant_Engine_Name{1}=motor valiant
+    Titan_Engine_Name{0}=Motor titan
+    Titan_Engine_Name{1}=motor titan
+    Frontier_Engine_Name{0}=Motor_frontier
+    Frontier_Engine_Name{1}=motor_frontier
+    Peregrine_Engine_Name{0}=Motor peregrine
+    Peregrine_Engine_Name{1}=motor peregrino
+    Ion_Engine_Name{0}=motor iónico
+    Ion_Engine_Name{1}=motor iónico
+    RCS_Thruster_Name{0}=propulsor RCS
+    RCS_Thruster_Name{1}=propulsor rcs
+    
+    Solid_Rocket_Booster{0}=propulsor de cohete sólido
+    Solid_Rocket_Booster{1}=propulsor de cohete sólido
+    
+    Fuel_Tank_Name{0}=tanque de combustible
+    Fuel_Tank_Name{1}=tanque de combustible
+    Separator_Name{0}=separador de etapas
+    Separator_Name{1}=separador de etapas
+    Side_Separator_Name{0}=separador lateral
+    Side_Separator_Name{1}=separador lateral
+    Structural_Part_Name{0}=parte estructural
+    Structural_Part_Name{1}=parte estructural
+    Landing_Leg_Name{0}=Tramo de aterrizaje
+    Landing_Leg_Name{1}=Tramo de aterrizaje
+    Aerodynamic_Nose_Cone_Name{0}=Cono de morro aerodinámico
+    Aerodynamic_Nose_Cone_Name{1}=cono de morro aerodinámico
+    Aerodynamic_Fuselage_Name{0}=Fuselaje aerodinámico
+    Aerodynamic_Fuselage_Name{1}=fuselaje aerodinámico
+    Fairing_Name{0}=Carenado
+    Fairing_Name{1}=carenado
+    Rover_Wheel_Name{0}=Rueda del Rover
+    Rover_Wheel_Name{1}=rueda del Rover
+    Docking_Port_Name{0}=Puerto de atraque
+    Docking_Port_Name{1}=puerto de atraque
+    Solar_Panel_Name{0}=Panel solar
+    Solar_Panel_Name{1}=panel solar
+    Battery_Name{0}=Batería
+    Battery_Name{1}=batería
     RTG_Name{0}=RTG
     RTG_Name{1}=rtg
-    Heat_Shield_Name{0}=Heat Shield
-    Heat_Shield_Name{1}=heat shield
-    Fuel_Pipe_Name{0}=Fuel Pipe
-    Fuel_Pipe_Name{1}=fuel pipe
+    Heat_Shield_Name{0}=Escudo térmico
+    Heat_Shield_Name{1}=escudo térmico
+    Fuel_Pipe_Name{0}=Tubo de combustible
+    Fuel_Pipe_Name{1}=tubo de combustible
 
 [Part Descriptions]
-    Capsule_Description=A small capsule, carrying one astronaut
-    Probe_Description=An unmanned probe, used for one way missions
-    Parachute_Description=A parachute used for landing
-    Fuel_Tank_Description=A fuel tank carrying liquid fuel and liquid oxygen
-    Separator_Description=Vertical separator, used to detach empty stages
-    Side_Separator_Description=Horizontal separator, used for detaching side boosters
-    Landing_Leg_Description=An extendable and retractable leg used for landing on the surface of moons and planets
-    Structural_Part_Description=A light and strong structural part
-    Hawk_Engine_Description=A high thrust - lower efficiency engine, normally used in the first stage of a rocket
-    Titan_Engine_Description=A high thrust - lower efficiency engine, normally used in the first stage of a rocket
-    Valiant_Engine_Description=High efficiency, low thrust. Used in space when high thrust isn't a priority
-    Frontier_Engine_Description=High efficiency, low thrust. Used in space when high thrust isn't a priority
-    Kolibri_Engine_Description=A tiny engine used for landers
-    Ion_Engine_Description=A low thrust engine with an incredibly high efficiency
-    RCS_Thruster_Description=A set of small directional thrusters, used for docking
-
-    Booster_Description=Has high thrust, low efficiency
-    Booster_Description=Cannot be turned off or throttle once ignite
-
-    Aerodynamic_Nose_Cone_Description=An aerodynamic nose cone, used to improve the aerodynamics of side boosters
-    Aerodynamic_Fuselage_Description=An aerodynamic fuselage, used to cover engines
-    Fairing_Description=An aerodynamic fairing, used to encapsulate payloads
-    Battery_Description=A battery used to store electric power
-    Solar_Panel_Description=A solar panel that generates power when extended
-    RTG_Description=Radioisotope thermoelectric generator or RTG
-    Rover_Wheel_Description=Rover wheel used to drive on the surface of planets
-    Docking_Port_Description=A docking port which can be used to connect two vehicles together
-    Heat_Shield_Description=A heat resistant shield used to survive atmospheric reentry
-    Fuel_Pipe_Description=A pipe used to transfer fuel
+    Capsule_Description=Una cápsula pequeña que transporta a un astronauta
+    Probe_Description=Una sonda no tripulada que se utiliza para misiones de ida
+    Parachute_Description=Un paracaídas utilizado para el aterrizaje
+    Fuel_Tank_Description=Un tanque de combustible que transporta combustible líquido y oxígeno líquido
+    Separator_Description=Separador vertical que se utiliza para separar las etapas vacías
+    Side_Separator_Description=Separador horizontal que se utiliza para separar los propulsores laterales
+    Landing_Leg_Description=Una pata extensible y retráctil que se utiliza para aterrizar en la superficie de lunas y planetas
+    Structural_Part_Description=Una pieza estructural ligera y resistente
+    Hawk_Engine_Description=Un motor de alto empuje y menor eficiencia que se utiliza normalmente en la primera etapa de un cohete
+    Titan_Engine_Description=Un motor de alto empuje y menor eficiencia que se utiliza normalmente en la primera etapa de un cohete
+    Valiant_Engine_Description=Alta eficiencia y bajo empuje. Se utiliza en el espacio cuando el empuje elevado no es una prioridad
+    Frontier_Engine_Description=Alta eficiencia, bajo empuje. Se utiliza en el espacio cuando el alto empuje no es una prioridad
+    Kolibri_Engine_Description=Un motor diminuto utilizado para módulos de aterrizaje
+    Ion_Engine_Description=Un motor de bajo empuje con una eficiencia increíblemente alta
+    RCS_Thruster_Description=Un conjunto de pequeños propulsores direccionales, utilizados para el atraque
+    
+    Booster_Description=Tiene alto empuje, baja eficiencia
+    Booster_Description=No se puede apagar ni acelerar una vez que se enciende
+    
+    Aerodynamic_Nose_Cone_Description=Un cono de nariz aerodinámico, utilizado para mejorar la aerodinámica de los propulsores laterales
+    Aerodynamic_Fuselage_Description=Un fuselaje aerodinámico, utilizado para cubrir los motores
+    Fairing_Description=Un carenado aerodinámico, utilizado para encapsular cargas útiles
+    Battery_Description=Una batería utilizada para almacenar energía eléctrica
+    Solar_Panel_Description=Un panel solar que genera energía cuando se extiende
+    RTG_Description=Generador termoeléctrico de radioisótopos o RTG
+    Rover_Wheel_Description=Rueda de rover utilizada para desplazarse por la superficie de los planetas
+    Docking_Port_Description=Un puerto de acoplamiento que se puede utilizar para conectar dos vehículos entre sí
+    Heat_Shield_Description=Un escudo resistente al calor utilizado para sobrevivir a la reentrada atmosférica
+    Fuel_Pipe_Description=Una tubería utilizada para transferir combustible
 
 [Modules]
-    Activate_Separator=Separation
-    Activate_Fairing=Fairing
-
+    Activate_Separator=Separación
+    Activate_Fairing=Carenado
+    
     Torque_Module_Torque=Torque: %value%kN
-    Separation_Force=Separation force: %value%kN
-    Magnet_Force=Magnet force: %value%kN
-
-    Max_Heat_Tolerance=Heat tolerance: %temperature%
-
-    State_On{0}=On
-    State_Off{0}=Off
-
-    Engine_Module_State=Engine %state{0}%
-    Engine_On_Label=Engine on
-    Gimbal_On_Label=Gimbal on
-
+    Separation_Force=Fuerza de separación: %value%kN
+    Magnet_Force=Fuerza magnética: %value%kN
+    
+    Max_Heat_Tolerance=Tolerancia al calor: %temperature%
+    
+    State_On{0}=Encendido
+    State_Off{0}=Apagado
+    
+    Engine_Module_State=Motor %state{0}%
+    Engine_On_Label=Motor encendido
+    Gimbal_On_Label=Cardán encendido
+    
     Msg_RCS_Module_State=RCS %state{0}%
-
-    Wheel_Module_State=Rover wheel %state{0}%
-    Wheel_On_Label=Wheel on
-
-    Panel_Expanded=Expanded
-    Landing_Leg_Expanded=Deployed
-
-    Detach_Edges_Label=Detach edges
-    Adapt_To_Tanks_Label=Adapt to fuel tanks
-
-    Info_Parachute_Max_Height=Max deploy height: %height%
-    Button_Activate_Parachute=parachute deployed
-    Msg_Cannot_Deploy_Parachute_In_Vacuum=Cannot deploy parachute in a vacuum
-    Msg_Cannot_Deploy_Parachute_Above=Cannot deploy parachute above %height%
-    Msg_Cannot_Fully_Deploy_Above=Cannot fully deploy parachute above %height%
-    Msg_Cannot_Deploy_Parachute_While_Faster=Cannot deploy parachute when going faster than %velocity%
-    Msg_Cannot_Deploy_Parachute_While_Not_Moving=Cannot deploy parachute while not moving
-    Msg_Parachute_Half_Deployed=Parachute half deployed
-    Msg_Parachute_Fully_Deployed=Parachute fully deployed
-    Msg_Parachute_Cut=Parachute cut
+    
+    Wheel_Module_State=Rueda del rover %state{0}%
+    Wheel_On_Label=Rueda encendida
+    
+    Panel_Expanded=Expandido
+    Landing_Leg_Expanded=Desplegado
+    
+    Detach_Edges_Label=Separar bordes
+    Adapt_To_Tanks_Label=Adaptarse a los tanques de combustible
+    
+    Info_Parachute_Max_Height=Altura máxima de despliegue: %height%
+    Button_Activate_Parachute=paracaídas desplegado
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=No se puede desplegar el paracaídas en el vacío
+    Msg_Cannot_Deploy_Parachute_Above=No se puede desplegar el paracaídas por encima de %height%
+    Msg_Cannot_Fully_Deploy_Above=No se puede desplegar completamente el paracaídas por encima de %height%
+    Msg_Cannot_Deploy_Parachute_While_Faster=No se puede desplegar el paracaídas cuando se va a una velocidad superior a %velocity%
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=No se puede desplegar el paracaídas sin moverse
+    Msg_Parachute_Half_Deployed=Paracaídas medio desplegado
+    Msg_Parachute_Fully_Deployed=Paracaídas completamente desplegado
+    Msg_Parachute_Cut=Paracaídas cortado
 
 [Planets]
-    Sun{0}=Sun
-    Sun{1}=the Sun
-    Sun{2}=The Sun
-    Mercury{0}=Mercury
+    Sun{0}=Sol
+    Sun{1}=el Sol
+    Sun{2}=El Sol
+    Mercury{0}=Mercurio
     Venus{0}=Venus
-    Earth{0}=Earth
-    Earth{1}=the Earth
-    Earth{2}=The Earth
-    Earth{3}=Earth's
-    Moon{0}=Moon
-    Moon{1}=the Moon
-    Moon{2}=The Moon
-    Near_Earth_Asteroid{0}=Captured Asteroid
-    Near_Earth_Asteroid{1}=the Captured Asteroid
-    Near_Earth_Asteroid{2}=The Captured Asteroid
-    Mars{0}=Mars
-    Phobos{0}=Phobos
+    Earth{0}=Tierra
+    Earth{1}=la Tierra
+    Earth{2}=La Tierra
+    Earth{3}=de la Tierra
+    Moon{0}=Luna
+    Moon{1}=la Luna
+    Moon{2}=La Luna
+    Near_Earth_Asteroid{0}=Asteroide capturado
+    Near_Earth_Asteroid{1}=el asteroide capturado
+    Near_Earth_Asteroid{2}=el asteroide capturado
+    Mars{0}=Marte
+    Phobos{0}=Fobos
     Deimos{0}=Deimos
-    Jupiter{0}=Jupiter
-    Jupiter{1}=Jupiter
-    Jupiter{2}=Jupiter
-    Jupiter{3}=Jupiter's
+    Jupiter{0}=Júpiter
+    Jupiter{1}=Júpiter
+    Jupiter{2}=Júpiter
+    Jupiter{3}=de Júpiter
     Europa{0}=Europa
     Ganymede{0}=Ganymede
     Io{0}=Io
     Callisto{0}=Callisto
 
 [Landmarks]
-    Sea_of_Tranquility=Sea of Tranquility
-    Sea_of_Serenity=Sea of Serenity
-    Ocean_of_Storms=Ocean of Storms
-    Copernicus_Crater=Copernicus Crater
-    Tycho_Crater=Tycho Crater
-
-    Olympus_Mons=Olympus Mons
+    Sea_of_Tranquility=Mar de la Tranquilidad
+    Sea_of_Serenity=Mar de la Serenidad
+    Ocean_of_Storms=Océano de Tormentas
+    Copernicus_Crater=Cráter Copérnico
+    Tycho_Crater=Cráter Tycho
+    
+    Olympus_Mons=Mons Olympus
     Valles_Marineris=Valles Marineris
-    Gale_Crater=Gale Crater
-    Hellas_Planitia=Hellas Planitia
-    Arcadia_Planitia=Arcadia Planitia
-    Utopia_Planitia=Utopia Planitia
-    Jezero_Crater=Jezero Crater
-
-    Atalanta_Planitia=Atalanta Planitia
-    Lavinia_Planitia=Lavinia Planitia
-
-    Caloris_Planitia=Caloris Planitia
-    Borealis_Planitia=Borealis Planitia
+    Gale_Crater=Cráter Gale
+    Hellas_Planitia=Planitia Hellas
+    Arcadia_Planitia=Planitia Arcadia
+    Utopia_Planitia=Planitia Utopia
+    Jezero_Crater=Cráter Jezero
+    
+    Atalanta_Planitia=Planitia Atalanta
+    Lavinia_Planitia=Planitia Lavinia
+    
+    Caloris_Planitia=Planitia Caloris
+    Borealis_Planitia=Planitia Borealis
     Maxwell_Montes=Maxwell Montes
 
 [Challenges]
-    Liftoff_Title=Liftoff
-    Liftoff=Liftoff and land safely
-
-    Reach10km_Title=Reach 10km
-    Reach10km=Reach 10km and land safely
-
-    ReachSpace_Title=Reach Space
-    ReachSpace=Reach %height%, then survive reentry and land safely
+    Liftoff_Title=Despegue
+    Liftoff=Despegue y aterrice de forma segura
     
-    Land100kmDownrange_Title=Land 100km downrange
-    Land100kmDownrange=Land at least 100km away from the launch pad
-
-    ReachLowEarthOrbit_Title=Reach Low Earth Orbit
-    ReachLowEarthOrbit=Reach low Earth orbit, then land safely
-
-    ReachHighEarthOrbit_Title=Reach High Earth Orbit
-    ReachHighEarthOrbit=Reach high Earth orbit, then land safely
+    Reach10km_Title=Alcance 10 km
+    Reach10km=Alcance 10 km y aterrice de forma segura
     
-    MoonOrbit_Title=Moon Orbit
-    MoonOrbit=Capture into low Moon orbit, then return safely
-
-    MoonTour_Title=Moon Tour
-    MoonTour=Land on 3 separate landmarks, then return safely
-
-    AsteroidImpact_Title=Asteroid Impact
-    AsteroidImpact=Crash into the surface of the Captured Asteroid at 200+ m/s
-
-    MarsGrandTour_Title=Mars Grand Tour
-    MarsGrandTour=Land on Mars, Phobos and Deimos in one flight, then return safely
+    ReachSpace_Title=Alcance espacio
+    ReachSpace=Alcance %height%, luego sobreviva al reingreso y aterrice de forma segura
     
-    VenusLanding_Title=Venus Landing
-    VenusLanding=Descend through the thick atmosphere and land on the surface of Venus
-
-    VenusReturn_Title=Venus Return
-    VenusReturn=Land on the surface of Venus, then ascend trough the thick atmosphere and return safely
-
-    MercuryLanding_Title=Mercury Landing
-    MercuryLanding=Land on the surface of Mercury
-
-    MercuryReturn_Title=Mercury Return
-    MercuryReturn=Land on the surface of Mercury, then return safely
+    Land100kmDownrange_Title=Aterrice a 100 km de distancia
+    Land100kmDownrange=Aterrice al menos a 100 km de la plataforma de lanzamiento
     
-    LandAndReturn_Title=%planet{0}% Landing
-    LandAndReturn=Land on the surface of %planet{0}%, then return safely
+    ReachLowEarthOrbit_Title=Alcance órbita terrestre baja
+    ReachLowEarthOrbit=Alcance órbita terrestre baja, luego aterrice de forma segura
+    
+    ReachHighEarthOrbit_Title=Alcance órbita terrestre alta
+    ReachHighEarthOrbit=Alcance órbita terrestre alta, luego aterrice de forma segura
+    
+    MoonOrbit_Title=Órbita lunar
+    MoonOrbit=Captura en órbita lunar baja, luego regrese de forma segura
+    
+    MoonTour_Title=Viaje a la Luna
+    MoonTour=Aterriza en 3 puntos de referencia diferentes y regresa sano y salvo
+    
+    AsteroidImpact_Title=Impacto de asteroide
+    AsteroidImpact=Choca contra la superficie del asteroide capturado a más de 200 m/s
+    
+    MarsGrandTour_Title=Gran viaje a Marte
+    MarsGrandTour=Aterriza en Marte, Fobos y Deimos en un solo vuelo y regresa sano y salvo
+    
+    VenusLanding_Title=Aterrizaje en Venus
+    VenusLanding=Desciende a través de la espesa atmósfera y aterriza en la superficie de Venus
+    
+    VenusReturn_Title=Regreso a Venus
+    VenusReturn=Aterriza en la superficie de Venus y luego asciende a través de la espesa atmósfera y regresa sano y salvo
+    
+    MercuryLanding_Title=Aterrizaje en Mercurio
+    MercuryLanding=Aterriza en la superficie de Mercuri
+    
+    MercuryReturn_Title=Regreso a Mercurio
+    MercuryReturn=Aterriza en la superficie de Mercurio y regresa de forma segura
+    
+    LandAndReturn_Title=Aterrizaje de %planet{0}%
+    LandAndReturn=Aterriza en la superficie de %planet{0}% y regresa de forma segura
 
 [Achievements]
-    Reached_Height=Reached %height% altitude
-    Reached_Karman_Line=Passed the Karman line, leaving the atmosphere and reaching space
-    Survived_Reentry=Reentered %planet{3}% atmosphere, max temperature %temperature%
-
-    Reached_Low_Orbit=Reached low %planet{0}% orbit
-    Reached_High_Orbit=Reached high %planet{0}% orbit
-    Descend_Low_Orbit=Descended to low %planet{0}% orbit
-    Capture_Low_Orbit=Captured into low %planet{0}% orbit
-    Capture_High_Orbit=Captured into high %planet{0}% orbit
-
-    Entered_Lower_Atmosphere=Entered %planet{3}% lower atmosphere
-    Entered_Upper_Atmosphere=Entered %planet{3}% upper atmosphere
-    Left_Lower_Atmosphere=Reached %planet{3}% upper atmosphere
-    Left_Upper_Atmosphere=Escaped %planet{3}% atmosphere
-
-    Landed=Landed on the surface of %planet{1}%
-
-    Landed_At_Landmark=Landed on the surface of %planet{1}%
-    Landed_At_Landmark=<size=55>Location: %landmark%</size>
-
-    Landed_At_Landmark__Short=Landed on the surface of %planet{1}%
+    Reached_Height=Alcanzó la altitud del %height%
+    Reached_Karman_Line=Pasó la línea Karman, abandonó la atmósfera y llegó al espacio
+    Survived_Reentry=Reingresó a la atmósfera del %planet{3}%, temperatura máxima del %temperature%
+    
+    Reached_Low_Orbit=Alcanzó la órbita baja del %planet{0}%
+    Reached_High_Orbit=Alcanzó la órbita alta del %planet{0}%
+    Descend_Low_Orbit=Descendió a la órbita baja del %planet{0}%
+    Capture_Low_Orbit=Capturó en la órbita baja del %planet{0}%
+    Capture_High_Orbit=Capturó en la órbita alta del %planet{0}%
+    
+    Entered_Lower_Atmosphere=Entró en la atmósfera inferior del %planet{3}%
+    Entered_Upper_Atmosphere=Entró en la atmósfera superior del %planet{3}%
+    Left_Lower_Atmosphere=Alcanzó %planet{3}% atmósfera superior
+    Left_Upper_Atmosphere=Escapó de la atmósfera de %planet{3}%
+    
+    Landed=Aterrizó en la superficie de %planet{1}%
+    
+    Landed_At_Landmark=Aterrizó en la superficie de %planet{1}%
+    Landed_At_Landmark=<size=55>Ubicación: %landmark%</size>
+    
+    Landed_At_Landmark__Short=Aterrizó en la superficie de %planet{1}%
     Landed_At_Landmark__Short=- %landmark% -
-
-    Crashed_Into_Terrain=Crashed into the surface of %planet{1}%
-
-    Entered_SOI=Entered the sphere of influence of %planet{1}%
-    Escaped_SOI=Escaped the sphere of influence of %planet{1}%
-
-    Docked_Suborbital=Docked in a suborbital trajectory of %planet{1}%
-    Docked_Orbit_Low=Docked in low %planet{0}% orbit
-    Docked_Orbit_Transfer=Docked in a transfer orbit of %planet{1}%
-    Docked_Orbit_High=Docked in high %planet{0}% orbit
-    Docked_Escape=Docked on an escape trajectory of %planet{1}%
-    Docked_Surface=Docked on the surface of %planet{1}%
-
-    Recover_Home=Safely returned to %planet{1}%
-    Recover_Landed=Mission completed on %planet{1}% surface
-    Recover_Space=The space mission around %planet{1}% has ended
+    
+    Crashed_Into_Terrain=Se estrelló contra la superficie de %planet{1}%
+    
+    Entered_SOI=Entró en la esfera de influencia de %planet{1}%
+    Escaped_SOI=Escapó de la esfera de influencia de %planet{1}%
+    
+    Docked_Suborbital=Atracó en una trayectoria suborbital de %planet{1}%
+    Docked_Orbit_Low=Atracado en una órbita baja de %planet{0}%
+    Docked_Orbit_Transfer=Atracado en una órbita de transferencia de %planet{1}%
+    Docked_Orbit_High=Atracado en una órbita alta de %planet{0}%
+    Docked_Escape=Atracado en una trayectoria de escape de %planet{1}%
+    Docked_Surface=Atracado en la superficie de %planet{1}%
+    
+    Recover_Home=Regresó sano y salvo a %planet{1}%
+    Recover_Landed=Misión completada en la superficie de %planet{1}%
+    Recover_Space=La misión espacial alrededor de %planet{1}% ha finalizado
