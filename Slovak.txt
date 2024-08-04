@@ -1,0 +1,916 @@
+# Target version :   v1.5.9.15
+# Contributors   :   Team Curiosity, Carson Wu
+# last_update    :   01/08/2024
+
+[Ungroupped]
+# READ ME:
+# The format used here is derived from INI.
+# We have added something special called variants.
+# 
+# Example:
+# 
+# [Planets]
+# Earth{0}= Zem
+# Earth{1}= zem
+# 
+# [Achievements]
+# Landed_Test0 = Pristálo na %planet{0}%
+# Landed_Test1 = Pristálo na %planet{1}%
+# 
+# Variants are used for many things, such as making phrases work, caps, etc
+# 
+# We recommend starting at the bottom of the file with achievements/planets, there variants are very clearly used.
+# 
+# 
+# 
+# Available font types: normal/compatibility
+# In case of missing characters use compatibility font.
+    Font=normal
+
+[None]
+    None=None
+    Font=normal
+
+[General]
+# Used for language select buttons
+    Language_Name_In_Local_Language=Slovenčina
+
+    Cancel=Zrušiť
+    Close=Zavrieť
+
+    On=Zapnuté
+    Off=Vypnuté
+
+    Open_Settings_Button=nastavenie
+    Open_Cheats_Button=Cheaty
+    Help=Pomoc
+
+    Build_Rocket=Postavte raketu
+    Resume_Game=Pokračovať v hre
+    Return_To_Main_Menu=Hlavné menu
+    Exit_To_Main_Menu=Návrat do hlavnej ponuky
+
+[Main Menu]
+# Image at: https://drive.google.com/file/d/1mEFf3W964ldXBekpbTc-Jj1XcSnBQz4k/view?usp=sharing
+    Play=hrať
+
+# Tutorial
+    Video_Tutorials_OpenButton=Videonávody
+    Video_Orbit=Návod na obežnú dráhu
+    Video_Moon=Návod na mesiac
+    Video_Dock=Dokovacia príručka
+
+    Development_Preview=Ukážka vývoja
+    Development_Preview_Explanation=Ukážka vývoja predstavuje budúce aktualizácie, na ktorých pracujeme
+
+# Community
+    Community_OpenButton=Spoločenstva
+    Community_Youtube=Youtube
+    Community_Discord=Discord
+    Community_Reddit=Reddit
+    Community_Forums=Forums
+
+# Roadmap
+    Roadmap_OpenButton=Budúce aktualizácie
+    
+    Roadmap_Text=Verzia 1.51
+    Roadmap_Text=<color=grey>Predstavenie</color>
+    Roadmap_Text=
+    Roadmap_Text=Verzia 1.52
+    Roadmap_Text=<color=grey>Príručka</color>
+    Roadmap_Text=
+    Roadmap_Text=Verzia 1.53
+    Roadmap_Text=<color=grey>Opätovný vstup</color>
+    Roadmap_Text=
+    Roadmap_Text=Verzia 1.54
+    Roadmap_Text=<color=grey>Vizuálne efekty, častice a zvuky</color>
+    Roadmap_Text=
+    Roadmap_Text=Verzia 1.55
+    Roadmap_Text=<color=grey>Pevný raketový zosilňovač</color>
+    Roadmap_Text=
+    Roadmap_Text=Verzia 1.6
+    Roadmap_Text=<color=grey>Astronauti</color>
+    Roadmap_Text=
+    Roadmap_Text=Verzia 1.7
+    Roadmap_Text=<color=grey>Režim kariéry</color>
+    Roadmap_Text=
+    Roadmap_Text=Verzia 1.8
+    Roadmap_Text=<color=grey>Vonkajšie planéty</color>
+    Roadmap_Text=
+    Roadmap_Text=Elektrický systém:
+    Roadmap_Text=<color=grey>Celý elektrický systém prejde v budúcnosti kompletnou generálnou opravou, s najväčšou pravdepodobnosťou s funkciami, ako je časový posun pri spaľovaní iónového motora a ďalšie využitie elektriny</color>
+    Roadmap_Text=
+    Roadmap_Text=
+    Roadmap_Text=Prosím, majte na pamäti, že plány sa môžu zmeniť
+
+    Credits_OpenButton=Kredity
+
+    Credits_Text=<Size=70> Štefo Mai Morojna </size>
+    Credits_Text=<Size=55> Dizajnér - Programátor - Umelec </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Jordi van der Molen </size>
+    Credits_Text=<Size=55> Programátor </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Chris Christo </size>
+    Credits_Text=<Size=55> Programátor </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Josh </size>
+    Credits_Text=<Size=55> Programátor </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Aidan Ginise </size>
+    Credits_Text=<Size=55> Programátor </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Andrey Onischenko </size>
+    Credits_Text=<Size=55> Programátor </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Davi Vasc </size>
+    Credits_Text=<Size=55> Skladateľ </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Ashton Mills </size>
+    Credits_Text=<size=55> Skladateľ </size>
+
+    First_Time_Playing_Question=Prvýkrát hranie
+    First_Time_Playing_Question=Simulátor vesmírnych letov?
+
+    First_Time_Playing_Yes=Prvýkrát hranie
+    First_Time_Playing_No=Hrané predtým
+
+# Update menu
+    Update_Available=K dispozícii je nová aktualizácia!
+    Update_Available=
+    Update_Available=Aktuálna verzia: %old%
+    Update_Available=Najnovšia verzia: %new%
+
+    Update_Confirm=Aktualizovať
+
+# Rate menu
+    Rate_Title=Chceli by ste hru ohodnotiť alebo recenzovať?
+    Rate_Title=
+    Rate_Title=Veľmi nám záleží na kvalite našej hry, vaša spätná väzba nám pomáha ju zlepšovať
+    Rate_Title=
+    Rate_Title=Aj po tisíckach recenzií ich stále čítame veľké množstvo!
+
+    Rate_Confirm=ohodnotiť
+
+    Exit_Button=VÝCHOD
+
+# Close menu
+    Close_Game=Zatvoriť hru?
+
+[Worlds Menu]
+# Worlds are save slots; image at: https://drive.google.com/file/d/1vUYrXaem4ki1dcXRFUJLKWZEcE0PFno-/view?usp=share
+    Create_New_World_Button=Vytvorte nový svet
+
+# Create menu
+    Create_World_Title=Svetové meno
+    Default_World_Name=Môj svet
+
+# Delete menu
+    World_Delete=Odstrániť
+
+# Select system menu
+    Select_Solar_System=Vyberte svetovú slnečnú sústavu
+    Select_Solar_System__NotFound=Slnečná sústava nebola nájdená:
+    Select_Solar_System__NotFound=%system%
+    Select_Solar_System__NotFound=
+    Select_Solar_System__NotFound=Vyberte nový solárny systém
+    
+    Default_Solar_System=Slnečný systém (predvolené)
+    Custom_Solar_System=%name% (vlastné)
+
+# World info
+    World_Mode_Name=Režim: %value%
+    Mode_Sandbox=Sandbox
+    Mode_Challenge=Výzva
+    Mode_Career=Kariéra
+    
+    Allow_Cheats_Name=Povoliť cheaty: %value%
+    Allow_Cheats_Label=Povoliť cheaty
+    
+    Allow_Quicksaves_Name=Povoliť rýchle uloženie: %value%
+    Allow_Quicksaves_Label=Povoliť rýchle uloženie
+    
+    World_Difficulty_Name=Obtiažnosť: %value%
+    Difficulty_Normal=Normálne
+    Difficulty_Hard=Ťažký
+    Difficulty_Realistic=Realistický
+
+# World play times
+    Last_Played=Naposledy hrané: %value% ago
+    Just_Played=Naposledy hrané: Pred chvíľou
+    Time_Played=Hrací čas: %value%
+
+[Saving]
+# Blueprint stuff; Blueprints are rocket designs; images at: https://drive.google.com/drive/folders/15m4nXgzr8fvql78TheE3Qy1WPrTaIqdJ?usp=share
+   Blueprints_Menu_Title=Plány
+   Unnamed_Blueprint=Blueprint bez názvu
+   Save_Blueprint=Uložiť plán
+   Load_Blueprint=Načítať plán
+   Cannot_Save_Empty_Build=Nedá sa uložiť prázdny plán
+
+# Quicksave stuff; Quicksaves let players save at any time and return to it.
+# It does not necessarily have to be called quicksave, player just needs to understand its use.
+# Image at: https://drive.google.com/drive/folders/128aXHWoUhJXZbbKVBDXXSMoCvRwFpvct?usp=share
+   Quicksaves_Menu_Title=Rýchle uloženia
+   Unnamed_Quicksave=Rýchle uloženie bez názvu
+   Create_Quicksave=Vytvoriť rýchle uloženie
+   Load_Quicksave=Načítať rýchle uloženie
+
+# Save and load menus; context seen in images from blueprint/quicksave stuff
+    Save=Uložiť
+    Load=Load
+    Import=Import
+    Delete=Vymazať
+    Rename=Premenovať
+    Delete_File_With_Type=Odstrániť %filename% %filetype{1}%
+
+# In progress
+    Saving_In_Progress=Ukladá sa...
+    Loading_In_Progress=Načítava...
+    Importing_In_Progress=Importuje sa...
+
+# filetype (injected)
+    Blueprint{0}=Plán
+    Blueprint{1}=modrotlač
+    Blueprint{2}=návrhy
+    
+    Quicksave{0}=Rýchle uloženie
+    Quicksave{1}=rýchle uloženie
+    Quicksave{2}=rýchle uloženie
+
+# Ask overwrite menu; image at: https://drive.google.com/file/d/1EOI9UIWAG-lNgrdk1IMmrpmf6rRBuA7Q/view?usp=share
+    File_Already_Exists=%filetype{1}% s týmto názvom už existuje
+    Overwrite_File=Prepísať %filetype{1}%
+    New_File=Nový %filetype{1}%
+
+# Load failure; image at: https://drive.google.com/file/d/1c7qHCdbS1ShSq4rKIHMpHKCTuh0pXeHv/view?usp=share
+     Load_Failed=Nepodarilo sa načítať %filetype{1}% z %filepath%
+
+# Legacy Messages
+    Conversion_Message=Vitajte vo verzii 1.5.
+    Conversion_Message=
+    Conversion_Message=Všetky uloženia 1.4 boli automaticky skonvertované na uloženia 1.5
+    
+    Conversion_Success=Našla sa verzia 1.4 %filetype{1}% a skonvertovala sa na formát %version%
+    
+    Conversion_Failed=Našla sa verzia 1.4 súboru %filetype{1}% a skonvertovala sa do formátu %version%
+    Conversion_Failed=
+    Conversion_Failed=Konverzia zlyhala:
+    Conversion_Failed=%reason%
+
+[Purchasing]
+# Images at: https://drive.google.com/drive/folders/1kIhFuPRp8YXkZ8SVC5Jq9UJkNZqdasQC?usp=share
+    Parts_Expansion=Rozšírenie častí
+    Redstone_Atlas_Pack=Balík Redstone Atlas
+    Skins_Expansion=Rozšírenie vzhľadov
+    Planets_Expansion=Rozšírenie planét
+    Expansion_Bundle=Rozširujúci balík
+    Upgrade_To_Bundle=Inovovať na balík
+    Cheats_Expansion=Cheaty
+    Infinite_Area_Expansion=Nekonečná stavebná oblasť
+    Builder_Bundle=Balík tvorcu
+    Sandbox_Bundle=Balík karantény
+    Full_Bundle=Úplný balík
+    Upgrade_To_Full_Bundle=Upgrade na úplný balík
+    Mac_Full_Version=Plná verzia
+    
+    Not_All_Parts_Are_Owned=Nie všetky časti sú vo vlastníctve
+    Not_All_Parts_Are_Owned=Zakázané časti, ktoré nevlastníte
+    Not_All_Parts_Are_Owned=
+    Not_All_Parts_Are_Owned=Zobraziť rozšírenie dielov?
+    
+    View_Part_Expansion=Zobraziť rozšírenie
+    
+    More_Parts=Zobraziť rozšírenie častí
+    More_Skins=Zobraziť rozšírenie vzhľadov
+    
+    Cannot_Use_Cheats_In_Career=Cheaty možno použiť iba vo svete v režime sandbox
+    Get_Infinite_Build_Area_Button=Získajte nekonečnú oblasť výstavby
+    Get_Cheats_Expansion_Button=Získajte rozšírenie cheatov
+    
+    Why_Buy=Vaša podpora nám pomôže neustále zlepšovať hru!
+
+    Buy_Product=Kúpiť %produkt% %price%
+    
+    Timed_Sale_Text=%product_name% -%sale_percent%
+    Timed_Sale_Text=%time_left%
+    
+    Time_Upgrade_Text=Inovovať na %product_name% -%sale_percent%
+    Time_Upgrade_Text=%time_left%
+    
+    Purchase_Thanks_Msg=Zakúpené: %product%
+    Purchase_Thanks_Msg=
+    Purchase_Thanks_Msg=Ďakujeme za vašu podporu!
+    Purchase_Thanks_Msg=Teraz choďte preskúmať hviezdy!
+    
+    Owned=%product% (Vlastnené)
+    
+    Restore_Open=Obnoviť nákupy
+    
+    Restore_Text=Transakcie na zariadeniach so systémom Android sa automaticky obnovia pri spustení
+    Restore_Text=
+    Restore_Text=- Skontrolujte, či ste prihlásený/-á do účtu Google Play, ktorý položku zakúpil (skontrolujte, či je nákup viditeľný v histórii nákupov Google Play)
+    Restore_Text=
+    Restore_Text=- Skontrolujte tlačidlo nákupu, ak nie je zobrazená cena, hra nie je pripojená k obchodu. Skontrolujte sieťové pripojenie a reštartujte hru
+    Restore_Text=
+    Restore_Text=Ak žiadna z vyššie uvedených metód nefunguje, kontaktujte ma prosím e-mailom: games.morojna@gmail.com
+    Restore_Text=
+    Restore_Text=Môžete tiež skúsiť chvíľu počkať, zakúpené položky sa niekedy obnovia samé po niekoľkých hodinách
+
+    Purchase_FAQ_Open=Časté otázky
+    
+    Purchase_FAQ_Text=<color=grey>Budú zakúpené položky zachované aj medzi aktualizáciami? </color>
+    Purchase_FAQ_Text=Áno, samozrejme
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>Stratí sa zakúpené položky? </color>
+    Purchase_FAQ_Text=Vaše zakúpené položky budú natrvalo uložené vo vašom účte obchodu a nestratia sa ani po preinštalovaní hry alebo výmene telefónu
+    Nákup_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>Poskytnete vrátenie peňazí? </color>
+    Purchase_FAQ_Text=Áno, samozrejme. Ak žiadosť predložíte v primeranom čase, vrátime vám peniaze bez akýchkoľvek podmienok.
+
+# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=share
+    PartsExpansion_Tanks=Veľká škála palivových nádrží!
+    PartsExpansion_Engines=Motory s ťažkým zdvihom!
+    PartsExpansion_Parts=Časti všetkých tvarov a veľkostí!
+    
+    PartsExpansion_Build=Veľký priestor na zostavenie
+    PartsExpansion_Build=oživte svoje výtvory!
+
+# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=share
+    SkinsExpansion_Tanks=Namaľujte svoje diely v rôznych vzhľadoch!
+    SkinsExpansion_Interstages=Vyfarbite všetko z medzistupňov
+    SkinsExpansion_Nosecones=Do kužeľov nosa
+    SkinsExpansion_Fairings=A dokonca aj kapotáže
+
+# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=share
+    PlanetsExpansion_Jupiter=Preskúmajte Jupiter a jeho štyri mesiace!
+    PlanetsExpansion_Callisto=Z vysoko krátermi posiateho povrchu Callisto!
+    PlanetsExpansion_Europa=Do rozľahlých ľadových plôch Európy!
+    
+    PlanetsExpansion_Conclusion=Vzdialené svety na vás čakajú
+    PlanetsExpansion_Conclusion=preskúmať ich!
+
+# Expansion Bundle; images at: https://drive.google.com/file/d/1aWdcqNciwf7i3ju1Hx7mHnKyGBS2_tYU/view?usp=share
+    ExpansionBundle_Sandbox=ocenenie
+    ExpansionBundle_Sandbox=Režim karantény
+    
+    ExpansionBundle_Infinite_Fuel=Nekonečné množstvo paliva
+    ExpansionBundle_No_Atmospheric_Drag=Žiadny atmosférický odpor
+    ExpansionBundle_Unbreakable_Parts=Žiadne poškodenie spôsobené kolíziou
+    ExpansionBundle_No_Gravity=Bez gravitácie
+
+[Sharing]
+    Share_Button=Zdieľať plán
+    Upload_Blueprint_PC=Odovzdať plán
+    Download_Blueprint_PC=Stiahnuť plán
+    Share_Button_PC=Zdieľať
+    Download_Confirm=Stiahnuť
+    URL_Field_TextBox=Návrh URL
+    Empty_Upload=Nedá sa nahrať prázdny plán
+    Uploading_Message=Nahrávam...
+    Upload_Fail=Nepodarilo sa odovzdať plán
+    Copied_URL_To_Clipboard=Adresa URL plánu bola skopírovaná do schránky
+    Sharing_Enter_Prompt=Vyberte svet, do ktorého chcete načítať plán
+    Confirm_Download_Button=Stiahnuť plán
+    Downloading_Message=Sťahuje sa...
+    Download_Fail=Nepodarilo sa stiahnuť plán
+    URL_Invalid=Neplatná adresa URL návrhu
+    Sharing_Connect_Fail=Nepodarilo sa pripojiť k zdieľaným serverom
+
+[Settings Mobile]
+    Music_Name=Hudba
+    Sound_Name=Zvuk
+    Screen_Rotation_Name=Otočenie obrazovky
+    FPS_Name=Fps
+    Language_Name=Jazyk
+    Menu_Scale=Mierka rozhrania
+    Menu_Opacity=Nepriehľadnosť rozhrania
+    Shakes_Name=Otras fotoaparátu
+    Orbit_Line_Count=Počet obežných dráh
+    Anti_Aliasing=Anti-Aliasing
+
+[Cheats]
+    Infinite_Build_Area_Name=Nekonečná stavebná oblasť
+    Part_Clipping_Name=Orezanie časti
+    Infinite_Fuel_Name=Nekonečné množstvo paliva
+    No_Atmospheric_Drag_Name=Žiadny atmosférický odpor
+    No_Collision_Damage_Name=Žiadne poškodenie spôsobené kolíziou
+    No_Gravity_Name=Žiadna gravitácia
+    No_Heat_Damage_Name=Žiadne tepelné poškodenie
+    No_Burn_Marks_Name=Žiadne stopy po vypálení
+
+[Tutorials]
+
+    Tut_Drag_And_Drop=Pretiahnite časti
+    Tut_Drag_And_Drop=postaviť svoju raketu
+    
+    Tut_Part_Info=Kliknutím zobrazíte
+    Tut_Part_Info=informácie o diele
+    
+    Tut_Use_Part=Kliknutím na časti ich použijete
+    Tut_Ignition=Zapaľovanie!
+    Tut_Throttle=Nastavte plyn
+
+[Hub]
+    Funds_Text=Fondy: %funds%
+    Go_To_Space_Center=Vesmírne centrum
+    Exit_To_Space_Center=Výstup do vesmírneho strediska
+    Research_And_Development=Výskum a vývoj %complete%/%total%
+    Challenges_Info=Výzvy: %complete%/%total%
+    Challenges_Button=Výzvy: %complete%/%total%
+    Challenges_Title=Výzvy:
+    
+    Challenges_Completed=<size=55>Výzva dokončená:</size>
+    Challenges_Completed=%challenge%
+
+[Build]
+    Build_New_Rocket=Postavte novú raketu
+    New=Nový
+    Expand_Last_Rocket=Pokračovať v zostavovaní
+    
+    Symmetry_On=Symetria: Zapnutá
+    Symmetry_Off=Symetria: Vyp
+    
+    Interior_View_On=Pohľad do interiéru: Zap
+    Interior_View_Off=Pohľad do interiéru: Vyp
+    
+    Launch_Button=Spustiť
+    Move_Rocket_Button=Presuňte raketu
+
+# Clear build area
+    Clear_Warning=Vymazať oblasť výstavby?
+    Clear_Confirm=jasný
+
+# Launch warnings
+    Warnings_Title=UPOZORNENIE:
+    Missing_Capsule=Vaša raketa nemá kapsulu ani sondu, takže je nekontrolovateľná
+    Missing_Parachute=Vaša raketa nemá padák
+    Missing_Heat_Shield=Vaša raketa nemá tepelný štít
+    Missing_Fuel_Popup=Žiadny zdroj paliva
+    
+    Too_Heavy=Vaša raketa je príliš ťažká na odpálenie
+    Too_Heavy=%mass%
+    Too_Heavy=%thrust%
+    Too_Heavy=Znížte hmotnosť alebo použite výkonnejší motor
+    
+    Launch_Anyway_Button=Aj tak spustiť
+    
+    Launch_Horizontally_Ask=Spustiť horizontálne?
+    Launch_Horizontally_Confirm=Spustiť horizontálne
+    Launch_Vertically_Confirm=Spustiť vertikálne
+
+# Example rockets
+    Example_Rockets_OpenMenu=Príklad rakiet
+    Basic_Rocket=Základná raketa
+    Stages = dvojstupňová raketa
+    Ideal_Stages=Trojstupňová raketa
+    Lander=Pristávač na Mesiaci
+
+[Map]
+    Toggle_Map_Button=Mapa
+
+# Shown in map when you escape a gravity field of a planet
+# image for escape/encounter at: https://drive.google.com/file/d/17jqJF09DWoqkgW9VGXdG7SRCSo0UmW0o/view?usp=share
+    Escape=Uniknúť
+
+# Shown in map when you encounter/enter a gravity field of a planet
+    Encounter=Stretnutie
+
+# Shown in map when you approach/encounter another rocket
+    Rendezvous=Randezvous
+
+# Shows the transfer window to another planet
+# image at: https://drive.google.com/file/d/1zd8UEnVb91QmSDllEu1DyCbkCsDKbJk3/view?usp=share
+    Transfer=Prenosové okno
+
+[Game]
+# Image at: https://drive.google.com/file/d/1d0b-udFyO4ItlYu1vVaVdzgwdAeT1hPw/view?usp=share
+    Throttle_On=Zapnuté
+    Throttle_Off=Vypnuté
+    Ignition=ZAPAĽOVANIE
+    RCS=RCS
+
+# Game supports screen rotation, we split into 2 lines in vertical mode
+    Height_Terrain_Vertical=Výška (terén):
+    Height_Terrain_Vertical=
+    Height_Terrain_Vertical=%height%
+
+    Height_Vertical=výška:
+    Height_Vertical=
+    Height_Vertical=%height%
+
+    Velocity_Vertical=rýchlosť:
+    Velocity_Vertical=
+    Velocity_Vertical=%speed%
+
+    Velocity_Relative_Vertical=Rýchlosť (relatívna):
+    Velocity_Relative_Vertical=
+    Velocity_Relative_Vertical=%speed%
+
+    Distance_Relative_Vertical=Vzdialenosť (relatívna):
+    Distance_Relative_Vertical=
+    Distance_Relative_Vertical=%distance%
+
+# Angle indicates the best angle/direction the player can rotate their rocket towards
+    Angle_Vertical=Uhol:
+    Angle_Vertical=
+    Angle_Vertical=%angle% / %targetAngle%
+
+    Height_Terrain_Horizontal=Výška (terén): %height%
+    Height_Horizontal=Height: %height%
+    Velocity_Horizontal=Velocity: %speed%
+    Velocity_Relative_Horizontal=Rýchlosť (relatívna): %speed%
+    Distance_Relative_Horizontal=Vzdialenosť (relatívna): %distance%
+    Angle_Horizontal=Uhol: %angle% / %targetAngle%
+
+    Relative_Velocity_Arrow=Relatívna rýchlosť
+    Relative_Velocity_Arrow=%velocity%
+
+    Side_Velocity_Arrow=Bočná rýchlosť
+    Side_Velocity_Arrow=%velocity%
+
+    Forward_Velocity_Arrow=Vzdialenosť
+    Forward_Velocity_Arrow=%distance%
+    Forward_Velocity_Arrow=
+    Forward_Velocity_Arrow=Rýchlosť
+    Forward_Velocity_Arrow=%velocity%
+
+[Failure menu]
+    Failure_Cause=PRÍČINA ZLYHANIA:
+    Failure_Crash_Into_Rocket=Narazil do inej rakety
+    Failure_Crash_Into_Terrain=Narazil na povrch %planéty{1}%
+    Failure_Burn_Up=Vyhorené pri opätovnom vstupe
+
+[End mission menu]
+    Recover_Rocket=Obnoviť
+    Destroy_Rocket=Zničiť
+    Debris_Recover=Obnovte trosky
+    Debris_Destroy=Zničte trosky
+    Debris_Recover_Title=Obnoviť trosky?
+    Debris_Destroy_Title=Zničiť trosky?
+    View_Mission_Log=Zobraziť denník letu
+
+# Restart menu
+    
+    Restart_Mission_To_Launch_Warning=UPOZORNENIE:
+    Restart_Mission_To_Launch_Warning=Toto zruší celý postup od posledného spustenia
+    
+    Restart_Mission_To_Build_Warning=UPOZORNENIE:
+    Restart_Mission_To_Build_Warning=Toto zruší celý postup od poslednej zostavy
+    
+    Restart_Mission_To_Launch=Vrátiť späť na spustenie
+    Restart_Mission_To_Build=Vrátiť sa k zostaveniu
+    Revert_30_Secs=Vrátiť 30 sekúnd
+    Revert_3_Min=Vrátiť 3 min
+
+# End mission menu
+    End_Challenges_Title=Výzvy:
+    End_Logs_Title=Záznam misie:
+    Continue_To_Log=Pokračovať
+    Back_To_Challenges=Späť
+
+# Clear space junk/debris
+    Clear_Debris_Warning=Vymazať nečistoty?
+    Clear_Debris_Warning=
+    Clear_Debris_Warning=Toto odstráni všetky nekontrolovateľné rakety
+    
+    Clear_Debris_Confirm=Vyčistite nečistoty
+
+    # Select menu; Image at: https://drive.google.com/file/d/1CBIAZ3o_Z7bpEAb8sVdTdDeF4KB8-Yyi/view?usp=share
+   Navigate_To=Navigovať do
+   End_Navigation=Ukončiť navigáciu
+   Focus=Zameranie
+   Unfocus=Zrušiť zaostrenie
+   Track=Track
+   Stop_Tracking=Zastaviť sledovanie
+   Switch_To=Prepnúť na
+
+[Rocket]
+    Default_Rocket_Name=Raketa
+
+# Informs the player that he cannot perform an action due to rocket having no control
+    No_Control_Msg=Bez kontroly
+
+[Timewarp]
+# Timewarp = Timewarp can skip long waits
+    Msg_Timewarp_Speed=Zrýchlenie času %rýchlosť%x
+    Cannot_Timewarp_Below_Basic=Nedá sa zmeniť časový posun pod %height%
+    Cannot_Timewarp_Below=Nedá sa prehýbať rýchlejšie ako %speed%x, kým je pod %height%
+    Cannot_Timewarp_While_Moving_On_Surface=Pri pohybe na povrchu nie je možné meniť časový posun rýchlejšie ako %speed%x
+    Cannot_Timewarp_While_Accelerating=Pri zrýchlení nie je možné meniť časový posun rýchlejšie ako %speed%x
+    Cannot_Use_Part_While_Timewarping=Nie je možné použiť %part{1}% počas deformácie času
+    Cannot_Turn_While_Timewarping=Nemôžem sa otočiť počas timewarpingu
+    
+    Timewarp_To_Button=Timewarp Tu
+
+[Units]
+# Image at: https://drive.google.com/file/d/1ljpGY55W8V1wF9esl5v569B0Z-D6xxMt/view?usp=share
+    Thrust_To_Weight_Ratio=Thrust / Weight: %value%
+    Mass=Mass: %value%t
+    Thrust=Thrust: %value%t
+    Burn_Time=Burn Time: %value%s
+
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=share
+    Efficiency=Efficiency: %value% Isp
+    Mass_Unit=t
+    Meter_Unit=m
+    Km_Unit=km
+    Meter_Per_Second_Unit=m/s
+
+[Timestamps]
+    Second_Short=%value%s
+    Minute_Short=%value%m
+    Hour_Short=%value%h
+    Day_Short=%value%d
+
+[Resource Types]
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=share
+    Solid_Fuel{0}=Tuhé palivo
+    Solid_Fuel{1}=tuhé palivo
+    Liquid_Fuel{0}=Kvapalné palivo
+    Liquid_Fuel{1}=kvapalné palivo
+
+[Resource Uses]
+    Resource_Bars_Title=%resource_name{0}%:
+    Info_Resource_Amount=%resource{0}%: %amount%
+    Msg_No_Resource_Source=Žiadny zdroj %resource{1}%
+    Msg_No_Resource_Left=Nedostatok %resource{1}%
+
+[Part Categories]
+# Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=share
+    Basic_Parts=Základy
+    Six_Wide_Parts=6 Široké
+    Eight_Wide_Parts=8 Široké
+    Ten_Wide_Parts=10 široký
+    Twelve_Wide_Parts=12 Široké
+    Engine_Parts=Motory
+    Aerodynamics_Parts=Aerodynamika
+    Fairings_Parts=Kabeláže
+    Structural_Parts=Štrukturálne
+    Other_Parts=Iné
+
+[Part Names]
+    Capsule_Name{0}=Kapsula
+    Capsule_Name{1}=kapsula
+    Probe_Name{0}=Probe
+    Probe_Name{1}=sonda
+    Parachute_Name{0}=Padák
+    Parachute_Name{1}=padák
+    
+    Kolibri_Engine_Name{0}=Motor Kolibri
+    Kolibri_Engine_Name{1}=motor kolibri
+    Hawk_Engine_Name{0}=Motor Hawk
+    Hawk_Engine_Name{1}=motor Hawk
+    Valiant_Engine_Name{0}=Valiant Engine
+    Valiant_Engine_Name{1}=udatný motor
+    Titan_Engine_Name{0}=Titanový motor
+    Titan_Engine_Name{1}=titánový motor
+    Frontier_Engine_Name{0}=Hraničný motor
+    Frontier_Engine_Name{1}=hraničný nástroj
+    Peregrine_Engine_Name{0}=Peregrine Engine
+    Peregrine_Engine_Name{1}=motor peregrine
+    Ion_Engine_Name{0}=Iónový motor
+    Ion_Engine_Name{1}=iónový motor
+    RCS_Thruster_Name{0}=RCS Thruster
+    RCS_Thruster_Name{1}=motor rcs
+    
+    Solid_Rocket_Booster{0}=Solid Rocket Booster
+    Solid_Rocket_Booster{1}=zosilňovač rakiet
+    
+    Fuel_Tank_Name{0}=Palivová nádrž
+    Fuel_Tank_Name{1}=palivová nádrž
+    Separator_Name{0}=Oddeľovač fáz
+    Separator_Name{1}=oddeľovač fáz
+    Side_Separator_Name{0}=Bočný oddeľovač
+    Side_Separator_Name{1}=bočný oddeľovač
+    Structural_Part_Name{0}=Konštrukčná časť
+    Structural_Part_Name{1}=štrukturálna časť
+    Landing_Leg_Name{0}=Pristávacia časť
+    Landing_Leg_Name{1}=pristávacia noha
+    Aerodynamic_Nose_Cone_Name{0}=Aerodynamický kužeľ nosa
+    Aerodynamic_Nose_Cone_Name{1}=aerodynamický kužeľ nosa
+    Aerodynamic_Fuselage_Name{0}=Aerodynamický trup
+    Aerodynamic_Fuselage_Name{1}=aerodynamický trup
+    Fairing_Name{0}=Fairing
+    Fairing_Name{1}=kabeláž
+    Rover_Wheel_Name{0}=Koleso Roveru
+    Rover_Wheel_Name{1}=koleso roveru
+    Docking_Port_Name{0}=Dokovací port
+    Docking_Port_Name{1}=dokovací port
+    Solar_Panel_Name{0}=Solárny panel
+    Solar_Panel_Name{1}=solárny panel
+    Battery_Name{0}=Batéria
+    Battery_Name{1}=batéria
+    RTG_Name{0}=RTG
+    RTG_Name{1}=rtg
+    Heat_Shield_Name{0}=Tepelný štít
+    Heat_Shield_Name{1}=tepelný štít
+    Fuel_Pipe_Name{0}=Palivové potrubie
+    Fuel_Pipe_Name{1}=palivové potrubie
+
+[Part Descriptions]
+    Capsule_Description=Malá kapsula s jedným astronautom
+    Probe_Description=Sonda bez posádky, používaná pre jednosmerné misie
+    Parachute_Description=Padák používaný na pristátie
+    Fuel_Tank_Description=Palivová nádrž s tekutým palivom a tekutým kyslíkom
+    Separator_Description=Vertikálny oddeľovač, používaný na oddelenie prázdnych stupňov
+    Side_Separator_Description=Horizontálny oddeľovač, používaný na odpojenie bočných zosilňovačov
+    Landing_Leg_Description=Vysúvateľná a zasúvateľná noha používaná na pristávanie na povrchu mesiacov a planét
+    Structural_Part_Description=Ľahká a pevná konštrukčná časť
+    Hawk_Engine_Description=Vysoký ťah – motor s nižšou účinnosťou, bežne používaný v prvom stupni rakety
+    Titan_Engine_Description=Vysoký ťah – motor s nižšou účinnosťou, bežne používaný v prvom stupni rakety
+    Valiant_Engine_Description=Vysoká účinnosť, nízky ťah. Používa sa vo vesmíre, keď vysoký ťah nie je prioritou
+    Frontier_Engine_Description=Vysoká účinnosť, nízky ťah. Používa sa vo vesmíre, keď vysoký ťah nie je prioritou
+    Kolibri_Engine_Description=Malý motor používaný pre pristávacie moduly
+    Ion_Engine_Description=Nízky ťahový motor s neuveriteľne vysokou účinnosťou
+    RCS_Thruster_Description=Sada malých smerových trysiek, používaných na dokovanie
+    
+    Booster_Description=Má vysoký ťah, nízku účinnosť
+    Booster_Description=Po zapálení sa nedá vypnúť alebo pridať plyn
+    
+    Aerodynamic_Nose_Cone_Description=Aerodynamický predný kužeľ používaný na zlepšenie aerodynamiky bočných posilňovačov
+    Aerodynamic_Fuselage_Description=Aerodynamický trup používaný na zakrytie motorov
+    Fairing_Description=Aerodynamická kapotáž, používaná na zapuzdrenie užitočného zaťaženia
+    Battery_Description=Batéria používaná na uchovávanie elektrickej energie
+    Solar_Panel_Description=Solárny panel, ktorý po vysunutí generuje energiu
+    RTG_Description=Rádioizotopový termoelektrický generátor alebo RTG
+    Rover_Wheel_Description=Koleso Roveru používané na jazdu po povrchu planét
+    Docking_Port_Description=Dokovací port, ktorý možno použiť na spojenie dvoch vozidiel
+    Heat_Shield_Description=Žiaruvzdorný štít používaný na prežitie atmosférického návratu
+    Fuel_Pipe_Description=Potrubie používané na prenos paliva
+
+[Modules]
+    Activate_Separator=Oddelenie
+    Activate_Fairing=Fairing
+    
+    Torque_Module_Torque=Krútiaci moment: %value%kN
+    Separation_Force=Sila oddeľovania: %value%kN
+    Magnet_Force=Sila magnetu: %value%kN
+    
+    Max_Heat_Tolerance=Tolerancia tepla: %temperature%
+    
+    State_On{0}=Zapnuté
+    State_Off{0}=Vyp
+    
+    Engine_Module_State=Motor %state{0}%
+    Engine_On_Label=Motor zapnutý
+    Gimbal_On_Label=Gimbal zapnutý
+    
+    Msg_RCS_Module_State=RCS %state{0}%
+    
+    Wheel_Module_State=Koleso roveru %state{0}%
+    Wheel_On_Label=Koleso zapnuté
+    
+    Panel_Expanded=Rozšírené
+    Landing_Leg_Expanded=Nasadené
+    
+    Detach_Edges_Label=Odpojiť okraje
+    Adapt_To_Tanks_Label=Prispôsobte sa palivovým nádržiam
+    Info_Parachute_Max_Height=Maximálna výška nasadenia: %height%
+    Button_Activate_Parachute=nasadený padák
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=Nedá sa rozvinúť padák vo vákuu
+    Msg_Cannot_Deploy_Parachute_Above=Nedá sa nasadiť padák nad %height%
+    Msg_Cannot_Fully_Deploy_Above=Nedá sa úplne rozvinúť padák nad %height%
+    Msg_Cannot_Deploy_Parachute_While_Faster=Nedá sa nasadiť padák, keď ide rýchlejšie ako %velocity%
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=Nedá sa nasadiť padák, keď sa nepohybuje
+    Msg_Parachute_Half_Deployed=Padák je napoly nasadený
+    Msg_Parachute_Fully_Deployed=Padák plne nasadený
+    Msg_Parachute_Cut=Výrez padákom
+
+[Planets]
+    Sun{0}=slnko
+    Sun{1}=slnko
+    Sun{2}=Slnko
+    Mercury{0}=Merkúr
+    Venus{0}=Venuša
+    Earth{0}=Zem
+    Earth{1}=zem
+    Earth{2}=Zem
+    Earth{3}=Zeme
+    Moon{0}=Mesiac
+    Moon{1}=mesiac
+    Moon{2}=Mesiac
+    Near_Earth_Asteroid{0}=Zachytený asteroid
+    Near_Earth_Asteroid{1}=zachytený asteroid
+    Near_Earth_Asteroid{2}=Zachytený asteroid
+    Mars{0}=Mars
+    Phobos{0}=Phobos
+    Deimos{0}=Deimos
+    Jupiter{0}=Jupiter
+    Jupiter{1}=Jupiter
+    Jupiter{2}=Jupiter
+    Jupiter{3}=Jupiterov
+    Europa{0}=Európa
+    Ganymede{0}=Ganymede
+    Io{0}=Io
+    Callisto{0}=Callisto
+
+[Landmarks]
+    Sea_of_Tranquility=More pokoja
+    Sea_of_Serenity=More pokoja
+    Ocean_of_Storms=Oceán búrok
+    Copernicus_Crater=Kráter Copernicus
+    Tycho_Crater=Kráter Tycho
+    
+    Olympus_Mons=Olympus Mons
+    Valles_Marineris=Valles Marineris
+    Gale_Crater=Kráter víchrica
+    Hellas_Planitia=Hellas Planitia
+    Arcadia_Planitia=Arcadia Planitia
+    Utopia_Planitia=Utopia Planitia
+    Jezero_Crater=Jezero kráter
+    
+    Atalanta_Planitia=Atalanta Planitia
+    Lavinia_Planitia=Lavinia Planitia
+    
+    Caloris_Planitia=Caloris Planitia
+    Borealis_Planitia=Borealis Planitia
+    Maxwell_Montes=Maxwell Montes
+
+[Challenges]
+    Liftoff_Title=Odstup
+    Liftoff=Zdvihnite a pristaňte bezpečne
+    
+    Reach10km_Title=Dosah 10km
+    Dosah 10 km = Dosiahnite 10 km a bezpečne pristaňte
+    
+    ReachSpace_Title=Dosiahnite priestor
+    ReachSpace=Dosiahnite %height%, potom prežite návrat a bezpečne pristaňte
+    
+    Land100kmDownrange_Title=Land 100km downrange
+    Land100kmDownrange=Pristátie aspoň 100km od štartovacej rampy
+    
+    ReachLowEarthOrbit_Title=Dosiahnite nízku obežnú dráhu Zeme
+    ReachLowEarthOrbit=Dosiahnite nízku obežnú dráhu Zeme a potom bezpečne pristaňte
+    
+    ReachHighEarthOrbit_Title=Dosiahnite vysokú obežnú dráhu Zeme
+    ReachHighEarthOrbit=Dosiahnite vysokú obežnú dráhu Zeme a potom bezpečne pristaňte
+    
+    MoonOrbit_Title=Obeh Mesiaca
+    MoonOrbit=Dostaňte sa na nízku obežnú dráhu Mesiaca a potom sa bezpečne vráťte
+    
+    MoonTour_Title=Prehliadka Mesiaca
+    MoonTour=Pristáť na 3 samostatných orientačných bodoch, potom sa bezpečne vrátiť
+    
+    AsteroidImpact_Title=Náraz asteroidu
+    AsteroidImpact=Náraz na povrch zachyteného asteroidu rýchlosťou 200+ m/s
+    
+    MarsGrandTour_Title=Veľká prehliadka Marsu
+    MarsGrandTour=Pristáť na Marse, Phobos a Deimos jedným letom a potom sa bezpečne vrátiť
+    
+    VenusLanding_Title=Pristátie na Venuši
+    VenusLanding=Zostúpte cez hustú atmosféru a pristaňte na povrchu Venuše
+    
+    VenusReturn_Title=Návrat Venuše
+    VenusReturn=Pristáť na povrchu Venuše, potom vystúpiť cez hustú atmosféru a bezpečne sa vrátiť
+    
+    MercuryLanding_Title=Pristátie ortuti
+    MercuryLanding=Pristátie na povrchu Merkúra
+   
+    MercuryReturn_Title=Vrátenie ortuti
+    MercuryReturn=Pristáť na povrchu Merkúra, potom sa bezpečne vrátiť
+    
+    LandAndReturn_Title=%planet{0}% Pristátie
+    LandAndReturn=Pristáť na povrchu %planet{0}%, potom sa bezpečne vrátiť
+
+[Achievements]
+    Reached_Height=Dosiahnutá výška %height%
+    Reached_Karman_Line=Prešiel líniou Karmana, opustil atmosféru a dosiahol vesmír
+    Survived_Reentry=Opätovne vstúpil do %planéty{3}% atmosféry, maximálna teplota %temperature%
+    
+    Reached_Low_Orbit=Dosiahnutá nízka obežná dráha % planéty{0} %.
+    Reached_High_Orbit=Dosiahnutá vysoká obežná dráha % planéty{0} %.
+    Descend_Low_Orbit=Zostúpil na nízku obežnú dráhu %planéty{0}%
+    Capture_Low_Orbit=Zachytený na nízku obežnú dráhu %planéty{0}%
+    Capture_High_Orbit=Zachytený na vysokú obežnú dráhu %planéty{0}%
+    
+    Entered_Lower_Atmosphere=Vstúpil do %planéty{3}% nižšej atmosféry
+    Entered_Upper_Atmosphere=Vstúpil do %planéty{3}% hornej atmosféry
+    Left_Lower_Atmosphere=Dosiahli % planétu{3}% hornú vrstvu atmosféry
+    Left_Upper_Atmosphere=Únik z %planéty{3}% atmosféry
+    
+    Pristálo=Pristálo na povrchu %planéty{1}%
+    
+    Landed_At_Landmark=Pristáli na povrchu %planéty{1}%
+    Landed_At_Landmark=<size=55>Poloha: %landmark%</size>
+    
+    Landed_At_Landmark__Short=Pristáli na povrchu %planéty{1}%
+    Landed_At_Landmark__Short=- %orientačný bod% ​​-
+    
+    Crashed_Into_Terrain=Narazil na povrch %planéty{1}%
+    
+    Entered_SOI=Vstúpil do sféry vplyvu %planet{1}%
+    Escaped_SOI=Utiekol zo sféry vplyvu %planet{1}%
+    
+    Docked_Suborbital=Ukotvený v suborbitálnej trajektórii %planéty{1}%
+    Docked_Orbit_Low=Ukotvené na nízkej obežnej dráhe % planéty{0} %.
+    Docked_Orbit_Transfer=Ukotvený na prenosovej obežnej dráhe %planéty{1}%
+    Docked_Orbit_High=Ukotvený na vysokej % planéte{0}% obežnej dráhe
+    Docked_Escape=Ukotvený na únikovej trajektórii %planéty{1}%
+    Docked_Surface=Ukotvený na povrchu %planéty{1}%
+    
+    Recover_Home=Bezpečne sa vrátil na %planet{1}%
+    Recover_Landed=Misia dokončená na % planéte{1}% povrchu
+    Recover_Space=Vesmírna misia okolo %planéty{1}% sa skončila

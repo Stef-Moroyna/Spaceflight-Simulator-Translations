@@ -1,0 +1,916 @@
+# Target version :   v1.5.9.15
+# Contributors   :   Team Curiosity, Carson Wu
+# last_update    :   01/08/2024
+
+[Ungroupped]
+# READ ME:
+# The format used here is derived from INI.
+# We have added something special called variants.
+# 
+# Example:
+# 
+# [Planets]
+# Earth{0}= འཛམ་གླིང
+# Earth{1}= འཛམ་གླིང་
+# 
+# [Achievements]
+# Landed_Test0 = %རྒྱུ་སྐར་{0}%སྟེང་བབས་ཡོད།
+# Landed_Test1 = %རྒྱུ་སྐར་{1}%ལ་བབས་ཡོད།
+# 
+# Variants are used for many things, such as making phrases work, caps, etc
+# 
+# We recommend starting at the bottom of the file with achievements/planets, there variants are very clearly used.
+# 
+# 
+# 
+# Available font types: normal/compatibility
+# In case of missing characters use compatibility font.
+    Font=normal
+
+[None]
+    None=None
+    Font=normal
+
+[General]
+# Used for language select buttons
+    Language_Name_In_Local_Language=བོད་སྐད་
+
+    Cancel=འདོར་བ
+    Close=གཏན་པ
+
+    On=སྟེང་ལ
+    Off=ཁ་རྒྱག་པ
+
+    Open_Settings_Button=སྒྲིག་སྟངས།
+    Open_Cheats_Button=གཡོ་སྒྱུ།
+    Help=རོགས་རམ
+
+    Build_Rocket=མེ་ཤུགས་འཕུར་མདའ་བཟོས།
+    Resume_Game=རྩེད་མོ་བསྐྱར་འཛུགས།
+    Return_To_Main_Menu=དཀར་ཆག་གཙོ་བོ།
+    Exit_To_Main_Menu=རེའུ་མིག་གཙོ་བོའི་ཕྱིར་ཐོན་པ།
+
+[Main Menu]
+# Image at: https://drive.google.com/file/d/1mEFf3W964ldXBekpbTc-Jj1XcSnBQz4k/view?usp=sharing
+    Play=རོལ་རྩེད
+
+# Tutorial
+    Video_Tutorials_OpenButton=བརྙན་ཟློས་སློབ་ཁྲིད།
+    Video_Orbit=འཁོར་ལམ་སློབ་ཁྲིད།
+    Video_Moon=ཟླ་བའི་སློབ་ཁྲིད།
+    Video_Dock=མཐུད་ཁའི་སློབ་ཁྲིད།
+
+    Development_Preview=འཕེལ་རྒྱས་སྔོན་ལྟ།
+    Development_Preview_Explanation=འཕེལ་རྒྱས་སྔོན་ལྟ་དེས་ང་ཚོས་ལས་ཀ་བྱེད་བཞིན་པའི་མ་འོངས་པའི་གསར་བཅོས་རྣམས་སྟོན་གྱི་ཡོད།
+
+# Community
+    Community_OpenButton=ཚོགས་སྤྱི
+    Community_Youtube=Youtube
+    Community_Discord=Discord
+    Community_Reddit=Reddit
+    Community_Forums=Forums
+
+# Roadmap
+    Roadmap_OpenButton=Future Updates
+
+    Roadmap_Text=ཐོན་རིམ་ 1.51
+    Roadmap_Text=<color=grey>འཁྲབ་སྟོན།</color>
+    Roadmap_Text=
+    Roadmap_Text=ཐོན་རིམ་ 1.52
+    Roadmap_Text=<color=grey>སློབ་ཁྲིད།</color>
+    Roadmap_Text=
+    Roadmap_Text=ཐོན་རིམ་ 1.53
+    Roadmap_Text=<color=grey>བསྐྱར་དུ་འཛུལ་བ།</color>
+    Roadmap_Text=
+    Roadmap_Text=ཐོན་རིམ་ 1.54
+    Roadmap_Text=<color=grey>སྣང་བའི་ནུས་པ་དང་རྡུལ་ཕྲན་དང་སྒྲ།</color>
+    Roadmap_Text=
+    Roadmap_Text=ཐོན་རིམ་ 1.55
+    Roadmap_Text=<color=grey>བརྟན་པོའི་མེ་ཤུགས་འཕུར་མདའ།</color>
+    Roadmap_Text=
+    Roadmap_Text=ཐོན་རིམ་ 1.6
+    Roadmap_Text=<color=grey>འཇིག་རྟེན་མཁའ་སྐྱོད་པ།</color>
+    Roadmap_Text=
+    Roadmap_Text=ཐོན་རིམ་ 1.7
+    Roadmap_Text=<color=grey>Career mode</color>
+    Roadmap_Text=
+    Roadmap_Text=ཐོན་རིམ་ 1.8
+    Roadmap_Text=<color=grey>ཕྱིའི་རྒྱུ་སྐར།</color>
+    Roadmap_Text=
+    Roadmap_Text=གློག་ཤུགས་མ་ལག
+    Roadmap_Text=<color=grey>གློག་ཤུགས་མ་ལག་ཆ་ཚང་མ་འོངས་པར་བསྐྱར་བཟོ་ཆ་ཚང་བྱེད་རྒྱུ་རེད།</color>
+    Roadmap_Text=
+    Roadmap_Text=
+    Roadmap_Text=འཆར་གཞི་འགྱུར་བ་འགྲོ་སྲིད་པ་སེམས་ལ་ཟུངས་རོགས།
+
+    Credits_OpenButton=བུ་ལོན།
+
+    Credits_Text=<Size=70> Štefo Mai Morojna </size>
+    Credits_Text=<Size=55> ཇུས་འགོད་པ། - ལས་རིམ་བཟོ་མཁན། - སྒྱུ་རྩལ་པ། </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Jordi van der Molen </size>
+    Credits_Text=<Size=55> ལས་རིམ་བཟོ་མཁན། </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Chris Christo </size>
+    Credits_Text=<Size=55> ལས་རིམ་བཟོ་མཁན། </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Josh </size>
+    Credits_Text=<Size=55> ལས་རིམ་བཟོ་མཁན། </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Aidan Ginise </size>
+    Credits_Text=<Size=55> ལས་རིམ་བཟོ་མཁན། </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Andrey Onischenko </size>
+    Credits_Text=<Size=55> ལས་རིམ་བཟོ་མཁན། </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Davi Vasc </size>
+    Credits_Text=<Size=55> གཞས་ཚིག་བརྩམས་མཁན། </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Ashton Mills </size>
+    Credits_Text=<size=55> གཞས་ཚིག་བརྩམས་མཁན། </size>
+
+    First_Time_Playing_Question=ཐེངས་དང་པོར་རྩེད་མོ།
+    First_Time_Playing_Question=བར་སྣང་འཕུར་སྐྱོད་ཚོད་ལྟ་བྱེད་ཆས།
+
+    First_Time_Playing_Yes=རྩེད་ཐེངས་དང་པོ།
+    First_Time_Playing_No=སྔོན་ལ་རྩེད་མྱོང་།
+
+# Update menu
+    Update_Available=གསར་བརྗེ་གསར་པ་ཞིག་ཐོབ་ཐུབ།
+    Update_Available=
+    Update_Available=ད་ལྟའི་ཐོན་རིམ་: %old%
+    Update_Available=ཐོན་རིམ་གསར་ཤོས།: %གསར་པ།
+
+    Update_Confirm=དེང་རབས་ཅན
+
+# Rate menu
+    Rate_Title=ཁྱེད་རང་རྩེད་མོ་དེ་ལ་ཚད་གཞི་འཇོག་འདོད་དམ། ཡང་ན་བསྐྱར་ཞིབ་བྱེད་འདོད་དམ།
+    Rate_Title=
+    Rate_Title=ང་ཚོའི་རྩེད་མོའི་སྤུས་ཚད་ལ་དོ་སྣང་ཆེན་པོ་བྱེད་ཀྱི་ཡོད། ཁྱེད་ཀྱི་བསམ་འཆར་གྱིས་ང་ཚོར་རྩེད་མོ་དེ་ཡར་རྒྱས་གཏོང་བར་ཕན་ཐོགས།
+    Rate_Title=
+    Rate_Title=བསྐྱར་ཞིབ་སྟོང་ཕྲག་མང་པོ་བྱས་རྗེས་ཀྱང་ང་ཚོས་ད་དུང་ཡང་དེ་དག་མང་པོ་ཀློག་བཞིན་ཡོད།
+
+    Rate_Confirm=མྱུར་ཚད
+
+    Exit_Button=ཐོན་སྒོ
+
+# Close menu
+    Close_Game=རྩེད་མོ་ཁ་རྒྱག་གམ།
+
+[Worlds Menu]
+# Worlds are save slots; image at: https://drive.google.com/file/d/1vUYrXaem4ki1dcXRFUJLKWZEcE0PFno-/view?usp=share
+    Create_New_World_Button=འཇིག་རྟེན་གསར་པ་བསྐྲུན་པ།
+
+# Create menu
+    Create_World_Title=འཛམ་གླིང་མིང་།
+    Default_World_Name=ངའི་འཇིག་རྟེན།
+
+# Delete menu
+    World_Delete=Delete
+
+# Select system menu
+    Select_Solar_System=འཛམ་གླིང་གི་ཉི་མའི་ཁྱིམ་རྒྱུད་འདེམས།
+    Select_Solar_System__NotFound=ཉི་མའི་ཁྱིམ་རྒྱུད་རྙེད་མ་ཐུབ།:
+    Select_Solar_System__NotFound=%system%
+    Select_Solar_System__NotFound=
+    Select_Solar_System__NotFound=ཉི་འོད་མ་ལག་གསར་པ་འདེམས།
+
+    Default_Solar_System=ཉི་མའི་མ་ལག (སྔོན་སྒྲིག)
+    Custom_Solar_System=%name% (ཡུལ་སྲོལ)
+
+# World info
+    World_Mode_Name=ཚུལ: %value%
+    Mode_Sandbox=བྱེ་སྒམ།
+    Mode_Challenge=དོ་ཟླ
+    Mode_Career=ལས་རིགས
+
+    Allow_Cheats_Name=མགོ་སྐོར་གཏོང་བ།: %value%
+    Allow_Cheats_Label=གཡོ་སྒྱུ་བྱེད་དུ་འཇུག་པ།
+
+    Allow_Quicksaves_Name=མགྱོགས་གསོག་བྱེད་ཆོག: %value%
+    Allow_Quicksaves_Label=མགྱོགས་མྱུར་གསོག་འཇོག་བྱེད་དུ་འཇུག་པ།
+
+    World_Difficulty_Name=དཀའ་ངལ།: %value%
+    Difficulty_Normal=རྒྱུན་ལྡན
+    Difficulty_Hard=མཁྲེགས་པོ
+    Difficulty_Realistic=དོན་དངོས་དང་མཐུན་པ།
+
+# World play times
+    Last_Played=མཐའ་མར་འཁྲབ་པ་རེད།: %value% ago
+    Just_Played=མཐའ་མའི་འཁྲབ་སྟོན། སྐར་མ་འགའི་སྔོན་ལ།
+    Time_Played=རྩེད་མོའི་དུས་ཚོད།: %value%
+
+[Saving]
+# Blueprint stuff; Blueprints are rocket designs; images at: https://drive.google.com/drive/folders/15m4nXgzr8fvql78TheE3Qy1WPrTaIqdJ?usp=share
+   Blueprints_Menu_Title=འཆར་གཞི།
+   Unnamed_Blueprint=མིང་མེད་པའི་འཆར་གཞི།
+   Save_Blueprint=འཆར་འགོད་ཉར་ཚགས་བྱེད་པ།
+   Load_Blueprint=བླུགས་པའི་འཆར་གཞི།
+   Cannot_Save_Empty_Build=འཆར་འགོད་སྟོང་པ་ཉར་ཚགས་བྱེད་མི་ཐུབ།
+
+# Quicksave stuff; Quicksaves let players save at any time and return to it.
+# It does not necessarily have to be called quicksave, player just needs to understand its use.
+# Image at: https://drive.google.com/drive/folders/128aXHWoUhJXZbbKVBDXXSMoCvRwFpvct?usp=share
+   Quicksaves_Menu_Title=མྱུར་སྐྱོབ།
+   Unnamed_Quicksave=མིང་མེད་པའི་མྱུར་སྲུང་།
+   Create_Quicksave=མྱུར་སྐྱོབ་བཟོས།
+   Load_Quicksave=མྱུར་སྐྱོབ་མངོན་པ།
+
+# Save and load menus; context seen in images from blueprint/quicksave stuff
+    Save=སྐྱོབ་པ
+    Load=སྣོན་འཇུག
+    Import=ནང་འདྲེན་དངོས་ཟོག
+    Delete=སུབ་པ
+    Rename=མིང་བསྒྱུར་བ།
+    Delete_File_With_Type=སུབ་པ %filename% %filetype{1}%
+
+# In progress
+    Saving_In_Progress=གསོག་འཇོག་བྱེད་པ།...
+    Loading_In_Progress=མངོན་གསལ།...
+    Importing_In_Progress=ནང་འདྲེན་བྱེད་བཞིན་པ།...
+
+# filetype (injected)
+    Blueprint{0}=འཆར་གཞི།
+    Blueprint{1}=འཆར་གཞི།
+    Blueprint{2}=འཆར་གཞི།
+
+    Quicksave{0}=མགྱོགས་མྱུར་ཉར་ཚགས་བྱེད་པ།
+    Quicksave{1}=མགྱོགས་མྱུར་ཉར་ཚགས་བྱེད་པ།
+    Quicksave{2}=མགྱོགས་མྱུར་ཉར་ཚགས་བྱེད་པ།
+
+# Ask overwrite menu; image at: https://drive.google.com/file/d/1EOI9UIWAG-lNgrdk1IMmrpmf6rRBuA7Q/view?usp=share
+    File_Already_Exists=མིང་འདི་ཡོད་པའི་ %filetype{1}% སྔོན་ནས་ཡོད།
+    Overwrite_File=ཚབ་བསྒྱུར། %filetype{1}%
+    New_File=གསར %filetype{1}%
+
+# Load failure; image at: https://drive.google.com/file/d/1c7qHCdbS1ShSq4rKIHMpHKCTuh0pXeHv/view?usp=share
+     Load_Failed=Cབླུགས་མ་ཐུབ། %filetype{1}% ནས %filepath%
+
+# Legacy Messages
+    Conversion_Message=ཐོན་རིམ་1.5ལ་ཕེབས་པར་དགའ་བསུ་ཞུ།
+    Conversion_Message=
+    Conversion_Message=1.4 ཉར་ཚགས་ཚང་མ་རང་འགུལ་གྱིས་ 1.5 ཉར་ཚགས་ལ་བསྒྱུར་ཡོད།
+
+    Conversion_Success=%filetype{1}%ཡི་ཐོན་རིམ་1.4རྙེད་ནས་%version%རྣམ་གཞག་ལ་བསྒྱུར།
+
+    Conversion_Failed=%filetype{1}%ཡི་ཐོན་རིམ་1.4རྙེད་ནས་%version%རྣམ་གཞག་ལ་བསྒྱུར།
+    Conversion_Failed=
+    Conversion_Failed=བརྗེ་སྒྱུར་འཐུས་ཤོར་བྱུང་།
+    Conversion_Failed=%reason%
+
+[Purchasing]
+# Images at: https://drive.google.com/drive/folders/1kIhFuPRp8YXkZ8SVC5Jq9UJkNZqdasQC?usp=share
+    Parts_Expansion=ཆ་ཤས་རྒྱ་བསྐྱེད།
+    Redstone_Atlas_Pack=རྡོ་དམར་པོའི་ས་ཁྲའི་ཐུམ་སྒྲིལ།
+    Skins_Expansion=པགས་པ་རྒྱ་བསྐྱེད།
+    Planets_Expansion=རྒྱུ་སྐར་རྒྱ་བསྐྱེད།
+    Expansion_Bundle=རྒྱ་བསྐྱེད་སྒྲིག་ཆས།
+    Upgrade_To_Bundle=སྒྲིག་ཆས་ལ་རིམ་སྤོར་བྱེད།
+    Cheats_Expansion=གཡོ་སྒྱུ།
+    Infinite_Area_Expansion=ཚད་མེད་ཀྱི་འཛུགས་སྐྲུན་རྒྱ་ཁྱོན།
+    Builder_Bundle=བཟོ་མཁན་གྱི་སྒྲིག་ཆས།
+    Sandbox_Bundle=བྱེ་སྒམ་གྱི་ཐུམ་སྒྲིལ་
+    Full_Bundle=ཐུམ་སྒྲིལ་ཆ་ཚང་།
+    Upgrade_To_Full_Bundle=སྒྲིག་ཆས་ཆ་ཚང་ལ་རིམ་སྤོར་བྱེད།
+    Mac_Full_Version=ཐོན་རིམ་ཆ་ཚང་།
+
+    Not_All_Parts_Are_Owned=ཆ་ཤས་ཚང་མ་བདག་པོ་མ་རེད།
+    Not_All_Parts_Are_Owned=དབང་པོ་སྐྱོན་ཅན་མ་ཡིན་པའི་ཆ་ཤས།
+    Not_All_Parts_Are_Owned=
+    Not_All_Parts_Are_Owned=ཆ་ཤས་རྒྱ་བསྐྱེད་ལ་ལྟ་དགོས་སམ།
+
+    View_Part_Expansion=རྒྱ་བསྐྱེད་ལ་གཟིགས།
+
+    More_Parts=ཆ་ཤས་རྒྱ་བསྐྱེད་ལ་གཟིགས།...
+    More_Skins=པགས་པ་རྒྱ་བསྐྱེད་ལ་གཟིགས།...
+    
+    Cannot_Use_Cheats_In_Career=མགོ་སྐོར་ནི་བྱེ་སྒམ་གྱི་ཐབས་ལམ་གྱི་འཛམ་གླིང་ནང་མ་གཏོགས་བེད་སྤྱོད་གཏོང་མི་ཐུབ།
+    Get_Infinite_Build_Area_Button=ཚད་མེད་ཀྱི་འཛུགས་སྐྲུན་རྒྱ་ཁྱོན་ཐོབ།
+    Get_Cheats_Expansion_Button=མགོ་སྐོར་རྒྱ་བསྐྱེད་ཐོབ།
+
+    Why_Buy=ཁྱེད་ཀྱི་རྒྱབ་སྐྱོར་གྱིས་ང་ཚོར་རྩེད་མོ་དེ་ཡར་རྒྱས་གཏོང་བར་ཕན་ཐོགས་ཡོད།
+
+    Buy_Product=ཉོས %product% %price%
+
+    Timed_Sale_Text=%product_name% -%sale_percent%
+    Timed_Sale_Text=%time_left%
+
+    Time_Upgrade_Text=ལ་རིམ་སྤར་བྱེད། %product_name% -%sale_percent%
+    Time_Upgrade_Text=%time_left%
+
+    Purchase_Thanks_Msg=ཉོས་པ་ནི:། %product%
+    Purchase_Thanks_Msg=
+    Purchase_Thanks_Msg=ཁྱེད་ ཀྱིས་ རོགས་ སྐྱོར་ གནང་ བར་ ཐུགས་ རྗེ་ ཆེ!
+    Purchase_Thanks_Msg=ད་ལྟ་སྐར་མ་ལ་ལྟ་ཞིབ་བྱེད་པར་སོང་དང་།
+
+    Owned=%product% (བདག་དབང་།)
+
+    Restore_Open=ཉོས་པ་སླར་གསོ།
+
+    Restore_Text=ཨེན་ཀྲོཌ་འཕྲུལ་ཆས་ཐོག་གི་ཚོང་དོན་དེ་འགོ་འཛུགས་སྐབས་རང་འགུལ་གྱིས་སླར་གསོ་བྱེད་ཀྱི་ཡོད།
+    Restore_Text=
+    Restore_Text=- ཁྱེད་རང་གིས་ཅ་ལག་དེ་ཉོས་པའི་གུ་གུལ་རྩེད་མོའི་ཁ་བྱང་ནང་དུ་འཛུལ་ཡོད་མེད་ལྟ་ཞིབ་བྱེད་དགོས།
+    Restore_Text=
+    Restore_Text=- ཉོ་སྒྲུབ་ཀྱི་མཐེབ་ལ་ཞིབ་བཤེར་བྱེད་དགོས། གལ་ཏེ་རིན་གོང་མ་སྟོན་ན་རྩེད་མོ་དེ་ཚོང་ཁང་ལ་མཐུད་མེད། དྲ་རྒྱའི་འབྲེལ་མཐུད་ལ་ཞིབ་བཤེར་བྱས་ནས་རྩེད་མོ་བསྐྱར་དུ་འགོ་འཛུགས་རོགས།
+    Restore_Text=
+    Restore_Text=གལ་ཏེ་གོང་འཁོད་ཀྱི་ཐབས་ལམ་གང་རུང་གིས་ཕན་ཐོགས་མེད་ན། ང་ལ་གློག་འཕྲིན་བརྒྱུད་ནས་འབྲེལ་བ་གནང་རོགས། games.morojna@gmail.com
+    Restore_Text=
+    Restore_Text=ཁྱོད་ཀྱིས་དུས་ཡུན་འགའ་ཤས་སྒུག་ཆོག ཉོ་སྒྲུབ་བྱས་པའི་ཅ་ལག་དེ་དག་སྐབས་རེ་ཆུ་ཚོད་འགའ་ཤས་རྗེས་སུ་སླར་གསོ་བྱེད་ཐུབ།
+
+    Purchase_FAQ_Open=FAQ
+
+    Purchase_FAQ_Text=<color=grey>ཉོས་པའི་ཅ་ལག་རྣམས་གསར་བརྗེའི་བར་ལ་ཉར་རྒྱུ་ཡིན་ནམ། </color>
+    Purchase_FAQ_Text=ཡིན་དང་ཡིན
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>ཉོས་པའི་ཅ་ལག་བརླག་འགྲོ་གི་རེད་དམ། </color>
+    Purchase_FAQ_Text=ཁྱེད་ཀྱིས་ཉོས་པའི་ཅ་ལག་རྣམས་ཁྱེད་ཀྱི་ཚོང་ཁང་གི་རྩིས་ཁྲའི་ནང་དུ་གཏན་འཇགས་ཉར་ཚགས་བྱས་ཏེ་རྩེད་མོ་དེ་བསྐྱར་དུ་སྒྲིག་འཇུག་བྱས་ཀྱང་ཡང་ན་ཁ་པར་བརྗེ་ལེན་བྱས་ཀྱང་བརླག་མི་སྲིད།
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>ཁྱོད་ཀྱིས་དངུལ་ཕྱིར་སྤྲོད་བྱེད་དམ། </color>
+    Purchase_FAQ_Text=ཡིན་དང་ཡིན། ཁྱེད་ཀྱིས་དུས་ཚོད་འོས་འཚམ་གྱི་ནང་དུ་རེ་འདུན་བཏོན་ཚེ་ང་ཚོས་ཆ་རྐྱེན་གང་ཡང་མེད་པར་དངུལ་ཕྱིར་སྤྲོད་རྒྱུ་ཡིན།
+
+# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=分享
+    PartsExpansion_Tanks=སྣུམ་མཛོད་སྣ་ཚོགས་ཆེན་པོ་ཡོད།
+    PartsExpansion_Engines=འཕྲུལ་འཁོར་ལྗིད་པོ།
+    PartsExpansion_Parts=དབྱིབས་དང་ཚད་གཞི་ཚང་མའི་ཆ་ཤས།
+
+    PartsExpansion_Build=འཛུགས་སྐྲུན་གྱི་བར་སྟོང་ཆེན་པོ་འཁྱེར་ཡོང་།
+    PartsExpansion_Build=ཁྱེད་ཀྱི་བརྩམས་ཆོས་ལ་འཚོ་བ་སྐྱེད།
+
+# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=分享
+    SkinsExpansion_Tanks=ཁྱེད་རང་གི་ཆ་ཤས་དེ་ཚོ་པགས་པ་སྣ་ཚོགས་ལ་ཚོན་བཏང་རོགས།
+    SkinsExpansion_Interstages=གར་སྟེགས་བར་ནས་ཚང་མར་ཚོན་བཏང་།
+    SkinsExpansion_Nosecones=སྣ་ཁུང་བར།
+    SkinsExpansion_Fairings=ཐ་ན་ལྕགས་སྒྲོག་ཡང་།
+
+# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=分享
+    PlanetsExpansion_Jupiter=ཇུ་པི་ཊར་དང་དེའི་ཟླ་བ་བཞི་ལ་འཚོལ་ཞིབ་བྱོས།
+    PlanetsExpansion_Callisto=ཀ་ལི་སི་ཊོའི་ཁ་ངོས་ལྗིད་པོ་དེ་ནས།
+    PlanetsExpansion_Europa=ཡུ་རོབ་ཀྱི་འཁྱགས་རོམ་གྱི་ཐང་ཆེན་པོ་ལ།
+
+    PlanetsExpansion_Conclusion=རྒྱང་རིང་གི་འཇིག་རྟེན་ཁྱེད་ལ་སྒུག་ཡོད།
+    PlanetsExpansion_Conclusion=དེ་དག་ལ་འཚོལ་ཞིབ་བྱེད་ཆེད།
+
+# Expansion Bundle; images at: https://drive.google.com/file/d/1aWdcqNciwf7i3ju1Hx7mHnKyGBS2_tYU/view?usp=share
+    ExpansionBundle_Sandbox=སྩོལ་བ
+    ExpansionBundle_Sandbox=བྱེ་སྒམ་གྱི་ཐབས་ལམ།
+
+    ExpansionBundle_Infinite_Fuel=མཐའ་མེད་པའི་སྣུམ་རླངས།
+    ExpansionBundle_No_Atmospheric_Drag=རླུང་ཁམས་ཀྱི་འདྲུད་ཤུགས་མེད་པ།
+    ExpansionBundle_Unbreakable_Parts=ཁ་གཏད་གཅོག་པའི་གནོད་སྐྱོན་མེད།
+    ExpansionBundle_No_Gravity=འཐེན་ཤུགས་མེད།
+
+[Sharing]
+    Share_Button=མཉམ་སྤྱོད་འཆར་གཞི།
+    Upload_Blueprint_PC=འཆར་འགོད་ཕབ་ལེན།
+    Download_Blueprint_PC=འཆར་འགོད་ཕབ་ལེན།
+    Share_Button_PC=མཉམ་སྤྱོད
+    Download_Confirm=ཕབ་ལེན
+    URL_Field_TextBox=འཆར་གཞིའི་URL
+    Empty_Upload=འཆར་འགོད་སྟོང་པ་ཡར་འཇུག་བྱེད་མི་ཐུབ།
+    Uploading_Message=ཡར་བསྒྱུར།...
+    Upload_Fail=འཆར་འགོད་ཡར་འཇུག་བྱེད་མ་ཐུབ།
+    Copied_URL_To_Clipboard=བཀོད་སྒྲོམ་ལ་དཔེ་རིས་URLའདྲ་བཤུས་བྱས།
+    Sharing_Enter_Prompt=ཁྱེད་རང་གིས་འཆར་གཞི་དེ་འཛམ་གླིང་གང་དུ་འཇུག་དགོས་མིན་འདེམས།
+    Confirm_Download_Button=ཁྱེད་རང་གིས་འཆར་གཞི་དེ་འཛམ་གླིང་གང་དུ་འཇུག་དགོས་མིན་འདེམས།
+    Downloading_Message=ཕབ་ལེན་བྱེད་བཞིན་པ།...
+    Download_Fail=འཆར་འགོད་ཕབ་ལེན་བྱེད་མ་ཐུབ།
+    URL_Invalid=ནུས་མེད་ཀྱི་དཔེ་རིས་URL
+    Sharing_Connect_Fail=མཉམ་སྤྱོད་སར་བར་མཐུད་མ་ཐུབ།
+
+[Settings Mobile]
+    Music_Name=རོལ་དབྱངས:
+    Sound_Name=སྒྲ:
+    Screen_Rotation_Name=བརྙན་ཤེལ་འཁོར་བ།:
+    FPS_Name=Fps
+    Language_Name=སྐད་རིགས:
+    Menu_Scale=མཐུད་ཁའི་ཚད་གཞི།
+    Menu_Opacity=ངོས་འདྲ་བའི་དྭངས་གསལ་ཅན།
+    Shakes_Name=པར་ཆས་གཡོ་འགུལ་གཏོང་བ།
+    Orbit_Line_Count=རྒྱུ་སྐར་ཐིག་བགྲངས།
+    Anti_Aliasing=མིང་གཞན་ལ་ངོ་རྒོལ།
+
+[Cheats]
+    Infinite_Build_Area_Name=ཚད་མེད་ཀྱི་འཛུགས་སྐྲུན་རྒྱ་ཁྱོན།:
+    Part_Clipping_Name=ཆ་ཤས་གཅོད་པ།:
+    Infinite_Fuel_Name=མཐའ་མེད་པའི་སྣུམ་རླངས།:
+    No_Atmospheric_Drag_Name=རླུང་ཁམས་ཀྱི་འདྲུད་ཤུགས་མེད་པ།:
+    No_Collision_Damage_Name=ཁ་གཏད་གཅོག་པའི་གནོད་སྐྱོན་མེད།:
+    No_Gravity_Name=འཐེན་ཤུགས་མེད།:
+    No_Heat_Damage_Name=དྲོད་ཀྱི་གནོད་སྐྱོན་མེད།:
+    No_Burn_Marks_Name=མེ་འབར་རྟགས་མེད།:
+
+[Tutorials]
+
+    Tut_Drag_And_Drop=ཆ་ཤས་འདྲུད་འཐེན་དང་།
+    Tut_Drag_And_Drop=རང་གི་མེ་ཤུགས་འཕུར་མདའ་བཟོ་བ།
+
+    Tut_Part_Info=གཟིགས་པར་སྣུན་རོགས།
+    Tut_Part_Info=ཆ་ཤས་ཆ་འཕྲིན།
+
+    Tut_Use_Part=དེ་དག་བེད་སྤྱོད་གཏོང་ཆེད་ཆ་ཤས་ལ་སྣུན།
+    Tut_Ignition=མེ་འབར་བ།
+    Tut_Throttle=མགྱོགས་ཚད་སྙོམ་སྒྲིག་བྱེད་པ།
+
+[Hub]
+    Funds_Text=མ་དངུལ། %funds%
+    Go_To_Space_Center=བར་སྣང་ལྟེ་གནས།
+    Exit_To_Space_Center=བར་སྣང་ལྟེ་གནས་སུ་ཐོན་པ།
+    Research_And_Development=ཞིབ་འཇུག་དང་འཕེལ་རྒྱས། %complete%/%total%
+    Challenges_Info=འགྲན་སློང་།: %complete%/%total%
+    Challenges_Button=འགྲན་སློང་།: %complete%/%total%
+    Challenges_Title=འགྲན་སློང་།:
+
+    Challenges_Completed=<size=55>འགྲན་སློང་ལེགས་འགྲུབ་བྱུང་།</size>
+    Challenges_Completed=%challenge%
+
+[Build]
+    Build_New_Rocket=མེ་ཤུགས་འཕུར་མདའ་གསར་པ་བསྐྲུན།
+    New=གསར
+    Expand_Last_Rocket=མུ་མཐུད་འཛུགས་སྐྲུན།
+
+    Symmetry_On=འདྲ་མཚུངས།
+    Symmetry_Off=འདྲ་མཉམ་: ཁ་བསྡམས།
+
+    Interior_View_On=ནང་ཁུལ་གྱི་མཐོང་སྣང་།
+    Interior_View_Off=ནང་གི་མཐོང་སྣང་། ཁ་བསྡམས།
+
+    Launch_Button=མེ་ཤུགས་འཕུར་མདའ་གཏོང་པ
+    Move_Rocket_Button=མེ་ཤུགས་འཕུར་མདའ།
+
+# Clear build area
+    Clear_Warning=འཛུགས་སྐྲུན་ས་ཁུལ་གསལ་པོ་རེད་དམ།
+    Clear_Confirm=དྭངས་མ
+
+# Launch warnings
+    Warnings_Title=ཉེན་བརྡ:
+    Missing_Capsule=ཁྱེད་ཀྱི་མེ་ཤུགས་འཕུར་མདའ་ལ་ཁབ་ལེན་དང་འཚོལ་ཞིབ་བྱེད་ཆས་མེད་པས་ཚོད་འཛིན་བྱེད་མི་ཐུབ།
+    Missing_Parachute=ཁྱེད་ཀྱི་མེ་ཤུགས་འཕུར་མདའ་ལ་གདུགས་མེད་པ།
+    Missing_Heat_Shield=ཁྱེད་ཀྱི་མེ་ཤུགས་འཕུར་མདའ་ལ་དྲོད་སྲུང་མེད།
+    Missing_Fuel_Popup=སྣུམ་གྱི་འབྱུང་ཁུངས་མེད།
+
+    Too_Heavy=ཁྱེད་ཀྱི་མེ་ཤུགས་འཕུར་མདའ་ལྗིད་དྲགས་པས་འཕེན་མི་ཐུབ།
+    Too_Heavy=%mass%
+    Too_Heavy=%thrust%
+    Too_Heavy=ལྗིད་ཚད་ཆུང་དུ་གཏོང་བའམ་ཡང་ན་འཕྲུལ་འཁོར་སྟོབས་ལྡན་ཞིག་བེད་སྤྱོད་གཏོང་རོགས།
+
+    Launch_Anyway_Button=གང་ལྟར་དབུ་འབྱེད།
+
+    Launch_Horizontally_Ask=འཕྲེད་ལ་འཕེན་དགོས་སམ།
+    Launch_Horizontally_Confirm=འཕྲེད་ལ་འཕེན་གཏོང་།
+    Launch_Vertically_Confirm=ལངས་ཕྱོགས་སུ་འཕེན་པ།
+
+# Example rockets
+    Example_Rockets_OpenMenu=དཔེར་ན་མེ་ཤུགས་འཕུར་མདའ།
+    Basic_Rocket=གཞི་རྩའི་མེ་ཤུགས་འཕུར་མདའ།
+    Stages=མེ་ཤུགས་འཕུར་མདའ།
+    Ideal_Stages=རིམ་པ་གསུམ་གྱི་མེ་ཤུགས་འཕུར་མདའ།
+    Lander=ཟླ་བ་ལ་འབབ་མཁན།
+
+[Map]
+    Toggle_Map_Button=ས་ཁྲ།
+
+# Shown in map when you escape a gravity field of a planet
+# image for escape/encounter at: https://drive.google.com/file/d/17jqJF09DWoqkgW9VGXdG7SRCSo0UmW0o/view?usp=share
+    Escape=བྲོས་པ
+
+# Shown in map when you encounter/enter a gravity field of a planet
+    Encounter=གདོང་ཐུག་རྒྱག་པ
+
+# Shown in map when you approach/encounter another rocket
+    Rendezvous=མཇལ་འཕྲད།
+
+# Shows the transfer window to another planet
+# image at: https://drive.google.com/file/d/1zd8UEnVb91QmSDllEu1DyCbkCsDKbJk3/view?usp=share
+    Transfer=སྤོ་སྒྱུར་སྒེའུ་ཁུང་།
+
+[Game]
+# Image at: https://drive.google.com/file/d/1d0b-udFyO4ItlYu1vVaVdzgwdAeT1hPw/view?usp=share
+    Throttle_On=སྟེང་ལ
+    Throttle_Off=ཁ་རྒྱག་པ
+    Ignition=མེ་འབར་བ།
+    RCS=RCS
+
+# Game supports screen rotation, we split into 2 lines in vertical mode
+    Height_Terrain_Vertical=མཐོ་ཚད་(ས་ཁུལ།)
+    Height_Terrain_Vertical=
+    Height_Terrain_Vertical=%height%
+
+    Height_Vertical=ལུས་པོའི་མཐོ་ཚད:
+    Height_Vertical=
+    Height_Vertical=%height%
+
+    Velocity_Vertical=མགྱོགས་ཚད།
+    Velocity_Vertical=
+    Velocity_Vertical=%speed%
+
+    Velocity_Relative_Vertical=མགྱོགས་ཚད།
+    Velocity_Relative_Vertical=
+    Velocity_Relative_Vertical=%speed%
+
+    Distance_Relative_Vertical=ཐག་རིང་།
+    Distance_Relative_Vertical=
+    Distance_Relative_Vertical=%distance%
+
+# Angle indicates the best angle/direction the player can rotate their rocket towards
+    Angle_Vertical=ཟུར:
+    Angle_Vertical=
+    Angle_Vertical=%angle% / %targetAngle%
+
+    Height_Terrain_Horizontal=མཐོ་ཚད།: %height%
+    Height_Horizontal=Height: %height%
+    Velocity_Horizontal=Velocity: %speed%
+    Velocity_Relative_Horizontal=Vམགྱོགས་ཚད།: %speed%
+    Distance_Relative_Horizontal=ཐག་རིང་།: %distance%
+    Angle_Horizontal=Angle: %angle% / %targetAngle%
+
+    Relative_Velocity_Arrow=འབྲེལ་བའི་མྱུར་ཚད།
+    Relative_Velocity_Arrow=%velocity%
+
+    Side_Velocity_Arrow=ཕྱོགས་ཀྱི་མྱུར་ཚད།
+    Side_Velocity_Arrow=%velocity%
+
+    Forward_Velocity_Arrow=བར་ཐག
+    Forward_Velocity_Arrow=%distance%
+    Forward_Velocity_Arrow=
+    Forward_Velocity_Arrow=མགྱོགས་ཚད།
+    Forward_Velocity_Arrow=%velocity%
+
+[Failure menu]
+    Failure_Cause=འཐུས་ཤོར་གྱི་རྒྱུ་རྐྱེན།
+    Failure_Crash_Into_Rocket=མེ་ཤུགས་འཕུར་མདེལ་གཞན་ཞིག་ལ་ལྷུང་།
+    Failure_Crash_Into_Terrain=%planet{1}%ཡི་ངོས་སུ་བརྡབ་པ་རེད།
+    Failure_Burn_Up=བསྐྱར་དུ་འཛུལ་སྐབས་མེར་བསྲེགས་སོང་།
+
+[End mission menu]
+    Recover_Rocket=སླར་གསོ
+    Destroy_Rocket=གཏོར་བཤིག
+    Debris_Recover=གད་སྙིགས་སླར་གསོ།
+    Debris_Destroy=གད་སྙིགས་གཏོར་བ།
+    Debris_Recover_Title=གད་སྙིགས་སླར་གསོ་བྱེད་དམ།
+    Debris_Destroy_Title=གད་སྙིགས་གཏོར་བརླག་གཏོང་བ་རེད་དམ།
+    View_Mission_Log=འཕུར་སྐྱོད་ཟིན་ཐོར་གཟིགས།
+
+# Restart menu
+    
+    Restart_Mission_To_Launch_Warning=ཉེན་བརྡ:
+    Restart_Mission_To_Launch_Warning=འདིས་སྔོན་མའི་འགོ་འཛུགས་ནས་བྱུང་བའི་ཡར་རྒྱས་ཚང་མ་ཕྱིར་འཐེན་བྱེད།
+
+    Restart_Mission_To_Build_Warning=ཉེན་བརྡ:
+    Restart_Mission_To_Build_Warning=འདིས་འདས་པའི་བཟོ་སྐྲུན་ནས་བྱུང་བའི་ཡར་རྒྱས་ཚང་མ་ཕྱིར་འཐེན་བྱེད།
+
+    Restart_Mission_To_Launch=འགོ་འཛུགས་ལ་ཕྱིར་ལོག་བྱེད།
+    Restart_Mission_To_Build=བཟོ་བསྐྲུན་ལ་ཕྱིར་ལོག
+    Revert_30_Secs=སྐར་ཆ་ ༣༠ ཕྱིར་ལོག
+    Revert_3_Min=ཕྱིར་ལོག སྐར་མ་3
+
+# End mission menu
+    End_Challenges_Title=འགྲན་སློང་།:
+    End_Logs_Title=དམིགས་འབེན་དྲན་ཐོ།:
+    Continue_To_Log=མུ་མཐུད
+    Back_To_Challenges=རྒྱབ་ངོས
+
+# Clear space junk/debris
+    Clear_Debris_Warning=གད་སྙིགས་གཙང་མ་ཡིན་ནམ།
+    Clear_Debris_Warning=
+    Clear_Debris_Warning=འདིས་ཚོད་འཛིན་བྱེད་མི་ཐུབ་པའི་མེ་ཤུགས་འཕུར་མདའ་ཚང་མ་མེད་པར་བཟོ་ཐུབ།
+
+    Clear_Debris_Confirm=གད་སྙིགས་གཙང་མ་བཟོས།
+
+    # Select menu; Image at: https://drive.google.com/file/d/1CBIAZ3o_Z7bpEAb8sVdTdDeF4KB8-Yyi/view?usp=share
+    Navigate_To=འགྲོ་སྟངས།
+    End_Navigation=འགྲིམ་འགྲུལ་མཇུག་སྒྲིལ།
+    Focus=འདུ་གནས
+    Unfocus=དམིགས་པ་མེད་པ།
+    Track=ལྕགས་ལམ
+    Stop_Tracking=རྗེས་འདེད་མཚམས་འཇོག་པ།
+    Switch_To=ལ་བསྒྱུར།
+
+[Rocket]
+    Default_Rocket_Name=མེ་ཤུགས་འཕུར་མདའ།
+
+# Informs the player that he cannot perform an action due to rocket having no control
+    No_Control_Msg=ཚོད་འཛིན་མེད།
+
+[Timewarp]
+# Timewarp = Timewarp can skip long waits
+    Msg_Timewarp_Speed=དུས་ཚོད་མགྱོགས་ཚད་%མྱུར་ཚད་%x
+    Cannot_Timewarp_Below_Basic=%height%འོག་ཏུ་ཡོད་པའི་སྐབས་སུ་%speed%xལས་མགྱོགས་པོ་དུས་ཚོད་བསྒྱུར་མི་ཐུབ།
+    Cannot_Timewarp_Below=%height%འོག་ཏུ་ཡོད་པའི་སྐབས་སུ་%speed%xལས་མགྱོགས་པོ་དུས་ཚོད་བསྒྱུར་མི་ཐུབ།
+    Cannot_Timewarp_While_Moving_On_Surface=ཕྱི་ངོས་སུ་འགུལ་སྐྱོད་བྱེད་སྐབས་%speed%xལས་མགྱོགས་པའི་དུས་ཚོད་བསྒྱུར་མི་ཐུབ།
+    Cannot_Timewarp_While_Accelerating=མགྱོགས་ཚད་འོག་ཏུ་ཡོད་པའི་སྐབས་སུ་%speed%xལས་མགྱོགས་པའི་དུས་ཚོད་བསྒྱུར་མི་ཐུབ།
+    Cannot_Use_Part_While_Timewarping=དུས་ཚོད་བསྒྱུར་སྐབས་%part{1}%བེད་སྤྱོད་གཏོང་མི་ཐུབ།
+    Cannot_Turn_While_Timewarping=དུས་ཚོད་བསྒྱུར་སྐབས་ཁ་ཕྱོགས་མི་ཐུབ།
+
+    Timewarp_To_Button=དུས་ཚོད་འདིར།
+
+[Units]
+# Image at: https://drive.google.com/file/d/1ljpGY55W8V1wF9esl5v569B0Z-D6xxMt/view?usp=share
+    Thrust_To_Weight_Ratio=སྒུལ་ཤུགས། ལྗིད་ཚད།: %value%
+    Mass=Mass: %value%t
+    Thrust=Thrust: %value%t
+    Burn_Time=Burn Time: %value%s
+
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=share
+    Efficiency=ནུས་ཚད: %value% Isp
+    Mass_Unit=t
+    Meter_Unit=m
+    Km_Unit=km
+    Meter_Per_Second_Unit=m/s
+
+[Timestamps]
+    Second_Short=%value%s
+    Minute_Short=%value%m
+    Hour_Short=%value%h
+    Day_Short=%value%d
+
+[Resource Types]
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=share
+    Solid_Fuel{0}=སྲ་སྣུམ།
+    Solid_Fuel{1}=སྲ་སྣུམ།
+    Liquid_Fuel{0}=གཤེར་སྣུམ།
+    Liquid_Fuel{1}=གཤེར་སྣུམ།
+
+[Resource Uses]
+    Resource_Bars_Title=%resource_name{0}%:
+    Info_Resource_Amount=%resource{0}%: %amount%
+    Msg_No_Resource_Source=%resource{1}% ཐོན་ཁུངས་མེད།
+    Msg_No_Resource_Left=དེའི་ནང་། %resource{1}%
+
+[Part Categories]
+# Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=share
+    Basic_Parts=གཞི་རྩ།
+    Six_Wide_Parts=6 ཡངས་པ།
+    Eight_Wide_Parts=8 ཡངས་པ།
+    Ten_Wide_Parts=10 རྒྱ་ཁྱོན།
+    Twelve_Wide_Parts=༡༢ རྒྱ་ཚད།
+    Engine_Parts=འཕྲུལ་འཁོར།
+    Aerodynamics_Parts=མཁའ་དབྱིངས་སྒུལ་ཤུགས་རིག་པ།
+    Fairings_Parts=ཕེ་ཡར་སི།
+    Structural_Parts=སྒྲིག་གཞི།
+    Other_Parts=གཞན།
+
+[Part Names]
+    Capsule_Name{0}=སྨན་ཁབ།
+    Capsule_Name{1}=སྨན་ཁབ།
+    Probe_Name{0}=ཞིབ་འཇུག།
+    Probe_Name{1}=ཞིབ་འཇུག།
+    Parachute_Name{0}=གདུགས་འཕེན་པ།
+    Parachute_Name{1}=ཆར་གདུགས་
+
+    Kolibri_Engine_Name{0}=ཀོ་ལིབ་རི་འཕྲུལ་འཁོར།
+    Kolibri_Engine_Name{1}=ཀོ་ལིབ་རི་འཕྲུལ་འཁོར།
+    Hawk_Engine_Name{0}=ཧའོ་ཁི་འཕྲུལ་འཁོར།
+    Hawk_Engine_Name{1}=ཧའོ་ཁི་འཕྲུལ་འཁོར།
+    Valiant_Engine_Name{0}=བློ་ཁོག་ཅན་གྱི་འཕྲུལ་འཁོར།
+    Valiant_Engine_Name{1}=བློ་ཁོག་ཅན་གྱི་འཕྲུལ་འཁོར།
+    Titan_Engine_Name{0}=ཊི་ཊན་འཕྲུལ་འཁོར།
+    Titan_Engine_Name{1}=ཊི་ཊན་འཕྲུལ་འཁོར།
+    Frontier_Engine_Name{0}=མཐའ་མཚམས་འཕྲུལ་འཁོར།
+    Frontier_Engine_Name{1}=མཐའ་མཚམས་འཕྲུལ་འཁོར།
+    Peregrine_Engine_Name{0}=འགྲུལ་བཞུད་འཕྲུལ་འཁོར།
+    Peregrine_Engine_Name{1}=འགྲུལ་བཞུད་འཕྲུལ་འཁོར།
+    Ion_Engine_Name{0}=གློག་རྡུལ་འཕྲུལ་འཁོར།
+    Ion_Engine_Name{1}=གློག་རྡུལ་འཕྲུལ་འཁོར།
+    RCS_Thruster_Name{0}=RCS སྒུལ་ཤུགས་འཕྲུལ་ཆས།
+    RCS_Thruster_Name{1}=rcs སྒུལ་ཆས།
+
+    Solid_Rocket_Booster{0}=བརྟན་པོའི་མེ་ཤུགས་འཕུར་མདའ།
+    Solid_Rocket_Booster{1}=བརྟན་པོའི་མེ་ཤུགས་འཕུར་མདའ།
+
+    Fuel_Tank_Name{0}=སྣུམ་སྒམ།
+    Fuel_Tank_Name{1}=སྣུམ་སྒམ།
+    Separator_Name{0}=གར་སྟེགས་དབྱེ་འབྱེད།
+    Separator_Name{1}=གར་སྟེགས་དབྱེ་འབྱེད།
+    Side_Separator_Name{0}=ཕྱོགས་དབྱེ་བྱེད་ཆས།
+    Side_Separator_Name{1}=ཕྱོགས་དབྱེ་བྱེད་ཆས།
+    Structural_Part_Name{0}=གྲུབ་ཆའི་ཆ་ཤས།
+    Structural_Part_Name{1}=གྲུབ་ཆའི་ཆ་ཤས།
+    Landing_Leg_Name{0}=འབབ་པའི་རྐང་པ།
+    Landing_Leg_Name{1}=འབབ་པའི་རྐང་པ།
+    Aerodynamic_Nose_Cone_Name{0}=མཁའ་རླུང་སྣའི་ཀོང་རྩེ།
+    Aerodynamic_Nose_Cone_Name{1}=རླུང་འགུལ་སྣའི་ཀོང་རྩེ།
+    Aerodynamic_Fuselage_Name{0}=མཁའ་དབྱིངས་སྒུལ་ཤུགས་ལྡན་པའི་གནམ་གྲུ།
+    Aerodynamic_Fuselage_Name{1}=མཁའ་དབྱིངས་སྒུལ་ཤུགས་ལྡན་པའི་གནམ་གྲུ།
+    Fairing_Name{0}=ཕེ་ཡར་
+    Fairing_Name{1}=ཕེ་ཡར་
+    Rover_Wheel_Name{0}=རོ་ཝར་འཁོར་ལོ།
+    Rover_Wheel_Name{1}=རོ་ཝར་འཁོར་ལོ།
+    Docking_Port_Name{0}=གྲུ་ཁ་
+    Docking_Port_Name{1}=གྲུ་ཁ་
+    Solar_Panel_Name{0}=ཉི་འོད་སྒྲོམ་གཞི།
+    Solar_Panel_Name{1}=ཉི་འོད་སྒྲོམ་གཞི།
+    Battery_Name{0}=གློག་རྫས
+    Battery_Name{1}=གློག་རྫས
+    RTG_Name{0}=RTG
+    RTG_Name{1}=rtg
+    Heat_Shield_Name{0}=དྲོད་སྲུང་།
+    Heat_Shield_Name{1}=དྲོད་སྲུང་།
+    Fuel_Pipe_Name{0}=སྣུམ་མདོང་།
+    Fuel_Pipe_Name{1}=སྣུམ་མདོང་།
+
+[Part Descriptions]
+    Capsule_Description=འཇིག་རྟེན་འཕུར་སྐྱོད་པ་གཅིག་འཁྱེར་བའི་ཁབ་ལེན་ཆུང་ཆུང་ཞིག
+    Probe_Description=ལམ་གཅིག་གི་ལས་འགན་ལ་སྤྱོད་པའི་མི་མེད་ཞིབ་བཤེར་འཕྲུལ་ཆས་ཤིག་རེད།
+    Parachute_Description=ས་ལ་འབབ་སྐབས་བེད་སྤྱོད་བྱེད་པའི་གཤོག་སྒྲོ།
+    Fuel_Tank_Description=གཤེར་སྣུམ་དང་གཤེར་གཟུགས་དབྱང་རླུང་འཁུར་བའི་སྣུམ་མཛོད་ཅིག
+    Separator_Description=ལངས་པའི་དབྱེ་འབྱེད། རིམ་པ་སྟོང་པ་དབྱེ་འབྱེད་བྱེད་པར་སྤྱོད།
+    Side_Separator_Description=འཕྲེད་ལ་དབྱེ་འབྱེད་བྱེད་མཁན།
+    Landing_Leg_Description=ཟླ་བ་དང་རྒྱུ་སྐར་གྱི་ངོས་སུ་བབས་པར་བེད་སྤྱོད་བྱེད་པའི་བརྐྱངས་ཐུབ་པ་དང་ཕྱིར་འཐེན་ཐུབ་པའི་རྐང་པ་ཞིག
+    Structural_Part_Description=ལྗིད་ཤིང་སྲ་བརྟན་གྱི་གྲུབ་ཆའི་ཆ་ཤས།
+    Hawk_Engine_Description=ཤུགས་ཚད་མཐོ་བ། ནུས་པ་དམའ་བའི་འཕྲུལ་འཁོར། སྤྱིར་བཏང་དུ་མེ་ཤུགས་འཕུར་མདའི་རིམ་པ་དང་པོའི་ནང་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད།
+    Titan_Engine_Description=ཤུགས་ཚད་མཐོ་བ། ནུས་པ་དམའ་བའི་འཕྲུལ་འཁོར། སྤྱིར་བཏང་དུ་མེ་ཤུགས་འཕུར་མདའི་རིམ་པ་དང་པོའི་ནང་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད།
+    Valiant_Engine_Description=ནུས་པ་མཐོ་བ་དང་། ཤུགས་ཚད་དམའ་བ། སྒུལ་ཤུགས་མཐོ་བ་དེ་གཙོ་གནད་མིན་པའི་སྐབས་བར་སྣང་དུ་བེད་སྤྱོད་བྱེད།
+    Frontier_Engine_Description=ནུས་པ་མཐོ་བ་དང་། ཤུགས་ཚད་དམའ་བ། སྒུལ་ཤུགས་མཐོ་བ་དེ་གཙོ་གནད་མིན་པའི་སྐབས་བར་སྣང་དུ་བེད་སྤྱོད་བྱེད།
+    Kolibri_Engine_Description=ས་བབས་འཕྲུལ་ཆས་ལ་སྤྱོད་པའི་འཕྲུལ་འཁོར་ཆུང་ཆུང་ཞིག
+    Ion_Engine_Description=དཔུང་ཤུགས་དམའ་བའི་འཕྲུལ་འཁོར་ཞིག ནུས་པ་ཧ་ཅང་མཐོ་བ།
+    RCS_Thruster_Description=གྲུ་ཁ་འཇོག་པའི་ཆེད་དུ་བེད་སྤྱོད་བྱེད་པའི་ཕྱོགས་སྟོན་གྱི་སྒུལ་ཤུགས་ཆུང་ཆུང་གི་ཆ་ཚན།
+
+    Booster_Description=སྒུལ་ཤུགས་མཐོ་བ་དང་ཕན་འབྲས་དམའ་བ།
+    Booster_Description=མེ་འབར་རྗེས་ཁ་བརྒྱབ་མི་ཐུབ་པའམ་ཡང་ན་མཆོང་ལྡིང་བྱེད་མི་ཐུབ།
+
+    Aerodynamic_Nose_Cone_Description=མཁའ་རླུང་སྒུལ་ཤུགས་ཅན་གྱི་སྣའི་ཀོང་རྩེ། ཕྱོགས་ཀྱི་སྒུལ་ཤུགས་ཡར་རྒྱས་གཏོང་བར་སྤྱོད།
+    Aerodynamic_Fuselage_Description=འཕྲུལ་འཁོར་ཁེབས་པར་བེད་སྤྱོད་བྱེད་པའི་མཁའ་དབྱིངས་སྒུལ་ཤུགས་ལྡན་པའི་གནམ་གྲུ།
+    Fairing_Description=མཁའ་དབྱིངས་སྒུལ་ཤུགས་ཅན་གྱི་ལྕགས་རི། ཁུར་པོ་བསྡུ་རུབ་བྱེད་པར་སྤྱོད།
+    Battery_Description=གློག་ཤུགས་གསོག་འཇོག་བྱེད་སའི་གློག་རྫས་ཞིག
+    Solar_Panel_Description=རྒྱ་བསྐྱེད་སྐབས་གློག་འདོན་པའི་ཉི་འོད་སྒྲོམ་ཞིག
+    RTG_Description=འགྱེད་འཕྲོའི་ཚ་དྲོད་གློག་འདོན་འཕྲུལ་ཆས་ཡང་ན་RTG
+    Rover_Wheel_Description=རྒྱུ་སྐར་གྱི་ངོས་སུ་བསྐྱོད་པའི་འཁོར་ལོ།
+    Docking_Port_Description=རླངས་འཁོར་གཉིས་མཉམ་དུ་སྦྲེལ་ཐུབ་པའི་གྲུ་ཁ་ཞིག
+    Heat_Shield_Description=མཁའ་རླུང་སླར་ཡང་འཛུལ་སྐབས་འཚོ་གནས་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་ཚ་དྲོད་འགོག་པའི་ལྕགས་སྒྲོམ།
+    Fuel_Pipe_Description=སྣུམ་སྣུམ་བརྗེ་སྤོར་བྱེད་པའི་སྦུ་གུ།
+
+[Modules]
+    Activate_Separator=ཁ་བྲལ།
+    Activate_Fairing=ཕེ་ཡར་
+
+    Torque_Module_Torque=མགྱོགས་ཚད།: %value%kN
+    Separation_Force=ཁ་བྲལ་གྱི་སྟོབས་ཤུགས།: %value%kN
+    Magnet_Force=ཁབ་ལེན་ཤུགས།: %value%kN
+
+    Max_Heat_Tolerance=ཚ་དྲོད་བཟོད་སྒོམ།: %temperature%
+
+    State_On{0}=སྟེང་ལ
+    State_Off{0}=ཁ་རྒྱག་པ
+
+    Engine_Module_State=འཕྲུལ་འཁོར %state{0}%
+    Engine_On_Label=འཕྲུལ་འཁོར་ཁ་ཕྱེ་བ།
+    Gimbal_On_Label=གྷིམ་བྷལ་སྟེང་།
+
+    Msg_RCS_Module_State=RCS %state{0}%
+
+    Wheel_Module_State=རླངས་འཁོར། %state{0}%
+    Wheel_On_Label=འཁོར་ལོ།
+
+    Panel_Expanded=རྒྱ་བསྐྱེད་པ།
+    Landing_Leg_Expanded=བཀོད་སྒྲིག་བྱས།
+
+    Detach_Edges_Label=མཐའ་ཁ་བྲལ།
+    Adapt_To_Tanks_Label=སྣུམ་མཛོད་ལ་གོམས་འདྲིས་བྱེད་པ།
+
+    Info_Parachute_Max_Height=ཆེས་མཐོའི་བཀོལ་སྤྱོད་མཐོ་ཚད།: %height%
+    Button_Activate_Parachute=ཆུ་གདུགས་འགྲེམ་གཏོང་།
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=སྟོང་ཆའི་ནང་དུ་གཤོག་སྒྲོམ་བཀོལ་སྤྱོད་བྱེད་མི་ཐུབ།
+    Msg_Cannot_Deploy_Parachute_Above=གོང་དུ་གདུགས་འཕེན་མི་ཐུབ། %height%
+    Msg_Cannot_Fully_Deploy_Above=གོང་དུ་གཤོག་སྒྲོམ་ཡོངས་སུ་བཀོལ་སྤྱོད་བྱེད་མི་ཐུབ། %height%
+    Msg_Cannot_Deploy_Parachute_While_Faster=ལས་མྱུར་བར་འགྲོ་དུས་གཤོག་སྒྲོམ་བཀོལ་སྤྱོད་བྱེད་མི་ཐུབ། %velocity%
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=འགུལ་སྐྱོད་མི་བྱེད་སྐབས་གཤོག་སྒྲོམ་བཀོལ་སྤྱོད་བྱེད་མི་རུང་།
+    Msg_Parachute_Half_Deployed=གཞུ་དབྱིབས་ཕྱེད་ཀ་བཀོལ་སྤྱོད་བྱས།
+    Msg_Parachute_Fully_Deployed=གཤོག་སྒྲོམ་ཆ་ཚང་བཀོལ་བ།
+    Msg_Parachute_Cut=ཆར་གདུགས་གཅོད་པ།
+
+[Planets]
+    Sun{0}=ཉི་མ
+    Sun{1}=ཉི་ མ
+    Sun{2}=ཉི་ མ
+    Mercury{0}=དབྱིན་ཇི།
+    Venus{0}=སྐར་མ།
+    Earth{0}=འཛམ་གླིང
+    Earth{1}=སའི་གོ་ལ།
+    Earth{2}=སའི་གོ་ལ།
+    Earth{3}=སའི་གོ་ལའི་
+    Moon{0}=ཟླ་བ
+    Moon{1}=ཟླ་བ།
+    Moon{2}=ཟླ་བ།
+    Near_Earth_Asteroid{0}=འཛིན་བཟུང་བྱས་པའི་སྐར་ཆུང་།
+    Near_Earth_Asteroid{1}=འཛིན་བཟུང་བྱས་པའི་སྐར་ཆུང་།
+    Near_Earth_Asteroid{2}=འཛིན་བཟུང་བྱས་པའི་སྐར་ཆུང་།
+    Mars{0}=གཟའ་སྐར་མིག་དམར་
+    Phobos{0}=ཕོ་བོས།
+    Deimos{0}=ཌི་མོ་སི།
+    Jupiter{0}=གཟའ་སྐར།
+    Jupiter{1}=གཟའ་སྐར།
+    Jupiter{2}=གཟའ་སྐར།
+    Jupiter{3}=གཟའ་སྐར།
+    Europa{0}=ཡུ་རོབ།
+    Ganymede{0}=གྷ་ནི་མེ་ཏི།
+    Io{0}=Io
+    Callisto{0}=ཀ་ལི་སི་ཊོ།
+
+[Landmarks]
+    Sea_of_Tranquility=ལྷིང་འཇགས་ཀྱི་རྒྱ་མཚོ།
+    Sea_of_Serenity=ལྷིང་འཇགས་ཀྱི་རྒྱ་མཚོ།
+    Ocean_of_Storms=རླུང་འཚུབ་ཀྱི་རྒྱ་མཚོ།
+    Copernicus_Crater=ཀོ་པེར་ནི་ཁུས་ཁུང་བུ།
+    Tycho_Crater=ཐའི་ཀོ་ཁུང་བུ།
+
+    Olympus_Mons=ཨོ་ལིམ་པུས་མོན།
+    Valles_Marineris=ཝ་ལེ་སི་མ་རི་ནེ་རིས།
+    Gale_Crater=གྷེལ་ཁེར།
+    Hellas_Planitia=ཧེ་ལཱ་སི་པླན་ཐི་ཡ།
+    Arcadia_Planitia=ཨར་ཀེ་ཌི་ཡ་པླན་ཊི་ཡ།
+    Utopia_Planitia=ཡུ་ཊོ་པི་ཡ་པླན་ཊི་ཡ།
+    Jezero_Crater=ཇེ་ཟི་རོའི་ཁུང་བུ།
+
+    Atalanta_Planitia=ཨ་ཊ་ལན་ཊ་པླན་ཊི་ཡ།
+    Lavinia_Planitia=ལ་ཝི་ནི་ཡ་པླན་ཊི་ཡ།
+
+    Caloris_Planitia=ཀ་ལོ་རི་སི་པླན་ཊི་ཡ།
+    Borealis_Planitia=བོ་རེ་ལིས་ཕ་ལེ་ནི་ཤི་ཡ།
+    Maxwell_Montes=མེག་ཝེལ་མོན་ཊིས།
+
+[Challenges]
+    Liftoff_Title=ཡར་འཐེན་པ།
+    Liftoff=གནམ་གྲུ་འཕུར་ནས་བདེ་འཇགས་ངང་འབབ་ཐུབ།
+
+    Reach10km_Title=སྤྱི་ལེ་10ལ་བསླེབས།
+    Reach10km=སྤྱི་ལེ་10ལ་སླེབས་ནས་བདེ་བླག་ངང་ས་ལ་འབབ་པ།
+
+    ReachSpace_Title=བར་སྣང་ལ་སླེབས་པ།
+    ReachSpace=%height% ལ་སླེབས་རྗེས་བསྐྱར་དུ་འཛུལ་ནས་བདེ་འཇགས་ངང་འབབ་ཐུབ།
+    
+    Land100kmDownrange_Title=ས་ངོས་སྤྱི་ལེ100ཡི་མར་ཁུལ།
+    Land100kmDownrange=འཕེན་གཏོང་ས་ཚིགས་ནས་ཉུང་མཐར་ཡང་སྤྱི་ལེ་100ཙམ་གྱི་སར་བབས་པ།
+    ReachLowEarthOrbit_Title=དམའ་བའི་སའི་གོ་ལའི་འཁོར་ལམ་ལ་སླེབས།
+    ReachLowEarthOrbit=སའི་གོ་ལའི་འཁོར་ལམ་དམའ་པོར་སླེབས་རྗེས་བདེ་འཇགས་ངང་ས་ལ་འབབ་དགོས།
+
+    ReachHighEarthOrbit_Title=སའི་གོ་ལའི་འཁོར་ལམ་མཐོ་པོར་སླེབས་པ།
+    ReachHighEarthOrbit=སའི་གོ་ལའི་འཁོར་ལམ་མཐོ་པོར་བསླེབས་རྗེས་བདེ་འཇགས་ངང་ས་ལ་འབབ་དགོས།
+    
+    MoonOrbit_Title=ཟླ་བའི་འཁོར་སྐོར།
+    MoonOrbit=Cཟླ་བའི་རྒྱུ་ལམ་དམའ་བའི་ནང་དུ་འཕུར་ནས་བདེ་འཇགས་ངང་ཕྱིར་ལོག
+
+    MoonTour_Title=ཟླ་བའི་ཡུལ་སྐོར།
+    MoonTour=ས་མཚམས་སོ་སོར་གསུམ་ལ་འབབ་ནས་བདེ་འཇགས་ངང་ཕྱིར་ལོག་དགོས།
+
+    AsteroidImpact_Title=སྐར་མདའ་ཤུགས་རྐྱེན།
+    AsteroidImpact=སྐར་ཆ་རེར་སྨི་200+ལྷག་ཙམ་གྱིས་འཛིན་བཟུང་བྱས་པའི་སྐར་མདའ་དེའི་ཕྱི་ངོས་ལ་ལྷུང་བ་རེད།
+
+    MarsGrandTour_Title=གཟའ་མིག་དམར་གྱི་ཡུལ་སྐོར་ཆེན་མོ།
+    MarsGrandTour=མར་སི་དང་། ཕོ་བོས། ཌི་མོ་སི་བཅས་ལ་གནམ་གྲུ་གཅིག་གི་ནང་དུ་འབབ་རྗེས་བདེ་འཇགས་ངང་ཕྱིར་ལོག་དགོས།
+    
+    VenusLanding_Title=སྐར་མ་བབས་པ།
+    VenusLanding=མཁའ་དབུགས་མཐུག་པོ་བརྒྱུད་ནས་བབས་ཏེ་སྐར་མའི་ངོས་སུ་འབབ་པ།
+
+    VenusReturn_Title=སྐར་མའི་ཕྱིར་ལོག
+    VenusReturn=གཟའ་སྐར་གྱི་ངོས་སུ་འབབ་ནས་མཁའ་དབུགས་མཐུག་པོ་བརྒྱུད་ནས་ཡར་འཛེགས་ནས་བདེ་བླག་ངང་ཕྱིར་ལོག
+
+    MercuryLanding_Title=མར་ཀུ་རི་ཆགས་པ།
+    MercuryLanding=གཟའ་སྐར་གྱི་ངོས་སུ་འབབ་པ།
+
+    MercuryReturn_Title=མར་ཀུ་རི་ཕྱིར་ལོག
+    MercuryReturn=གཟའ་སྐར་གྱི་ངོས་སུ་བབས་རྗེས་བདེ་བླག་ངང་ཕྱིར་ལོག
+    
+    LandAndReturn_Title=%planet{0}% ས་བབས་པ།
+    LandAndReturn=%planet{0}%ཡི་ངོས་སུ་བབས་རྗེས་བདེ་བླག་ངང་ཕྱིར་ལོག
+
+[Achievements]
+    Reached_Height=%height% མཐོ་ཚད་ལ་སླེབས་ཡོད།
+    Reached_Karman_Line=ཀརྨན་ཐིག་བརྒལ་ནས་མཁའ་དབུགས་དང་བྲལ་ནས་བར་སྣང་དུ་སླེབས་པ།
+    Survived_Reentry=བསྐྱར་དུ་ %planet{3}% མཁའ་རླུང་། ཆེས་མཐོའི་དྲོད་ཚད། %temperature%
+
+    Reached_Low_Orbit=དམའ་བར་སླེབས་ཡོད། %planet{0}% འཁོར་ལམ་ལ་སླེབས་ཡོད།
+    Reached_High_Orbit=མཐོ་བའི %planet{0}% འཁོར་ལམ་ལ་སླེབས་ཡོད།
+    Descend_Low_Orbit=དམའ་རུ་བབས་པ། %planet{0}% འཁོར་ལམ་ལ་སླེབས་ཡོད།
+    Capture_Low_Orbit=དམའ་བར་འཛིན་བཟུང་བྱས། %planet{0}% འཁོར་ལམ་ལ་སླེབས་ཡོད།
+    Capture_High_Orbit=མཐོ་སར་འཛིན་བཟུང་བྱས། %planet{0}% འཁོར་ལམ་ལ་སླེབས་ཡོད།
+
+    Entered_Lower_Atmosphere=འཛུལ་ཞུགས་བྱས། %planet{3}% རླུང་ཁམས་དམའ་བ།
+    Entered_Upper_Atmosphere=འཛུལ་ཞུགས་བྱས། %planet{3}% སྟོད་རླུང་།
+    Left_Lower_Atmosphere=འབྱོར་བ %planet{3}% སྟོད་རླུང་།
+    Left_Upper_Atmosphere=བྲོས་སོང་། %planet{3}% རླུང་ གི་ གོ་ ལ
+
+    Landed=%planet{1}% ཡི་ངོས་སུ་བབས་པ།
+
+    Landed_At_Landmark=ཡི་ངོས་སུ་བབས་པ། %planet{1}%
+    Landed_At_Landmark=<size=55>གནས་ཡུལ: %landmark%</size>
+
+    Landed_At_Landmark__Short=ཡི་ངོས་སུ་བབས་པ། %planet{1}%
+    Landed_At_Landmark__Short=- %landmark% -
+
+    Crashed_Into_Terrain=ཕྱི་ངོས་སུ་ལྷུང་བ་རེད། %planet{1}%
+
+    Entered_SOI=ཤུགས་རྐྱེན་ཐེབས་པའི་ཁྱབ་ཁོངས་སུ་ཞུགས། %planet{1}%
+    Escaped_SOI=ཤུགས་རྐྱེན་གྱི་ཁྱབ་ཁོངས་ལས་ཐར་ཡོད། %planet{1}%
+
+    Docked_Suborbital=འཁོར་ལམ་འོག་མ་ཞིག་གི་ནང་དུ་བསྡད་ཡོད། %planet{1}%
+    Docked_Orbit_Low=དམའ་བའི་ནང་དུ་བསྡད་ཡོད། %planet{0}% འཁོར་ལམ།
+    Docked_Orbit_Transfer=Dགནས་སྤོའི་ནང་དུ་བསྡམས་ཡོད། འབྲེལ་སྒྲའི་དོན་ལ་འཇུག %planet{1}%
+    Docked_Orbit_High=མཐོ་སྒང་དུ་བསྡད་ཡོད། %planet{0}% འཁོར་ལམ།
+    Docked_Escape=བྲོས་བྱོལ་གྱི་ལམ་ཐིག་སྟེང་དུ་བསྡད་ཡོད། %planet{1}%
+    Docked_Surface=བྲོས་བྱོལ་གྱི་ལམ་ཐིག་སྟེང་དུ་བསྡད་ཡོད། %planet{1}%
+
+    Recover_Home=བདེ་འཇགས་ངང་ཕྱིར་ལོག་བྱས། %planet{1}%
+    Recover_Landed=བདེ་འཇགས་ངང་ཕྱིར་ལོག་བྱས། %planet{1}% ཕྱི་ངོས
+    Recover_Space=ཉེ་འཁོར་གྱི་མཁའ་དབྱིངས་ལས་འགུལ། %planet{1}% མཇུག་རྫོགས་ཟིན།
