@@ -10,12 +10,12 @@
 # Example:
 # 
 # [Planets]
-# Earth{0}= Earth
-# Earth{1}= earth
+# Earth{0}= Земля
+# Earth{1}= земля
 # 
 # [Achievements]
-# Landed_Test0 = Landed on %planet{0}%
-# Landed_Test1 = Landed on %planet{1}%
+# Landed_Test0 = Приземлился на %planet{0}%
+# Landed_Test1 = Приземлился на %planet{1}%
 # 
 # Variants are used for many things, such as making phrases work, caps, etc
 # 
@@ -35,20 +35,20 @@
 # Used for language select buttons
     Language_Name_In_Local_Language=Русский
 
-    Cancel=Cancel
-    Close=Close
+    Cancel=Отмена
+    Close=Закрывать
 
-    On=On
-    Off=Off
+    On=На
+    Off=Выключенный
 
-    Open_Settings_Button=Settings
-    Open_Cheats_Button=Cheats
-    Help=Help
+    Open_Settings_Button=Настройки
+    Open_Cheats_Button=Читы
+    Help=Помощь
 
-    Build_Rocket=Build Rocket
-    Resume_Game=Resume Game
-    Return_To_Main_Menu=Main Menu
-    Exit_To_Main_Menu=Exit To Main Menu
+    Build_Rocket=Построить ракету
+    Resume_Game=Продолжить игру
+    Return_To_Main_Menu=Главное меню
+    Exit_To_Main_Menu=Выйти в главное меню
 
 [[Main Menu]
 # Image at: https://drive.google.com/file/d/1mEFf3W964ldXBekpbTc-Jj1XcSnBQz4k/view?usp=sharing
