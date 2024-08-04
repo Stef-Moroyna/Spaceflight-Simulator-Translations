@@ -10,12 +10,12 @@
 # Example:
 # 
 # [Planets]
-# Earth{0}= Earth
-# Earth{1}= earth
+# Earth{0}= أرض
+# Earth{1}= أرض
 # 
 # [Achievements]
-# Landed_Test0 = Landed on %planet{0}%
-# Landed_Test1 = Landed on %planet{1}%
+# Landed_Test0 = هبطت على %planet{0}%
+# Landed_Test1 = هبطت على %planet{1}%
 # 
 # Variants are used for many things, such as making phrases work, caps, etc
 # 
