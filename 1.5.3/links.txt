@@ -17,6 +17,7 @@ Română;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Tr
 简体中文;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Simplified_Chinese.txt
 Slovenčina;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Slovak.txt
 Español;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Spanish.txt
+แบบไทย;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Thai.txt
 བོད་སྐད་;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Tibetic.txt
 Türkçe;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.9/Turkish.txt
 繁體中文;https://raw.githubusercontent.com/Stef-Moroyna/Spaceflight-Simulator-Translations/master/1.5.3/Traditional_Chinese.txt
