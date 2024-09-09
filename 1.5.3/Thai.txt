@@ -1,0 +1,917 @@
+# Target version :   v1.5.9.15
+# Contributors   :   Team Curiosity, Carson Wu
+# last_update    :   05/08/2024
+
+[Ungroupped]
+# READ ME:
+# The format used here is derived from INI.
+# We have added something special called variants.
+# 
+# Example:
+# 
+# [Planets]
+# Earth{0}= โลก
+# Earth{1}= โลก
+# 
+# [Achievements]
+# Landed_Test0 = ลงจอดบน %planet{0}%
+# Landed_Test1 = ลงจอดบน %planet{1}%
+# 
+# Variants are used for many things, such as making phrases work, caps, etc
+# 
+# We recommend starting at the bottom of the file with achievements/planets, there variants are very clearly used.
+# 
+# 
+# 
+# Available font types: normal/compatibility
+# In case of missing characters use compatibility font.
+    Font=normal
+
+[None]
+    None=None
+    Font=normal
+
+[General]
+# Used for language select buttons
+    Language_Name_In_Local_Language=แบบไทย
+
+    Cancel=ยกเลิก
+    Close=ปิด
+
+    On=เปิด
+    Off=ปิด
+
+    Open_Settings_Button=การตั้งค่า
+    Open_Cheats_Button=สูตรโกง
+    Help=ช่วยเหลือ
+
+    Build_Rocket=สร้างจรวด
+    Resume_Game=เล่นเกมต่อ
+    Return_To_Main_Menu=เมนูหลัก
+    Exit_To_Main_Menu=ออกจากเมนูหลัก
+
+[Main Menu]
+# Image at: https://drive.google.com/file/d/1mEFf3W964ldXBekpbTc-Jj1XcSnBQz4k/view?usp=sharing
+    Play=เล่น
+
+# Tutorial
+   Video_Tutorials_OpenButton=วิดีโอการสอน
+   Video_Orbit=การสอน Orbit
+   Video_Moon=การสอน Moon
+   Video_Dock=การสอน Docking
+   
+   Development_Preview=การแสดงตัวอย่างการพัฒนา
+   Development_Preview_Explanation=การแสดงตัวอย่างการพัฒนาจะแสดงการอัปเดตในอนาคตที่เรากำลังดำเนินการอยู่
+
+# Community
+    Community_OpenButton=ชุมชน
+    Community_Youtube=Youtube
+    Community_Discord=Discord
+    Community_Reddit=Reddit
+    Community_Forums=Forums
+
+# Roadmap
+    Roadmap_OpenButton=การอัปเดตในอนาคต
+    
+    Roadmap_Text=เวอร์ชัน 1.51
+    Roadmap_Text=<color=grey>การจัดฉาก</color>
+    Roadmap_Text=
+    Roadmap_Text=เวอร์ชัน 1.52
+    Roadmap_Text=<color=grey>บทช่วยสอน</color>
+    Roadmap_Text=
+    Roadmap_Text=เวอร์ชัน 1.53
+    Roadmap_Text=<color=grey>การกลับเข้ามาใหม่</color>
+    Roadmap_Text=
+    Roadmap_Text=เวอร์ชัน 1.54
+    Roadmap_Text=<color=grey>เอฟเฟกต์ภาพ อนุภาค และเสียง</color>
+    Roadmap_Text=
+    Roadmap_Text=เวอร์ชัน 1.55
+    Roadmap_Text=<color=grey>บูสเตอร์จรวดเชื้อเพลิงแข็ง</color>
+    Roadmap_Text=
+    Roadmap_Text=เวอร์ชัน 1.6
+    Roadmap_Text=<color=grey>นักบินอวกาศ</color>
+    Roadmap_Text=
+    Roadmap_Text=เวอร์ชัน 1.7
+    Roadmap_Text=<color=grey>โหมดอาชีพ</color>
+    Roadmap_Text=
+    Roadmap_Text=เวอร์ชัน 1.8
+    Roadmap_Text=<color=grey>ดาวเคราะห์ภายนอก</color>
+    Roadmap_Text=
+    Roadmap_Text=ระบบไฟฟ้า:
+    Roadmap_Text=<color=grey>ระบบไฟฟ้าทั้งหมดจะได้รับการปรับปรุงใหม่ทั้งหมดในอนาคต โดยมีแนวโน้มว่าจะมีคุณสมบัติเช่นการบิดเบือนเวลาในระหว่างการเผาไหม้ของเครื่องยนต์ไอออนและการใช้งานไฟฟ้ามากขึ้น</color>
+    Roadmap_Text=
+    Roadmap_Text=
+    Roadmap_Text=โปรดทราบว่าแผนอาจมีการเปลี่ยนแปลง
+
+    Credits_OpenButton=เครดิต
+
+    Credits_Text=<Size=70> Štefo Mai Morojna </size>
+    Credits_Text=<Size=55> นักออกแบบ - โปรแกรมเมอร์ - ศิลปิน </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Jordi van der Molen </size>
+    Credits_Text=<Size=55> โปรแกรมเมอร์ </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Chris Christo </size>
+    Credits_Text=<Size=55> โปรแกรมเมอร์ </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Josh </size>
+    Credits_Text=<Size=55> โปรแกรมเมอร์ </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Aidan Ginise </size>
+    Credits_Text=<Size=55> โปรแกรมเมอร์ </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Andrey Onischenko </size>
+    Credits_Text=<Size=55> โปรแกรมเมอร์ </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Davi Vasc </size>
+    Credits_Text=<Size=55> นักแต่งเพลง </size>
+    Credits_Text=
+    Credits_Text=<Size=70> Ashton Mills </size>
+    Credits_Text=<size=55> นักแต่งเพลง </size>
+
+    First_Time_Playing_Question=ครั้งแรกที่เล่น
+    First_Time_Playing_Question=เครื่องจำลองการบินอวกาศ?
+    
+    First_Time_Playing_Yes=ครั้งแรกที่เล่น
+    First_Time_Playing_No=เคยเล่นมาก่อน
+
+# Update menu
+    Update_Available=มีการอัปเดตใหม่แล้ว!
+    Update_Available=
+    Update_Available=เวอร์ชันปัจจุบัน: %old%
+    Update_Available=เวอร์ชันล่าสุด: %new%
+    
+    Update_Confirm=อัปเดต
+
+# Rate menu
+    Rate_Title=คุณต้องการให้คะแนนหรือวิจารณ์เกมนี้หรือไม่?
+    Rate_Title=
+    Rate_Title=เราใส่ใจอย่างยิ่งต่อคุณภาพของเกม ความคิดเห็นของคุณช่วยให้เราปรับปรุงเกมได้
+    Rate_Title=
+    Rate_Title=แม้ว่าจะมีการวิจารณ์เป็นพันๆ ครั้งแล้ว แต่เราก็ยังคงอ่านบทวิจารณ์เหล่านั้นเป็นจำนวนมาก!
+    
+    Rate_Confirm=ให้คะแนน
+    
+    Exit_Button=ออก
+
+# Close menu
+    Close_Game=เกมปิดแล้วเหรอ?
+
+[Worlds Menu]
+# Worlds are save slots; image at: https://drive.google.com/file/d/1vUYrXaem4ki1dcXRFUJLKWZEcE0PFno-/view?usp=share
+    Create_New_World_Button=สร้างโลกใหม่
+
+# Create menu
+   Create_World_Title=ชื่อโลก
+   Default_World_Name=โลกของฉัน
+
+# Delete menu
+    World_Delete=ลบ
+
+# Select system menu
+    Select_Solar_System=เลือกระบบสุริยะของโลก
+    Select_Solar_System__NotFound=ไม่พบระบบสุริยะ:
+    Select_Solar_System__NotFound=%system%
+    Select_Solar_System__NotFound=
+    Select_Solar_System__NotFound=เลือกระบบสุริยะใหม่
+    
+    Default_Solar_System=ระบบสุริยะ (ค่าเริ่มต้น)
+    Custom_Solar_System=%name% (กำหนดเอง)
+
+# World info
+    World_Mode_Name=โหมด: %value%
+    Mode_Sandbox=แซนด์บ็อกซ์
+    Mode_Challenge=ความท้าทาย
+    Mode_Career=อาชีพ
+    
+    Allow_Cheats_Name=อนุญาตให้ใช้สูตรโกง: %value%
+    Allow_Cheats_Label=อนุญาตให้ใช้สูตรโกง
+    
+    Allow_Quicksaves_Name=อนุญาตให้บันทึกด่วน: %value%
+    Allow_Quicksaves_Label=อนุญาตให้บันทึกด่วน
+    
+    World_Difficulty_Name=ระดับความยาก: %value%
+    Difficulty_Normal=ปกติ
+    Difficulty_Hard=ยาก
+    Difficulty_Realistic=สมจริง
+
+# World play times
+    Last_Played=เล่นล่าสุด: %value% ที่ผ่านมา
+    Just_Played=เล่นล่าสุด: เมื่อสักครู่
+    Time_Played=เวลาเล่น: %value%
+
+[Saving]
+# Blueprint stuff; Blueprints are rocket designs; images at: https://drive.google.com/drive/folders/15m4nXgzr8fvql78TheE3Qy1WPrTaIqdJ?usp=share
+   Blueprints_Menu_Title=บลูพริ้นท์
+   Unnamed_Blueprint=ไม่มีชื่อ บลูพริ้นท์
+   Save_Blueprint=บันทึก บลูพริ้นท์
+   Load_Blueprint=โหลด บลูพริ้นท์
+   Cannot_Save_Empty_Build=ไม่สามารถบันทึกบลูพริ้นท์ที่ว่างเปล่าได้
+
+# Quicksave stuff; Quicksaves let players save at any time and return to it.
+# It does not necessarily have to be called quicksave, player just needs to understand its use.
+# Image at: https://drive.google.com/drive/folders/128aXHWoUhJXZbbKVBDXXSMoCvRwFpvct?usp=share
+   Quicksaves_Menu_Title=บันทึกด่วน
+   Unnamed_Quicksave=บันทึกด่วนที่ไม่มีชื่อ
+   Create_Quicksave=สร้างบันทึกด่วน
+   Load_Quicksave=โหลดบันทึกด่วน
+
+# Save and load menus; context seen in images from blueprint/quicksave stuff
+    Save=บันทึก
+    Load=โหลด
+    Import=นำเข้า
+    Delete=ลบ
+    Rename=เปลี่ยนชื่อใหม่
+    Delete_File_With_Type=ลบ %ชื่อไฟล์ %filename% %filetype{1}%
+
+# In progress
+    Saving_In_Progress=กำลังบันทึก...
+    Loading_In_Progress=กำลังโหลด...
+    Importing_In_Progress=กำลังนำเข้า...
+
+# filetype (injected)
+    Blueprint{0}=บลูพริ้นท์
+    Blueprint{1}=บลูพริ้นท์
+    Blueprint{2}=บลูพริ้นท์
+
+    Quicksave{0}=บันทึกด่วน
+    Quicksave{1}=บันทึกด่วน
+    Quicksave{2}=บันทึกด่วน
+
+# Ask overwrite menu; image at: https://drive.google.com/file/d/1EOI9UIWAG-lNgrdk1IMmrpmf6rRBuA7Q/view?usp=share
+    File_Already_Exists=มี %filetype{1}% ที่มีชื่อนี้อยู่แล้ว
+    Overwrite_File=เขียนทับ %filetype{1}%
+    New_File=New %filetype{1}%
+
+# Load failure; image at: https://drive.google.com/file/d/1c7qHCdbS1ShSq4rKIHMpHKCTuh0pXeHv/view?usp=share
+     Load_Failed=ไม่สามารถโหลด %filetype{1}% จาก %filepath% ได้
+
+# Legacy Messages
+    Conversion_Message=ยินดีต้อนรับสู่เวอร์ชัน 1.5
+    Conversion_Message=
+    Conversion_Message=ไฟล์บันทึก 1.4 ทั้งหมดถูกแปลงเป็นไฟล์บันทึก 1.5 โดยอัตโนมัติ
+    
+    Conversion_Success=พบไฟล์บันทึก %filetype{1}% เวอร์ชัน 1.4 และแปลงเป็นรูปแบบ %version%
+    
+    Conversion_Failed=พบไฟล์บันทึก %filetype{1}% เวอร์ชัน 1.4 และแปลงเป็นรูปแบบ %version%
+    Conversion_Failed=
+    Conversion_Failed=การแปลงล้มเหลว:
+    Conversion_Failed=%reason%
+
+[Purchasing]
+# Images at: https://drive.google.com/drive/folders/1kIhFuPRp8YXkZ8SVC5Jq9UJkNZqdasQC?usp=share
+    Parts_Expansion=ส่วนเสริม
+    Redstone_Atlas_Pack=Redstone Atlas Pack
+    Skins_Expansion=ส่วนเสริมสกิน
+    Planets_Expansion=ส่วนเสริมดาวเคราะห์
+    Expansion_Bundle=ส่วนเสริมส่วนขยาย
+    Upgrade_To_Bundle=ส่วนเสริมส่วนขยาย
+    Cheats_Expansion=Cheats
+    Infinite_Area_Expansion=พื้นที่สร้างไม่จำกัด
+    Builder_Bundle=ส่วนเสริมส่วนขยาย
+    Sandbox_Bundle=ส่วนเสริม Sandbox
+    Full_Bundle=ส่วนเสริมแบบเต็ม
+    Upgrade_To_Full_Bundle=ส่วนเสริมแบบเต็ม
+    Mac_Full_Version=เวอร์ชันแบบเต็ม
+    
+    Not_All_Parts_Are_Owned=ไม่ได้เป็นเจ้าของส่วนทั้งหมด
+    Not_All_Parts_Are_Owned=ส่วนที่ไม่ได้เป็นเจ้าของถูกปิดใช้งาน
+    Not_All_Parts_Are_Owned=
+    Not_All_Parts_Are_Owned=ดูส่วนเสริมส่วนขยายหรือไม่
+    
+    View_Part_Expansion=ดูส่วนขยาย
+    
+    More_Parts=ดูส่วนขยายของชิ้นส่วน
+    More_Skins=ดูส่วนขยายของสกิน
+    
+    Cannot_Use_Cheats_In_Career=สามารถใช้สูตรโกงได้เฉพาะในโลกโหมดแซนด์บ็อกซ์เท่านั้น
+    Get_Infinite_Build_Area_Button=รับพื้นที่สร้างแบบไม่จำกัด
+    Get_Cheats_Expansion_Button=รับสูตรโกงส่วนขยาย
+    
+    Why_Buy=การสนับสนุนของคุณจะช่วยให้เราปรับปรุงเกมต่อไปได้!
+    
+    Buy_Product=ซื้อ %product% %price%
+    
+    Timed_Sale_Text=%product_name% -%sale_percent%
+    Timed_Sale_Text=%time_left%
+    
+    Time_Upgrade_Text=อัปเกรดเป็น %product_name% -%sale_percent%
+    Time_Upgrade_Text=%time_left%
+    
+    Purchase_Thanks_Msg=ซื้อแล้ว: %product%
+    Purchase_Thanks_Msg=
+    Purchase_Thanks_Msg=ขอบคุณสำหรับการสนับสนุนของคุณ!
+    Purchase_Thanks_Msg=ไปสำรวจดวงดาวกันได้เลย!
+
+    Owned=%product% (เป็นเจ้าของ)
+
+    Restore_Open=กู้คืนการซื้อ
+    
+    Restore_Text=ธุรกรรมบนอุปกรณ์ Android จะถูกกู้คืนโดยอัตโนมัติเมื่อเริ่มต้นระบบ
+    Restore_Text=
+    Restore_Text=- ตรวจสอบว่าคุณลงชื่อเข้าใช้บัญชี Google Play ที่ซื้อไอเท็มนั้นแล้วหรือไม่ (ตรวจสอบว่าการซื้อนั้นปรากฏในประวัติการซื้อของ Google Play หรือไม่)
+    Restore_Text=
+    Restore_Text=- ตรวจสอบปุ่มซื้อ หากราคาไม่ปรากฏ แสดงว่าเกมไม่ได้เชื่อมต่อกับร้านค้า โปรดตรวจสอบการเชื่อมต่อเครือข่ายและเริ่มเกมใหม่
+    Restore_Text=
+    Restore_Text=หากวิธีการข้างต้นไม่ได้ผล โปรดติดต่อฉันทางอีเมล: games.morojna@gmail.com
+    Restore_Text=
+    Restore_Text=คุณสามารถลองรอสักครู่ ไอเท็มที่ซื้อบางครั้งจะกู้คืนตัวเองหลังจากผ่านไปไม่กี่ชั่วโมง
+    
+    Purchase_FAQ_Open=FAQ
+    
+    Purchase_FAQ_Text=<color=grey>ไอเท็มที่ซื้อจะถูกเก็บไว้ระหว่างการอัปเดตหรือไม่ </color>
+    Purchase_FAQ_Text=ใช่แน่นอน
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>ไอเทมที่ซื้อจะสูญหายหรือไม่? </color>
+    Purchase_FAQ_Text=ไอเทมที่คุณซื้อจะถูกเก็บไว้ถาวรในบัญชีร้านค้าของคุณและจะไม่สูญหายแม้ว่าคุณจะติดตั้งเกมใหม่หรือเปลี่ยนโทรศัพท์ก็ตาม
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>คุณจะคืนเงินหรือไม่? </color>
+    Purchase_FAQ_Text=ใช่แน่นอน ตราบใดที่คุณส่งคำขอภายในระยะเวลาที่เหมาะสม เราจะคืนเงินโดยไม่มีเงื่อนไขใดๆ
+
+# Parts Expansion; images at: https://drive.google.com/drive/folders/1JMCVDO9BN5z2ECeIq07kkQ4W0-evIMSb?usp=share
+    PartsExpansion_Tanks=ถังเชื้อเพลิงหลากหลายรูปแบบ!
+    PartsExpansion_Engines=เครื่องยนต์ยกของหนัก!
+    PartsExpansion_Parts=ชิ้นส่วนทุกรูปทรงและขนาด!
+    
+    PartsExpansion_Build=พื้นที่ประกอบขนาดใหญ่เพื่อนำ
+    PartsExpansion_Build=ผลงานของคุณให้มีชีวิตขึ้นมา!
+
+# Skins Expansion; images at: https://drive.google.com/drive/folders/1-X2n4Y-AUDehknKdBiqCy7TG-DyqLgyf?usp=share
+    SkinsExpansion_Tanks=ระบายสีส่วนต่าง ๆ ของคุณด้วยสกินที่หลากหลาย!
+    SkinsExpansion_Interstages=ระบายสีทุกอย่างตั้งแต่ interstages
+    SkinsExpansion_Nosecones=ไปจนถึง nosecones
+    SkinsExpansion_Fairings=และแม้แต่ fairings
+
+# Planets Expansion; images at: https://drive.google.com/drive/folders/15lIYDSIOPrSei1DJBrvHRDQ_WieAb0yf?usp=share
+    PlanetsExpansion_Jupiter=สำรวจดาวพฤหัสและดวงจันทร์ทั้งสี่ดวง!
+    PlanetsExpansion_Callisto=จากพื้นผิวของดาว Callisto ที่มีหลุมอุกกาบาตจำนวนมาก!
+    PlanetsExpansion_Europa=สู่ที่ราบน้ำแข็งอันกว้างใหญ่ของยูโรปา!
+    
+    PlanetsExpansion_Conclusion=โลกอันไกลโพ้นกำลังรอคุณอยู่
+    PlanetsExpansion_Conclusion=เพื่อสำรวจพวกมัน!
+
+# Expansion Bundle; images at: https://drive.google.com/file/d/1aWdcqNciwf7i3ju1Hx7mHnKyGBS2_tYU/view?usp=share
+   ExpansionBundle_Sandbox=รางวัล
+   ExpansionBundle_Sandbox=โหมดแซนด์บ็อกซ์
+   
+   ExpansionBundle_Infinite_Fuel=เชื้อเพลิงไม่สิ้นสุด
+   ExpansionBundle_No_Atmospheric_Drag=ไม่มีแรงต้านบรรยากาศ
+   ExpansionBundle_Unbreakable_Parts=ไม่มีความเสียหายจากการชน
+   ExpansionBundle_No_Gravity=ไม่มีแรงโน้มถ่วง
+
+[Sharing]
+    Share_Button=Share Blueprint
+    Upload_Blueprint_PC=อัปโหลด Blueprint
+    Download_Blueprint_PC=ดาวน์โหลด Blueprint
+    Share_Button_PC=แชร์
+    Download_Confirm=ดาวน์โหลด
+    URL_Field_TextBox=URL Blueprint
+    Empty_Upload=ไม่สามารถอัปโหลด Blueprint ที่ว่างเปล่าได้
+    Uploading_Message=กำลังอัปโหลด...
+    Upload_Fail=ไม่สามารถอัปโหลด Blueprint ได้
+    Copied_URL_To_Clipboard=คัดลอก URL Blueprint ไปยังคลิปบอร์ด
+    Sharing_Enter_Prompt=เลือกโลกที่คุณต้องการให้โหลด Blueprint
+    Confirm_Download_Button=ดาวน์โหลด Blueprint
+    Downloading_Message=กำลังดาวน์โหลด...
+    Download_Fail=ไม่สามารถดาวน์โหลด Blueprint ได้
+    URL_Invalid=URL Blueprint ไม่ถูกต้อง
+    Sharing_Connect_Fail=ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ที่แชร์ได้
+
+[Settings Mobile]
+    Music_Name=เพลง
+    Sound_Name=เสียง
+    Screen_Rotation_Name=การหมุนหน้าจอ
+    FPS_Name=Fps
+    Language_Name=ภาษา
+    Menu_Scale=ขนาดอินเทอร์เฟซ
+    Menu_Opacity=ความทึบของอินเทอร์เฟซ
+    Shakes_Name=การสั่นของกล้อง
+    Orbit_Line_Count=จำนวนเส้นวงโคจร
+    Anti_Aliasing=การป้องกันการเกิดรอยหยัก
+
+[Cheats]
+    Infinite_Build_Area_Name=พื้นที่สร้างแบบไม่จำกัด
+    Part_Clipping_Name=การตัดชิ้นส่วน
+    Infinite_Fuel_Name=เชื้อเพลิงไม่จำกัด
+    No_Atmospheric_Drag_Name=ไม่มีแรงต้านในบรรยากาศ
+    No_Collision_Damage_Name=ไม่มีความเสียหายจากการชน
+    No_Gravity_Name=ไม่มีแรงโน้มถ่วง
+    No_Heat_Damage_Name=ไม่มีความเสียหายจากความร้อน
+    No_Burn_Marks_Name=ไม่มีรอยไหม้
+
+[Tutorials]
+
+    Tut_Drag_And_Drop=ลากและวางชิ้นส่วน
+    Tut_Drag_And_Drop=สร้างจรวดของคุณ
+    
+    Tut_Part_Info=คลิกเพื่อดู
+    Tut_Part_Info=ข้อมูลชิ้นส่วน
+    
+    Tut_Use_Part=คลิกชิ้นส่วนเพื่อใช้
+    Tut_Ignition=จุดระเบิด!
+    Tut_Throttle=ปรับคันเร่ง
+
+[Hub]
+    Funds_Text=กองทุน: %funds%
+    Go_To_Space_Center=ศูนย์อวกาศ
+    Exit_To_Space_Center=ทางออกสู่ศูนย์อวกาศ
+    Research_And_Development=การวิจัยและพัฒนา %complete%/%total%
+    Challenges_Info=ความท้าทาย: %complete%/%total%
+    Challenges_Button=ความท้าทาย: %total%/%omplete%
+    Challenges_Title=ความท้าทาย:
+    
+    Challenges_Completed=<size=55>ความท้าทายเสร็จสิ้น:</size>
+    Challenges_Completed=%challenge%
+
+[Build]
+    Build_New_Rocket=สร้างจรวดใหม่
+    New=ใหม่
+    Expand_Last_Rocket=สร้างจรวดต่อไป
+
+    Symmetry_On=สมมาตร: เปิด
+    Symmetry_Off=สมมาตร: ปิด
+    
+    Interior_View_On=มุมมองภายใน: เปิด
+    Interior_View_Off=มุมมองภายใน: ปิด
+    
+    Launch_Button=เปิด
+    Move_Rocket_Button=ย้ายจรวด
+
+# Clear build area
+    Clear_Warning=ล้างพื้นที่ก่อสร้างหรือไม่?
+    Clear_Confirm=ยืนยัน
+
+# Launch warnings
+    Warnings_Title=คำเตือน:
+    Missing_Capsule=จรวดของคุณไม่มีแคปซูลหรือหัววัด ทำให้ควบคุมไม่ได้
+    Missing_Parachute=จรวดของคุณไม่มีร่มชูชีพ
+    Missing_Heat_Shield=จรวดของคุณไม่มีโล่ป้องกันความร้อน
+    Missing_Fuel_Popup=ไม่มีแหล่งเชื้อเพลิง
+    
+    Too_Heavy=จรวดของคุณหนักเกินกว่าจะปล่อยได้
+    Too_Heavy=%mass%
+    Too_Heavy=%thrust%
+    Too_Heavy=โปรดลดน้ำหนักหรือใช้เครื่องยนต์ที่ทรงพลังกว่านี้
+    
+    Launch_Anyway_Button=ปล่อยอยู่แล้ว
+    
+    Launch_Horizontally_Ask=ปล่อยในแนวนอน?
+    Launch_Horizontally_Confirm=ปล่อยในแนวนอน
+    Launch_Vertically_Confirm=ปล่อยในแนวตั้ง
+
+# Example rockets
+    Example_Rockets_OpenMenu=ตัวอย่างจรวด
+    Basic_Rocket=จรวดพื้นฐาน
+    Stages=จรวดสองขั้น
+    Ideal_Stages=จรวดสามขั้น
+    Lander=ยานลงจอดบนดวงจันทร์
+
+[Map]
+    Toggle_Map_Button=แผนที่
+
+# Shown in map when you escape a gravity field of a planet
+# image for escape/encounter at: https://drive.google.com/file/d/17jqJF09DWoqkgW9VGXdG7SRCSo0UmW0o/view?usp=share
+    Escape=หนี
+
+# Shown in map when you encounter/enter a gravity field of a planet
+    Encounter=เผชิญ
+
+# Shown in map when you approach/encounter another rocket
+    Rendezvous=นัดพบ
+
+# Shows the transfer window to another planet
+# image at: https://drive.google.com/file/d/1zd8UEnVb91QmSDllEu1DyCbkCsDKbJk3/view?usp=share
+    Transfer=หน้าต่างการโอน
+
+[Game]
+# Image at: https://drive.google.com/file/d/1d0b-udFyO4ItlYu1vVaVdzgwdAeT1hPw/view?usp=share
+    Throttle_On=เปิด
+    Throttle_Off=ปิด
+    Ignition=จุดระเบิด
+    RCS=RCS
+
+# Game supports screen rotation, we split into 2 lines in vertical mode
+    Height_Terrain_Vertical=ความสูง (ภูมิประเทศ):
+    Height_Terrain_Vertical=
+    Height_Terrain_Vertical=%height%
+    
+    Height_Vertical=ความสูง:
+    Height_Vertical=
+    Height_Vertical=%height%
+    
+    Velocity_Vertical=ความเร็ว:
+    Velocity_Vertical=
+    Velocity_Vertical=%speed%
+    
+    Velocity_Relative_Vertical=ความเร็ว (สัมพัทธ์):
+    Velocity_Relative_Vertical=
+    Velocity_Relative_Vertical=%speed%
+    
+    Distance_Relative_Vertical=ระยะทาง (สัมพัทธ์):
+    Distance_Relative_Vertical=
+    Distance_Relative_Vertical=%distance%
+
+# Angle indicates the best angle/direction the player can rotate their rocket towards
+    Angle_Vertical=มุม:
+    Angle_Vertical=
+    Angle_Vertical=%angle% / %targetAngle%
+
+    Height_Terrain_Horizontal=ความสูง (ภูมิประเทศ): %height%
+    Height_Horizontal=ความสูง: %height%
+    Velocity_Horizontal=ความเร็ว: %speed%
+    Velocity_Relative_Horizontal=ความเร็ว (สัมพัทธ์): %speed%
+    Distance_Relative_Horizontal=ระยะทาง (สัมพัทธ์): %distance%
+    Angle_Horizontal=มุม: %angle% / %targetAngle%
+    
+    Relative_Velocity_Arrow=ความเร็วสัมพัทธ์
+    Relative_Velocity_Arrow=%velocity%
+    
+    Side_Velocity_Arrow=ความเร็วด้านข้าง
+    Side_Velocity_Arrow=ความเร็วด้านหน้า
+    
+    Forward_Velocity_Arrow=ระยะทาง
+    Forward_Velocity_Arrow=%distance%
+    Forward_Velocity_Arrow=
+    Forward_Velocity_Arrow=Velocity
+    Forward_Velocity_Arrow=%velocity%
+
+[Failure menu]
+    Failure_Cause=ความล้มเหลว สาเหตุ:
+    Failure_Crash_Into_Rocket=ชนเข้ากับจรวดอีกลูกหนึ่ง
+    Failure_Crash_Into_Terrain=ชนเข้ากับพื้นผิวของ %planet{1}%
+    Failure_Burn_Up=ถูกเผาเมื่อกลับเข้าสู่ชั้นบรรยากาศ
+
+[End mission menu]
+    Recover_Rocket=กู้คืน
+    Destroy_Rocket=ทำลาย
+    Debris_Recover=กู้คืนเศษซาก
+    Debris_Destroy=ทำลายเศษซาก
+    Debris_Recover_Title=กู้คืนเศษซาก?
+    Debris_Destroy_Title=ทำลายเศษซาก?
+    View_Mission_Log=ดูบันทึกการบิน
+
+# Restart menu
+    
+    Restart_Mission_To_Launch_Warning=คำเตือน:
+    Restart_Mission_To_Launch_Warning=การดำเนินการนี้จะยกเลิกความคืบหน้าทั้งหมดตั้งแต่การเปิดตัวครั้งล่าสุด
+    
+    Restart_Mission_To_Build_Warning=คำเตือน:
+    Restart_Mission_To_Build_Warning=การดำเนินการนี้จะยกเลิกความคืบหน้าทั้งหมดตั้งแต่การสร้างครั้งล่าสุด
+    
+    Restart_Mission_To_Launch=ย้อนกลับสู่การเปิดตัว
+    Restart_Mission_To_Build=ย้อนกลับสู่การสร้าง
+    Revert_30_Secs=ย้อนกลับ 30 วินาที
+    Revert_3_Min=ย้อนกลับ 3 นาที
+
+# End mission menu
+    End_Challenges_Title=ความท้าทาย:
+    End_Logs_Title=บันทึกภารกิจ:
+    Continue_To_Log=ดำเนินการต่อ
+    Back_To_Challenges=ย้อนกลับ
+
+# Clear space junk/debris
+    Clear_Debris_Warning=เคลียร์เศษซาก?
+    Clear_Debris_Warning=
+    Clear_Debris_Warning=การดำเนินการนี้จะลบจรวดที่ควบคุมไม่ได้ทั้งหมด
+    
+    Clear_Debris_Confirm=เคลียร์เศษซาก
+
+    # Select menu; Image at: https://drive.google.com/file/d/1CBIAZ3o_Z7bpEAb8sVdTdDeF4KB8-Yyi/view?usp=share
+    Navigate_To=นำทางไปยัง
+    End_Navigation=สิ้นสุดการนำทาง
+    Focus=โฟกัส
+    Unfocus=ไม่โฟกัส
+    Track=ติดตาม
+    Stop_Tracking=หยุดการติดตาม
+    Switch_To=สลับไปยัง
+
+[Rocket]
+    Default_Rocket_Name=จรวด
+
+# Informs the player that he cannot perform an action due to rocket having no control
+    No_Control_Msg=ไม่มีการควบคุม
+
+[Timewarp]
+# Timewarp = Timewarp can skip long waits
+    Msg_Timewarp_Speed=การเร่งความเร็วเวลา %speed%x
+    Cannot_Timewarp_Below_Basic=ไม่สามารถบิดเบือนเวลาต่ำกว่า %height%
+    Cannot_Timewarp_Below=ไม่สามารถบิดเบือนเวลาได้เร็วกว่า %speed%x ในขณะที่ต่ำกว่า %height%
+    Cannot_Timewarp_While_Moving_On_Surface=ไม่สามารถบิดเบือนเวลาได้เร็วกว่า %speed%x ในขณะที่เคลื่อนที่บนพื้นผิว
+    Cannot_Timewarp_While_Accelerating=ไม่สามารถบิดเบือนเวลาได้เร็วกว่า %speed%x ในขณะที่อยู่ภายใต้การเร่งความเร็ว
+    Cannot_Use_Part_While_Timewarping=ไม่สามารถใช้ %part{1}% ในขณะที่บิดเบือนเวลา
+    Cannot_Turn_While_Timewarping=ไม่สามารถหมุนตัวในขณะที่บิดเบือนเวลา
+    
+    Timewarp_To_Button=บิดเบือนเวลาที่นี่
+
+[Units]
+# Image at: https://drive.google.com/file/d/1ljpGY55W8V1wF9esl5v569B0Z-D6xxMt/view?usp=share
+    Thrust_To_Weight_Ratio=แรงขับ / น้ำหนัก: %value%
+    Mass=Mass: %value%t
+    Thrust=Thrust: %value%t
+    Burn_Time=ระยะเวลาการเผาไหม้: %value%s
+
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=share
+    Efficiency=ประสิทธิภาพ: %value% Isp
+    Mass_Unit=t
+    Meter_Unit=m
+    Km_Unit=km
+    Meter_Per_Second_Unit=m/s
+
+[Timestamps]
+    Second_Short=%value%s
+    Minute_Short=%value%m
+    Hour_Short=%value%h
+    Day_Short=%value%d
+
+[Resource Types]
+# Image at: https://drive.google.com/file/d/17Bd9jTIYyI9nzOg3eXgy7sHdNe5O9gAt/view?usp=share
+    Solid_Fuel{0}=เชื้อเพลิงแข็ง
+    Solid_Fuel{1}=เชื้อเพลิงแข็ง
+    Liquid_Fuel{0}=เชื้อเพลิงเหลว
+    Liquid_Fuel{1}=เชื้อเพลิงเหลว
+
+[Resource Uses]
+    Resource_Bars_Title=%resource_name{0}%:
+    Info_Resource_Amount=%resource{0}%: %amount%
+    Msg_No_Resource_Source=ไม่มี %resource{1}% แหล่งที่มา
+    Msg_No_Resource_Left=ไม่มี %resource{1}%
+
+[Part Categories]
+# Image at: https://drive.google.com/file/d/1uyI7pvGaGyKrYOpe_2vC4MLaNPKy-wYE/view?usp=share
+    Basic_Parts=ข้อมูลพื้นฐาน
+    Six_Wide_Parts=กว้าง 6 ส่วน
+    Eight_Wide_Parts=กว้าง 8 ส่วน
+    Ten_Wide_Parts=กว้าง 10 ส่วน
+    Twelve_Wide_Parts=กว้าง 12 ส่วน
+    Engine_Parts=เครื่องยนต์
+    Aerodynamics_Parts=อากาศพลศาสตร์
+    Fairings_Parts=แฟริ่ง
+    Structural_Parts=โครงสร้าง
+    Other_Parts=อื่นๆ
+
+[Part Names]
+    Capsule_Name{0}=แคปซูล
+    Capsule_Name{1}=แคปซูล
+    Probe_Name{0}=โพรบ
+    Probe_Name{1}=โพรบ
+    Parachute_Name{0}=ร่มชูชีพ
+    Parachute_Name{1}=ร่มชูชีพ
+    
+    Kolibri_Engine_Name{0}=ครื่องยนต์ Kolibri
+    Kolibri_Engine_Name{1}=ครื่องยนต์ kolibri
+    Hawk_Engine_Name{0}=ครื่องยนต์ Hawk
+    Hawk_Engine_Name{1}=ครื่องยนต์ hawk
+    Valiant_Engine_Name{0}=ครื่องยนต์ Valiant
+    Valiant_Engine_Name{1}=ครื่องยนต์ valiant
+    Titan_Engine_Name{0}=ครื่องยนต์ Titan
+    Titan_Engine_Name{1}=ครื่องยนต์ titan
+    Frontier_Engine_Name{0}=ครื่องยนต์ Frontier
+    Frontier_Engine_Name{1}=ครื่องยนต์ frontier
+    Peregrine_Engine_Name{0}=ครื่องยนต์ Peregrine
+    Peregrine_Engine_Name{1}=ครื่องยนต์ peregrine
+    Ion_Engine_Name{0}=Ion Motoru
+    Ion_Engine_Name{1}=ไอออน motoru
+    RCS_Thruster_Name{0}=RCS İtici
+    RCS_Thruster_Name{1}=rcs itici
+    
+    Solid_Rocket_Booster{0}=เครื่องยนต์ Roket
+    Solid_Rocket_Booster{1}=เครื่องยนต์ roket Lendirici
+    
+    Fuel_Tank_Name{0}=Yakıt Tankı
+    Fuel_Tank_Name{1}=yakıt tankı
+    Separator_Name{0}=Kademe Ayırıcı
+    Separator_Name{1}=kademe ayırıcı
+    Side_Separator_Name{0}=Yan Ayırıcı
+    Side_Separator_Name{1}=yan ayırıcı
+    Structural_Part_Name{0}=Yapısal Parça
+    Structural_Part_Name{1}=yapısal parça
+    Landing_Leg_Name{0}=อิสตันบูล Ayağı
+    Landing_Leg_Name{1}=iniş ayağı
+    Aerodynamic_Nose_Cone_Name{0}=Aerodinamik Burun Konisi
+    Aerodynamic_Nose_Cone_Name{1}=aerodinamik konisi
+    Aerodynamic_Fuselage_Name{0}=Aerodinamik Gövde
+    Aerodynamic_Fuselage_Name{1}=aerodinamik gövde
+    Fairing_Name{0}=แฟริ่ง
+    Fairing_Name{1}=แฟริ่ง
+    Rover_Wheel_Name{0}=Rover Tekerleği
+    Rover_Wheel_Name{1}=rover tekerleği
+    Docking_Port_Name{0}=พอร์ตเชื่อมต่อ
+    Docking_Port_Name{1}=เชื่อมต่อพอร์ต
+    Solar_Panel_Name{0}=Güneş Paneli
+    Solar_Panel_Name{1}=güneş paneli
+    Battery_Name{0}=Pil
+    Battery_Name{1}=pil
+    RTG_Name{0}=RTG
+    RTG_Name{1}=rtg
+    Heat_Shield_Name{0}=Isı Kalkanı
+    Heat_Shield_Name{1 }=ısı kalkanı
+    Fuel_Pipe_Name{0}=Yakıt Borusu
+    Fuel_Pipe_Name{1}=yakıt borusu
+
+[Part Descriptions]
+    Capsule_Description=แคปซูลขนาดเล็กที่บรรทุกนักบินอวกาศหนึ่งคน
+    Probe_Description=ยานสำรวจไร้คนขับ ใช้ในภารกิจทางเดียว
+    Parachute_Description=ร่มชูชีพที่ใช้ลงจอด
+    Fuel_Tank_Description=ถังเชื้อเพลิงที่บรรจุเชื้อเพลิงเหลวและออกซิเจนเหลว
+    Separator_Description=ตัวแยกแนวตั้ง ใช้ในการแยกขั้นที่ว่างเปล่า
+    Side_Separator_Description=ตัวแยกแนวนอน ใช้ในการแยกบูสเตอร์ด้านข้าง
+    Landing_Leg_Description=ขาที่ยืดและหดได้ ใช้ในการลงจอดบนพื้นผิวดวงจันทร์และดาวเคราะห์
+    Structural_Part_Description=ชิ้นส่วนโครงสร้างที่เบาและแข็งแรง
+    Hawk_Engine_Description=เครื่องยนต์ที่มีแรงขับสูง - ประสิทธิภาพต่ำ ซึ่งปกติใช้ในขั้นแรกของจรวด
+    Titan_Engine_Description=เครื่องยนต์ที่มีแรงขับสูง - ประสิทธิภาพต่ำ ซึ่งปกติใช้ในขั้นแรกของจรวด
+    Valiant_Engine_Description=ประสิทธิภาพสูง แรงขับต่ำ ใช้ในอวกาศเมื่อแรงขับสูงไม่ใช่สิ่งสำคัญ
+    Frontier_Engine_Description=ประสิทธิภาพสูง แรงขับต่ำ ใช้ในอวกาศเมื่อแรงขับสูงไม่ใช่สิ่งสำคัญ
+    Kolibri_Engine_Description=เครื่องยนต์ขนาดเล็กที่ใช้กับยานลงจอด
+    Ion_Engine_Description=เครื่องยนต์แรงขับต่ำที่มีประสิทธิภาพสูงอย่างเหลือเชื่อ
+    RCS_Thruster_Description=ชุดเครื่องขับทิศทางขนาดเล็กที่ใช้สำหรับเชื่อมต่อ
+    
+    Booster_Description=มีแรงขับสูง ประสิทธิภาพต่ำ
+    Booster_Description=ไม่สามารถปิดหรือเร่งได้เมื่อจุดไฟ
+
+    Aerodynamic_Nose_Cone_Description=จมูกกรวยอากาศพลศาสตร์ ใช้เพื่อปรับปรุงอากาศพลศาสตร์ของบูสเตอร์ด้านข้าง
+    Aerodynamic_Fuselage_Description=ลำตัวอากาศพลศาสตร์ ใช้คลุมเครื่องยนต์
+    Fairing_Description=แฟริ่งอากาศพลศาสตร์ ใช้หุ้มน้ำหนักบรรทุก
+    Battery_Description=แบตเตอรี่ที่ใช้กักเก็บพลังงานไฟฟ้า
+    Solar_Panel_Description=แผงโซลาร์เซลล์ที่สร้างพลังงานเมื่อยืดออก
+    RTG_Description=เครื่องกำเนิดไฟฟ้าเทอร์โมอิเล็กทริกเรดิโอไอโซโทปหรือ RTG
+    Rover_Wheel_Description=ล้อโรเวอร์ที่ใช้ขับเคลื่อนบนพื้นผิวของดาวเคราะห์
+    Docking_Port_Description=พอร์ตเชื่อมต่อที่ใช้เชื่อมต่อยานพาหนะสองคันเข้าด้วยกัน
+    Heat_Shield_Description=โล่กันความร้อนที่ใช้เพื่อเอาชีวิตรอดจากการกลับเข้าสู่ชั้นบรรยากาศ
+    Fuel_Pipe_Description=ท่อที่ใช้ถ่ายเทเชื้อเพลิง
+
+[Modules]
+    Activate_Separator=การแยก
+    Activate_Fairing=การแฟริ่ง
+    
+    Torque_Module_Torque=แรงบิด: %ค่า%กิโลนิวตัน
+    Separation_Force=แรงแยก: %ค่า%กิโลนิวตัน
+    Magnet_Force=แรงแม่เหล็ก: %ค่า%กิโลนิวตัน
+    
+    Max_Heat_Tolerance=ความทนทานต่อความร้อน: %อุณหภูมิ%
+    
+    State_On{0}=เปิด
+    State_Off{0}=ปิด
+    
+    Engine_Module_State=สถานะเครื่องยนต์{0}%
+    Engine_On_Label=เปิดเครื่องยนต์
+    Gimbal_On_Label=เปิดกิมบอล
+    
+    Msg_RCS_Module_State=สถานะ RCS{0}%
+    
+    Wheel_Module_State=สถานะล้อรถโรเวอร์{0}%
+    Wheel_On_Label=ล้อเปิด
+    
+    Panel_Expanded=ขยาย
+    Landing_Leg_Expanded=ใช้งานแล้ว
+
+    Detach_Edges_Label=ถอดขอบออก
+    Adapt_To_Tanks_Label=Adapt to fuel tanks
+    
+    Info_Parachute_Max_Height=ความสูงในการกางสูงสุด: %height%
+    Button_Activate_Parachute=กางร่มชูชีพ
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=กางร่มชูชีพในสุญญากาศไม่ได้
+    Msg_Cannot_Deploy_Parachute_Above=กางร่มชูชีพได้ไม่สูงเกิน %height%
+    Msg_Cannot_Fully_Deploy_Above=กางร่มชูชีพได้ไม่สูงเกิน %height%
+    Msg_Cannot_Deploy_Parachute_While_Faster=กางร่มชูชีพไม่ได้เมื่อเคลื่อนที่เร็วกว่า %velocity%
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=กางร่มชูชีพไม่ได้เมื่อไม่เคลื่อนที่
+    Msg_Parachute_Half_Deployed=ร่มชูชีพถูกใช้งานไปแล้วครึ่งหนึ่ง
+    Msg_Parachute_Fully_Deployed=ร่มชูชีพถูกใช้งานจนเต็มที่
+    Msg_Parachute_Cut=ร่มชูชีพถูกตัด
+
+[Planets]
+    Sun{0}=ดวงอาทิตย์
+    Sun{1}=ดวงอาทิตย์
+    Sun{2}=ดวงอาทิตย์
+    Mercury{0}=ดวงอาทิตย์
+    Venus{0}=ดาวพุธ
+    Earth{0}=โลก
+    Earth{1}=โลก
+    Earth{2}=โลก
+    Earth{3}=โลก
+    Moon{0}=ดวงจันทร์
+    Moon{1}=ดวงจันทร์
+    Moon{2}=ดวงจันทร์
+    Near_Earth_Asteroid{0}=ดาวเคราะห์น้อยที่ถูกยึดครอง
+    Near_Earth_Asteroid{1}=ดาวเคราะห์น้อยที่ถูกยึดครอง
+    Near_Earth_Asteroid{2}=ดาวเคราะห์น้อยที่ถูกยึดครอง
+    Mars{0}=ดาวอังคาร
+    Phobos{0}=โฟบอส
+    Deimos{0}=ไดมอส
+    Jupiter{0}=ดาวพฤหัสบดี
+    Jupiter{1}=ดาวพฤหัสบดี
+    Jupiter{2}=ดาวพฤหัสบดี
+    Jupiter{3}=ดาวพฤหัสบดี
+    Europa{0}=ยูโรปา
+    Ganymede{0}=แกนีมีด
+    Io{0}=Io
+    Callisto{0}=คาลลิสโต
+
+[Landmarks]
+    Sea_of_Tranquility=ทะเลแห่งความสงบ
+    Sea_of_Serenity=ทะเลแห่งความสงบสุข
+    Ocean_of_Storms=มหาสมุทรแห่งพายุ
+    Copernicus_Crater=หลุมอุกกาบาตโคเปอร์นิคัส
+    Tycho_Crater=หลุมอุกกาบาตไทโค
+
+    Olympus_Mons=โอลิมปัสมอนส์
+    Valles_Marineris=วัลเลสมาริเนริส
+    Gale_Crater=หลุมอุกกาบาตกาเล
+    Hellas_Planitia=เฮลลาส พลานิเทีย
+    Arcadia_Planitia=อาร์คาเดีย พลานิเทีย
+    Utopia_Planitia=ยูโทเปีย พลานิเทีย
+    Jezero_Crater=หลุมอุกกาบาตเจเซโร
+
+    Atalanta_Planitia=อตาลันตา พลานิเทีย
+    Lavinia_Planitia=ลาวิเนีย พลานิเทีย
+
+    Caloris_Planitia=แคลอริส พลานิเทีย
+    Borealis_Planitia=โบเรลิส พลานิเทีย
+    Maxwell_Montes=แม็กซ์เวลล์ มอนเตส
+
+[Challenges]
+    Liftoff_Title=Liftoff
+    Liftoff=Liftoff และลงจอดอย่างปลอดภัย
+    
+    Reach10km_Title=Reach 10km
+    Reach10km=Reach 10km และลงจอดอย่างปลอดภัย
+    
+    ReachSpace_Title=Reach Space
+    ReachSpace=Reach %height% จากนั้นรอดจากการกลับเข้าสู่ชั้นบรรยากาศและลงจอดอย่างปลอดภัย
+    
+    Land100kmDownrange_Title=ลงจอดในระยะ 100 กม.
+    Land100kmDownrange=ลงจอดห่างจากแท่นปล่อยอย่างน้อย 100 กม.
+    
+    ReachLowEarthOrbit_Title=เข้าถึงวงโคจรต่ำของโลก
+    ReachLowEarthOrbit=เข้าถึงวงโคจรต่ำของโลก จากนั้นลงจอดอย่างปลอดภัย
+    
+    ReachHighEarthOrbit_Title=เข้าถึงวงโคจรสูงของโลก
+    ReachHighEarthOrbit=เข้าถึงวงโคจรสูงของโลก จากนั้นลงจอดอย่างปลอดภัย
+    
+    MoonOrbit_Title=วงโคจรดวงจันทร์
+    MoonOrbit=เข้าสู่วงโคจรต่ำของดวงจันทร์ จากนั้นกลับอย่างปลอดภัย
+    
+    MoonTour_Title=ทัวร์ดวงจันทร์
+    MoonTour=ลงจอดบนจุดสังเกต 3 แห่งแยกกัน จากนั้นกลับมาอย่างปลอดภัย
+    
+    AsteroidImpact_Title=การชนของดาวเคราะห์น้อย
+    AsteroidImpact=พุ่งชนพื้นผิวของดาวเคราะห์น้อยที่ถูกจับด้วยความเร็ว 200+ เมตร/วินาที
+    
+    MarsGrandTour_Title=Mars Grand Tour
+    MarsGrandTour=ลงจอดบนดาวอังคาร โฟบอส และไดมอสในเที่ยวบินเดียว จากนั้นกลับมาอย่างปลอดภัย
+    
+    VenusLanding_Title=การลงจอดของดาวศุกร์
+    VenusLanding=ลงจอดผ่านชั้นบรรยากาศหนาและลงจอดบนพื้นผิวดาวศุกร์
+    
+    VenusReturn_Title=การกลับดาวศุกร์
+    VenusReturn=ลงจอดบนพื้นผิวดาวศุกร์ จากนั้นลอยขึ้นผ่านชั้นบรรยากาศหนาและกลับมาอย่างปลอดภัย
+    
+    MercuryLanding_Title=การลงจอดของดาวพุธ
+    MercuryLanding=ลงจอดบนพื้นผิวดาวพุธ
+    
+    MercuryReturn_Title=การกลับดาวพุธ
+    MercuryReturn=ลงจอดบนพื้นผิวดาวพุธ จากนั้นกลับมาอย่างปลอดภัย
+    
+    LandAndReturn_Title=%planet{0}% ลงจอด
+    LandAndReturn=ลงจอดบนพื้นผิวของ %planet{0}% จากนั้นกลับอย่างปลอดภัย
+
+[Achievements]
+    Reached_Height=ถึงความสูง %height% ของระดับความสูง
+    Reached_Karman_Line=ผ่านเส้น Karman ออกจากชั้นบรรยากาศและไปถึงอวกาศ
+    Survived_Reentry=กลับเข้าสู่ชั้นบรรยากาศ %planet{3}% อุณหภูมิสูงสุด %tempature%
+    
+    Reached_Low_Orbit=ถึงวงโคจร %planet{0}% ต่ำ
+    Reached_High_Orbit=ถึงวงโคจร %planet{0}% สูง
+    Descend_Low_Orbit=ลงสู่วงโคจร %planet{0}% ต่ำ
+    Capture_Low_Orbit=เข้าวงโคจร %planet{0}% ต่ำ
+    Capture_High_Orbit=เข้าวงโคจร %planet{0}% สูง
+    
+    Entered_Lower_Atmosphere=เข้าชั้นบรรยากาศ %planet{3}% ต่ำ
+    Entered_Upper_Atmosphere=เข้าชั้นบรรยากาศ %planet{3}% สูง
+    Left_Lower_Atmosphere=ถึง %planet{3}% ชั้นบรรยากาศเบื้องบน
+    Left_Upper_Atmosphere=หลุดพ้นจาก %planet{3}% ชั้นบรรยากาศ
+    
+    Landed=ลงจอดบนพื้นผิวของ %planet{1}%
+    
+    Landed_At_Landmark=ลงจอดบนพื้นผิวของ %planet{1}%
+    Landed_At_Landmark=<size=55>Location: %landmark%</size>
+    
+    Landed_At_Landmark__Short=ลงจอดบนพื้นผิวของ %planet{1}%
+    Landed_At_Landmark__Short=- %landmark% -
+    
+    Crashed_Into_Terrain=ชนเข้ากับพื้นผิวของ %planet{1}%
+    
+    Entered_SOI=เข้าสู่เขตอิทธิพลของ %planet{1}%
+    Escaped_SOI=หลุดพ้นจากเขตอิทธิพลของ %planet{1}%
+    
+    Docked_Suborbital=จอดอยู่ในวิถีโคจรย่อยของ %planet{1}%
+    Docked_Orbit_Low=จอดอยู่ในวงโคจรต่ำของ %planet{0}%
+    Docked_Orbit_Transfer=จอดอยู่ในวงโคจรถ่ายโอนของ %planet{1}%
+    Docked_Orbit_High=จอดอยู่ในวงโคจรสูงของ %planet{0}%
+    Docked_Escape=จอดอยู่ในวิถีการหลบหนีของ %planet{1}%
+    Docked_Surface=จอดอยู่บนพื้นผิวของ %planet{1}%
+    
+    Recover_Home=ส่งกลับมายัง %planet{1}% ได้อย่างปลอดภัย
+    Recover_Landed=เสร็จสิ้นภารกิจบนพื้นผิว %planet{1}%
+    Recover_Space=ภารกิจอวกาศรอบ %planet{1}% สิ้นสุดลงแล้ว
