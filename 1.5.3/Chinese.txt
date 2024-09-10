@@ -1,4 +1,4 @@
-# v1.5.9.15
+# v1.5.10.5
 # by 由风
 [None]
     None=None
@@ -132,6 +132,15 @@
     Mode_Label=模式：
     Difficulty_Label=难度：
 
+[Teleport Menu]
+    Teleport_Cheat=传送
+    Teleport_Action=传送
+    Planet_Select=天体：
+    Surface_Teleport_Type=表面
+    Orbit_Teleport_Type=轨道
+    Teleport_Longitude=经度：
+    Teleport_Height=高度（%unit%）：
+
 [Saving]
 # Blueprint stuff
     Blueprints_Menu_Title=蓝图
@@ -177,6 +186,7 @@
 
 [Purchasing]
     Open_Shop_Menu=拓展包
+    Open_Shop_Menu_2=开店
     Parts_Expansion=部件拓展包
     Redstone_Atlas_Pack=红石式宇宙神包
     Skins_Expansion=皮肤拓展包
@@ -280,6 +290,14 @@
     No_Gravity_Name=无重力
     No_Heat_Damage_Name=无热损伤
     No_Burn_Marks_Name=无燃烧痕迹
+    Refill_Fuel_Tanks=加注燃料箱
+    Unlock_Cheats_Button=解锁作弊
+
+    Unlock_Cheats_Warning=启用作弊功能会将您的挑战世界转变为沙盒世界。
+    Unlock_Cheats_Warning=
+    Unlock_Cheats_Warning=此更改无法撤销。
+    Unlock_Cheats_Warning=
+    Unlock_Cheats_Warning=您确定要继续吗？
 
 [Tutorials]
 
@@ -611,7 +629,7 @@
 
     Engine_Module_State=发动机%state{0}%
     Engine_On_Label=发动机开启
-    Gimbal_On_Label=常平架开启
+    Gimbal_On_Label=万向节开启
 
     Msg_RCS_Module_State=RCS%state{0}%
 
@@ -633,6 +651,30 @@
     Msg_Parachute_Half_Deployed=降落伞半展开
     Msg_Parachute_Fully_Deployed=降落伞完全展开
     Msg_Parachute_Cut=降落伞断开
+
+[Part Pick Categories]
+# Part Categories in Pick Part Menu
+    Part_Pick_Category_Aero=气动
+    Part_Pick_Category_Parachutes=降落伞
+    Part_Pick_Category_Engines=发动机
+    Part_Pick_Category_Structural=结构
+    Part_Pick_Category_Utility=实用
+    Part_Pick_Category_Control=控制
+    Part_Pick_Category_Landing=着陆
+    Part_Pick_Category_Electricity=电力
+
+    Part_Pick_Category_Fuel=燃料
+    Part_Pick_Category_Fuel=箱
+
+    Part_Pick_Category_Fairings=整流罩
+    Part_Pick_Category_Wheels=轮子
+    Part_Pick_Category_Docking=对接
+
+    Part_Pick_Category_Heat_Protection=隔热
+    Part_Pick_Category_Heat_Protection=罩
+
+    Part_Pick_Category_Staging=分离
+    Part_Pick_Category_Mounts=支撑
 
 [Planets]
     Sun{0}=太阳
