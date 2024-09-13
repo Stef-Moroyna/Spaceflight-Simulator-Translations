@@ -143,6 +143,8 @@
     Orbit_Teleport_Type=Orbit
     Teleport_Longitude=Längengrad:
     Teleport_Height=Höhe (%unit%):
+    Teleport_Orbit_Prograde=Prograd
+    Teleport_Orbit_Retrograde=Retrograd
 
 [Saving]
 # Blueprint stuff
