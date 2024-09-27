@@ -1,4 +1,4 @@
-# v1.5.9.15
+# v1.5.10.5
 # by Michael Frolov
 
 [None]
@@ -142,6 +142,17 @@ Difficulty_Isp_Stat=Удельный импульс: %value%x
 Difficulty_Dry_Mass_Stat=Сухая масса баков: %value%x
 Difficulty_Engine_Mass_Stat=Масса двигателей: %value%x
 
+[Teleport Menu]
+Teleport_Cheat=Телепорт
+Teleport_Action=Телепорт
+Planet_Select=Небесное тело:
+Surface_Teleport_Type=Поверхность
+Orbit_Teleport_Type=Орбита
+Teleport_Longitude=Долгота:
+Teleport_Height=Высота (%unit%):
+Teleport_Orbit_Prograde=Прямая
+Teleport_Orbit_Retrograde=Обратная
+
 [Saving]
 Blueprints_Menu_Title=Чертежи
 Unnamed_Blueprint=Чертёж
@@ -181,6 +192,7 @@ Load_Failed=Не удалось загрузить %filetype{1}% из %filepath%
 
 [Purchasing]
 Open_Shop_Menu=Дополнения
+Open_Shop_Menu_2=Магазин
 Parts_Expansion=Дополнение деталей
 Redstone_Atlas_Pack=Набор Redstone и Atlas
 Skins_Expansion=Дополнение текстур
@@ -202,7 +214,7 @@ View_Part_Expansion=Открыть дополнение
 More_Parts=Больше деталей
 More_Skins=Больше текстур
 
-Cannot_Use_Cheats_In_Career=Читы можно использовать только в режиме песочницы
+Cannot_Use_Cheats_In_Career=Читы можно использовать только в режиме "Песочница"
 Get_Infinite_Build_Area_Button=Приобрести Бесконечное поле
 Get_Cheats_Expansion_Button=Приобрести Читы
 
@@ -277,6 +289,14 @@ No_Collision_Damage_Name=Нет урона от ударов
 No_Gravity_Name=Нет гравитации
 No_Heat_Damage_Name=Нет теплового урона
 No_Burn_Marks_Name=Нет следов горения
+Refill_Fuel_Tanks=Заправить баки
+Unlock_Cheats_Button=Включить читы
+
+Unlock_Cheats_Warning=После включения читов режим вашего мира изменится с "Испытание" на "Песочница"
+Unlock_Cheats_Warning=
+Unlock_Cheats_Warning=Это действие нельзя будет отменить
+Unlock_Cheats_Warning=
+Unlock_Cheats_Warning=Хотите продолжить?
 
 [Tutorials]
 Tut_Drag_And_Drop=Перетаскивайте детали,
@@ -429,7 +449,7 @@ Back_To_Challenges=Назад
 
 Clear_Debris_Warning=Убрать обломки?
 Clear_Debris_Warning=
-Clear_Debris_Warning=Все неконтролируемые аппараты будут удалены
+Clear_Debris_Warning=Все неуправляемые аппараты будут удалены
 
 Clear_Debris_Confirm=Убрать обломки
 
@@ -628,6 +648,29 @@ Msg_Cannot_Deploy_Parachute_While_Not_Moving=Нельзя раскрывать �
 Msg_Parachute_Half_Deployed=Парашют раскрыт наполовину
 Msg_Parachute_Fully_Deployed=Парашют раскрыт полностью
 Msg_Parachute_Cut=Парашют срезан
+
+[Part Pick Categories]
+Part_Pick_Category_Aero=Аэро
+Part_Pick_Category_Parachutes=Парашюты
+Part_Pick_Category_Engines=Двигатели
+Part_Pick_Category_Structural=Структуры
+Part_Pick_Category_Utility=Другие
+Part_Pick_Category_Control=Управление
+Part_Pick_Category_Landing=Посадочные
+Part_Pick_Category_Electricity=Электро
+
+Part_Pick_Category_Fuel=Топливные
+Part_Pick_Category_Fuel=баки
+
+Part_Pick_Category_Fairings=Обтекатели
+Part_Pick_Category_Wheels=Колёса
+Part_Pick_Category_Docking=Стыковка
+
+Part_Pick_Category_Heat_Protection=Тепловые
+Part_Pick_Category_Heat_Protection=щиты
+
+Part_Pick_Category_Staging=Ступени
+Part_Pick_Category_Mounts=Крепления
 
 [Planets]
 Sun{0}=Солнце
